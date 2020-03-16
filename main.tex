@@ -1,0 +1,262 @@
+\documentclass[a4paper,twoside,12pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[english]{babel}
+\usepackage[a4paper]{geometry}
+\usepackage{graphicx}
+\usepackage{color,psfrag}
+\usepackage{fancyhdr}
+\usepackage{makeidx}
+\usepackage{mathpazo}
+\usepackage{mathrsfs}
+\usepackage{float}
+\usepackage{datetime}
+\usepackage{titlesec}
+\usepackage{datetime}
+\usepackage{afterpage}
+\usepackage{pdflscape}
+\usepackage{ragged2e}
+\sloppy
+
+
+
+%\usepackage{hyperref}
+%\usepackage[numbers]{natbib}
+\usepackage[labelfont=bf,textfont=it,labelsep=period,width=\textwidth]{caption}
+\usepackage[unicode,pdfstartview={XYZ null null 1},pdfview={XYZ null null 1},pdfpagemode=UseOutlines]{hyperref}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+\newdateformat{monthyeardate}{%
+  \monthname[\THEMONTH], \THEYEAR}
+
+
+%szï¿œnek
+\definecolor{szin}{rgb}{0.679,0.19,0.21}
+\definecolor{szin2}{rgb}{0,0.445,0.734}
+\definecolor{szin3}{rgb}{0,0.5,0}
+
+
+
+\makeatletter
+\let\stdl@chapter\l@chapter
+\renewcommand*{\l@chapter}[2]{%
+  \stdl@chapter{\textcolor{szin}{#1}}{\textcolor{szin}{#2}}}
+\makeatother
+
+
+%fejlï¿œc
+\pagestyle{fancy}
+\setlength{\headheight}{15.71667pt}
+\lhead{\nouppercase{\rightmark}}
+%\rhead{\nouppercase{\leftmark}}
+\fancyhead[LE,RO]{\thepage}
+\fancyfoot{}
+
+%margomï¿œretek
+\setlength{\marginparwidth}{0pt}
+\setlength{\marginparsep}{0pt}
+\setlength{\marginparpush}{0pt}
+\setlength{\oddsidemargin}{24.1pt}
+\setlength{\evensidemargin}{1pt}
+\setlength{\footskip}{20pt}
+\setlength{\headheight}{25pt}
+
+    
+%chapterstyles
+\newcommand{\PreContentTitleFormat}{\titleformat{\chapter}[display]{\scshape\Large}
+{\Large\filleft\MakeUppercase{\chaptertitlename} \Huge\thechapter}
+{1ex}
+{}
+[\vspace{1ex}\titlerule]}
+\newcommand{\ContentTitleFormat}{\titleformat{\chapter}[display]{\scshape\color{black}\huge}
+{\color{szin}\Large\filleft\MakeUppercase{\chaptertitlename} \Huge\thechapter}
+{1ex}
+{\titlerule\vspace{1ex}\filright}
+[\vspace{1ex}\titlerule]}
+\newcommand{\PostContentTitleFormat}{\PreContentTitleFormat}
+\PreContentTitleFormat
+
+
+\begin{document}
+
+\begin{titlepage}
+
+\begin{center}
+
+\mbox{}\\[4cm]
+
+\textbf{\Large{Network Approaches to the Study of Corruption}}\\[0.8cm]
+
+{\large{\textbf{Johannes Wachs}}}\\[5cm]
+
+Supervisor: J\'anos Kert\'esz
+
+\medskip
+
+A Dissertation Submitted in Partial Fulfillment of the Requirements\\ for the Degree of Doctor of Philosophy in Network Science\\[2cm]
+
+\includegraphics[width=3cm,height=2cm]{images/ceulogo.eps}\\[0.5cm]
+
+Central European University\\
+Budapest, Hungary
+
+\vfill
+ 
+\the\year
+\end{center}
+
+\end{titlepage}
+
+\newpage
+
+\pagestyle{empty}
+
+\mbox{}
+
+\vfill
+
+\noindent Johannes Wachs: \emph{Network Approaches to the Study of Corruption}, \copyright \\
+\the\year \\ All rights reserved.
+
+
+
+\mbox{}
+
+\pagestyle{empty}
+
+\newpage
+
+
+\chapter*{Researcher declaration}
+I Johannes Wachs certify that I am the author of the work Network Approaches to the Study of Corruption. I certify that this is solely my own original work, other than where I have clearly indicated, in this declaration and in the thesis, the contributions of others. The thesis contains no materials accepted for any other degrees in any other institutions.  The copyright of this work rests with its author. Quotation from it is permitted, provided that full acknowledgement is made. This work may not be reproduced without my prior written consent. 
+
+\subsection*{Statement of inclusion of joint work}
+I confirm that Chapter 3 is based on a paper which was written in collaboration with Taha Yasseri, Bal\'azs Lengyel, and J\'anos Kert\'esz. I conceived of the idea to relate social capital with local corruption risk outcomes by comparing data from procurement contracts and the online social network. Dr. Kert\'esz and I conceived the details of the implementation. Dr. Lengyel and I collected data on municipalities. Dr. Yasseri and I developed the methods used. I carried out the analyses of the data. All authors contributed to the writing of the paper on which the chapter is based and gave final approval for publication. Dr. Kert\'esz endorses this statement with his signature below.
+
+\vspace{.2cm}
+
+I confirm that Chapter 4 reuses a plot from a working paper written in collaboration with Mih\'aly Fazekas on the impact of corruption on public procurement market structure. The plot, which I drafted, serves as a prototypical example of the representation of procurement markets as networks. The remaining contents of the paper are independent of the contents of Chapter 4. Dr. Fazekas endorses this statement with his signature below.
+
+
+\vspace{.2cm}
+
+\noindent
+I confirm that Chapter 5 is based on a working paper which was written in collaboration with J\'anos Kert\'esz. I conceived of the idea to use a co-bidding network framework to study collusion. Dr. Kert\'esz and I collaborated on developing and improving the methods used in the paper. I collected the datasets used and implemented the methods. Dr. Kert\'esz and I and both contributed to the writing of the paper on which the chapter is based and gave final approval for submission. Dr. Kert\'esz endorses this statement with his signature below.
+
+
+
+\vspace{0.5cm}
+\noindent
+Signature of PhD Candidate:
+
+\vspace{2cm}
+\noindent
+\monthyeardate\today
+
+
+\vspace{3.5cm}
+\noindent
+Signature of Dr. J\'anos Kert\'esz, endorsing statement of joint work:
+
+\vspace{2cm}
+\noindent
+\monthyeardate\today
+
+
+\vspace{3.5cm}
+\noindent
+Signature of Dr. Mih\'aly Fazekas, endorsing statement of joint work:
+
+\vspace{2cm}
+\noindent
+\monthyeardate\today
+
+
+
+
+\chapter*{Abstract}
+Though corruption is a broad notion encompassing many kinds of behavior, it always has a relational aspect. Consider how a driver bribes a policeman, how a minister steers a contract to build a hospital to his son-in-law's construction company, how two managers from different firms agree to avoid competition in a region, or how a regulator goes easy on a potential future employer during an audit. The observation that interactions between people, firms, and institutions are where corruption happens is not a new one, but certainly merits further investigation. A better understanding of the relationship between the networks that these connections form and corruption can explain why corruption is so difficult to defeat.
+
+This thesis applies the methods of network science to the study of corruption and its relationship with markets and society. I argue that corruption emerges from specific patterns of interactions that can productively be described using networks. The dyads of actors engaging in a corrupt behavior, the driver and policeman, minister and son-in-law, etc., are embedded in networks of social relations that facilitate corruption. Within this framework, the thesis addresses several questions about corruption. Why does corruption persist in certain communities? How does corruption relate to the organization of markets? How does corruption emerge when it depends on cooperation in highly adverse circumstances? I address these questions empirically using newly available micro-level data on corruption risks in public procurement.
+
+Starting with a study of Hungarian towns, I relate corruption risk in local government contracts to the structure of their social networks. I find that fragmented towns have higher corruption risk, while towns with residents that have diverse connections have less. This suggests that corruption is embedded in the social networks of places. Next I zoom out to the national level, comparing the procurement markets, conceptualized as networks of issuers and winners, of different EU countries. I find a strong relationship between centralization and corruption risk. On the other hand, heterogeneity in market responses to changes in government across the EU suggests that corruption can be organized in many different ways. Finally, I investigate cartels, or groups of firms that illegally agree to avoid competition. By drawing networks of firms that bid for the same contracts I highlight niches in markets where cartels are more likely to thrive.
+
+
+\thispagestyle{empty}
+
+\chapter*{Acknowledgements}
+
+I would like to acknowledge several individuals who have, whether they realize it or not, significantly influenced this work. First I must thank my advisor J\'anos Kert\'esz for his continued support and confidence. His guidance has been invaluable and his patience is much appreciated.
+
+I thank my most immediate colleagues David Deritei, Orsi V\'as\'arhelyi, and Tamer Khraisha for their commiseration and support throughout the PhD. They and the rest of the Department of Network and Data Science at CEU, including Olga Peredi, the other PhD students, and the various postdocs and memorable visitors, provided a wonderful environment to learn and work through turbulent social and political times. 
+
+I am also grateful to my colleagues at the Government Transparency Institute, Misi Fazekas and \'Agi Czibik, my host at the Oxford Internet Institute, Taha Yasseri, and friends and collaborators including B\'alint Dar\'oczy, \'Agnes Horv\'at, Dorottya Szalay, Anna May, Casey Tompkins, Theresa Gessler, Gerg\H{o} T\'oth, and Bal\'azs Lengyel. I thank Ancsa Hann\'ak for suggesting that a PhD can be a worthwhile thing to do, and then encouraging me during its most difficult moments.
+
+I am lucky to have two families supporting me. I thank both the Cz\'em\'an and Wachs clans for their unconditional love and support. My mother Kristin and father Karl know that they have given me endless encouragement and I hope they know how thankful I am for it. What they may not know is how important the example they set has been to me. I hope this work reflects that fact.
+
+Most importantly I want to thank Zs\'ofi. She alone knows what went into this thesis, and her tireless encouragement always kept me on the tracks. She is my inspiration and partner in all things. I dedicate this thesis to her.
+
+\thispagestyle{empty}
+
+\newpage
+\frontmatter
+
+\pagestyle{fancy}
+
+\newpage
+\addcontentsline{toc}{chapter}{Contents}
+
+\PreContentTitleFormat
+
+
+\tableofcontents
+
+\PreContentTitleFormat
+
+\newpage
+
+\PreContentTitleFormat
+
+\pagestyle{fancy}
+
+\newpage
+\PreContentTitleFormat
+\pagestyle{fancy}
+
+\listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+
+\PreContentTitleFormat
+\newpage
+\mainmatter
+\ContentTitleFormat
+
+\input{chapters_tex/chapter1.tex}\pagestyle{fancy}
+\input{chapters_tex/chapter2.tex}\pagestyle{fancy}
+\input{chapters_tex/chapter3.tex}\pagestyle{fancy}
+\input{chapters_tex/chapter4.tex}\pagestyle{fancy}
+\input{chapters_tex/chapter5.tex}\pagestyle{fancy}
+\input{chapters_tex/chapter6.tex}\pagestyle{fancy}
+
+\bibliographystyle{bmc-mathphys}
+\bibliography{bibliography.bib}
+
+
+\input{chapters_tex/chapter7.tex}\pagestyle{fancy}
+%\newpage
+%\backmatter
+\afterpage{\blankpage}
+\end{document}
