@@ -1,268 +1,73 @@
-\chapter{Social Networks and Corruption}
+% !TeX root = ../main.tex
+\chapter{Extracting the multimodal fingerprint for transportation networks}
 
-Corruption is a social plague: gains accrue to small groups, while its costs are borne by everyone. Significant variation in its level between and within countries suggests a relationship between social structure and the prevalence of corruption, yet, large scale empirical studies thereof have been missing due to lack of data. In this chapter we relate the structural characteristics of social capital of settlements with corruption in their local governments. Using datasets from Hungary, we quantify corruption risk by suppressed competition and lack of transparency in the settlement's awarded public contracts. We characterize social capital using social network data from a popular online platform. Controlling for social, economic, and political factors, we find that settlements with fragmented social networks, indicating an excess of \textit{bonding social capital} have higher corruption risk and settlements with more diverse external connectivity, suggesting a surplus of \textit{bridging social capital} are less exposed to corruption. We interpret fragmentation as fostering in-group favoritism and conformity, which increase corruption, while diversity facilitates impartiality in public life and stifles corruption\footnote{A stand-alone version of this chapter is due to be published in Royal Society Open Science~\cite{wachs2019social}. A preprint is available at ~\url{https://arxiv.org/abs/1810.05485}.}.
+From bicycle paths to street and rail networks, mobility in cities increasingly relies on multimodality. These different modes of transportations can be conveniently described as multiplex networks, where layers are associated with different infrastructures. Here we show how to extract the multimodal blueprint of cities from their multiplex transportation networks. We identify clusters of cities with similar multimodal profiles, and link this feature to the level of sustainable mobility of each cluster. Our work highlights the importance of evaluating the transportation systems of a city altogether to correctly capture the nature of different urban clusters. 
 
 
 \section{Prelude}
-Corruption is widely recognized to affect adversely social and economic outcomes of societies~\cite{mauro2004persistence}, yet it is difficult to fight~\cite{mungiu2013controlling}. Though education and income seem to decrease corruption~\cite{glaeser2006corruption}, it persists even under highly developed, democratic conditions, however, showing significant regional differences~\cite{charron2014regional}. Researchers often relate corruption to social aspects of society such as segregation~\cite{alesina2011segregation}, interpersonal trust~\cite{rothstein2005all}, civic-mindedness~\cite{guiso2011civic}, and community engagement~\cite{putnam2001bowling}. These approaches build on the insight that corruption is a collective outcome of a community shaped by the interactions among individuals~\cite{persson2013anticorruption}, suggesting that differences in social capital, especially in the network structure, may help explain the persistence of corruption and the observed differences in its levels.
+From a network perspective, the different modes of transportation can be described as a mathematical object, the multiplex transport network \cite{Morris2012,Strano2015,Aleta2017}. A city's multiplex transport network contains other network layers that have co-evolved with the street layer, such as the bicycle layer or the rail network layer, which together constitute the multimodal transportation backbone of a city. Due to the car-centric development of most cities \cite{Jacobs1961}, street layers are the most developed layers \cite{Gossling2016,Szell2018} and define or strongly limit other layers: For example, sidewalks are by definition footpaths along the side of a street and make up a substantial part of a city's pedestrian space \cite{Gossling2016}; similarly, most bicycle paths are part of a street or are built along the side. 
 
-The concept of social capital or the ``connections among individuals – social networks and the norms of reciprocity and trustworthiness that arise from them''~\cite{putnam2001bowling} is usually applied to understand behavior of individuals~\cite{portes1998social}. Yet city or country-level  aggregations have also proven useful~\cite{putnam2001bowling}, for example in studying economic development and prosperity~\cite{westlund2010social}. As a communal quantity, social capital is a sort of public good embedded in a social network~\cite{lin2002social} of a settlement. Given the aforementioned relationship between corruption and social capital, it is therefore, as suggested above, natural to expect that the structure of social capital at the settlement level has considerable impact on the scale of corruption in that community. Despite significant interest in the network aspects of corruption~\cite{gambetta1996sicilian} and recent experimental evidence that corruption has collaborative roots~\cite{weisel2015collaborative}, less is known about how the patterns of connectivity of a whole society influences the general level of corruption in its government.
+Here we consider the transport networks of 15 world cities and develop an urban fingerprinting technique based on multiplex network theory to characterize the various ways their transport layers are interconnected, outlining the potential for multimodal transport. Using clustering algorithms on the resulting urban fingerprints, we find clear classes of cities reflecting their transport priorities.
 
-Previous studies of relating social capital and corruption~\cite{harris2007,bjornskov2003corruption} have been constrained by two empirical challenges: the difficulty of measuring corruption and the lack of data on network structure at the settlement level. Corruption is one of the most hidden type of crimes therefore it is difficult to estimate its extent in general, even with significant local information. For example, an audit study of corruption in rural Indonesia road construction finds that villager perceptions of corruption are significantly distorted by factors such as ethnic diversity compared to objective measures of corruption~\cite{olken2009corruption}.
+\section{METHODS AND DATA}
+We acquired urban transportation networks from multiple cities around the world using OSMnx \cite{Boeing2017a}, a Python library to download and construct networks from OpenStreetMap (OSM). These data sets are of high quality \cite{Haklay2010b,Girres2010} in terms of correspondence with municipal open data \cite{Ferster2019} and completeness: More than $80\%$ of the world is covered by OSM \cite{Barbosa-Filho2017}.  The various analyzed urban areas and their properties are reported in Table~\ref{tab:Table1}. Figure \ref{fig:fig01} shows the different network layers for two of our analyzed cities. The pedestrian layer contains all sidewalks and pedestrian paths. The bicycle layer consists of all infrastructure exclusive to bicycles, like designated cycleways and bicycle trails. The rail network captures all public transportation that uses rails, including subways and tramways. Finally, the street layer is composed of all streets designated for motor vehicles.
 
-As outlined in Chapter 2, many studies measure corruption using national or regional surveys~\cite{mungiu2013controlling} and suffer from the subjectivity of corruption perceptions~\cite{torsello2016anthropology}. Other studies use data on the frequency of investigations and convictions of politicians~\cite{glaeser2006corruption}, in which a source of bias may be that in places where corruption is prevalent the judiciary is more likely to be corrupt itself~\cite{transparency2007global}. Recent efforts to clean and standardize large datasets on public procurement~\cite{fazekas2017uncovering} have been very helpful in this context as their study can lead to new, more objective indicators of corruption risk.
+\begin{table*}[ht!]
+	\centering
+	\begin{adjustbox}{width=0.6\textwidth,keepaspectratio}
+		\begin{tabular}{lrrrrrrrrl}
+			\toprule
+			{} & \multicolumn{2}{l}{walk} & \multicolumn{2}{l}{bike} & \multicolumn{2}{l}{rail} & \multicolumn{2}{l}{drive} &  Population \\
+			{} &     $N$ & $CC$ &    $N$ &  $CC$ &   $N$ & $CC$ &     $N$ & \multicolumn{2}{l}{$CC$} \\
+			\midrule
+			Amsterdam  &   23321 &    1 &  34529 &   355 &  1096 &    8 &   15125 &    1 &     872,680 \\
+			Barcelona  &   20203 &    1 &   7553 &   122 &   249 &   15 &   10393 &    1 &   1,600,000 \\
+			Bogota     &   81814 &    1 &   9760 &   171 &   166 &   12 &   62017 &    1 &   7,412,566 \\
+			Budapest   &   73172 &    1 &  10494 &   257 &  1588 &   20 &   37012 &    1 &   1,752,286 \\
+			Copenhagen &   30746 &    1 &  13980 &   321 &   276 &    3 &   15822 &    1 &   2,557,737 \\
+			Detroit    &   47828 &    1 &   3663 &    53 &    20 &    3 &   28462 &    1 &     672,662 \\
+			Jakarta    &  140042 &    1 &    248 &    19 &    58 &    6 &  138388 &    1 &  10,075,310 \\
+			LA         &   89543 &    1 &  14577 &   230 &   173 &    9 &   71091 &    1 &   3,792,621 \\
+			London     &  270659 &    1 &  62398 &  3023 &  2988 &   38 &  179782 &    1 &   8,908,081 \\
+			Manhattan  &   13326 &    1 &   3871 &   105 &   349 &    5 &    5671 &    1 &   1,628,701 \\
+			Mexico     &  108033 &    1 &   5218 &    52 &   370 &   17 &   95375 &    1 &   8,918,653 \\
+			Phoenix    &  111363 &    1 &  35631 &   141 &   105 &    4 &   73688 &    1 &   1,445,632 \\
+			Portland   &   50878 &    1 &  24252 &   198 &   230 &    2 &   35025 &    1 &     583,776 \\
+			Singapore  &   82808 &    1 &  12981 &   104 &   683 &   14 &   50403 &    1 &   5,638,700 \\
+			\bottomrule
+			\end{tabular}
+	\end{adjustbox}
+	\caption{Measures for the administrative area of analyzed cities. The number of connected components ($CC$) and nodes ($N$) for each layer in all cities of our dataset are highly diverse due to the varying developmental levels and focus of transport. 
+		\label{tab:Table1}}
+\end{table*}
 
-In the absence of direct network data, researchers often quantify social capital using proxies such as rates of voting, donating blood, and volunteering~\cite{guiso2011civic}. As these rates are themselves related to the underlying social networks, they indicate the relevance of social capital and trust instead of explaining the causes of corruption in terms of network structure. Mapping out the social capital at the level of settlements using traditional tools is a formidable task. Fortunately, recent developments in information-communication technologies and their increasing popularity present large data sets containing relevant information. For example, data from online social networks and cellphone records have been used to relate connectivity and socio-economic outcomes~\cite{eagle2010network,bokanyi2016race,mamei2018social,norbutas2018network,bailey2018social}.
+The codes to replicate the results are available as Jupyter Notebooks in: (\url{https://github.com/nateraluis/bicycle-network-growth}), and the data can be downloaded from Harvard Dataverse (\url{https://doi.org/10.7910/DVN/GSOPCK})
 
-In this Chapter we propose to characterize the level of corruption risk in settlements in terms of their social capital using two sources of micro-level data from Hungary. We quantify the structural characteristics of settlements' social capital using complete data from ``iWiW'', a now defunct online social network once used by approximately 40\% of the adult Hungarian population~\cite{lengyel2015geographies}. We measure corruption risk using administrative data on public procurement contracts over a period of eight years~\cite{fazekas2016objective}. 
-
-Public procurement contracts constitute a major channel of public funds to private hands and are highly vulnerable to corruption~\cite{fazekas2017uncovering}. Recently, a set of corruption risk indicators have been derived from public contract data, for example, counting how often contracts attract only a single bidder. Averaged to the regional or national levels, these contract-based corruption risk measures have been shown to correlate with corruption perception surveys~\cite{fazekas2017uncovering}, quality of government indicators~\cite{charron2017careers}, and higher cost outcomes for internationally comparable goods such as CAT machines~\cite{fazekas2018extent}. In the Hungarian case, we find that settlements involved in a recent corruption scandal~\cite{elios} have significantly higher corruption risk in their contracts.
-
-Putnam distinguishes between two structural categories of social capital: \textit{bonding} and \textit{bridging} social capital~\cite{putnam2001bowling}, and we expect that these have different impacts on corruption risk. Bonding social capital is based on the phenomenon of closure in a social network, describing the extent to which people form dense, homogeneous communities. Such communities have benefits: members share high levels of trust and can count on each other in times of crisis. They can also be confident that members who defy the norms of the community will be censured~\cite{fearon1996explaining}. The homogeneity of such tight-knit communities is often based on ethnicity, religion, or class~\cite{coleman1988social}, indicating possible drawbacks to bonding social capital: homogeneity facilitates conformity and implies exclusion of outsiders~\cite{portes2000twomeanings}. Solidarity can reach the extent that insiders will protect each other even if norms from a wider context are broken, in some cases even if crimes are committed.  Sophisticated criminal organizations like the Mafia, members of which may regularly be faced with great incentives to ``flip'', rely on bonding rituals, ethnic homogeneity, and family ties to enforce solidarity and in-group trust~\cite{erickson1981secret,gambetta1996sicilian}. The negative effects of excessive bonding social capital on society are not limited to crime and corruption. Entrepreneurs embedded in dense networks are disadvantaged because of pressure to employ under-qualified relatives~\cite{geertz1963peddlers}, while ethnically homogeneous groups of traders are more likely to overprice financial assets held by their co-ethnics, causing financial bubbles to form~\cite{levine2014ethnic}.
-
-Bridging social capital, on the other hand, refers to the connections between people from different social groups. Such ties are valuable for their ability to convey novel information~\cite{granovetter1977strength} and exposure to diverse perspectives, though they do not serve as reliable sources of support in hard times. Previous work shows, for instance, that immigrants in the Netherlands with bridging connections outside their ethnic group have significantly higher incomes and employment rates~\cite{lancee2010economic}. But bridging social capital is not only thought to be useful for the resources it allocates. Using an agent-based model, Macy and Skvoretz showed how trust emerged among densely connected neighbors and diffused in a social network via weak ties~\cite{macy1998evolution}, implying that low bridging social capital restricted trust to within-group interactions. Indeed, empirical evidence showed that ethnic groups in diverse communities with more bridging social capital evaluate each other more positively~\cite{laurence2009effect}.
-
-The two concepts of bonding and bridging social capital exist in tension with each other. They reflect, to quote Portes, ``Durkheim's distinction between mechanical solidarity, based on social homogeneity and tight personal bonds, and organic solidarity, based on role differentiation, impersonal norms, and an extensive division of labor.''~\cite{portes2014downsides}. A settlement in which mutual cooperation relies excessively on mechanical solidarity will tend towards norms of in-group favoritism or particularism~\cite{mungiu2013controlling}. Individuals in such a society will tend to make choices, for example in the allocation of public resources, distinguishing between insiders and outsiders based on a feeling of security rather than trust~\cite{yamagishi2011trust}. In contrast, when cooperation is built on impersonality general trust facilitates impartial outcomes.
-
-We therefore pose two hypotheses relating bonding and bridging social capital to local corruption risk. The first (H1) is that excess bonding social capital, indicating the potential presence of norms of in-group favoritism in a settlement is correlated with higher corruption risk in its government. The second (H2) is that a high level of bridging capital, including connections to other settlements, is correlated with lower levels of corruption risk because it fosters impersonal and universalistic norms. Where mechanical solidarity or bonding social capital dominate organic solidarity or bridging social capital, universalistic norms under which public markets are thought to function best are unsustainable. These hypotheses suggest why corruption is so difficult to fight: it is embedded in the social network of a place.
-
-Previous work using survey data is in accord with our hypotheses. Harris finds a significant positive relationship between excess bonding social capital, measured using surveys, and corruption across over 200 countries~\cite{harris2007}. In a comparative study of the 50 US states, Knack finds that residents in states with higher census response and volunteering rate their governments' performances more highly~\cite{knack2002social}. He finds no such effect for rates of membership in social clubs, a more exclusive form of socialization than volunteering. Paccagnella and Sestito find that in regions with high electoral turnout and blood donation rates, Italian schoolchildren cheat less frequently on standardized tests. In schools with greater ethnic homogeneity and with hometown teachers, cheating is more frequent~\cite{paccagnella2014school}. These case studies and indirect evidences give some support the above hypotheses, however, there is need for studies based on more direct data at multiple levels. 
-
-We find significant evidence for our hypotheses using multivariate regression models to relate corruption risk and structural aspects of social capital. Hungarian settlements with fragmented social networks, which we interpret as evidence of excess bonding social capital, have higher corruption risk in their public procurement contracts. On the other hand, if the typical resident of a settlement has more diverse connections, especially over the boundaries of their own settlements, then local corruption risk is lower. These results hold controlling for several potential confounders including economic prosperity, education, demographics, and political competitiveness.
-
-\section{Empirical Setting and Methods}
-
-\subsection{Public contracting}
-Recall that in OECD economies procurement typically accounts for between 10 to 20\% of GDP~\cite{oecdprocurement} covering everything from school lunches to hospital beds and highway construction. The complexity of the contracts and the relative inelasticity of the government's demand for goods make them a prime target for corruption~\cite{pwc2013}.
-
-Our framing of corruption in this context, described in Chapter 2, relies on a benchmark of non-corrupt behavior. Contracts are supposed to be awarded using impartial market mechanisms~\cite{weber1978economy}: open and fair competition for a contract is considered the best way to ensure that the government makes purchases of good quality at the lowest cost. Usually, an issuer of a contract publishes a call for bids from the private sector, setting a deadline for submissions leaving enough time for broad participation. Companies submit sealed offers, including a price. The company offering to provide the good or service for the lowest price, meeting the standards set in the call for bids, wins the contract.
-
-\subsubsection{Measuring settlement corruption risk in contracting}
-Corruption in public contracting typically involves the restriction of competition. If corrupt bureaucrats wish to award a contract to a favored firm, they must somehow exclude other firms from participating in the competition for the contract. We quantify this phenomenon at the contract level by tracking the presence of elementary corruption indicators, signals we can extract from metadata suggesting that competition may have been curbed~\cite{fazekas2017uncovering}. These quantitative indicators~\cite{fazekas2016objective}, deduced from qualitative work on corruption in public contracting, are the fingerprints of techniques used to steer contracts towards preferred firms. We consider eight such elementary indicators, defined in Table~\ref{table:cri}.
-
-\begin{table}
-\ra{1.6}
-\begin{tabular}{p{0.3\textwidth}cp{0.5\textwidth}}
-\toprule
-Indicator and Symbol & Values& Indicator Definition\\
-\midrule
-Single bidder\newline$C_{singlebid}$ & $\{0,1\}$ & 1 if a single firm submits an offer.\\[.2cm]
-Closed procedure\newline$C_{closedproc}$  & $\{0,1\}$ & 1 if the contract was awarded directly to a firm or by invite-only competition. \\[.2cm]
-No call for bids\newline$C_{nocall}$  & $\{0,1\}$ & 1 if no call for bids was published in the official procurement journal. \\[.2cm]
-Long eligibility criteria\newline$C_{eligcrit}$   & $\{0,1\}$ & 1 if the length in characters of the  eligibility criteria for firms to participate in the tender is above the market average\footnote{We define markets by contract Common Procurement Vocabulary (CPV) codes~\cite{cpvreport}}. \\[.2cm]
-Extreme decision period\newline$C_{decidetime}$ & $\{0,1\}$& 1 if the award was made within 5 days of the deadline or more than 100 days following.\\[.2cm]
-Short time to submit bids\newline$C_{bidtime}$ & $\{0,.5,1\}$ & 1 if the number of days between the call and submission deadline is less than 5, 0.5 if between 5 and 15.\\[.2cm]
-Non-price criteria\newline$C_{nonprice}$ &$\{0,1\}$ & 1 if non-price criteria are used to evaluate bids.\\[.2cm]
-Call for bids modified\newline$C_{callmod}$  & $\{0,1\}$& 1 if the call for bids was modified.\\[.2cm]
-\bottomrule
-\end{tabular}
-\caption[Elementary indicators of corruption risk on public contracts]{Elementary indicators of public contract corruption risk.}\label{table:cri}
-\end{table}
-
-From these eight elementary indicators we define two measures of contract corruption risk. \textit{Closed procedure or single bidding ($C_{csb}$):} Did the contract attract only a single bid \textbf{or} was the contract awarded by some procedure besides an open call for bids, for example by direct negotiation with a firm or by an invitation-only auction? In terms of the indicators defined above:
-
-\begin{align}
-C_{csb}=max(C_{singlebid},C_{closedproc})\nonumber
-\end{align}
-
-\textit{Corruption Risk Index ($CRI$):} Following~\cite{fazekas2016objective}, we average all eight elementary indicators defined in Table~\ref{table:cri} for each contract.
-
-\begin{align}
-CRI = \frac{1}{8} (C_{singlebid}+C_{closedproc}+C_{nocall}+C_{eligcrit}+C_{bidtime}\nonumber\\
-+C_{nonprice}+C_{callmod}+C_{decidetime})\nonumber
-\end{align}
-
-%\noindent $$CRI = \frac{1}{8} \left(C_{singlebid}+C_{closedproc}+C_{nocall}+C_{eligcrit}+C_{bidtime}+C_{nonprice}+C_{call%mod}+C_{decidetime}\right) $$
-
-These indicator-based measures of corruption risk have been related to traditional measures of corruption at the regional and national levels. Among EU countries, similar indicators are correlated ($\rho \approx .5$) with both the World Bank's Control of Corruption rankings and Transparency International's Corruption Perceptions Index~\cite{fazekas2017uncovering}. We propose that our indicators supplement these perception-based measures with more objective data at a micro-scale.
-
-Our indicators also predict cost overruns and price inflation in European infrastructure projects~\cite{fazekas2018extent}. At the micro-level, public bodies issuing high corruption risk contracts are significantly more likely to award contracts to new companies after a change in government~\cite{fazekas2017networks}. Finally, evidence from the US suggests that firms making campaign contributions are awarded contracts with higher corruption risk~\cite{fazekas2018institutional}.
-
-Each indicator quantifies different ways bureaucrats have excluded competitors in qualitative work on ground truth corruption cases from around the EU~\cite{fazekas2016objective}. We stress that while no individual indicator or composite measure can credibly suggest that an individual contract was awarded by a corrupt process, aggregated over many contracts issued by the same institution these indicators map highly suggestive patterns. This point is an important motivation for filtering out towns awarding less than five contracts a year. We now describe the corruption techniques behind each indicator in greater detail.
-
-\begin{itemize}
-\item Single bidder ($C_{singlebid}$) is an outcome: was the contract awarded in a competition attracting only a single offer. At once this captures the success of the other corruption techniques used to restrict competition, and covers those cases in which some other unobserved strategy was used successfully.
-\item Closed procedure ($C_{closedproc}$ indicates when the contracting authority has decided to award a contract by direct negotiation with a firm or via an invitation-only bidding process. This decision can be used to completely subvert competition. A sophisticated bureaucrat may invite uninterested firms or other firms controlled by friendly actors besides the target firm in order to present a pretense of competition.
-\item No call for bids ($C_{nocall}$) indicates when, in the case that the contract was awarded via an open competition, no contract announcement or call for bids was published in the official procurement journal. A corrupt official can greatly decrease the chance of non-favored firms participating by limiting access to information.
-\item Long eligibility criteria ($C_{eligcrit}$) captures how bureaucrats can box out specific firms by adding requirements to participation criteria. By including many such restrictions (regarding previous experience, company size, qualifications), a corrupt bureaucrat can systematically exclude non-favored firms.
-\item Extreme decision period ($C_{decidetime}$ highlights suspicious activity between the end of a competition and the decision to award a contract. If the decision period is extremely short, this suggests that the decision to award a specific firm was premeditated, and that the bids were not carefully checked. If the decision period is very long, it may indicate that legal challenges about the contract may be delaying the award decision.
-\item Short time to submit bids ($C_{bidtime}$) indicates that favored firms may have been tipped off about a competition for tenders ahead of the public announcement. By leaving only a short time between the announcement and the award for non-favored firms, the corrupt official makes it very difficult to submit a bid. It is important to remember that bids are complex legal documents, including at times cost estimates, schematics, and references.
-\item Non-price criteria ($C_{nonprice}$) tracks the share of non-price related or subjective criteria in the evaluation of bids. For instance, a corrupt bureaucrat may reject a lower cost bid if, according to a subjective criteria of the quality of a bid, it is less favorably evaluated than that of a higher cost bid of a favored firm.
-\item Call for bids modified ($C_{callmod}$) checks to see if a call for bids was modified between the initial announcment and the deadline. This potential corruption strategy closely emulates $C_{bidtime}$ in that a corrupt official can suddenly change the specifications or rules of a tender shortly before the deadline.
-\end{itemize}
+We characterize each city as a multiplex network \cite{Boccaletti2014,Kivela2014,Battiston2017a} with $M$ layers and $N$ nodes that can be active in one or more layers in the system. Layers are represented by a primal approach \cite{Porta2006} in which nodes are intersections (that may be present in one or more layers), while links represent streets (s), bicycle paths and designated bicycle infrastructure (b), subways, trams and rail infrastructure (r), or pedestrian infrastructure (p). This recent approach has been useful to demonstrate how cities grow \cite{Strano2012,Barthelemy2013}, how efficient \cite{Gallotti2014} and dense they are, and to capture the tendency of travel routes to gravitate towards city centers \cite{Lee2017}. Each layer $\alpha=1, \dots, M$ is described by an adjacency matrix $A^{[\alpha]}=\{a_{ij}^{[\alpha]}\}$ where $a_{ij}^{[\alpha]}=1$ if there is a link between nodes $i$ and $j$ in layer $\alpha$ and 0 otherwise. The multiplex urban system is then specified as a vector of adjacency matrices $\textbf{A} = (A^{[1]}, \ldots, A^{[M]})$.
 
 
-\subsubsection{Local Government Contracting Data}
-We examine 20,524 municipal government contracts from the period of 2006-2014 issued by Hungarian settlements awarding at least five contracts a year on average. We exclude towns issuing fewer contracts because we are interested in systematic patterns of corruption over a sustained period of time. Our indicators applied to individual contracts are only noisy measures of corruption - it is rather the consistent observation of red flags in contracting over time that suggests that a town has a significant problem with persistent corruption risk. Our results are robust to including towns issuing at least one contract per year on average, reported in the SI Table~\ref{SI:lower_threshold_ols}.
-
-Our goal is to quantify the overall level of corruption risk in a settlement over the full period for which we have data. We create two such scores by averaging the risk indicators defined above over all contracts issued by the settlement. We arrive at two measures of settlement corruption risk: the rate at which a settlement issued closed-procedure or single bid contracts ($C_{csb}$), and the average Corruption Risk Index ($CRI$) score of its contracts.
-
-There are 169 settlements in Hungary meeting the minimum contracting criterion, excluding Budapest. We exclude Budapest for two reasons: it is a severe outlier in size and economic importance and because of its unique governance structure. Budapest is split into 23 districts, each with its own local government and mayor. It also has a city-wide government and mayor. As iWiW does not distinguish between districts and that many contracting decisions are taken at the district level, we judged that we could not reasonably compare the full city with other settlements in Hungary. 
-
-We plot the distributions of the settlement corruption risk scores in Figure~\ref{fig:crisk_dists}. We note that there is substantial variation across settlements: some award over 90\% of their contracts either via a closed procedure or to a single bidding supplier, while others do so less than 25\% of the time.
-
-\begin{figure*}
-\includegraphics[width=\textwidth]{images/iwiw/cr_dists2.eps}
-\caption{Distributions of average contract corruption risk indicators across Hungarian settlements.}
-\label{fig:crisk_dists}
+\begin{figure*}[t!]
+	\centering
+	\includegraphics[width=\textwidth]{images/multiplex/Fig01.png}
+	\caption{{\textbf (Map plots, left)} Networks representing various layers of transport infrastructure (pedestrian paths, bicycle paths, rail lines, and streets) for  Copenhagen and London, with data from OpenStreetMap. {\textbf (Right)} Connected component size distribution $P(N_{cc})$ as a function of the ranking of the component for all considered network layers and cities. All layers are well connected except the bicycle layer: Copenhagen has 321 bicycle network components despite being known as a bicycle-friendly city, while London's bicycle layer is much more fragmented, featuring over 3000 disconnected components. Copenhagen's largest connected bicycle component (leftmost data point) spans 50\% of the network, but London's only less than 5\%.}
+	\label{fig:fig01}
 \end{figure*}
 
-As a test of the validity of our settlement-level measures of corruption risk, we check them against a near-ground truth case of corruption. In 2018, OLAF, the European anti-fraud agency reported that 35 Hungarian local government public lighting contracts awarded between 2010 and 2014 contained ``serious irregularities''~\cite{elios,norman_komuves_2018}. Elios, the company winning these contracts, was owned at that time by the son-in-law of the Hungarian Prime Minister. The contracts are considered to be overpriced and the Hungarian government was appealed for initiating an investigation, which has already started.
+\section{FINDINGS}
+In a multimodal city, we expect to find many transport hubs that connect different layers, such as train stations with bicycle and street access, i.e. nodes that are active in different multiplex configurations. Note that even in a multimodally ''optimal'' city there will be a high heterogeneity of node activities due to the different speeds and nature of transport modes, implying, for example, a much lower density of nodes necessary for a train network than for a bicycle network. Here we build a way to see and compare all combinations of node activities in the system, that help us learn how much focus a city puts on connecting different modes. We can define such a fingerprint using the multiplex network formalism. We call the plot that counts the combinations of node activities a city's \emph{overlap census} (Figure \ref{fig:fig02}). Similar to edge overlap \cite{Bianconi2013,Battiston2014a} and multiplex motifs \cite{Battiston2017} that provide a characterization of multiplexity at the local scale, the overlap census captures the percentage of nodes that are active in different multiplex configurations and provides an "urban fingerprint'' of multimodality \cite{Aleta2017}.
 
-These cases provide a useful test of our corruption risk indicators. There is compelling evidence that settlements implicated in the scandal have, at least once, rigged a public procurement contract to favor a connected firm. We compare the average corruption risk indicators of the 35 settlements that awarded lighting contracts to Elios in the period in question with all other settlements in our sample in Figure~\ref{fig:elios_dist}. Using a Mann-Whitney U-test, we find that settlements involved in the scandal have significantly higher rates of corruption risk according to both measures (64\% vs 58\% $C_{csb}$ rate, U = 1385, p=.033; .30 vs .28 average CRI, U = 1397, p=.037). 
-
-\begin{figure*}
-\includegraphics[width=\textwidth]{images/iwiw/elios_dists.pdf}
-\caption[Distributions of corruption risk in scandal towns.]{Distributions of average contract corruption risk indicators for settlements involved in the Elios scandal compared with all other settlements. Settlements involved in the scandal have significantly higher average corruption risk in their contracting than their counterparts.}
-\label{fig:elios_dist}
+\begin{figure*}[t!]
+	\centering
+	\includegraphics[width=0.8\textwidth]{images/multiplex/Fig02.png}
+	\caption{
+		\textbf{(a)} Schematic of multiplex layers in a city (left) and its transformation to the overlap census (right). In the overlap census, the vertical red line gives a visual separation of the left from the right half where nodes become active in the street layer. High spikes in the right half indicate car-centricity.
+		 \textbf{(b)} Clusters of cities based on similarity of their overlap census. We find six different clusters using a k-means algorithm (coloured areas), which explain more than $90\%$ of the variance.
+		 \textbf{(c)} Overlap census for cities in each cluster. The first one corresponds to Amsterdam (the city with most active nodes in bicycle-only configurations). The Copenhagen-Manhattan-Barcelona-Portland city cluster has many active nodes in pedestrian-only and bicycle-only configurations, representing an active mobility city. The clusters of Los Angeles-Bogota and Mexico-Beihai-Jakarta are car-centric.}
+	\label{fig:fig02}
 \end{figure*}
 
+To define the overlap census formally, we calculate the degree of each node in layer $\alpha$ as $ k_i^{[\alpha]}=\sum_ja_{ij}^{[\alpha]} $. We store degrees in a vector for each layer, \textbf{\textit{k}}$^{[\alpha]}=(k_i^{[\alpha]}, \dots, k_n^{[\alpha]})$, indicating layers by `p' for pedestrian, `b' for bicycle, `r' for rail infrastructure, and `s' for streets, as before. The use of vectorial variables like \textbf{A} and \textbf{\textit{k}}$^{[\alpha]}$ instead of those of the aggregated network lets us capture the richness of the system and work in the various layers independently. Given a Multiplex transport network with $M$ layers the overlap census is a vector of $2^{M-1}$ components, which accounts for the fractions of nodes that can be reached through at least one layer.
 
-\subsection{Measuring social capital}
-iWiW was popular online social network operating in Hungary from 2004 to 2013. At its peak it boasted over 3.5 million active users (out of a population of around 10 million) and was among the top 3 most visited sites in the country. After a period of sustained popularity, it finally collapsed in 2013 as competitors, including Facebook, conquered the market. The increasing tendency of users to leave led to cascades in the social network, highlighting the networked nature of the site~\cite{torok2017cascading,lorincz2017collapse}. Geographic proximity is a major positive predictor of the likelihood of friendship ties on iWiW, and connections between settlements reflect historical administrative boundaries and geographical barriers~\cite{lengyel2015geographies}.
+In Fig.~\ref{fig:fig02}(a) we show a schematic of how the overlap census is built: taking the multiplex network, transforming it to its corresponding degree vectors for all layers in the system, and calculating the percentage of nodes that overlap in different configurations. Note that the overlap census provides more information than a simple counting of nodes, edges, or other single-layer network measures. The multiplex approach addresses the multimodality of a city: it not only counts how many nodes or links there are in each layer, but it shows how they are combined, revealing the possible multimodal mobility combinations in the city. Understanding the possibilities for interchange between mobility layers provides us with a better understanding of urban systems, showing us the complexity and interplay between layers.
 
-The iWiW network consists of users as nodes and mutually acknowledged friendship ties between users as links. Data from iWiW includes information on each user's settlement, selected from a menu. We used an anonymized version of the data to insure privacy (see the Appendix for a more thorough discussion about data handling). We consider all nodes and links in the network present at the end of 2012, during the peak of its use and before the most significant period of turnover on the site leading to its collapse to define our measures of bonding and bridging social capital. We consider this aggregate network rather than an evolving network from year to year because we do not have  in our data (in contrast with the repeated links that can be observed in cellular phone call data) and because we are interested in a long-run characterization of the social network structure of settlements. We describe steps we took to clean the data and the distribution of use rates at the settlement level in the SI.
-
-Despite valid concerns about the representativity of data taken from online social networks~\cite{Torok2016big}, studies indicate data from online social networks offer a useful picture of the social capital of their users~\cite{williams2006and,brooks2014assessing}. As adoption of online social networks increases, they become increasingly useful for the study of the social structures~\cite{dunbar2015structure}. In any case, we control for possible confounding factors including settlement average income, rate of iWiW use, and share of the population over 60 in our models.
-
-\subsubsection{Fragmentation}
-Our first settlement-level network measure, \textit{fragmentation}, quantifies the extent to which people in the settlement form densely connected and well separated communities. We do not consider the links residents of a settlement have with other settlements. Fragmentation measures a settlement's bonding social capital. Before we proceed, we note that settlement will always be used to refer to a municipality, while community refers to a group of nodes detected in the iWiW social network of a settlement using a network science algorithm, in other words a subset of the nodes of the town which are densely connected.
-
-We measure fragmentation of the settlement's internal social network using a community detection method to identify communities of highly connected nodes. We use the Louvain algorithm~\cite{blondel2008fast}, a popular and efficient method leading to a partition of the network. We measure the quality of the partition, the tendency of edges to be within rather than between the detected communities, using modularity~\cite{newman2006modularity}. Given a social network of users in a settlement $S$ and a partition of the network's nodes into $K$ communities, the modularity $Q(S)$ of the partition of the network can be written as:
-
-$$Q(S) = \sum_{k=1}^{K} \Big[ \dfrac{L^{w}_{k}}{L} -\Big(\dfrac{L_{k}}{L}\Big)^{2} \Big],$$
-where $L$ is the total number of edges in the considered network, $L_{k}$ is the number of edges adjacent to members of community $k$, and $L_{k}^{w}$ is the number of edges within community $k$. 
-
-As modularity is highly dependent on the size and density of the network~\cite{Fortunato2009resolution}, we scale each settlement's modularity score in order to make valid comparisons between the settlements. Following Sah et al.~\cite{sah2017unraveling}, we divide each settlement's modularity score by the theoretical maximum modularity $Q_{max}(S)$ that the given partition could achieve, namely if all edges were within communities. 
-
-$$ Q_{\rm max}(S) = \sum_{k=1}^{K} \Big[ \dfrac{L_{k}}{L} -\Big(\dfrac{L_{k}}{L}\Big)^{2} \Big].$$
-
-\noindent We then define the \textit{fragmentation} $F_S$ of a settlement $S$ as the quotient
-\begin{equation}
-F_S=Q(S)/Q_{\rm max}(S).
-\label{eq:fragmentation}
-\end{equation}
-
-\noindent Fragmentation measures the tendency of individuals to belong to distinct communities within a settlement. A fragmented settlement consists of tightly-knit communities that are weakly connected. Both the excess of connections within and the rarity of connections between communities in fragmented networks are relevant to our theoretical framing of the origins of corruption as they indicate excess bonding social capital. The high density of connections within a community facilitates the enforcement of reciprocity, while having few connections between communities fosters particularism.
-
-To better understand the concept of fragmentation, we compare two settlements, one at the 90th percentile of fragmentation (settlement $A$) and the other at the 10th percentile (settlement $B$). The two settlements have populations of roughly 10,000 and have iWiW user rates between 30 and 35\%. We randomly sample 300 users from both social networks for the sake of visualization and plot their connections in Figure~\ref{fig:town_nets}. Settlement $A$ is clearly more fragmented than settlement $B$. We also show the full adjacency matrices of the networks of these settlements, grouping nodes by their detected communities into blocks on the diagonal shaded in red. We label each community by the share of its edges staying within the community. The fragmented settlement has a clear over-representation of within-community edges.
-
-\begin{figure*}
-\centering
-  \includegraphics[width=.75\textwidth]{images/iwiw/combofrag2.pdf}
-  \caption[High and low fragmentation towns.]{Sampled social networks and adjacency matrices of high (A) and low (B) fragmentation settlements. Node colors indicate membership in communities. In the adjacency matrices, percentages indicate the share edges staying within each community. In the fragmented settlement, communities have a significantly fewer connections with other communities.}
-  \label{fig:town_nets}
-\end{figure*}
-
-\subsubsection{Diversity}
-Past research on online social networks noted that users connect with people from a variety of focal experiences in their life-course~\cite{brooks2014assessing}. For example a user may connect with her schoolmates, university classmates, coworkers, family, and friends from environments including social clubs, sports teams, or religious communities. We measure the diversity of an individual user's network by the (lack of) overlap between these foci. In this case, we do not restrict our attention to edges between users from the same settlement.
-
-Following Brooks et al.~\cite{brooks2014assessing}, we consider the connections amongst the friends of a focal user or ego, i.e. the ego network without the ego. We then detect communities in the resulting network using the Louvain algorithm~\cite{blondel2008fast}. We can assume that members of a community of alters share some common context. We measure the separation of these communities of alters using modularity. Low modularity indicates that a user's connections tend to know each other, and that the user's different spheres of life involve the same people. High modularity indicates that the ego has a bridging role between weakly connected communities, and so we refer to such users as having high diversity in their social networks. We show examples of low and high diversity users with networks of similar sizes in Figure~\ref{fig:ego_nets}.
-
-We aggregate this user level measure to a measure of settlement diversity $D_{S}$ by averaging each user's modularity score:
-
-\begin{equation*}
-D_S={1\over{|S|}}\sum_{i \in S}Q(\{\textrm{alters}_i\}),
-\label{eq:diversity}
-\end{equation*}
-
-
-\noindent where $|S|$ is the number of nodes in the settlement $S$ and $\{\textrm{alters}_i\}$ is the subgraph of the alters of node $i\in S$. This measure captures the typical diversity of social perspectives that the members of the settlement access. At the settlement level this measure captures bridging social capital.
-
-Settlement diversity is positively correlated with share of the population graduating from high school ($\rho\approx0.62$) and average income ($\rho \approx0.55$). Fragmentation and diversity are positively correlated ($\rho \approx 0.46$), which is not surprising given that both are calculated using network modularity. However, the ego-focus and, more importantly, the inclusion of inter-settlement edges of the diversity measure distinguish it from fragmentation, see the SI. Despite this correlation, we observe that they predict different corruption outcomes.
-
-\begin{figure*}[t]
-\centering
-  \includegraphics[width=.9\textwidth]{images/iwiw/combodiv_cities.pdf}
-  \caption[High and low diversity ego networks.]{Ego networks with low (A) and high (B) diversity, respectively. Colors indicate membership in detected communities in the ego network. Circles denote users from the same settlement as the ego, while triangles mark users from elsewhere. The high diversity user's network has clusters of alters mostly from different settlements.}
-  \label{fig:ego_nets}
-\end{figure*}
-
-\subsection{Models}
-The primary aim of our chapter is to relate bonding and bridging social capital in settlements to corruption risk in their public contracts. Our hypothesis H1 is related to excess bonding social capital, measured by fragmentation while hypothesis H2 refers surplus in bridging social capital, measured by diversity. We predict average contract corruption risk at the settlement level using Ordinary Least Squares (OLS) multiple regressions of the following form:
-
-$$C_{S} = \beta_{1} * F_{S} + \beta_{2}*D_{S} + X_{S}*\theta + \epsilon_{S}$$
-
-Where $C_{S}$ is one of two corruption risk indicators, averaged at the settlement level, $F_{S}$ is the settlement's fragmentation, $D_{S}$ is the settlement's diversity, $X_{S}$ is a matrix of control variables defined below, and $\epsilon_{S}$ is an error term. The $\beta$-s are scalar and $\theta$ a vector of  unknown parameters.
-
-We include a variety of control variables in our regressions. Past research has found significant relationships between wealth, education, employment and corruption~\cite{mungiu2013controlling} so we control for settlement average income, its share of high school graduates, the presence of a university in the settlement, and its unemployment and inactivity rates. As demographic features of settlements may influence the measured social network we include total population, rate of iWiW use, and share of the population over 60 in our models~\cite{pfeil2009age}. These socio-economic controls indicate 2011 levels when possible, as 2011 was the most recent Hungarian census. We also control for the settlement's mayor's average victory margin in the 2002, 2006, 2010 elections as a proxy for the level of political competition in the settlement, which has been found to be positively related with local quality of government~\cite{broms2017procurement}. Finally, we include a geographic feature of the settlements: the minimum travel distance in minutes from the capital, Budapest. Past work indicates that distance from central authorities predicts higher rates of corruption~\cite{campante2014isolated}. We present additional details on the control variables in the SI. For the sake of comparison we fit a baseline model including only the control terms.
-
-Implicit in our modeling framework is our choice to aggregate the social network measures, corruption risk scores, and controls of settlements into a single snapshot. Contracts range from 2006 to 2014, iWiW friendships from 2002 to 2012, and controls are set at 2011 levels (corresponding to the last Hungarian census). As we are studying the relationship between social structure and corruption, both long-run phenomena, we claim that this represents sufficient temporal overlap.
-
-\section{Results}
-We summarize our findings in Table~\ref{tab:ols_regs}. We see that there is a significant relationship between social network structure and both dependent variables measuring corruption. More fragmentation consistently predicts more corruption, while more diversity consistently predicts less corruption. In both cases adding the network features significantly improves the adjusted R$^{2}$ of the model. Moreover, comparing the coefficients, we see that the social network features have effect sizes comparable to that of any social, political, or economic control. We present the full models in the SI, including the intermediate models containing only one network feature. All models pass a variance inflation factor (VIF) test for feature collinearity, see the SI.
-
-\begin{table}
-\ra{.7}
-\setlength\tabcolsep{2.5pt}
-\begin{tabular}{l r r r r r }
-%@{\extracolsep}{.3cm} l
-%r{1cm} r{1cm} r{1cm} r{1cm} 
-\toprule
-%\setlength\tabcolsep{2.5pt}
-Dependent variable: & \multicolumn{2}{c}{\% Closed or single bid.} & \multicolumn{2}{c}{Average CRI} \\
-\\[-1.8ex] & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} &\multicolumn{1}{c}{(3)} & \multicolumn{1}{c}{(4)} \\ 
-\cmidrule{2-3} \cmidrule{4-5}
- \textbf{\textit{Fragmentation}}  &  & \textbf{0.263$^{***}$} &  & \textbf{0.207$^{**}$} \\ 
-  (Bonding social capital) &  & (0.097) &  & (0.092) \\ [.3cm]
- \textbf{\textit{Diversity}} &   & \textbf{$-$0.553$^{***}$} &  & \textbf{$-$0.551$^{***}$} \\ 
- (Bridging social capital) &    & (0.176) &  & (0.168) \\ [.3cm]
- Income/capita  & $-$0.262 & $-$0.277$^{*}$ & $-$0.075& $-$0.096 \\ 
-  &  (0.169) & (0.162) & (0.161) & (0.155) \\ [.3cm]
- N contracts (log)  & $-$0.313$^{*}$ & $-$0.314$^{*}$ & $-$0.685$^{***}$ & $-$0.697$^{***}$ \\ 
-  &  (0.171) & (0.165) & (0.162) & (0.158) \\ [.3cm]
- Population (log) & $-$0.180 & 0.020 & 0.118 & 0.335$^{**}$ \\ 
-   & (0.143) & (0.166) & (0.136) & (0.159) \\ [.3cm]
- Rate iWiW use  & 0.045 & 0.037 & 0.122 & 0.107 \\ 
-   & (0.137) & (0.132) & (0.130) & (0.126) \\ [.3cm]
- Mayor victory margin & 0.278$^{***}$ & 0.255$^{***}$ & 0.303$^{***}$ & 0.281$^{***}$ \\ 
-  & (0.089) & (0.086) & (0.085) & (0.082) \\[.3cm]
- \% high school grads & 0.166 & 0.374$^{*}$ & $-$0.176 & 0.040 \\ 
-  & (0.190) & (0.199) & (0.181) & (0.190) \\ [.3cm]
- Distance to Budapest  & $-$0.021 & $-$0.198$^{*}$ & 0.061 & $-$0.112 \\ 
-   & (0.104) & (0.112) & (0.099) & (0.107) \\[.3cm]
- Share of pop. inactive &  $-$0.797$^{***}$ & $-$0.805$^{***}$ & $-$0.716$^{***}$ & $-$0.754$^{***}$ \\
-  &  (0.229) & (0.229) & (0.218) & (0.219) \\ [.3cm]
- Unemployment Rate & 0.239$^{**}$ & 0.262$^{**}$ & 0.299$^{***}$ & 0.320$^{***}$ \\ 
- & (0.118) & (0.113) & (0.112) & (0.108) \\ [.3cm]
- \% population 60+ & 0.501$^{***}$ & 0.491$^{***}$ & 0.500$^{***}$ & 0.503$^{***}$ \\ 
-  & (0.163) & (0.158) & (0.155) & (0.151) \\ [.3cm]
- Has university  & 0.351 & 0.294 & 0.431$^{**}$ & 0.352$^{*}$ \\ 
-  & (0.220) & (0.221) & (0.210) & (0.211) \\ [.3cm]
- Constant  & 1.245$^{*}$ & 1.206$^{*}$ & 2.779$^{***}$ & 2.790$^{***}$ \\ 
-   & (0.725) & (0.702) & (0.689) & (0.671) \\ [.15cm]
-\hline
-Observations & 169 & 169 & 169 & 169 \\ 
-Adjusted R$^{2}$ & 0.163 & \textbf{0.230} & 0.183 & \textbf{0.243} \\ 
-F Statistic &  3.967$^{***}$ & 4.859$^{***}$ & 4.419$^{***}$  & 5.142$^{***}$  \\ 
-\bottomrule
-\end{tabular} 
-  \caption[Municipality corruption risk regressed on social capital variables.]{Settlement-level regression results predicting two corruption risk indicators. For both dependent variables, the first columns (1) and (3) correspond to the base model, predicting corruption risk using only control variables, and the second columns (2) and (4) show results, when the social network features are included. Note that all features are standardized with mean 0 and standard deviation 1. Significance thresholds: $^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01.} 
-  \label{tab:ols_regs}
-\end{table} 
-
-
-We visualize the effects of our network variables in Figure~\ref{fig:olsmargins}. We plot model predicted rate of closed procedure or single bid contract awards ($C_{csb}$) including 90\% confidence intervals for varying levels of fragmentation and average ego diversity. As the variables are standardized, the units can be interpreted as standard deviations from the mean (at 0). We observe that, all else equal, our model predicts that going from one standard deviation below average fragmentation to one standard deviation above average, increases $C_{csb}$ by about one half of a standard deviation. Diversity has a stronger effect in the other direction: the same change (from one standard deviation below average to one above average) induces a full standard deviation decrease in the corruption indicator. The effect of the network features on $C_{CRI}$ is similar. In the SI, we present an ANOVA feature importance test that indicates the significance of both network-based features.
-
-
-\section{Discussion}
-
-In this chapter we used data from an online social network and a collection of public procurement contracts to relate the social capital of Hungarian settlements to the corruption in its local government. To our knowledge, this study is the first to study social aspects of corruption using large-scale social network data.
-
-\begin{figure*}[t]
-\centering
- \includegraphics[width=.9\textwidth]{images/iwiw/olsmargin.png}
- \caption[Marginal effects of social capital on corruption risk.]{Plots of marginal effects of the key social capital variables and their predicted impact on a settlement's rate of closed procedure or single bidder contract awards; shaded regions represent 90\% confidence intervals are indicated. As the variables are standardized, unit changes on either axis can be interpreted as standard deviation changes. Fragmentation (on the left), quantifying excess bonding social capital in a community, predicts higher corruption risk, while diversity (on the right) predicts lower corruption risk.}
-  \label{fig:olsmargins}
-\end{figure*}
-
-We introduced measures to quantify excess bonding and bridging social capital at the settlement level from online social network data. We found that settlements with high bonding social capital tend to award contracts with higher corruption risk. We also found that settlements with high bridging social capital, tend to award lower corruption risk contracts. Social capital measures add substantive predictive power to models of corruption outcomes, above baseline models controlling for other socio-economic factors such as average income, education, political competition, and demography.
-
-We recognize several limitations to our approach. An inherent challenge in the research of corruption is that proven cases are rare, and so our measures can only track risk or suspicion of corruption. Moreover, we assume that steering contracts to certain firms by bureaucrats indicates corruption - but it may happen that bureaucrats make socially optimal decisions using their local knowledge of markets and discretion~\cite{coviello2017effect}.
-
-It is also clearly the case that iWiW is not a full map of social relations in Hungary and its users do not make up a representative sample of the population. Finally, we do not claim to have found a causal link between social capital and corruption risk. Besides the potential of omitted variable bias, it is highly likely that corruption also influences social capital in the long run~\cite{richey2010impact}.
-
-Despite these limitations we believe that our findings are valuable. Above all, our novel, data-based, settlement-level approach provides new evidence for the old hypothesis that corruption is a structural phenomenon. Our finding that social structure relates to corruption risk suggests, for example, why appointing an ombudsman in a corrupt place rarely improves corruption outcomes~\cite{mungiu2013controlling} and why anti-corruption laws can backfire if they conflict with prevailing social norms~\cite{acemoglu2017social}. 
-
-That is not to say that fighting corruption is futile. Rather we believe our findings suggest that top-down efforts are unlikely to work unless they impact social capital or other significant covariates of our model like political competition. Our conclusions hint at potential mechanisms which sustain corruption. Factors such as racial segregation or economic inequality which may drive fragmentation are ideal targets for policy interventions~\cite{rothstein2005all}. 
-
+A good way to assess a city's overlap census is by comparing it with the overlap census of other cities. Explicitly, we find similarities between cities via a k-means algorithm. The algorithm separates the 15 analyzed cities into six different clusters [Fig.~\ref{fig:fig02}(b)]. On the left half of the overlap census, we show the configurations in which nodes are not active in the street layer, while the right half contains car-related configurations. These clusters of cities are useful to explain similarities in infrastructure planning in different urban transport development paths \cite{Rodrigue2013,Louf2014}, with clusters of car-centric urbanization (like Mexico, Beihai, and Jakarta) opposed to clusters that show a more multimodally focused evolution of their urban mobility infrastructure (like Copenhagen, Manhattan, Barcelona, and Portland). In the extreme cluster that contains only Amsterdam, close to $50\%$ of nodes are active in the bicycle layer, while in the Mexico-Beihai-Jakarta cluster more than $50\%$ of nodes are active in the street-pedestrian configuration. This concentration of nodes in just one configuration informs us not only about the (sometimes already well-known) mobility character of the city, i.e. Amsterdam being a bicycle-friendly city, but unveils the importance of explicitly considering overlooked layers and their interconnections. For example, Singapore, Budapest, London, and Detroit have two main peaks indicating that most of their nodes are either active in the street-pedestrian or only in the pedestrian configuration, i.e. there are plenty of walkable areas exclusive to pedestrians. This is not the case in Los Angeles and Bogota, where the majority of nodes are active in the car-pedestrian combination, i.e. the pedestrians have to share most of the city with cars.
