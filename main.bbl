@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{0}
+\begin{thebibliography}{24}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -42,6 +42,376 @@
 \ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
 \csname PreBibitemsHook\endcsname
 
+%%% 1
+\bibitem{Morris2012}
+\begin{barticle}
+\bauthor{\bsnm{Morris}, \binits{R.G.}},
+\bauthor{\bsnm{Barthelemy}, \binits{M.}}:
+\batitle{{Transport on coupled spatial networks}}.
+\bjtitle{Physical Review Letters}
+\bvolume{109}(\bissue{12}),
+\bfpage{128703}
+(\byear{2012}).
+doi:\doiurl{10.1103/PhysRevLett.109.128703}
+\end{barticle}
+\endbibitem
+
+%%% 2
+\bibitem{Strano2015}
+\begin{barticle}
+\bauthor{\bsnm{Strano}, \binits{E.}},
+\bauthor{\bsnm{Shai}, \binits{S.}},
+\bauthor{\bsnm{Dobson}, \binits{S.}},
+\bauthor{\bsnm{Barthelemy}, \binits{M.}}:
+\batitle{{Multiplex networks in metropolitan areas: generic features and local
+  effects}}.
+\bjtitle{Journal of the Royal Society, Interface}
+\bvolume{12}(\bissue{111}),
+\bfpage{20150651}
+(\byear{2015}).
+doi:\doiurl{10.1098/rsif.2015.0651}
+\end{barticle}
+\endbibitem
+
+%%% 3
+\bibitem{Aleta2017}
+\begin{botherref}
+\oauthor{\bsnm{Aleta}, \binits{A.}},
+\oauthor{\bsnm{Meloni}, \binits{S.}},
+\oauthor{\bsnm{Moreno}, \binits{Y.}}:
+{A Multilayer perspective for the analysis of urban transportation systems}.
+Scientific Reports
+\textbf{7}
+(2017).
+doi:\doiurl{10.1038/srep44359}
+\end{botherref}
+\endbibitem
+
+%%% 4
+\bibitem{Jacobs1961}
+\begin{bbook}
+\bauthor{\bsnm{Jacobs}, \binits{J.}}:
+\bbtitle{{The Death and Life of Great American Cities}},
+p. \bfpage{458}.
+\bpublisher{Random House},
+\blocation{New York, New York, USA}
+(\byear{1961})
+\end{bbook}
+\endbibitem
+
+%%% 5
+\bibitem{Gossling2016}
+\begin{barticle}
+\bauthor{\bsnm{G{\"{o}}ssling}, \binits{S.}},
+\bauthor{\bsnm{Schr{\"{o}}der}, \binits{M.}},
+\bauthor{\bsnm{Sp{\"{a}}th}, \binits{P.}},
+\bauthor{\bsnm{Freytag}, \binits{T.}}:
+\batitle{{Urban Space Distribution and Sustainable Transport}}.
+\bjtitle{Transport Reviews}
+\bvolume{36}(\bissue{5}),
+\bfpage{659}--\blpage{679}
+(\byear{2016}).
+doi:\doiurl{10.1080/01441647.2016.1147101}
+\end{barticle}
+\endbibitem
+
+%%% 6
+\bibitem{Szell2018}
+\begin{barticle}
+\bauthor{\bsnm{Szell}, \binits{M.}}:
+\batitle{{Crowdsourced Quantification and Visualization of Urban Mobility Space
+  Inequality}}.
+\bjtitle{Urban Planning}
+\bvolume{3}(\bissue{1}),
+\bfpage{1}
+(\byear{2018}).
+doi:\doiurl{10.17645/up.v3i1.1209}
+\end{barticle}
+\endbibitem
+
+%%% 7
+\bibitem{Boeing2017a}
+\begin{barticle}
+\bauthor{\bsnm{Boeing}, \binits{G.}}:
+\batitle{{OSMnx: New methods for acquiring, constructing, analyzing, and
+  visualizing complex street networks}}.
+\bjtitle{Computers, Environment and Urban Systems}
+\bvolume{65},
+\bfpage{126}--\blpage{139}
+(\byear{2017}).
+doi:\doiurl{10.1016/j.compenvurbsys.2017.05.004}
+\end{barticle}
+\endbibitem
+
+%%% 8
+\bibitem{Haklay2010b}
+\begin{barticle}
+\bauthor{\bsnm{Haklay}, \binits{M.}}:
+\batitle{{How good is volunteered geographical information? A comparative study
+  of OpenStreetMap and ordnance survey datasets}}.
+\bjtitle{Environment and Planning B: Planning and Design}
+\bvolume{37}(\bissue{4}),
+\bfpage{682}--\blpage{703}
+(\byear{2010}).
+doi:\doiurl{10.1068/b35097}
+\end{barticle}
+\endbibitem
+
+%%% 9
+\bibitem{Girres2010}
+\begin{barticle}
+\bauthor{\bsnm{Girres}, \binits{J.F.}},
+\bauthor{\bsnm{Touya}, \binits{G.}}:
+\batitle{{Quality Assessment of the French OpenStreetMap Dataset}}.
+\bjtitle{Transactions in GIS}
+\bvolume{14}(\bissue{4}),
+\bfpage{435}--\blpage{459}
+(\byear{2010}).
+doi:\doiurl{10.1111/j.1467-9671.2010.01203.x}
+\end{barticle}
+\endbibitem
+
+%%% 10
+\bibitem{Ferster2019}
+\begin{botherref}
+\oauthor{\bsnm{Ferster}, \binits{C.}},
+\oauthor{\bsnm{Fischer}, \binits{J.}},
+\oauthor{\bsnm{Manaugh}, \binits{K.}},
+\oauthor{\bsnm{Nelson}, \binits{T.}},
+\oauthor{\bsnm{Winters}, \binits{M.}}:
+{Using OpenStreetMap to inventory bicycle infrastructure: A comparison with
+  open data from cities}.
+International Journal of Sustainable Transportation,
+1--10
+(2019).
+doi:\doiurl{10.1080/15568318.2018.1519746}
+\end{botherref}
+\endbibitem
+
+%%% 11
+\bibitem{Barbosa-Filho2017}
+\begin{botherref}
+\oauthor{\bsnm{Barbosa-Filho}, \binits{H.}},
+\oauthor{\bsnm{Barthelemy}, \binits{M.}},
+\oauthor{\bsnm{Ghoshal}, \binits{G.}},
+\oauthor{\bsnm{James}, \binits{C.R.}},
+\oauthor{\bsnm{Lenormand}, \binits{M.}},
+\oauthor{\bsnm{Louail}, \binits{T.}},
+\oauthor{\bsnm{Menezes}, \binits{R.}},
+\oauthor{\bsnm{Ramasco}, \binits{J.J.}},
+\oauthor{\bsnm{Simini}, \binits{F.}},
+\oauthor{\bsnm{Tomasini}, \binits{M.}}:
+{Human Mobility: Models and Applications}
+(2017)
+\end{botherref}
+\endbibitem
+
+%%% 12
+\bibitem{Boccaletti2014}
+\begin{botherref}
+\oauthor{\bsnm{Boccaletti}, \binits{S.}},
+\oauthor{\bsnm{Bianconi}, \binits{G.}},
+\oauthor{\bsnm{Criado}, \binits{R.}},
+\oauthor{\bparticle{del} \bsnm{Genio}, \binits{C.I.}},
+\oauthor{\bsnm{G{\'{o}}mez-Garde{\~{n}}es}, \binits{J.}},
+\oauthor{\bsnm{Romance}, \binits{M.}},
+\oauthor{\bsnm{Sendi{\~{n}}a-Nadal}, \binits{I.}},
+\oauthor{\bsnm{Wang}, \binits{Z.}},
+\oauthor{\bsnm{Zanin}, \binits{M.}}:
+{The structure and dynamics of multilayer networks}
+(2014).
+doi:\doiurl{10.1016/j.physrep.2014.07.001}.
+\url{https://arxiv.org/pdf/1407.0742.pdf}
+\end{botherref}
+\endbibitem
+
+%%% 13
+\bibitem{Kivela2014}
+\begin{barticle}
+\bauthor{\bsnm{Kivel{\"{a}}}, \binits{M.}},
+\bauthor{\bsnm{Arenas}, \binits{A.}},
+\bauthor{\bsnm{Barthelemy}, \binits{M.}},
+\bauthor{\bsnm{Gleeson}, \binits{J.P.}},
+\bauthor{\bsnm{Moreno}, \binits{Y.}},
+\bauthor{\bsnm{Porter}, \binits{M.A.}}:
+\batitle{{Multilayer networks}}.
+\bjtitle{Journal of Complex Networks}
+\bvolume{2}(\bissue{3}),
+\bfpage{203}--\blpage{271}
+(\byear{2014}).
+doi:\doiurl{10.1093/comnet/cnu016}
+\end{barticle}
+\endbibitem
+
+%%% 14
+\bibitem{Battiston2017a}
+\begin{barticle}
+\bauthor{\bsnm{Battiston}, \binits{F.}},
+\bauthor{\bsnm{Nicosia}, \binits{V.}},
+\bauthor{\bsnm{Latora}, \binits{V.}}:
+\batitle{{The new challenges of multiplex networks: Measures and models}}.
+\bjtitle{European Physical Journal: Special Topics}
+\bvolume{226}(\bissue{3}),
+\bfpage{401}--\blpage{416}
+(\byear{2017}).
+doi:\doiurl{10.1140/epjst/e2016-60274-8}
+\end{barticle}
+\endbibitem
+
+%%% 15
+\bibitem{Porta2006}
+\begin{barticle}
+\bauthor{\bsnm{Porta}, \binits{S.}},
+\bauthor{\bsnm{Crucitti}, \binits{P.}},
+\bauthor{\bsnm{Latora}, \binits{V.}}:
+\batitle{{The network analysis of urban streets : a primal approach}}.
+\bjtitle{Environment and Planning B: Planning and Design}
+\bvolume{33}(\bissue{5}),
+\bfpage{705}--\blpage{726}
+(\byear{2006}).
+doi:\doiurl{10.1068/b32045}
+\end{barticle}
+\endbibitem
+
+%%% 16
+\bibitem{Strano2012}
+\begin{barticle}
+\bauthor{\bsnm{Strano}, \binits{E.}},
+\bauthor{\bsnm{Nicosia}, \binits{V.}},
+\bauthor{\bsnm{Latora}, \binits{V.}},
+\bauthor{\bsnm{Porta}, \binits{S.}},
+\bauthor{\bsnm{Barth{\'{e}}lemy}, \binits{M.}}:
+\batitle{{Elementary processes governing the evolution of road networks}}.
+\bjtitle{Scientific Reports}
+\bvolume{2}(\bissue{1}),
+\bfpage{296}
+(\byear{2012}).
+doi:\doiurl{10.1038/srep00296}
+\end{barticle}
+\endbibitem
+
+%%% 17
+\bibitem{Barthelemy2013}
+\begin{barticle}
+\bauthor{\bsnm{Barthelemy}, \binits{M.}},
+\bauthor{\bsnm{Bordin}, \binits{P.}},
+\bauthor{\bsnm{Berestycki}, \binits{H.}},
+\bauthor{\bsnm{Gribaudi}, \binits{M.}}:
+\batitle{{Self-organization versus top-down planning in the evolution of a
+  city}}.
+\bjtitle{Scientific Reports}
+\bvolume{3}(\bissue{1}),
+\bfpage{2153}
+(\byear{2013}).
+doi:\doiurl{10.1038/srep02153}
+\end{barticle}
+\endbibitem
+
+%%% 18
+\bibitem{Gallotti2014}
+\begin{barticle}
+\bauthor{\bsnm{Gallotti}, \binits{R.}},
+\bauthor{\bsnm{Barthelemy}, \binits{M.}}:
+\batitle{{Anatomy and efficiency of urban multimodal mobility}}.
+\bjtitle{Scientific Reports}
+\bvolume{4}(\bissue{1}),
+\bfpage{6911}
+(\byear{2014}).
+doi:\doiurl{10.1038/srep06911}
+\end{barticle}
+\endbibitem
+
+%%% 19
+\bibitem{Lee2017}
+\begin{barticle}
+\bauthor{\bsnm{Lee}, \binits{M.}},
+\bauthor{\bsnm{Barbosa-Filho}, \binits{H.}},
+\bauthor{\bsnm{Youn}, \binits{H.}},
+\bauthor{\bsnm{Holme}, \binits{P.}},
+\bauthor{\bsnm{Ghoshal}, \binits{G.}}:
+\batitle{{Morphology of travel routes and the organization of cities}}.
+\bjtitle{Nature Communications}
+\bvolume{8}(\bissue{1}),
+\bfpage{2229}
+(\byear{2017}).
+doi:\doiurl{10.1038/s41467-017-02374-7}
+\end{barticle}
+\endbibitem
+
+%%% 20
+\bibitem{Bianconi2013}
+\begin{barticle}
+\bauthor{\bsnm{Bianconi}, \binits{G.}}:
+\batitle{{Statistical mechanics of multiplex networks: Entropy and overlap}}.
+\bjtitle{Physical Review E - Statistical, Nonlinear, and Soft Matter Physics}
+\bvolume{87}(\bissue{6}),
+\bfpage{062806}
+(\byear{2013}).
+doi:\doiurl{10.1103/PhysRevE.87.062806}
+\end{barticle}
+\endbibitem
+
+%%% 21
+\bibitem{Battiston2014a}
+\begin{barticle}
+\bauthor{\bsnm{Battiston}, \binits{F.}},
+\bauthor{\bsnm{Nicosia}, \binits{V.}},
+\bauthor{\bsnm{Latora}, \binits{V.}}:
+\batitle{{Structural measures for multiplex networks}}.
+\bjtitle{Physical Review E - Statistical, Nonlinear, and Soft Matter Physics}
+\bvolume{89}(\bissue{3}),
+\bfpage{1}--\blpage{16}
+(\byear{2014}).
+doi:\doiurl{10.1103/PhysRevE.89.032804}
+\end{barticle}
+\endbibitem
+
+%%% 22
+\bibitem{Battiston2017}
+\begin{barticle}
+\bauthor{\bsnm{Battiston}, \binits{F.}},
+\bauthor{\bsnm{Nicosia}, \binits{V.}},
+\bauthor{\bsnm{Chavez}, \binits{M.}},
+\bauthor{\bsnm{Latora}, \binits{V.}}:
+\batitle{{Multilayer motif analysis of brain networks}}.
+\bjtitle{Chaos}
+\bvolume{27}(\bissue{4}),
+\bfpage{047404}
+(\byear{2017}).
+doi:\doiurl{10.1063/1.4979282}
+\end{barticle}
+\endbibitem
+
+%%% 23
+\bibitem{Rodrigue2013}
+\begin{bbook}
+\bauthor{\bsnm{Rodrigue}, \binits{J.-P.}},
+\bauthor{\bsnm{Comtois}, \binits{C.}},
+\bauthor{\bsnm{Slack}, \binits{B.}}:
+\bbtitle{{The Geography of Transport Systems (Third Edition)}},
+p. \bfpage{432}.
+\bpublisher{Routledge}, \blocation{???}
+(\byear{2013}).
+doi:\doiurl{10.1080/10630732.2011.603579}.
+\burl{https://www.routledge.com/The-Geography-of-Transport-
+  Systems-4th-Edition/Rodrigue-Comtois-Slack/p/book/ 9781138669574}
+\end{bbook}
+\endbibitem
+
+%%% 24
+\bibitem{Louf2014}
+\begin{barticle}
+\bauthor{\bsnm{Louf}, \binits{R.}},
+\bauthor{\bsnm{Barthelemy}, \binits{M.}}:
+\batitle{{A typology of street patterns.}}
+\bjtitle{Journal of the Royal Society, Interface / the Royal Society}
+\bvolume{11}(\bissue{101}),
+\bfpage{20140924}
+(\byear{2014}).
+doi:\doiurl{10.1098/rsif.2014.0924}
+\end{barticle}
+\endbibitem
+
 \end{thebibliography}
 
 \newcommand{\BMCxmlcomment}[1]{}
@@ -49,6 +419,405 @@
 \BMCxmlcomment{
 
 <refgrp>
+
+<bibl id="B1">
+  <title><p>{Transport on coupled spatial networks}</p></title>
+  <aug>
+    <au><snm>Morris</snm><fnm>R. G.</fnm></au>
+    <au><snm>Barthelemy</snm><fnm>M.</fnm></au>
+  </aug>
+  <source>Physical Review Letters</source>
+  <publisher>American Physical Society</publisher>
+  <pubdate>2012</pubdate>
+  <volume>109</volume>
+  <issue>12</issue>
+  <fpage>128703</fpage>
+  <url>https://link.aps.org/doi/10.1103/PhysRevLett.109.128703</url>
+</bibl>
+
+<bibl id="B2">
+  <title><p>{Multiplex networks in metropolitan areas: generic features and
+  local effects}</p></title>
+  <aug>
+    <au><snm>Strano</snm><fnm>E</fnm></au>
+    <au><snm>Shai</snm><fnm>S</fnm></au>
+    <au><snm>Dobson</snm><fnm>S</fnm></au>
+    <au><snm>Barthelemy</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Journal of the Royal Society, Interface</source>
+  <publisher>The Royal Society</publisher>
+  <pubdate>2015</pubdate>
+  <volume>12</volume>
+  <issue>111</issue>
+  <fpage>20150651</fpage>
+</bibl>
+
+<bibl id="B3">
+  <title><p>{A Multilayer perspective for the analysis of urban transportation
+  systems}</p></title>
+  <aug>
+    <au><snm>Aleta</snm><fnm>A</fnm></au>
+    <au><snm>Meloni</snm><fnm>S</fnm></au>
+    <au><snm>Moreno</snm><fnm>Y</fnm></au>
+  </aug>
+  <source>Scientific Reports</source>
+  <pubdate>2017</pubdate>
+  <volume>7</volume>
+  <url>https://www.nature.com/articles/srep44359.pdf</url>
+</bibl>
+
+<bibl id="B4">
+  <title><p>{The death and life of great American cities}</p></title>
+  <aug>
+    <au><snm>Jacobs</snm><fnm>J</fnm></au>
+  </aug>
+  <publisher>New York, New York, USA: Random House</publisher>
+  <pubdate>1961</pubdate>
+  <fpage>458</fpage>
+</bibl>
+
+<bibl id="B5">
+  <title><p>{Urban Space Distribution and Sustainable Transport}</p></title>
+  <aug>
+    <au><snm>G{\"{o}}ssling</snm><fnm>S</fnm></au>
+    <au><snm>Schr{\"{o}}der</snm><fnm>M</fnm></au>
+    <au><snm>Sp{\"{a}}th</snm><fnm>P</fnm></au>
+    <au><snm>Freytag</snm><fnm>T</fnm></au>
+  </aug>
+  <source>Transport Reviews</source>
+  <publisher>Routledge</publisher>
+  <pubdate>2016</pubdate>
+  <volume>36</volume>
+  <issue>5</issue>
+  <fpage>659</fpage>
+  <lpage>-679</lpage>
+  <url>http://www.tandfonline.com/doi/full/10.1080/ 01441647.2016.1147101</url>
+</bibl>
+
+<bibl id="B6">
+  <title><p>{Crowdsourced Quantification and Visualization of Urban Mobility
+  Space Inequality}</p></title>
+  <aug>
+    <au><snm>Szell</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Urban Planning</source>
+  <pubdate>2018</pubdate>
+  <volume>3</volume>
+  <issue>1</issue>
+  <fpage>1</fpage>
+</bibl>
+
+<bibl id="B7">
+  <title><p>{OSMnx: New methods for acquiring, constructing, analyzing, and
+  visualizing complex street networks}</p></title>
+  <aug>
+    <au><snm>Boeing</snm><fnm>G</fnm></au>
+  </aug>
+  <source>Computers, Environment and Urban Systems</source>
+  <publisher>Elsevier Ltd</publisher>
+  <pubdate>2017</pubdate>
+  <volume>65</volume>
+  <fpage>126</fpage>
+  <lpage>-139</lpage>
+</bibl>
+
+<bibl id="B8">
+  <title><p>{How good is volunteered geographical information? A comparative
+  study of OpenStreetMap and ordnance survey datasets}</p></title>
+  <aug>
+    <au><snm>Haklay</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Environment and Planning B: Planning and Design</source>
+  <pubdate>2010</pubdate>
+  <volume>37</volume>
+  <issue>4</issue>
+  <fpage>682</fpage>
+  <lpage>-703</lpage>
+  <url>http://journals.sagepub.com/doi/pdf/10.1068/b35097</url>
+</bibl>
+
+<bibl id="B9">
+  <title><p>{Quality Assessment of the French OpenStreetMap
+  Dataset}</p></title>
+  <aug>
+    <au><snm>Girres</snm><fnm>JF</fnm></au>
+    <au><snm>Touya</snm><fnm>G</fnm></au>
+  </aug>
+  <source>Transactions in GIS</source>
+  <publisher>John Wiley {\&} Sons, Ltd (10.1111)</publisher>
+  <pubdate>2010</pubdate>
+  <volume>14</volume>
+  <issue>4</issue>
+  <fpage>435</fpage>
+  <lpage>-459</lpage>
+  <url>http://doi.wiley.com/10.1111/j.1467-9671.2010.01203.x</url>
+</bibl>
+
+<bibl id="B10">
+  <title><p>{Using OpenStreetMap to inventory bicycle infrastructure: A
+  comparison with open data from cities}</p></title>
+  <aug>
+    <au><snm>Ferster</snm><fnm>C</fnm></au>
+    <au><snm>Fischer</snm><fnm>J</fnm></au>
+    <au><snm>Manaugh</snm><fnm>K</fnm></au>
+    <au><snm>Nelson</snm><fnm>T</fnm></au>
+    <au><snm>Winters</snm><fnm>M</fnm></au>
+  </aug>
+  <source>International Journal of Sustainable Transportation</source>
+  <publisher>Taylor {\&} Francis</publisher>
+  <pubdate>2019</pubdate>
+  <fpage>1</fpage>
+  <lpage>-10</lpage>
+  <url>https://www.tandfonline.com/doi/full/10.1080/ 15568318.2018.1519746
+  https://doi.org/10.1080/ 15568318.2018.1519746</url>
+</bibl>
+
+<bibl id="B11">
+  <title><p>{Human Mobility: Models and Applications}</p></title>
+  <aug>
+    <au><snm>Barbosa Filho</snm><fnm>H</fnm></au>
+    <au><snm>Barthelemy</snm><fnm>M</fnm></au>
+    <au><snm>Ghoshal</snm><fnm>G</fnm></au>
+    <au><snm>James</snm><fnm>CR</fnm></au>
+    <au><snm>Lenormand</snm><fnm>M</fnm></au>
+    <au><snm>Louail</snm><fnm>T</fnm></au>
+    <au><snm>Menezes</snm><fnm>R</fnm></au>
+    <au><snm>Ramasco</snm><fnm>JJ</fnm></au>
+    <au><snm>Simini</snm><fnm>F</fnm></au>
+    <au><snm>Tomasini</snm><fnm>M</fnm></au>
+  </aug>
+  <pubdate>2017</pubdate>
+  <url>https://arxiv.org/pdf/1710.00004.pdf http://arxiv.org/abs/
+  1710.00004</url>
+</bibl>
+
+<bibl id="B12">
+  <title><p>{The structure and dynamics of multilayer networks}</p></title>
+  <aug>
+    <au><snm>Boccaletti</snm><fnm>S</fnm></au>
+    <au><snm>Bianconi</snm><fnm>G</fnm></au>
+    <au><snm>Criado</snm><fnm>R</fnm></au>
+    <au><snm>Genio</snm><fnm>C I</fnm></au>
+    <au><snm>G{\'{o}}mez Garde{\~{n}}es</snm><fnm>J.</fnm></au>
+    <au><snm>Romance</snm><fnm>M</fnm></au>
+    <au><snm>Sendi{\~{n}}a Nadal</snm><fnm>I.</fnm></au>
+    <au><snm>Wang</snm><fnm>Z</fnm></au>
+    <au><snm>Zanin</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Physics Reports</source>
+  <pubdate>2014</pubdate>
+  <volume>544</volume>
+  <issue>1</issue>
+  <fpage>1</fpage>
+  <lpage>-122</lpage>
+  <url>https://arxiv.org/pdf/1407.0742.pdf</url>
+</bibl>
+
+<bibl id="B13">
+  <title><p>{Multilayer networks}</p></title>
+  <aug>
+    <au><snm>Kivel{\"{a}}</snm><fnm>M</fnm></au>
+    <au><snm>Arenas</snm><fnm>A</fnm></au>
+    <au><snm>Barthelemy</snm><fnm>M</fnm></au>
+    <au><snm>Gleeson</snm><fnm>JP</fnm></au>
+    <au><snm>Moreno</snm><fnm>Y</fnm></au>
+    <au><snm>Porter</snm><fnm>MA</fnm></au>
+  </aug>
+  <source>Journal of Complex Networks</source>
+  <publisher>Oxford University Press</publisher>
+  <pubdate>2014</pubdate>
+  <volume>2</volume>
+  <issue>3</issue>
+  <fpage>203</fpage>
+  <lpage>-271</lpage>
+  <url>https://academic.oup.com/comnet/article-lookup/doi/10.1093/
+  comnet/cnu016</url>
+</bibl>
+
+<bibl id="B14">
+  <title><p>{The new challenges of multiplex networks: Measures and
+  models}</p></title>
+  <aug>
+    <au><snm>Battiston</snm><fnm>F</fnm></au>
+    <au><snm>Nicosia</snm><fnm>V</fnm></au>
+    <au><snm>Latora</snm><fnm>V</fnm></au>
+  </aug>
+  <source>European Physical Journal: Special Topics</source>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <pubdate>2017</pubdate>
+  <volume>226</volume>
+  <issue>3</issue>
+  <fpage>401</fpage>
+  <lpage>-416</lpage>
+  <url>http://link.springer.com/10.1140/epjst/e2016-60274-8</url>
+</bibl>
+
+<bibl id="B15">
+  <title><p>{The network analysis of urban streets : a primal
+  approach}</p></title>
+  <aug>
+    <au><snm>Porta</snm><fnm>S</fnm></au>
+    <au><snm>Crucitti</snm><fnm>P</fnm></au>
+    <au><snm>Latora</snm><fnm>V</fnm></au>
+  </aug>
+  <source>Environment and Planning B: Planning and Design</source>
+  <publisher>SAGE PublicationsSage UK: London, England</publisher>
+  <pubdate>2006</pubdate>
+  <volume>33</volume>
+  <issue>5</issue>
+  <fpage>705</fpage>
+  <lpage>-726</lpage>
+</bibl>
+
+<bibl id="B16">
+  <title><p>{Elementary processes governing the evolution of road
+  networks}</p></title>
+  <aug>
+    <au><snm>Strano</snm><fnm>E</fnm></au>
+    <au><snm>Nicosia</snm><fnm>V</fnm></au>
+    <au><snm>Latora</snm><fnm>V</fnm></au>
+    <au><snm>Porta</snm><fnm>S</fnm></au>
+    <au><snm>Barth{\'{e}}lemy</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Scientific Reports</source>
+  <publisher>Nature Publishing Group</publisher>
+  <pubdate>2012</pubdate>
+  <volume>2</volume>
+  <issue>1</issue>
+  <fpage>296</fpage>
+  <url>http://www.nature.com/articles/srep00296</url>
+</bibl>
+
+<bibl id="B17">
+  <title><p>{Self-organization versus top-down planning in the evolution of a
+  city}</p></title>
+  <aug>
+    <au><snm>Barthelemy</snm><fnm>M</fnm></au>
+    <au><snm>Bordin</snm><fnm>P</fnm></au>
+    <au><snm>Berestycki</snm><fnm>H</fnm></au>
+    <au><snm>Gribaudi</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Scientific Reports</source>
+  <pubdate>2013</pubdate>
+  <volume>3</volume>
+  <issue>1</issue>
+  <fpage>2153</fpage>
+  <url>http://www.nature.com/articles/srep02153</url>
+</bibl>
+
+<bibl id="B18">
+  <title><p>{Anatomy and efficiency of urban multimodal mobility}</p></title>
+  <aug>
+    <au><snm>Gallotti</snm><fnm>R</fnm></au>
+    <au><snm>Barthelemy</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Scientific Reports</source>
+  <publisher>Nature Publishing Group</publisher>
+  <pubdate>2014</pubdate>
+  <volume>4</volume>
+  <issue>1</issue>
+  <fpage>6911</fpage>
+  <url>http://www.nature.com/articles/srep06911</url>
+</bibl>
+
+<bibl id="B19">
+  <title><p>{Morphology of travel routes and the organization of
+  cities}</p></title>
+  <aug>
+    <au><snm>Lee</snm><fnm>M</fnm></au>
+    <au><snm>Barbosa Filho</snm><fnm>H</fnm></au>
+    <au><snm>Youn</snm><fnm>H</fnm></au>
+    <au><snm>Holme</snm><fnm>P</fnm></au>
+    <au><snm>Ghoshal</snm><fnm>G</fnm></au>
+  </aug>
+  <source>Nature Communications</source>
+  <publisher>Nature Publishing Group</publisher>
+  <pubdate>2017</pubdate>
+  <volume>8</volume>
+  <issue>1</issue>
+  <fpage>2229</fpage>
+  <url>http://www.nature.com/articles/s41467-017-02374-7</url>
+</bibl>
+
+<bibl id="B20">
+  <title><p>{Statistical mechanics of multiplex networks: Entropy and
+  overlap}</p></title>
+  <aug>
+    <au><snm>Bianconi</snm><fnm>G</fnm></au>
+  </aug>
+  <source>Physical Review E - Statistical, Nonlinear, and Soft Matter
+  Physics</source>
+  <publisher>American Physical Society</publisher>
+  <pubdate>2013</pubdate>
+  <volume>87</volume>
+  <issue>6</issue>
+  <fpage>062806</fpage>
+  <url>https://link.aps.org/doi/10.1103/PhysRevE.87.062806</url>
+</bibl>
+
+<bibl id="B21">
+  <title><p>{Structural measures for multiplex networks}</p></title>
+  <aug>
+    <au><snm>Battiston</snm><fnm>F</fnm></au>
+    <au><snm>Nicosia</snm><fnm>V</fnm></au>
+    <au><snm>Latora</snm><fnm>V</fnm></au>
+  </aug>
+  <source>Physical Review E - Statistical, Nonlinear, and Soft Matter
+  Physics</source>
+  <pubdate>2014</pubdate>
+  <volume>89</volume>
+  <issue>3</issue>
+  <fpage>1</fpage>
+  <lpage>-16</lpage>
+</bibl>
+
+<bibl id="B22">
+  <title><p>{Multilayer motif analysis of brain networks}</p></title>
+  <aug>
+    <au><snm>Battiston</snm><fnm>F</fnm></au>
+    <au><snm>Nicosia</snm><fnm>V</fnm></au>
+    <au><snm>Chavez</snm><fnm>M</fnm></au>
+    <au><snm>Latora</snm><fnm>V</fnm></au>
+  </aug>
+  <source>Chaos</source>
+  <publisher>AIP Publishing LLC</publisher>
+  <pubdate>2017</pubdate>
+  <volume>27</volume>
+  <issue>4</issue>
+  <fpage>047404</fpage>
+  <url>http://aip.scitation.org/doi/10.1063/1.4979282</url>
+</bibl>
+
+<bibl id="B23">
+  <title><p>{The Geography of Transport Systems (Third Edition)}</p></title>
+  <aug>
+    <au><snm>Rodrigue</snm><fnm>JP</fnm></au>
+    <au><snm>Comtois</snm><fnm>C</fnm></au>
+    <au><snm>Slack</snm><fnm>B</fnm></au>
+  </aug>
+  <source>The Geography of Transport Systems</source>
+  <publisher>Routledge</publisher>
+  <pubdate>2013</pubdate>
+  <fpage>432pages</fpage>
+  <url>https://www.routledge.com/The-Geography-of-Transport-
+  Systems-4th-Edition/Rodrigue-Comtois-Slack/p/book/ 9781138669574</url>
+</bibl>
+
+<bibl id="B24">
+  <title><p>{A typology of street patterns.}</p></title>
+  <aug>
+    <au><snm>Louf</snm><fnm>R</fnm></au>
+    <au><snm>Barthelemy</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Journal of the Royal Society, Interface / the Royal Society</source>
+  <pubdate>2014</pubdate>
+  <volume>11</volume>
+  <issue>101</issue>
+  <fpage>20140924</fpage>
+  <url>http://dx.doi.org/10.1098/rsif.2014.0924 http://
+  www.ncbi.nlm.nih.gov/pubmed/25297318{\%}5Cnhttp://
+  www.pubmedcentral.nih.gov/articlerender.fcgi? artid=PMC4223914</url>
+</bibl>
 
 </refgrp>
 } % end of \BMCxmlcomment
