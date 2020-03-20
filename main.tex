@@ -93,28 +93,31 @@
 
 \begin{center}
 
-\mbox{}\\[4cm]
+\textbf{\LARGE{Networks and Cities}}\\[3.3cm]
 
-\textbf{\Large{Network Approaches to the Study of Corruption}}\\[0.8cm]
-
-{\large{\textbf{Johannes Wachs}}}\\[5cm]
-
-Supervisor: J\'anos Kert\'esz
+\includegraphics[width=3.45cm,height=2.3cm]{images/ceulogo.eps}\\[3.4cm]
+{\Large{\textbf{Luis Guillermo Natera Orozco}}}\\[0.4cm]
 
 \medskip
 
+Department of Network and Data Science \\
+Central European University\\ [1.2cm]
+
+Supervisor: Federico Battiston \\
+External Supervisor: Michael Szell
+
+\vfill  
+
 A Dissertation Submitted in Partial Fulfillment of the Requirements\\ for the Degree of Doctor of Philosophy in Network Science\\[2cm]
 
-\includegraphics[width=3cm,height=2cm]{images/ceulogo.eps}\\[0.5cm]
+%\includegraphics[width=3cm,height=2cm]{images/ceulogo.eps}\\[0.5cm]
 
-Central European University\\
-Budapest, Hungary
+% Central European University\\
+% Budapest, Hungary
 
-\vfill
- 
+\vspace{1.0cm}
 \the\year
 \end{center}
-
 \end{titlepage}
 
 \newpage
@@ -125,7 +128,7 @@ Budapest, Hungary
 
 \vfill
 
-\noindent Johannes Wachs: \emph{Network Approaches to the Study of Corruption}, \copyright \\
+\noindent Luis Guillermo Natera Orozco: \emph{Networks and Cities}, \copyright \\
 \the\year \\ All rights reserved.
 
 
@@ -138,7 +141,7 @@ Budapest, Hungary
 
 
 \chapter*{Researcher declaration}
-I Johannes Wachs certify that I am the author of the work Network Approaches to the Study of Corruption. I certify that this is solely my own original work, other than where I have clearly indicated, in this declaration and in the thesis, the contributions of others. The thesis contains no materials accepted for any other degrees in any other institutions.  The copyright of this work rests with its author. Quotation from it is permitted, provided that full acknowledgement is made. This work may not be reproduced without my prior written consent. 
+I Luis Guillermo Natera Orozco certify that I am the author of the work Networks and Cities. I certify that this is solely my own original work, other than where I have clearly indicated, in this declaration and in the thesis, the contributions of others. The thesis contains no materials accepted for any other degrees in any other institutions.  The copyright of this work rests with its author. Quotation from it is permitted, provided that full acknowledgement is made. This work may not be reproduced without my prior written consent. 
 
 \subsection*{Statement of inclusion of joint work}
 I confirm that Chapter 3 is based on a paper which was written in collaboration with Taha Yasseri, Bal\'azs Lengyel, and J\'anos Kert\'esz. I conceived of the idea to relate social capital with local corruption risk outcomes by comparing data from procurement contracts and the online social network. Dr. Kert\'esz and I conceived the details of the implementation. Dr. Lengyel and I collected data on municipalities. Dr. Yasseri and I developed the methods used. I carried out the analyses of the data. All authors contributed to the writing of the paper on which the chapter is based and gave final approval for publication. Dr. Kert\'esz endorses this statement with his signature below.
@@ -166,7 +169,7 @@ Signature of PhD Candidate:
 
 \vspace{3.5cm}
 \noindent
-Signature of Dr. J\'anos Kert\'esz, endorsing statement of joint work:
+Signature of Dr. Federico Battiston, endorsing statement of joint work:
 
 \vspace{2cm}
 \noindent
@@ -175,7 +178,15 @@ Signature of Dr. J\'anos Kert\'esz, endorsing statement of joint work:
 
 \vspace{3.5cm}
 \noindent
-Signature of Dr. Mih\'aly Fazekas, endorsing statement of joint work:
+Signature of Dr. Michael Szell, endorsing statement of joint work:
+
+\vspace{2cm}
+\noindent
+\monthyeardate\today
+
+\vspace{3.5cm}
+\noindent
+Signature of Dr. Orsyola V\'as\'arhelyi , endorsing statement of joint work:
 
 \vspace{2cm}
 \noindent
@@ -196,15 +207,15 @@ Starting with a study of Hungarian towns, I relate corruption risk in local gove
 
 \chapter*{Acknowledgements}
 
-I would like to acknowledge several individuals who have, whether they realize it or not, significantly influenced this work. First I must thank my advisor J\'anos Kert\'esz for his continued support and confidence. His guidance has been invaluable and his patience is much appreciated.
+% I would like to acknowledge several individuals who have, whether they realize it or not, significantly influenced this work. First I must thank my advisor J\'anos Kert\'esz for his continued support and confidence. His guidance has been invaluable and his patience is much appreciated.
 
-I thank my most immediate colleagues David Deritei, Orsi V\'as\'arhelyi, and Tamer Khraisha for their commiseration and support throughout the PhD. They and the rest of the Department of Network and Data Science at CEU, including Olga Peredi, the other PhD students, and the various postdocs and memorable visitors, provided a wonderful environment to learn and work through turbulent social and political times. 
+% I thank my most immediate colleagues David Deritei, Orsi V\'as\'arhelyi, and Tamer Khraisha for their commiseration and support throughout the PhD. They and the rest of the Department of Network and Data Science at CEU, including Olga Peredi, the other PhD students, and the various postdocs and memorable visitors, provided a wonderful environment to learn and work through turbulent social and political times. 
 
-I am also grateful to my colleagues at the Government Transparency Institute, Misi Fazekas and \'Agi Czibik, my host at the Oxford Internet Institute, Taha Yasseri, and friends and collaborators including B\'alint Dar\'oczy, \'Agnes Horv\'at, Dorottya Szalay, Anna May, Casey Tompkins, Theresa Gessler, Gerg\H{o} T\'oth, and Bal\'azs Lengyel. I thank Ancsa Hann\'ak for suggesting that a PhD can be a worthwhile thing to do, and then encouraging me during its most difficult moments.
+% I am also grateful to my colleagues at the Government Transparency Institute, Misi Fazekas and \'Agi Czibik, my host at the Oxford Internet Institute, Taha Yasseri, and friends and collaborators including B\'alint Dar\'oczy, \'Agnes Horv\'at, Dorottya Szalay, Anna May, Casey Tompkins, Theresa Gessler, Gerg\H{o} T\'oth, and Bal\'azs Lengyel. I thank Ancsa Hann\'ak for suggesting that a PhD can be a worthwhile thing to do, and then encouraging me during its most difficult moments.
 
-I am lucky to have two families supporting me. I thank both the Cz\'em\'an and Wachs clans for their unconditional love and support. My mother Kristin and father Karl know that they have given me endless encouragement and I hope they know how thankful I am for it. What they may not know is how important the example they set has been to me. I hope this work reflects that fact.
+% I am lucky to have two families supporting me. I thank both the Cz\'em\'an and Wachs clans for their unconditional love and support. My mother Kristin and father Karl know that they have given me endless encouragement and I hope they know how thankful I am for it. What they may not know is how important the example they set has been to me. I hope this work reflects that fact.
 
-Most importantly I want to thank Zs\'ofi. She alone knows what went into this thesis, and her tireless encouragement always kept me on the tracks. She is my inspiration and partner in all things. I dedicate this thesis to her.
+% Most importantly I want to thank Zs\'ofi. She alone knows what went into this thesis, and her tireless encouragement always kept me on the tracks. She is my inspiration and partner in all things. I dedicate this thesis to her.
 
 \thispagestyle{empty}
 
@@ -244,18 +255,18 @@ Most importantly I want to thank Zs\'ofi. She alone knows what went into this th
 \mainmatter
 \ContentTitleFormat
 
-\input{chapters_tex/chapter1.tex}\pagestyle{fancy}
-\input{chapters_tex/chapter2.tex}\pagestyle{fancy}
-\input{chapters_tex/chapter3.tex}\pagestyle{fancy}
-\input{chapters_tex/chapter4.tex}\pagestyle{fancy}
-\input{chapters_tex/chapter5.tex}\pagestyle{fancy}
-\input{chapters_tex/chapter6.tex}\pagestyle{fancy}
+%\input{chapters_tex/chapter1.tex}\pagestyle{fancy}
+%\input{chapters_tex/chapter2.tex}\pagestyle{fancy}
+%\input{chapters_tex/chapter3.tex}\pagestyle{fancy}
+%\input{chapters_tex/chapter4.tex}\pagestyle{fancy}
+%\input{chapters_tex/chapter5.tex}\pagestyle{fancy}
+%\input{chapters_tex/chapter6.tex}\pagestyle{fancy}
 
 \bibliographystyle{bmc-mathphys}
 \bibliography{bibliography.bib}
 
 
-\input{chapters_tex/chapter7.tex}\pagestyle{fancy}
+%\input{chapters_tex/chapter7.tex}\pagestyle{fancy}
 %\newpage
 %\backmatter
 \afterpage{\blankpage}
