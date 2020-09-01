@@ -19,71 +19,71 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: bibliography.bib
+Database file #1: bibliography_overlap.bib
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--"{The" isn't a brace-balanced string for entry Jacobs1961
+Warning--"{The" isn't a brace-balanced string for entry Jacobs1961Death
 while executing--line 2686 of file bmc-mathphys.bst
-Warning--"{The" isn't a brace-balanced string for entry Jacobs1961
+Warning--"{The" isn't a brace-balanced string for entry Jacobs1961Death
 while executing--line 2686 of file bmc-mathphys.bst
-Warning--"{The" isn't a brace-balanced string for entry Jacobs1961
+Warning--"{The" isn't a brace-balanced string for entry Jacobs1961Death
 while executing--line 2686 of file bmc-mathphys.bst
-Warning--"cities}" isn't a brace-balanced string for entry Jacobs1961
+Warning--"cities}" isn't a brace-balanced string for entry Jacobs1961Death
 while executing--line 2686 of file bmc-mathphys.bst
-Warning--"cities}" isn't a brace-balanced string for entry Jacobs1961
+Warning--"cities}" isn't a brace-balanced string for entry Jacobs1961Death
 while executing--line 2686 of file bmc-mathphys.bst
-Warning--"CITIES}" isn't a brace-balanced string for entry Jacobs1961
+Warning--"CITIES}" isn't a brace-balanced string for entry Jacobs1961Death
 while executing--line 2686 of file bmc-mathphys.bst
-Warning--"{The" isn't a brace-balanced string for entry Rodrigue2013
+Warning--"{The" isn't a brace-balanced string for entry Rodrigue2013Geography
 while executing--line 2686 of file bmc-mathphys.bst
-Warning--"{The" isn't a brace-balanced string for entry Rodrigue2013
+Warning--"{The" isn't a brace-balanced string for entry Rodrigue2013Geography
 while executing--line 2686 of file bmc-mathphys.bst
-Warning--"{The" isn't a brace-balanced string for entry Rodrigue2013
+Warning--"{The" isn't a brace-balanced string for entry Rodrigue2013Geography
 while executing--line 2686 of file bmc-mathphys.bst
-Warning--"Edition)}" isn't a brace-balanced string for entry Rodrigue2013
+Warning--"Edition)}" isn't a brace-balanced string for entry Rodrigue2013Geography
 while executing--line 2686 of file bmc-mathphys.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 24 entries,
+You've used 23 entries,
             7128 wiz_defined-function locations,
-            1340 strings with 15429 characters,
-and the built_in function-call counts, 214039 in all, are:
-= -- 32959
-> -- 821
-< -- 468
-+ -- 15180
-- -- 275
-* -- 11352
-:= -- 40118
-add.period$ -- 46
-call.type$ -- 24
-change.case$ -- 239
-chr.to.int$ -- 963
-cite$ -- 24
-duplicate$ -- 2347
-empty$ -- 7558
-format.name$ -- 850
-if$ -- 51095
+            1330 strings with 15691 characters,
+and the built_in function-call counts, 211259 in all, are:
+= -- 32574
+> -- 810
+< -- 463
++ -- 15089
+- -- 269
+* -- 11140
+:= -- 39536
+add.period$ -- 44
+call.type$ -- 23
+change.case$ -- 233
+chr.to.int$ -- 959
+cite$ -- 23
+duplicate$ -- 2282
+empty$ -- 7432
+format.name$ -- 838
+if$ -- 50488
 int.to.chr$ -- 1
-int.to.str$ -- 63
-missing$ -- 838
-newline$ -- 795
-num.names$ -- 120
-pop$ -- 943
+int.to.str$ -- 61
+missing$ -- 808
+newline$ -- 768
+num.names$ -- 115
+pop$ -- 919
 preamble$ -- 1
-purify$ -- 110
-quote$ -- 48
-skip$ -- 18075
+purify$ -- 106
+quote$ -- 46
+skip$ -- 17878
 stack$ -- 0
-substring$ -- 24556
-swap$ -- 805
-text.length$ -- 403
+substring$ -- 24313
+swap$ -- 788
+text.length$ -- 389
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1024
+type$ -- 977
 warning$ -- 0
-while$ -- 873
+while$ -- 852
 width$ -- 0
-write$ -- 1065
+write$ -- 1034
 (There were 10 warnings)
