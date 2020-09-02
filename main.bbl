@@ -1,0 +1,1821 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{63}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\textsf{#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem{Morris2012Transport}
+\begin{barticle}
+\bauthor{\bsnm{Morris}, \binits{R.G.}},
+\bauthor{\bsnm{Barthelemy}, \binits{M.}}:
+\batitle{{Transport on coupled spatial networks}}.
+\bjtitle{Physical Review Letters}
+\bvolume{109}(\bissue{12}),
+\bfpage{128703}
+(\byear{2012}).
+doi:\doiurl{10.1103/PhysRevLett.109.128703}
+\end{barticle}
+\endbibitem
+
+%%% 2
+\bibitem{Strano2012Evolution}
+\begin{barticle}
+\bauthor{\bsnm{Strano}, \binits{E.}},
+\bauthor{\bsnm{Nicosia}, \binits{V.}},
+\bauthor{\bsnm{Latora}, \binits{V.}},
+\bauthor{\bsnm{Porta}, \binits{S.}},
+\bauthor{\bsnm{Barth{\'{e}}lemy}, \binits{M.}}:
+\batitle{{Elementary processes governing the evolution of road networks}}.
+\bjtitle{Scientific Reports}
+\bvolume{2}(\bissue{1}),
+\bfpage{296}
+(\byear{2012}).
+doi:\doiurl{10.1038/srep00296}
+\end{barticle}
+\endbibitem
+
+%%% 3
+\bibitem{Barthelemy2013Evolution}
+\begin{barticle}
+\bauthor{\bsnm{Barthelemy}, \binits{M.}},
+\bauthor{\bsnm{Bordin}, \binits{P.}},
+\bauthor{\bsnm{Berestycki}, \binits{H.}},
+\bauthor{\bsnm{Gribaudi}, \binits{M.}}:
+\batitle{{Self-organization versus top-down planning in the evolution of a
+  city}}.
+\bjtitle{Scientific Reports}
+\bvolume{3}(\bissue{1}),
+\bfpage{2153}
+(\byear{2013}).
+doi:\doiurl{10.1038/srep02153}
+\end{barticle}
+\endbibitem
+
+%%% 4
+\bibitem{Battiston2014Structural}
+\begin{barticle}
+\bauthor{\bsnm{Battiston}, \binits{F.}},
+\bauthor{\bsnm{Nicosia}, \binits{V.}},
+\bauthor{\bsnm{Latora}, \binits{V.}}:
+\batitle{{Structural measures for multiplex networks}}.
+\bjtitle{Physical Review E - Statistical, Nonlinear, and Soft Matter Physics}
+\bvolume{89}(\bissue{3}),
+\bfpage{1}--\blpage{16}
+(\byear{2014}).
+doi:\doiurl{10.1103/PhysRevE.89.032804}
+\end{barticle}
+\endbibitem
+
+%%% 5
+\bibitem{Gallotti2014Efficiency}
+\begin{barticle}
+\bauthor{\bsnm{Gallotti}, \binits{R.}},
+\bauthor{\bsnm{Barthelemy}, \binits{M.}}:
+\batitle{{Anatomy and efficiency of urban multimodal mobility}}.
+\bjtitle{Scientific Reports}
+\bvolume{4}(\bissue{1}),
+\bfpage{6911}
+(\byear{2014}).
+doi:\doiurl{10.1038/srep06911}
+\end{barticle}
+\endbibitem
+
+%%% 6
+\bibitem{DeDomenico2014Navigability}
+\begin{barticle}
+\bauthor{\bsnm{{De Domenico}}, \binits{M.}},
+\bauthor{\bsnm{Sol{\'{e}}-Ribalta}, \binits{A.}},
+\bauthor{\bsnm{G{\'{o}}mez}, \binits{S.}},
+\bauthor{\bsnm{Arenas}, \binits{A.}}:
+\batitle{{Navigability of interconnected networks under random failures}}.
+\bjtitle{Proceedings of the National Academy of Sciences}
+\bvolume{111}(\bissue{23}),
+\bfpage{8351}--\blpage{8356}
+(\byear{2014}).
+doi:\doiurl{10.1073/pnas.1318469111}
+\end{barticle}
+\endbibitem
+
+%%% 7
+\bibitem{Strano2015Features}
+\begin{barticle}
+\bauthor{\bsnm{Strano}, \binits{E.}},
+\bauthor{\bsnm{Shai}, \binits{S.}},
+\bauthor{\bsnm{Dobson}, \binits{S.}},
+\bauthor{\bsnm{Barthelemy}, \binits{M.}}:
+\batitle{{Multiplex networks in metropolitan areas: generic features and local
+  effects}}.
+\bjtitle{Journal of the Royal Society, Interface}
+\bvolume{12}(\bissue{111}),
+\bfpage{20150651}
+(\byear{2015}).
+doi:\doiurl{10.1098/rsif.2015.0651}
+\end{barticle}
+\endbibitem
+
+%%% 8
+\bibitem{Aleta2017Multilayer}
+\begin{botherref}
+\oauthor{\bsnm{Aleta}, \binits{A.}},
+\oauthor{\bsnm{Meloni}, \binits{S.}},
+\oauthor{\bsnm{Moreno}, \binits{Y.}}:
+{A Multilayer perspective for the analysis of urban transportation systems}.
+Scientific Reports
+\textbf{7}
+(2017).
+doi:\doiurl{10.1038/srep44359}
+\end{botherref}
+\endbibitem
+
+%%% 9
+\bibitem{Lee2017Morphology}
+\begin{barticle}
+\bauthor{\bsnm{Lee}, \binits{M.}},
+\bauthor{\bsnm{Barbosa-Filho}, \binits{H.}},
+\bauthor{\bsnm{Youn}, \binits{H.}},
+\bauthor{\bsnm{Holme}, \binits{P.}},
+\bauthor{\bsnm{Ghoshal}, \binits{G.}}:
+\batitle{{Morphology of travel routes and the organization of cities}}.
+\bjtitle{Nature Communications}
+\bvolume{8}(\bissue{1}),
+\bfpage{2229}
+(\byear{2017}).
+doi:\doiurl{10.1038/s41467-017-02374-7}
+\end{barticle}
+\endbibitem
+
+%%% 10
+\bibitem{Jacobs1961Death}
+\begin{bbook}
+\bauthor{\bsnm{Jacobs}, \binits{J.}}:
+\bbtitle{The Death and Life of Great American Cities},
+p. \bfpage{458}.
+\bpublisher{Random House},
+\blocation{New York, New York, USA}
+(\byear{1961})
+\end{bbook}
+\endbibitem
+
+%%% 11
+\bibitem{Gossling2016Distribution}
+\begin{barticle}
+\bauthor{\bsnm{G{\"{o}}ssling}, \binits{S.}},
+\bauthor{\bsnm{Schr{\"{o}}der}, \binits{M.}},
+\bauthor{\bsnm{Sp{\"{a}}th}, \binits{P.}},
+\bauthor{\bsnm{Freytag}, \binits{T.}}:
+\batitle{{Urban Space Distribution and Sustainable Transport}}.
+\bjtitle{Transport Reviews}
+\bvolume{36}(\bissue{5}),
+\bfpage{659}--\blpage{679}
+(\byear{2016}).
+doi:\doiurl{10.1080/01441647.2016.1147101}
+\end{barticle}
+\endbibitem
+
+%%% 12
+\bibitem{Szell2018Crowdsourced}
+\begin{barticle}
+\bauthor{\bsnm{Szell}, \binits{M.}}:
+\batitle{{Crowdsourced Quantification and Visualization of Urban Mobility Space
+  Inequality}}.
+\bjtitle{Urban Planning}
+\bvolume{3}(\bissue{1}),
+\bfpage{1}
+(\byear{2018}).
+doi:\doiurl{10.17645/up.v3i1.1209}
+\end{barticle}
+\endbibitem
+
+%%% 13
+\bibitem{Boeing2017OSMNX}
+\begin{barticle}
+\bauthor{\bsnm{Boeing}, \binits{G.}}:
+\batitle{{OSMnx: New methods for acquiring, constructing, analyzing, and
+  visualizing complex street networks}}.
+\bjtitle{Computers, Environment and Urban Systems}
+\bvolume{65},
+\bfpage{126}--\blpage{139}
+(\byear{2017}).
+doi:\doiurl{10.1016/j.compenvurbsys.2017.05.004}
+\end{barticle}
+\endbibitem
+
+%%% 14
+\bibitem{Haklay2010OpenStreetMap}
+\begin{barticle}
+\bauthor{\bsnm{Haklay}, \binits{M.}}:
+\batitle{{How good is volunteered geographical information? A comparative study
+  of OpenStreetMap and ordnance survey datasets}}.
+\bjtitle{Environment and Planning B: Planning and Design}
+\bvolume{37}(\bissue{4}),
+\bfpage{682}--\blpage{703}
+(\byear{2010}).
+doi:\doiurl{10.1068/b35097}
+\end{barticle}
+\endbibitem
+
+%%% 15
+\bibitem{Girres2010Quality}
+\begin{barticle}
+\bauthor{\bsnm{Girres}, \binits{J.F.}},
+\bauthor{\bsnm{Touya}, \binits{G.}}:
+\batitle{{Quality Assessment of the French OpenStreetMap Dataset}}.
+\bjtitle{Transactions in GIS}
+\bvolume{14}(\bissue{4}),
+\bfpage{435}--\blpage{459}
+(\byear{2010}).
+doi:\doiurl{10.1111/j.1467-9671.2010.01203.x}
+\end{barticle}
+\endbibitem
+
+%%% 16
+\bibitem{Ferster2019Bicycle}
+\begin{botherref}
+\oauthor{\bsnm{Ferster}, \binits{C.}},
+\oauthor{\bsnm{Fischer}, \binits{J.}},
+\oauthor{\bsnm{Manaugh}, \binits{K.}},
+\oauthor{\bsnm{Nelson}, \binits{T.}},
+\oauthor{\bsnm{Winters}, \binits{M.}}:
+{Using OpenStreetMap to inventory bicycle infrastructure: A comparison with
+  open data from cities}.
+International Journal of Sustainable Transportation,
+1--10
+(2019).
+doi:\doiurl{10.1080/15568318.2018.1519746}
+\end{botherref}
+\endbibitem
+
+%%% 17
+\bibitem{Barbosa-Filho2017Models}
+\begin{botherref}
+\oauthor{\bsnm{Barbosa-Filho}, \binits{H.}},
+\oauthor{\bsnm{Barthelemy}, \binits{M.}},
+\oauthor{\bsnm{Ghoshal}, \binits{G.}},
+\oauthor{\bsnm{James}, \binits{C.R.}},
+\oauthor{\bsnm{Lenormand}, \binits{M.}},
+\oauthor{\bsnm{Louail}, \binits{T.}},
+\oauthor{\bsnm{Menezes}, \binits{R.}},
+\oauthor{\bsnm{Ramasco}, \binits{J.J.}},
+\oauthor{\bsnm{Simini}, \binits{F.}},
+\oauthor{\bsnm{Tomasini}, \binits{M.}}:
+{Human Mobility: Models and Applications}
+(2017)
+\end{botherref}
+\endbibitem
+
+%%% 18
+\bibitem{Boccaletti2014Structure}
+\begin{botherref}
+\oauthor{\bsnm{Boccaletti}, \binits{S.}},
+\oauthor{\bsnm{Bianconi}, \binits{G.}},
+\oauthor{\bsnm{Criado}, \binits{R.}},
+\oauthor{\bparticle{del} \bsnm{Genio}, \binits{C.I.}},
+\oauthor{\bsnm{G{\'{o}}mez-Garde{\~{n}}es}, \binits{J.}},
+\oauthor{\bsnm{Romance}, \binits{M.}},
+\oauthor{\bsnm{Sendi{\~{n}}a-Nadal}, \binits{I.}},
+\oauthor{\bsnm{Wang}, \binits{Z.}},
+\oauthor{\bsnm{Zanin}, \binits{M.}}:
+{The structure and dynamics of multilayer networks}
+(2014).
+doi:\doiurl{10.1016/j.physrep.2014.07.001}.
+\url{https://arxiv.org/pdf/1407.0742.pdf}
+\end{botherref}
+\endbibitem
+
+%%% 19
+\bibitem{Kivela2014Multilayer}
+\begin{barticle}
+\bauthor{\bsnm{Kivel{\"{a}}}, \binits{M.}},
+\bauthor{\bsnm{Arenas}, \binits{A.}},
+\bauthor{\bsnm{Barthelemy}, \binits{M.}},
+\bauthor{\bsnm{Gleeson}, \binits{J.P.}},
+\bauthor{\bsnm{Moreno}, \binits{Y.}},
+\bauthor{\bsnm{Porter}, \binits{M.A.}}:
+\batitle{{Multilayer networks}}.
+\bjtitle{Journal of Complex Networks}
+\bvolume{2}(\bissue{3}),
+\bfpage{203}--\blpage{271}
+(\byear{2014}).
+doi:\doiurl{10.1093/comnet/cnu016}
+\end{barticle}
+\endbibitem
+
+%%% 20
+\bibitem{Battiston2017Challenges}
+\begin{barticle}
+\bauthor{\bsnm{Battiston}, \binits{F.}},
+\bauthor{\bsnm{Nicosia}, \binits{V.}},
+\bauthor{\bsnm{Latora}, \binits{V.}}:
+\batitle{{The new challenges of multiplex networks: Measures and models}}.
+\bjtitle{European Physical Journal: Special Topics}
+\bvolume{226}(\bissue{3}),
+\bfpage{401}--\blpage{416}
+(\byear{2017}).
+doi:\doiurl{10.1140/epjst/e2016-60274-8}
+\end{barticle}
+\endbibitem
+
+%%% 21
+\bibitem{Porta2006Primal}
+\begin{barticle}
+\bauthor{\bsnm{Porta}, \binits{S.}},
+\bauthor{\bsnm{Crucitti}, \binits{P.}},
+\bauthor{\bsnm{Latora}, \binits{V.}}:
+\batitle{{The network analysis of urban streets : a primal approach}}.
+\bjtitle{Environment and Planning B: Planning and Design}
+\bvolume{33}(\bissue{5}),
+\bfpage{705}--\blpage{726}
+(\byear{2006}).
+doi:\doiurl{10.1068/b32045}
+\end{barticle}
+\endbibitem
+
+%%% 22
+\bibitem{Rodrigue2013Geography}
+\begin{bbook}
+\bauthor{\bsnm{Rodrigue}, \binits{J.-P.}},
+\bauthor{\bsnm{Comtois}, \binits{C.}},
+\bauthor{\bsnm{Slack}, \binits{B.}}:
+\bbtitle{The Geography of Transport Systems (Third Edition)},
+p. \bfpage{432}.
+\bpublisher{Routledge}, \blocation{???}
+(\byear{2013}).
+doi:\doiurl{10.1080/10630732.2011.603579}.
+\burl{https://www.routledge.com/The-Geography-of-Transport-
+  Systems-4th-Edition/Rodrigue-Comtois-Slack/p/book/ 9781138669574}
+\end{bbook}
+\endbibitem
+
+%%% 23
+\bibitem{Louf2014Typology}
+\begin{barticle}
+\bauthor{\bsnm{Louf}, \binits{R.}},
+\bauthor{\bsnm{Barthelemy}, \binits{M.}}:
+\batitle{A typology of street patterns}.
+\bjtitle{Journal of The Royal Society Interface}
+\bvolume{11}(\bissue{101}),
+\bfpage{20140924}
+(\byear{2014}).
+doi:\doiurl{10.1098/rsif.2014.0924}
+\end{barticle}
+\endbibitem
+
+%%% 24
+\bibitem{Heylen2006Liveability}
+\begin{bchapter}
+\bauthor{\bsnm{Heylen}, \binits{K.}}:
+\bctitle{Liveability in social housing: three case studies in flanders}.
+In: \bbtitle{ENHR Conference'Housing in an Expanding Europe: Theory, Policy,
+  Implementation and Participation', Date: 2006/07/02-2006/07/05, Location:
+  Ljubljana (Slovenia)}
+(\byear{2006})
+\end{bchapter}
+\endbibitem
+
+%%% 25
+\bibitem{Shamsuddin2012Walkable}
+\begin{barticle}
+\bauthor{\bsnm{Shamsuddin}, \binits{S.}},
+\bauthor{\bsnm{Hassan}, \binits{N.R.A.}},
+\bauthor{\bsnm{Bilyamin}, \binits{S.F.I.}}:
+\batitle{Walkable environment in increasing the liveability of a city}.
+\bjtitle{Procedia-Social and Behavioral Sciences}
+\bvolume{50},
+\bfpage{167}--\blpage{178}
+(\byear{2012})
+\end{barticle}
+\endbibitem
+
+%%% 26
+\bibitem{Campbell1996Green}
+\begin{barticle}
+\bauthor{\bsnm{Campbell}, \binits{S.}}:
+\batitle{Green cities, growing cities, just cities?: Urban planning and the
+  contradictions of sustainable development}.
+\bjtitle{Journal of the American Planning Association}
+\bvolume{62}(\bissue{3}),
+\bfpage{296}--\blpage{312}
+(\byear{1996})
+\end{barticle}
+\endbibitem
+
+%%% 27
+\bibitem{Jabareen2013Planning}
+\begin{barticle}
+\bauthor{\bsnm{Jabareen}, \binits{Y.}}:
+\batitle{Planning the resilient city: Concepts and strategies for coping with
+  climate change and environmental risk}.
+\bjtitle{Cities}
+\bvolume{31},
+\bfpage{220}--\blpage{229}
+(\byear{2013})
+\end{barticle}
+\endbibitem
+
+%%% 28
+\bibitem{Frank2006Many}
+\begin{barticle}
+\bauthor{\bsnm{Frank}, \binits{L.D.}},
+\bauthor{\bsnm{Sallis}, \binits{J.F.}},
+\bauthor{\bsnm{Conway}, \binits{T.L.}},
+\bauthor{\bsnm{Chapman}, \binits{J.E.}},
+\bauthor{\bsnm{Saelens}, \binits{B.E.}},
+\bauthor{\bsnm{Bachman}, \binits{W.}}:
+\batitle{Many pathways from land use to health: associations between
+  neighborhood walkability and active transportation, body mass index, and air
+  quality}.
+\bjtitle{Journal of the American planning Association}
+\bvolume{72}(\bissue{1}),
+\bfpage{75}--\blpage{87}
+(\byear{2006})
+\end{barticle}
+\endbibitem
+
+%%% 29
+\bibitem{Speck2012Walkability}
+\begin{bbook}
+\bauthor{\bsnm{Speck}, \binits{J.}}:
+\bbtitle{Walkable City: How Downtown Can Save America, One Step at a Time}.
+\bpublisher{Farrar, Straus and Giroux},
+\blocation{New York, New York, USA}
+(\byear{2012})
+\end{bbook}
+\endbibitem
+
+%%% 30
+\bibitem{Barthelemy2008Modeling}
+\begin{barticle}
+\bauthor{\bsnm{Barth{\'e}lemy}, \binits{M.}},
+\bauthor{\bsnm{Flammini}, \binits{A.}}:
+\batitle{Modeling urban street patterns}.
+\bjtitle{Physical review letters}
+\bvolume{100}(\bissue{13}),
+\bfpage{138702}
+(\byear{2008})
+\end{barticle}
+\endbibitem
+
+%%% 31
+\bibitem{Boeing2019Morphology}
+\begin{bchapter}
+\bauthor{\bsnm{Boeing}, \binits{G.}}:
+\bctitle{The morphology and circuity of walkable and drivable street networks}.
+In: \bbtitle{The Mathematics of Urban Morphology},
+pp. \bfpage{271}--\blpage{287}.
+\bpublisher{Springer}, \blocation{???}
+(\byear{2019})
+\end{bchapter}
+\endbibitem
+
+%%% 32
+\bibitem{Hajrasouliha2015Impact}
+\begin{barticle}
+\bauthor{\bsnm{Hajrasouliha}, \binits{A.}},
+\bauthor{\bsnm{Yin}, \binits{L.}}:
+\batitle{The impact of street network connectivity on pedestrian volume}.
+\bjtitle{Urban Studies}
+\bvolume{52}(\bissue{13}),
+\bfpage{2483}--\blpage{2497}
+(\byear{2015})
+\end{barticle}
+\endbibitem
+
+%%% 33
+\bibitem{Quercia2015Digital}
+\begin{bchapter}
+\bauthor{\bsnm{Quercia}, \binits{D.}},
+\bauthor{\bsnm{Aiello}, \binits{L.M.}},
+\bauthor{\bsnm{Schifanella}, \binits{R.}},
+\bauthor{\bsnm{Davies}, \binits{A.}}:
+\bctitle{The digital life of walkable streets}.
+In: \bbtitle{Proceedings of the 24th International Conference on World Wide
+  Web},
+pp. \bfpage{875}--\blpage{884}
+(\byear{2015})
+\end{bchapter}
+\endbibitem
+
+%%% 34
+\bibitem{Silva2018Investigating}
+\begin{barticle}
+\bauthor{\bsnm{Silva}, \binits{J.P.}},
+\bauthor{\bsnm{Akleh}, \binits{A.Z.}}:
+\batitle{Investigating the relationships between the built environment, the
+  climate, walkability and physical activity in the arabian peninsula: The case
+  of bahrain}.
+\bjtitle{Cogent Social Sciences}
+\bvolume{4}(\bissue{1}),
+\bfpage{1502907}
+(\byear{2018})
+\end{barticle}
+\endbibitem
+
+%%% 35
+\bibitem{Krambeck2006Global}
+\begin{botherref}
+\oauthor{\bsnm{Krambeck}, \binits{H.V.}}:
+The global walkability index.
+PhD thesis,
+Massachusetts Institute of Technology
+(2006)
+\end{botherref}
+\endbibitem
+
+%%% 36
+\bibitem{Southworth2005Designing}
+\begin{barticle}
+\bauthor{\bsnm{Southworth}, \binits{M.}}:
+\batitle{Designing the walkable city}.
+\bjtitle{Journal of urban planning and development}
+\bvolume{131}(\bissue{4}),
+\bfpage{246}--\blpage{257}
+(\byear{2005})
+\end{barticle}
+\endbibitem
+
+%%% 37
+\bibitem{Carr2010Walk}
+\begin{barticle}
+\bauthor{\bsnm{Carr}, \binits{L.J.}},
+\bauthor{\bsnm{Dunsiger}, \binits{S.I.}},
+\bauthor{\bsnm{Marcus}, \binits{B.H.}}:
+\batitle{Walk score™ as a global estimate of neighborhood walkability}.
+\bjtitle{American journal of preventive medicine}
+\bvolume{39}(\bissue{5}),
+\bfpage{460}--\blpage{463}
+(\byear{2010})
+\end{barticle}
+\endbibitem
+
+%%% 38
+\bibitem{Stephen2014Sustainable}
+\begin{bbook}
+\bauthor{\bsnm{Wheeler}, \binits{S.M.}},
+\bauthor{\bsnm{Beatley}, \binits{T.}}:
+\bbtitle{Sustainable Urban Development Reader}.
+\bpublisher{Routledge},
+\blocation{UK}
+(\byear{2014})
+\end{bbook}
+\endbibitem
+
+%%% 39
+\bibitem{Childs2018Planning}
+\begin{botherref}
+\oauthor{\bsnm{Childs}, \binits{S.}}:
+A Case for Data-Driven City Planning.
+(2018 (accessed June 3, 2019)).
+\url{https://medium.com/citiesense/a-case-for-data-driven-city-planning-8cd7d9332a}
+\end{botherref}
+\endbibitem
+
+%%% 40
+\bibitem{Kaushik2017Planning}
+\begin{botherref}
+\oauthor{\bsnm{Kaushik}, \binits{V.}}:
+How Technology Empowers Data-Driven Urban Planning.
+(2017 (accesed June 3, 2019).
+\url{https://www.getrevue.co/profile/TGIC/issues/how-technology-empowers-data-driven-urban-planning-59814}
+\end{botherref}
+\endbibitem
+
+%%% 41
+\bibitem{Fitzgerald2016Data}
+\begin{botherref}
+\oauthor{\bsnm{Fitzgerald}, \binits{M.}}:
+Data-Driven City Management.
+(2016 (accesed June 3, 2019).
+\url{https://sloanreview.mit.edu/case-study/data-driven-city-management/}
+\end{botherref}
+\endbibitem
+
+%%% 42
+\bibitem{HU2019Districts}
+\begin{botherref}
+Budapest Districts.
+\url{https://data2.openstreetmap.hu/hatarok/index.php?admin=9}
+\end{botherref}
+\endbibitem
+
+%%% 43
+\bibitem{HU2019Police}
+\begin{botherref}
+\oauthor{\bsnm{Police}, \binits{H.}}:
+Bunugyi Statisztikak.
+\textit{Data available at request}.
+\url{http://www.police.hu/a-rendorsegrol/statisztikak/bunugyi-statisztikak}
+\end{botherref}
+\endbibitem
+
+%%% 44
+\bibitem{HU2016Population}
+\begin{botherref}
+Hungarian Population Data.
+(2016).
+\url{https://www.ksh.hu/mikrocenzus2016/}
+\end{botherref}
+\endbibitem
+
+%%% 45
+\bibitem{HU2019Pollution}
+\begin{botherref}
+\oauthor{\bsnm{Network}, \binits{A.M.}}:
+National Air Pollution Measurement Network,.
+\textit{Data available at request}.
+\url{http://levegominoseg.hu/manualis-merohalozat}
+\end{botherref}
+\endbibitem
+
+%%% 46
+\bibitem{Rosow1961Social}
+\begin{barticle}
+\bauthor{\bsnm{Rosow}, \binits{I.}}:
+\batitle{The social effects of the physical environment}.
+\bjtitle{Journal of the American Institute of Planners}
+\bvolume{27}(\bissue{2}),
+\bfpage{127}--\blpage{133}
+(\byear{1961})
+\end{barticle}
+\endbibitem
+
+%%% 47
+\bibitem{Kahneman2006Developments}
+\begin{barticle}
+\bauthor{\bsnm{Kahneman}, \binits{D.}},
+\bauthor{\bsnm{Krueger}, \binits{A.B.}}:
+\batitle{Developments in the measurement of subjective well-being}.
+\bjtitle{Journal of Economic perspectives}
+\bvolume{20}(\bissue{1}),
+\bfpage{3}--\blpage{24}
+(\byear{2006})
+\end{barticle}
+\endbibitem
+
+%%% 48
+\bibitem{Deritei2014Community}
+\begin{barticle}
+\bauthor{\bsnm{Deritei}, \binits{D.}},
+\bauthor{\bsnm{Lazar}, \binits{Z.I.}},
+\bauthor{\bsnm{Papp}, \binits{I.}},
+\bauthor{\bsnm{Jarai-Szabo}, \binits{F.}},
+\bauthor{\bsnm{Sumi}, \binits{R.}},
+\bauthor{\bsnm{Varga}, \binits{L.}},
+\bauthor{\bsnm{Regan}, \binits{E.R.}},
+\bauthor{\bsnm{Ercsey-Ravasz}, \binits{M.}}:
+\batitle{Community detection by graph voronoi diagrams}.
+\bjtitle{New Journal of Physics}
+\bvolume{16}(\bissue{6}),
+\bfpage{063007}
+(\byear{2014})
+\end{barticle}
+\endbibitem
+
+%%% 49
+\bibitem{Hohenberg1996Urban}
+\begin{bbook}
+\bauthor{\bsnm{Hohenberg}, \binits{P.M.}},
+\bauthor{\bsnm{Lees}, \binits{L.H.}}:
+\bbtitle{The Making of Urban Europe: 1000-1994}.
+\bpublisher{Harvard University Press}, \blocation{???}
+(\byear{1996})
+\end{bbook}
+\endbibitem
+
+%%% 50
+\bibitem{Brueckner1999Central}
+\begin{barticle}
+\bauthor{\bsnm{Brueckner}, \binits{J.K.}},
+\bauthor{\bsnm{Thisse}, \binits{J.-F.}},
+\bauthor{\bsnm{Zenou}, \binits{Y.}}:
+\batitle{Why is central paris rich and downtown detroit poor?: An amenity-based
+  theory}.
+\bjtitle{European economic review}
+\bvolume{43}(\bissue{1}),
+\bfpage{91}--\blpage{107}
+(\byear{1999})
+\end{barticle}
+\endbibitem
+
+%%% 51
+\bibitem{Kover2006Magyarorszag}
+\begin{botherref}
+\oauthor{\bsnm{K{\"o}v{\'e}r}, \binits{G.}},
+\oauthor{\bsnm{Gy{\'a}ni}, \binits{G.}}:
+Magyarorsz{\'a}g t{\'a}rsadalomt{\"o}rt{\'e}nete a reformkort{\'o}l a
+  m{\'a}sodik vil{\'a}gh{\'a}bor{\'u}ig.
+Osiris
+(1998)
+\end{botherref}
+\endbibitem
+
+%%% 52
+\bibitem{Dittmar2012New}
+\begin{bbook}
+\bauthor{\bsnm{Dittmar}, \binits{H.}},
+\bauthor{\bsnm{Ohland}, \binits{G.}}:
+\bbtitle{The New Transit Town: Best Practices in Transit-oriented Development}.
+\bpublisher{Island Press}, \blocation{???}
+(\byear{2012})
+\end{bbook}
+\endbibitem
+
+%%% 53
+\bibitem{Rogers2011Examining}
+\begin{barticle}
+\bauthor{\bsnm{Rogers}, \binits{S.H.}},
+\bauthor{\bsnm{Halstead}, \binits{J.M.}},
+\bauthor{\bsnm{Gardner}, \binits{K.H.}},
+\bauthor{\bsnm{Carlson}, \binits{C.H.}}:
+\batitle{Examining walkability and social capital as indicators of quality of
+  life at the municipal and neighborhood scales}.
+\bjtitle{Applied Research in Quality of Life}
+\bvolume{6}(\bissue{2}),
+\bfpage{201}--\blpage{213}
+(\byear{2011})
+\end{barticle}
+\endbibitem
+
+%%% 54
+\bibitem{Rinner2007Geographic}
+\begin{barticle}
+\bauthor{\bsnm{Rinner}, \binits{C.}}:
+\batitle{A geographic visualization approach to multi-criteria evaluation of
+  urban quality of life}.
+\bjtitle{International Journal of Geographical Information Science}
+\bvolume{21}(\bissue{8}),
+\bfpage{907}--\blpage{919}
+(\byear{2007})
+\end{barticle}
+\endbibitem
+
+%%% 55
+\bibitem{Gavrilidis2016Urban}
+\begin{barticle}
+\bauthor{\bsnm{Gavrilidis}, \binits{A.A.}},
+\bauthor{\bsnm{Cioc{\u{a}}nea}, \binits{C.M.}},
+\bauthor{\bsnm{Ni{\c{t}}{\u{a}}}, \binits{M.R.}},
+\bauthor{\bsnm{Onose}, \binits{D.A.}},
+\bauthor{\bsnm{N{\u{a}}stase}, \binits{I.I.}}:
+\batitle{Urban landscape quality index--planning tool for evaluating urban
+  landscapes and improving the quality of life}.
+\bjtitle{Procedia Environmental Sciences}
+\bvolume{32},
+\bfpage{155}--\blpage{167}
+(\byear{2016})
+\end{barticle}
+\endbibitem
+
+%%% 56
+\bibitem{Santos2007Monitoring}
+\begin{barticle}
+\bauthor{\bsnm{Santos}, \binits{L.D.}},
+\bauthor{\bsnm{Martins}, \binits{I.}}:
+\batitle{Monitoring urban quality of life: The porto experience}.
+\bjtitle{Social Indicators Research}
+\bvolume{80}(\bissue{2}),
+\bfpage{411}--\blpage{425}
+(\byear{2007})
+\end{barticle}
+\endbibitem
+
+%%% 57
+\bibitem{Roback1982Wages}
+\begin{barticle}
+\bauthor{\bsnm{Roback}, \binits{J.}}:
+\batitle{Wages, rents, and the quality of life}.
+\bjtitle{Journal of political Economy}
+\bvolume{90}(\bissue{6}),
+\bfpage{1257}--\blpage{1278}
+(\byear{1982})
+\end{barticle}
+\endbibitem
+
+%%% 58
+\bibitem{Blomquist1988New}
+\begin{botherref}
+\oauthor{\bsnm{Blomquist}, \binits{G.C.}},
+\oauthor{\bsnm{Berger}, \binits{M.C.}},
+\oauthor{\bsnm{Hoehn}, \binits{J.P.}}:
+New estimates of quality of life in urban areas.
+The American Economic Review,
+89--107
+(1988)
+\end{botherref}
+\endbibitem
+
+%%% 59
+\bibitem{Lora2011New}
+\begin{botherref}
+\oauthor{\bsnm{Lora}, \binits{E.A.}},
+\oauthor{\bsnm{Powell}, \binits{A.}}:
+A new way of monitoring the quality of urban life
+(2011)
+\end{botherref}
+\endbibitem
+
+%%% 60
+\bibitem{HU2019RealEstate}
+\begin{botherref}
+\oauthor{\bsnm{ingatlannet}}:
+Budapest Real Estate Statistic.
+\url{https://www.ingatlannet.hu/statisztika/Budapest}
+\end{botherref}
+\endbibitem
+
+%%% 61
+\bibitem{Cassiers2012Socio}
+\begin{barticle}
+\bauthor{\bsnm{Cassiers}, \binits{T.}},
+\bauthor{\bsnm{Kesteloot}, \binits{C.}}:
+\batitle{Socio-spatial inequalities and social cohesion in european cities}.
+\bjtitle{Urban Studies}
+\bvolume{49}(\bissue{9}),
+\bfpage{1909}--\blpage{1924}
+(\byear{2012})
+\end{barticle}
+\endbibitem
+
+%%% 62
+\bibitem{Garcia2004Cultural}
+\begin{barticle}
+\bauthor{\bsnm{Garcia}, \binits{B.}}:
+\batitle{Cultural policy and urban regeneration in western european cities:
+  lessons from experience, prospects for the future}.
+\bjtitle{Local economy}
+\bvolume{19}(\bissue{4}),
+\bfpage{312}--\blpage{326}
+(\byear{2004})
+\end{barticle}
+\endbibitem
+
+%%% 63
+\bibitem{Gobillon2007Mechanisms}
+\begin{barticle}
+\bauthor{\bsnm{Gobillon}, \binits{L.}},
+\bauthor{\bsnm{Selod}, \binits{H.}},
+\bauthor{\bsnm{Zenou}, \binits{Y.}}:
+\batitle{The mechanisms of spatial mismatch}.
+\bjtitle{Urban studies}
+\bvolume{44}(\bissue{12}),
+\bfpage{2401}--\blpage{2427}
+(\byear{2007})
+\end{barticle}
+\endbibitem
+
+\end{thebibliography}
+
+\newcommand{\BMCxmlcomment}[1]{}
+
+\BMCxmlcomment{
+
+<refgrp>
+
+<bibl id="B1">
+  <title><p>{Transport on coupled spatial networks}</p></title>
+  <aug>
+    <au><snm>Morris</snm><fnm>R. G.</fnm></au>
+    <au><snm>Barthelemy</snm><fnm>M.</fnm></au>
+  </aug>
+  <source>Physical Review Letters</source>
+  <publisher>American Physical Society</publisher>
+  <pubdate>2012</pubdate>
+  <volume>109</volume>
+  <issue>12</issue>
+  <fpage>128703</fpage>
+  <url>https://link.aps.org/doi/10.1103/PhysRevLett.109.128703</url>
+</bibl>
+
+<bibl id="B2">
+  <title><p>{Elementary processes governing the evolution of road
+  networks}</p></title>
+  <aug>
+    <au><snm>Strano</snm><fnm>E</fnm></au>
+    <au><snm>Nicosia</snm><fnm>V</fnm></au>
+    <au><snm>Latora</snm><fnm>V</fnm></au>
+    <au><snm>Porta</snm><fnm>S</fnm></au>
+    <au><snm>Barth{\'{e}}lemy</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Scientific Reports</source>
+  <publisher>Nature Publishing Group</publisher>
+  <pubdate>2012</pubdate>
+  <volume>2</volume>
+  <issue>1</issue>
+  <fpage>296</fpage>
+  <url>http://www.nature.com/articles/srep00296</url>
+</bibl>
+
+<bibl id="B3">
+  <title><p>{Self-organization versus top-down planning in the evolution of a
+  city}</p></title>
+  <aug>
+    <au><snm>Barthelemy</snm><fnm>M</fnm></au>
+    <au><snm>Bordin</snm><fnm>P</fnm></au>
+    <au><snm>Berestycki</snm><fnm>H</fnm></au>
+    <au><snm>Gribaudi</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Scientific Reports</source>
+  <pubdate>2013</pubdate>
+  <volume>3</volume>
+  <issue>1</issue>
+  <fpage>2153</fpage>
+  <url>http://www.nature.com/articles/srep02153</url>
+</bibl>
+
+<bibl id="B4">
+  <title><p>{Structural measures for multiplex networks}</p></title>
+  <aug>
+    <au><snm>Battiston</snm><fnm>F</fnm></au>
+    <au><snm>Nicosia</snm><fnm>V</fnm></au>
+    <au><snm>Latora</snm><fnm>V</fnm></au>
+  </aug>
+  <source>Physical Review E - Statistical, Nonlinear, and Soft Matter
+  Physics</source>
+  <pubdate>2014</pubdate>
+  <volume>89</volume>
+  <issue>3</issue>
+  <fpage>1</fpage>
+  <lpage>-16</lpage>
+</bibl>
+
+<bibl id="B5">
+  <title><p>{Anatomy and efficiency of urban multimodal mobility}</p></title>
+  <aug>
+    <au><snm>Gallotti</snm><fnm>R</fnm></au>
+    <au><snm>Barthelemy</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Scientific Reports</source>
+  <publisher>Nature Publishing Group</publisher>
+  <pubdate>2014</pubdate>
+  <volume>4</volume>
+  <issue>1</issue>
+  <fpage>6911</fpage>
+  <url>http://www.nature.com/articles/srep06911</url>
+</bibl>
+
+<bibl id="B6">
+  <title><p>{Navigability of interconnected networks under random
+  failures}</p></title>
+  <aug>
+    <au><snm>{De Domenico}</snm><fnm>M</fnm></au>
+    <au><snm>Sol{\'{e}} Ribalta</snm><fnm>A</fnm></au>
+    <au><snm>G{\'{o}}mez</snm><fnm>S</fnm></au>
+    <au><snm>Arenas</snm><fnm>A</fnm></au>
+  </aug>
+  <source>Proceedings of the National Academy of Sciences</source>
+  <publisher>National Academy of Sciences</publisher>
+  <pubdate>2014</pubdate>
+  <volume>111</volume>
+  <issue>23</issue>
+  <fpage>8351</fpage>
+  <lpage>-8356</lpage>
+</bibl>
+
+<bibl id="B7">
+  <title><p>{Multiplex networks in metropolitan areas: generic features and
+  local effects}</p></title>
+  <aug>
+    <au><snm>Strano</snm><fnm>E</fnm></au>
+    <au><snm>Shai</snm><fnm>S</fnm></au>
+    <au><snm>Dobson</snm><fnm>S</fnm></au>
+    <au><snm>Barthelemy</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Journal of the Royal Society, Interface</source>
+  <publisher>The Royal Society</publisher>
+  <pubdate>2015</pubdate>
+  <volume>12</volume>
+  <issue>111</issue>
+  <fpage>20150651</fpage>
+</bibl>
+
+<bibl id="B8">
+  <title><p>{A Multilayer perspective for the analysis of urban transportation
+  systems}</p></title>
+  <aug>
+    <au><snm>Aleta</snm><fnm>A</fnm></au>
+    <au><snm>Meloni</snm><fnm>S</fnm></au>
+    <au><snm>Moreno</snm><fnm>Y</fnm></au>
+  </aug>
+  <source>Scientific Reports</source>
+  <pubdate>2017</pubdate>
+  <volume>7</volume>
+  <url>https://www.nature.com/articles/srep44359.pdf</url>
+</bibl>
+
+<bibl id="B9">
+  <title><p>{Morphology of travel routes and the organization of
+  cities}</p></title>
+  <aug>
+    <au><snm>Lee</snm><fnm>M</fnm></au>
+    <au><snm>Barbosa Filho</snm><fnm>H</fnm></au>
+    <au><snm>Youn</snm><fnm>H</fnm></au>
+    <au><snm>Holme</snm><fnm>P</fnm></au>
+    <au><snm>Ghoshal</snm><fnm>G</fnm></au>
+  </aug>
+  <source>Nature Communications</source>
+  <publisher>Nature Publishing Group</publisher>
+  <pubdate>2017</pubdate>
+  <volume>8</volume>
+  <issue>1</issue>
+  <fpage>2229</fpage>
+  <url>http://www.nature.com/articles/s41467-017-02374-7</url>
+</bibl>
+
+<bibl id="B10">
+  <title><p>The death and life of great American cities</p></title>
+  <aug>
+    <au><snm>Jacobs</snm><fnm>J</fnm></au>
+  </aug>
+  <publisher>New York, New York, USA: Random House</publisher>
+  <pubdate>1961</pubdate>
+  <fpage>458</fpage>
+</bibl>
+
+<bibl id="B11">
+  <title><p>{Urban Space Distribution and Sustainable Transport}</p></title>
+  <aug>
+    <au><snm>G{\"{o}}ssling</snm><fnm>S</fnm></au>
+    <au><snm>Schr{\"{o}}der</snm><fnm>M</fnm></au>
+    <au><snm>Sp{\"{a}}th</snm><fnm>P</fnm></au>
+    <au><snm>Freytag</snm><fnm>T</fnm></au>
+  </aug>
+  <source>Transport Reviews</source>
+  <publisher>Routledge</publisher>
+  <pubdate>2016</pubdate>
+  <volume>36</volume>
+  <issue>5</issue>
+  <fpage>659</fpage>
+  <lpage>-679</lpage>
+  <url>http://www.tandfonline.com/doi/full/10.1080/ 01441647.2016.1147101</url>
+</bibl>
+
+<bibl id="B12">
+  <title><p>{Crowdsourced Quantification and Visualization of Urban Mobility
+  Space Inequality}</p></title>
+  <aug>
+    <au><snm>Szell</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Urban Planning</source>
+  <pubdate>2018</pubdate>
+  <volume>3</volume>
+  <issue>1</issue>
+  <fpage>1</fpage>
+</bibl>
+
+<bibl id="B13">
+  <title><p>{OSMnx: New methods for acquiring, constructing, analyzing, and
+  visualizing complex street networks}</p></title>
+  <aug>
+    <au><snm>Boeing</snm><fnm>G</fnm></au>
+  </aug>
+  <source>Computers, Environment and Urban Systems</source>
+  <publisher>Elsevier Ltd</publisher>
+  <pubdate>2017</pubdate>
+  <volume>65</volume>
+  <fpage>126</fpage>
+  <lpage>-139</lpage>
+</bibl>
+
+<bibl id="B14">
+  <title><p>{How good is volunteered geographical information? A comparative
+  study of OpenStreetMap and ordnance survey datasets}</p></title>
+  <aug>
+    <au><snm>Haklay</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Environment and Planning B: Planning and Design</source>
+  <pubdate>2010</pubdate>
+  <volume>37</volume>
+  <issue>4</issue>
+  <fpage>682</fpage>
+  <lpage>-703</lpage>
+  <url>http://journals.sagepub.com/doi/pdf/10.1068/b35097</url>
+</bibl>
+
+<bibl id="B15">
+  <title><p>{Quality Assessment of the French OpenStreetMap
+  Dataset}</p></title>
+  <aug>
+    <au><snm>Girres</snm><fnm>JF</fnm></au>
+    <au><snm>Touya</snm><fnm>G</fnm></au>
+  </aug>
+  <source>Transactions in GIS</source>
+  <publisher>John Wiley {\&} Sons, Ltd (10.1111)</publisher>
+  <pubdate>2010</pubdate>
+  <volume>14</volume>
+  <issue>4</issue>
+  <fpage>435</fpage>
+  <lpage>-459</lpage>
+  <url>http://doi.wiley.com/10.1111/j.1467-9671.2010.01203.x</url>
+</bibl>
+
+<bibl id="B16">
+  <title><p>{Using OpenStreetMap to inventory bicycle infrastructure: A
+  comparison with open data from cities}</p></title>
+  <aug>
+    <au><snm>Ferster</snm><fnm>C</fnm></au>
+    <au><snm>Fischer</snm><fnm>J</fnm></au>
+    <au><snm>Manaugh</snm><fnm>K</fnm></au>
+    <au><snm>Nelson</snm><fnm>T</fnm></au>
+    <au><snm>Winters</snm><fnm>M</fnm></au>
+  </aug>
+  <source>International Journal of Sustainable Transportation</source>
+  <publisher>Taylor {\&} Francis</publisher>
+  <pubdate>2019</pubdate>
+  <fpage>1</fpage>
+  <lpage>-10</lpage>
+  <url>https://www.tandfonline.com/doi/full/10.1080/ 15568318.2018.1519746
+  https://doi.org/10.1080/ 15568318.2018.1519746</url>
+</bibl>
+
+<bibl id="B17">
+  <title><p>{Human Mobility: Models and Applications}</p></title>
+  <aug>
+    <au><snm>Barbosa Filho</snm><fnm>H</fnm></au>
+    <au><snm>Barthelemy</snm><fnm>M</fnm></au>
+    <au><snm>Ghoshal</snm><fnm>G</fnm></au>
+    <au><snm>James</snm><fnm>CR</fnm></au>
+    <au><snm>Lenormand</snm><fnm>M</fnm></au>
+    <au><snm>Louail</snm><fnm>T</fnm></au>
+    <au><snm>Menezes</snm><fnm>R</fnm></au>
+    <au><snm>Ramasco</snm><fnm>JJ</fnm></au>
+    <au><snm>Simini</snm><fnm>F</fnm></au>
+    <au><snm>Tomasini</snm><fnm>M</fnm></au>
+  </aug>
+  <pubdate>2017</pubdate>
+  <url>https://arxiv.org/pdf/1710.00004.pdf http://arxiv.org/abs/
+  1710.00004</url>
+</bibl>
+
+<bibl id="B18">
+  <title><p>{The structure and dynamics of multilayer networks}</p></title>
+  <aug>
+    <au><snm>Boccaletti</snm><fnm>S</fnm></au>
+    <au><snm>Bianconi</snm><fnm>G</fnm></au>
+    <au><snm>Criado</snm><fnm>R</fnm></au>
+    <au><snm>Genio</snm><fnm>C I</fnm></au>
+    <au><snm>G{\'{o}}mez Garde{\~{n}}es</snm><fnm>J.</fnm></au>
+    <au><snm>Romance</snm><fnm>M</fnm></au>
+    <au><snm>Sendi{\~{n}}a Nadal</snm><fnm>I.</fnm></au>
+    <au><snm>Wang</snm><fnm>Z</fnm></au>
+    <au><snm>Zanin</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Physics Reports</source>
+  <pubdate>2014</pubdate>
+  <volume>544</volume>
+  <issue>1</issue>
+  <fpage>1</fpage>
+  <lpage>-122</lpage>
+  <url>https://arxiv.org/pdf/1407.0742.pdf</url>
+</bibl>
+
+<bibl id="B19">
+  <title><p>{Multilayer networks}</p></title>
+  <aug>
+    <au><snm>Kivel{\"{a}}</snm><fnm>M</fnm></au>
+    <au><snm>Arenas</snm><fnm>A</fnm></au>
+    <au><snm>Barthelemy</snm><fnm>M</fnm></au>
+    <au><snm>Gleeson</snm><fnm>JP</fnm></au>
+    <au><snm>Moreno</snm><fnm>Y</fnm></au>
+    <au><snm>Porter</snm><fnm>MA</fnm></au>
+  </aug>
+  <source>Journal of Complex Networks</source>
+  <publisher>Oxford University Press</publisher>
+  <pubdate>2014</pubdate>
+  <volume>2</volume>
+  <issue>3</issue>
+  <fpage>203</fpage>
+  <lpage>-271</lpage>
+  <url>https://academic.oup.com/comnet/article-lookup/doi/10.1093/
+  comnet/cnu016</url>
+</bibl>
+
+<bibl id="B20">
+  <title><p>{The new challenges of multiplex networks: Measures and
+  models}</p></title>
+  <aug>
+    <au><snm>Battiston</snm><fnm>F</fnm></au>
+    <au><snm>Nicosia</snm><fnm>V</fnm></au>
+    <au><snm>Latora</snm><fnm>V</fnm></au>
+  </aug>
+  <source>European Physical Journal: Special Topics</source>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <pubdate>2017</pubdate>
+  <volume>226</volume>
+  <issue>3</issue>
+  <fpage>401</fpage>
+  <lpage>-416</lpage>
+  <url>http://link.springer.com/10.1140/epjst/e2016-60274-8</url>
+</bibl>
+
+<bibl id="B21">
+  <title><p>{The network analysis of urban streets : a primal
+  approach}</p></title>
+  <aug>
+    <au><snm>Porta</snm><fnm>S</fnm></au>
+    <au><snm>Crucitti</snm><fnm>P</fnm></au>
+    <au><snm>Latora</snm><fnm>V</fnm></au>
+  </aug>
+  <source>Environment and Planning B: Planning and Design</source>
+  <publisher>SAGE PublicationsSage UK: London, England</publisher>
+  <pubdate>2006</pubdate>
+  <volume>33</volume>
+  <issue>5</issue>
+  <fpage>705</fpage>
+  <lpage>-726</lpage>
+</bibl>
+
+<bibl id="B22">
+  <title><p>The Geography of Transport Systems (Third Edition)</p></title>
+  <aug>
+    <au><snm>Rodrigue</snm><fnm>JP</fnm></au>
+    <au><snm>Comtois</snm><fnm>C</fnm></au>
+    <au><snm>Slack</snm><fnm>B</fnm></au>
+  </aug>
+  <source>The Geography of Transport Systems</source>
+  <publisher>Routledge</publisher>
+  <pubdate>2013</pubdate>
+  <fpage>432pages</fpage>
+  <url>https://www.routledge.com/The-Geography-of-Transport-
+  Systems-4th-Edition/Rodrigue-Comtois-Slack/p/book/ 9781138669574</url>
+</bibl>
+
+<bibl id="B23">
+  <title><p>A typology of street patterns</p></title>
+  <aug>
+    <au><snm>Louf</snm><fnm>R</fnm></au>
+    <au><snm>Barthelemy</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Journal of The Royal Society Interface</source>
+  <publisher>The Royal Society</publisher>
+  <pubdate>2014</pubdate>
+  <volume>11</volume>
+  <issue>101</issue>
+  <fpage>20140924</fpage>
+</bibl>
+
+<bibl id="B24">
+  <title><p>Liveability in social housing: three case studies in
+  Flanders</p></title>
+  <aug>
+    <au><snm>Heylen</snm><fnm>K</fnm></au>
+  </aug>
+  <source>ENHR Conference'Housing in an Expanding Europe: Theory, Policy,
+  Implementation and Participation', Date: 2006/07/02-2006/07/05, Location:
+  Ljubljana (Slovenia)</source>
+  <pubdate>2006</pubdate>
+</bibl>
+
+<bibl id="B25">
+  <title><p>Walkable environment in increasing the liveability of a
+  city</p></title>
+  <aug>
+    <au><snm>Shamsuddin</snm><fnm>S</fnm></au>
+    <au><snm>Hassan</snm><fnm>NRA</fnm></au>
+    <au><snm>Bilyamin</snm><fnm>SFI</fnm></au>
+  </aug>
+  <source>Procedia-Social and Behavioral Sciences</source>
+  <publisher>Elsevier</publisher>
+  <pubdate>2012</pubdate>
+  <volume>50</volume>
+  <fpage>167</fpage>
+  <lpage>-178</lpage>
+</bibl>
+
+<bibl id="B26">
+  <title><p>Green cities, growing cities, just cities?: Urban planning and the
+  contradictions of sustainable development</p></title>
+  <aug>
+    <au><snm>Campbell</snm><fnm>S</fnm></au>
+  </aug>
+  <source>Journal of the American Planning Association</source>
+  <publisher>Taylor \& Francis</publisher>
+  <pubdate>1996</pubdate>
+  <volume>62</volume>
+  <issue>3</issue>
+  <fpage>296</fpage>
+  <lpage>-312</lpage>
+</bibl>
+
+<bibl id="B27">
+  <title><p>Planning the resilient city: Concepts and strategies for coping
+  with climate change and environmental risk</p></title>
+  <aug>
+    <au><snm>Jabareen</snm><fnm>Y</fnm></au>
+  </aug>
+  <source>Cities</source>
+  <publisher>Elsevier</publisher>
+  <pubdate>2013</pubdate>
+  <volume>31</volume>
+  <fpage>220</fpage>
+  <lpage>-229</lpage>
+</bibl>
+
+<bibl id="B28">
+  <title><p>Many pathways from land use to health: associations between
+  neighborhood walkability and active transportation, body mass index, and air
+  quality</p></title>
+  <aug>
+    <au><snm>Frank</snm><fnm>LD</fnm></au>
+    <au><snm>Sallis</snm><fnm>JF</fnm></au>
+    <au><snm>Conway</snm><fnm>TL</fnm></au>
+    <au><snm>Chapman</snm><fnm>JE</fnm></au>
+    <au><snm>Saelens</snm><fnm>BE</fnm></au>
+    <au><snm>Bachman</snm><fnm>W</fnm></au>
+  </aug>
+  <source>Journal of the American planning Association</source>
+  <publisher>Taylor \& Francis</publisher>
+  <pubdate>2006</pubdate>
+  <volume>72</volume>
+  <issue>1</issue>
+  <fpage>75</fpage>
+  <lpage>-87</lpage>
+</bibl>
+
+<bibl id="B29">
+  <title><p>Walkable City: How Downtown Can Save America, One Step at a
+  Time</p></title>
+  <aug>
+    <au><snm>Speck</snm><fnm>J</fnm></au>
+  </aug>
+  <publisher>New York, New York, USA: Farrar, Straus and Giroux</publisher>
+  <pubdate>2012</pubdate>
+</bibl>
+
+<bibl id="B30">
+  <title><p>Modeling urban street patterns</p></title>
+  <aug>
+    <au><snm>Barth{\'e}lemy</snm><fnm>M</fnm></au>
+    <au><snm>Flammini</snm><fnm>A</fnm></au>
+  </aug>
+  <source>Physical review letters</source>
+  <publisher>APS</publisher>
+  <pubdate>2008</pubdate>
+  <volume>100</volume>
+  <issue>13</issue>
+  <fpage>138702</fpage>
+</bibl>
+
+<bibl id="B31">
+  <title><p>The morphology and circuity of walkable and drivable street
+  networks</p></title>
+  <aug>
+    <au><snm>Boeing</snm><fnm>G</fnm></au>
+  </aug>
+  <source>The mathematics of urban morphology</source>
+  <publisher>Springer</publisher>
+  <pubdate>2019</pubdate>
+  <fpage>271</fpage>
+  <lpage>-287</lpage>
+</bibl>
+
+<bibl id="B32">
+  <title><p>The impact of street network connectivity on pedestrian
+  volume</p></title>
+  <aug>
+    <au><snm>Hajrasouliha</snm><fnm>A</fnm></au>
+    <au><snm>Yin</snm><fnm>L</fnm></au>
+  </aug>
+  <source>Urban Studies</source>
+  <publisher>Sage Publications Sage UK: London, England</publisher>
+  <pubdate>2015</pubdate>
+  <volume>52</volume>
+  <issue>13</issue>
+  <fpage>2483</fpage>
+  <lpage>-2497</lpage>
+</bibl>
+
+<bibl id="B33">
+  <title><p>The digital life of walkable streets</p></title>
+  <aug>
+    <au><snm>Quercia</snm><fnm>D</fnm></au>
+    <au><snm>Aiello</snm><fnm>LM</fnm></au>
+    <au><snm>Schifanella</snm><fnm>R</fnm></au>
+    <au><snm>Davies</snm><fnm>A</fnm></au>
+  </aug>
+  <source>Proceedings of the 24th international conference on World Wide
+  Web</source>
+  <pubdate>2015</pubdate>
+  <fpage>875</fpage>
+  <lpage>-884</lpage>
+</bibl>
+
+<bibl id="B34">
+  <title><p>Investigating the relationships between the built environment, the
+  climate, walkability and physical activity in the Arabian Peninsula: The case
+  of Bahrain</p></title>
+  <aug>
+    <au><snm>Silva</snm><fnm>JP</fnm></au>
+    <au><snm>Akleh</snm><fnm>AZ</fnm></au>
+  </aug>
+  <source>Cogent Social Sciences</source>
+  <publisher>Cogent OA</publisher>
+  <pubdate>2018</pubdate>
+  <volume>4</volume>
+  <issue>1</issue>
+  <fpage>1502907</fpage>
+</bibl>
+
+<bibl id="B35">
+  <title><p>The global walkability index</p></title>
+  <aug>
+    <au><snm>Krambeck</snm><fnm>HV</fnm></au>
+  </aug>
+  <source>PhD thesis</source>
+  <publisher>Massachusetts Institute of Technology</publisher>
+  <pubdate>2006</pubdate>
+</bibl>
+
+<bibl id="B36">
+  <title><p>Designing the walkable city</p></title>
+  <aug>
+    <au><snm>Southworth</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Journal of urban planning and development</source>
+  <publisher>American Society of Civil Engineers</publisher>
+  <pubdate>2005</pubdate>
+  <volume>131</volume>
+  <issue>4</issue>
+  <fpage>246</fpage>
+  <lpage>-257</lpage>
+</bibl>
+
+<bibl id="B37">
+  <title><p>Walk score™ as a global estimate of neighborhood
+  walkability</p></title>
+  <aug>
+    <au><snm>Carr</snm><fnm>LJ</fnm></au>
+    <au><snm>Dunsiger</snm><fnm>SI</fnm></au>
+    <au><snm>Marcus</snm><fnm>BH</fnm></au>
+  </aug>
+  <source>American journal of preventive medicine</source>
+  <publisher>Elsevier</publisher>
+  <pubdate>2010</pubdate>
+  <volume>39</volume>
+  <issue>5</issue>
+  <fpage>460</fpage>
+  <lpage>-463</lpage>
+</bibl>
+
+<bibl id="B38">
+  <title><p>Sustainable urban development reader</p></title>
+  <aug>
+    <au><snm>Wheeler</snm><fnm>SM</fnm></au>
+    <au><snm>Beatley</snm><fnm>T</fnm></au>
+  </aug>
+  <publisher>UK: Routledge</publisher>
+  <pubdate>2014</pubdate>
+</bibl>
+
+<bibl id="B39">
+  <title><p>A Case for Data-Driven City Planning</p></title>
+  <aug>
+    <au><snm>Childs</snm><fnm>S</fnm></au>
+  </aug>
+  <pubdate>2018 (accessed June 3, 2019)</pubdate>
+  <url>https://medium.com/citiesense/a-case-for-data-driven-city-planning-8cd7d9332a</url>
+</bibl>
+
+<bibl id="B40">
+  <title><p>How Technology Empowers Data-Driven Urban Planning</p></title>
+  <aug>
+    <au><snm>Kaushik</snm><fnm>V</fnm></au>
+  </aug>
+  <pubdate>2017 (accesed June 3, 2019</pubdate>
+  <url>https://www.getrevue.co/profile/TGIC/issues/how-technology-empowers-data-driven-urban-planning-59814</url>
+</bibl>
+
+<bibl id="B41">
+  <title><p>Data-Driven City Management</p></title>
+  <aug>
+    <au><snm>Fitzgerald</snm><fnm>M</fnm></au>
+  </aug>
+  <pubdate>2016 (accesed June 3, 2019</pubdate>
+  <url>https://sloanreview.mit.edu/case-study/data-driven-city-management/</url>
+</bibl>
+
+<bibl id="B42">
+  <title><p>Budapest districts</p></title>
+  <url>https://data2.openstreetmap.hu/hatarok/index.php?admin=9</url>
+</bibl>
+
+<bibl id="B43">
+  <title><p>Bunugyi statisztikak</p></title>
+  <aug>
+    <au><snm>Police</snm><fnm>H</fnm></au>
+  </aug>
+  <url>http://www.police.hu/a-rendorsegrol/statisztikak/bunugyi-statisztikak</url>
+  <note>\textit{Data available at request}</note>
+</bibl>
+
+<bibl id="B44">
+  <title><p>Hungarian population data</p></title>
+  <pubdate>2016</pubdate>
+  <url>https://www.ksh.hu/mikrocenzus2016/</url>
+</bibl>
+
+<bibl id="B45">
+  <title><p>National Air Pollution Measurement Network,</p></title>
+  <aug>
+    <au><snm>Network</snm><fnm>AM</fnm></au>
+  </aug>
+  <url>http://levegominoseg.hu/manualis-merohalozat</url>
+  <note>\textit{Data available at request}</note>
+</bibl>
+
+<bibl id="B46">
+  <title><p>The social effects of the physical environment</p></title>
+  <aug>
+    <au><snm>Rosow</snm><fnm>I</fnm></au>
+  </aug>
+  <source>Journal of the American Institute of Planners</source>
+  <publisher>Taylor \& Francis</publisher>
+  <pubdate>1961</pubdate>
+  <volume>27</volume>
+  <issue>2</issue>
+  <fpage>127</fpage>
+  <lpage>-133</lpage>
+</bibl>
+
+<bibl id="B47">
+  <title><p>Developments in the measurement of subjective
+  well-being</p></title>
+  <aug>
+    <au><snm>Kahneman</snm><fnm>D</fnm></au>
+    <au><snm>Krueger</snm><fnm>AB</fnm></au>
+  </aug>
+  <source>Journal of Economic perspectives</source>
+  <pubdate>2006</pubdate>
+  <volume>20</volume>
+  <issue>1</issue>
+  <fpage>3</fpage>
+  <lpage>-24</lpage>
+</bibl>
+
+<bibl id="B48">
+  <title><p>Community detection by graph Voronoi diagrams</p></title>
+  <aug>
+    <au><snm>Deritei</snm><fnm>D</fnm></au>
+    <au><snm>Lazar</snm><fnm>ZI</fnm></au>
+    <au><snm>Papp</snm><fnm>I</fnm></au>
+    <au><snm>Jarai Szabo</snm><fnm>F</fnm></au>
+    <au><snm>Sumi</snm><fnm>R</fnm></au>
+    <au><snm>Varga</snm><fnm>L</fnm></au>
+    <au><snm>Regan</snm><fnm>ER</fnm></au>
+    <au><snm>Ercsey Ravasz</snm><fnm>M</fnm></au>
+  </aug>
+  <source>New Journal of Physics</source>
+  <publisher>IOP Publishing</publisher>
+  <pubdate>2014</pubdate>
+  <volume>16</volume>
+  <issue>6</issue>
+  <fpage>063007</fpage>
+</bibl>
+
+<bibl id="B49">
+  <title><p>The Making of Urban Europe: 1000-1994</p></title>
+  <aug>
+    <au><snm>Hohenberg</snm><fnm>PM</fnm></au>
+    <au><snm>Lees</snm><fnm>LH</fnm></au>
+  </aug>
+  <publisher>Harvard University Press</publisher>
+  <pubdate>1996</pubdate>
+</bibl>
+
+<bibl id="B50">
+  <title><p>Why is central Paris rich and downtown Detroit poor?: An
+  amenity-based theory</p></title>
+  <aug>
+    <au><snm>Brueckner</snm><fnm>JK</fnm></au>
+    <au><snm>Thisse</snm><fnm>JF</fnm></au>
+    <au><snm>Zenou</snm><fnm>Y</fnm></au>
+  </aug>
+  <source>European economic review</source>
+  <publisher>Elsevier</publisher>
+  <pubdate>1999</pubdate>
+  <volume>43</volume>
+  <issue>1</issue>
+  <fpage>91</fpage>
+  <lpage>-107</lpage>
+</bibl>
+
+<bibl id="B51">
+  <title><p>Magyarorsz{\'a}g t{\'a}rsadalomt{\"o}rt{\'e}nete a reformkort{\'o}l
+  a m{\'a}sodik vil{\'a}gh{\'a}bor{\'u}ig</p></title>
+  <aug>
+    <au><snm>K{\"o}v{\'e}r</snm><fnm>G</fnm></au>
+    <au><snm>Gy{\'a}ni</snm><fnm>G</fnm></au>
+  </aug>
+  <publisher>Osiris</publisher>
+  <pubdate>1998</pubdate>
+</bibl>
+
+<bibl id="B52">
+  <title><p>The new transit town: Best practices in transit-oriented
+  development</p></title>
+  <aug>
+    <au><snm>Dittmar</snm><fnm>H</fnm></au>
+    <au><snm>Ohland</snm><fnm>G</fnm></au>
+  </aug>
+  <publisher>Island Press</publisher>
+  <pubdate>2012</pubdate>
+</bibl>
+
+<bibl id="B53">
+  <title><p>Examining walkability and social capital as indicators of quality
+  of life at the municipal and neighborhood scales</p></title>
+  <aug>
+    <au><snm>Rogers</snm><fnm>SH</fnm></au>
+    <au><snm>Halstead</snm><fnm>JM</fnm></au>
+    <au><snm>Gardner</snm><fnm>KH</fnm></au>
+    <au><snm>Carlson</snm><fnm>CH</fnm></au>
+  </aug>
+  <source>Applied Research in Quality of Life</source>
+  <publisher>Springer</publisher>
+  <pubdate>2011</pubdate>
+  <volume>6</volume>
+  <issue>2</issue>
+  <fpage>201</fpage>
+  <lpage>-213</lpage>
+</bibl>
+
+<bibl id="B54">
+  <title><p>A geographic visualization approach to multi-criteria evaluation of
+  urban quality of life</p></title>
+  <aug>
+    <au><snm>Rinner</snm><fnm>C</fnm></au>
+  </aug>
+  <source>International Journal of Geographical Information Science</source>
+  <publisher>Taylor \& Francis</publisher>
+  <pubdate>2007</pubdate>
+  <volume>21</volume>
+  <issue>8</issue>
+  <fpage>907</fpage>
+  <lpage>-919</lpage>
+</bibl>
+
+<bibl id="B55">
+  <title><p>Urban landscape quality index--planning tool for evaluating urban
+  landscapes and improving the quality of life</p></title>
+  <aug>
+    <au><snm>Gavrilidis</snm><fnm>AA</fnm></au>
+    <au><snm>Cioc{\u{a}}nea</snm><fnm>CM</fnm></au>
+    <au><snm>Ni{\c{t}}{\u{a}}</snm><fnm>MR</fnm></au>
+    <au><snm>Onose</snm><fnm>DA</fnm></au>
+    <au><snm>N{\u{a}}stase</snm><fnm>II</fnm></au>
+  </aug>
+  <source>Procedia Environmental Sciences</source>
+  <publisher>Elsevier</publisher>
+  <pubdate>2016</pubdate>
+  <volume>32</volume>
+  <fpage>155</fpage>
+  <lpage>-167</lpage>
+</bibl>
+
+<bibl id="B56">
+  <title><p>Monitoring urban quality of life: The Porto experience</p></title>
+  <aug>
+    <au><snm>Santos</snm><fnm>LD</fnm></au>
+    <au><snm>Martins</snm><fnm>I</fnm></au>
+  </aug>
+  <source>Social Indicators Research</source>
+  <publisher>Springer</publisher>
+  <pubdate>2007</pubdate>
+  <volume>80</volume>
+  <issue>2</issue>
+  <fpage>411</fpage>
+  <lpage>-425</lpage>
+</bibl>
+
+<bibl id="B57">
+  <title><p>Wages, rents, and the quality of life</p></title>
+  <aug>
+    <au><snm>Roback</snm><fnm>J</fnm></au>
+  </aug>
+  <source>Journal of political Economy</source>
+  <publisher>The University of Chicago Press</publisher>
+  <pubdate>1982</pubdate>
+  <volume>90</volume>
+  <issue>6</issue>
+  <fpage>1257</fpage>
+  <lpage>-1278</lpage>
+</bibl>
+
+<bibl id="B58">
+  <title><p>New estimates of quality of life in urban areas</p></title>
+  <aug>
+    <au><snm>Blomquist</snm><fnm>GC</fnm></au>
+    <au><snm>Berger</snm><fnm>MC</fnm></au>
+    <au><snm>Hoehn</snm><fnm>JP</fnm></au>
+  </aug>
+  <source>The American Economic Review</source>
+  <publisher>JSTOR</publisher>
+  <pubdate>1988</pubdate>
+  <fpage>89</fpage>
+  <lpage>-107</lpage>
+</bibl>
+
+<bibl id="B59">
+  <title><p>A new way of monitoring the quality of urban life</p></title>
+  <aug>
+    <au><snm>Lora</snm><fnm>EA</fnm></au>
+    <au><snm>Powell</snm><fnm>A</fnm></au>
+  </aug>
+  <publisher>IDB Working Paper No. IDB-WP-272</publisher>
+  <pubdate>2011</pubdate>
+</bibl>
+
+<bibl id="B60">
+  <title><p>Budapest Real Estate Statistic</p></title>
+  <aug>
+    <au><cnm>ingatlannet</cnm></au>
+  </aug>
+  <url>https://www.ingatlannet.hu/statisztika/Budapest</url>
+</bibl>
+
+<bibl id="B61">
+  <title><p>Socio-spatial inequalities and social cohesion in European
+  cities</p></title>
+  <aug>
+    <au><snm>Cassiers</snm><fnm>T</fnm></au>
+    <au><snm>Kesteloot</snm><fnm>C</fnm></au>
+  </aug>
+  <source>Urban Studies</source>
+  <publisher>SAGE Publications Sage UK: London, England</publisher>
+  <pubdate>2012</pubdate>
+  <volume>49</volume>
+  <issue>9</issue>
+  <fpage>1909</fpage>
+  <lpage>-1924</lpage>
+</bibl>
+
+<bibl id="B62">
+  <title><p>Cultural policy and urban regeneration in Western European cities:
+  lessons from experience, prospects for the future</p></title>
+  <aug>
+    <au><snm>Garcia</snm><fnm>B</fnm></au>
+  </aug>
+  <source>Local economy</source>
+  <publisher>SAGE Publications Sage UK: London, England</publisher>
+  <pubdate>2004</pubdate>
+  <volume>19</volume>
+  <issue>4</issue>
+  <fpage>312</fpage>
+  <lpage>-326</lpage>
+</bibl>
+
+<bibl id="B63">
+  <title><p>The mechanisms of spatial mismatch</p></title>
+  <aug>
+    <au><snm>Gobillon</snm><fnm>L</fnm></au>
+    <au><snm>Selod</snm><fnm>H</fnm></au>
+    <au><snm>Zenou</snm><fnm>Y</fnm></au>
+  </aug>
+  <source>Urban studies</source>
+  <publisher>Sage Publications Sage UK: London, England</publisher>
+  <pubdate>2007</pubdate>
+  <volume>44</volume>
+  <issue>12</issue>
+  <fpage>2401</fpage>
+  <lpage>-2427</lpage>
+</bibl>
+
+</refgrp>
+} % end of \BMCxmlcomment
