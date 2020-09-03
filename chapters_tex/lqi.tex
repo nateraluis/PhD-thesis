@@ -30,10 +30,10 @@ The network contains all the sidewalks and pedestrian designated infrastructure,
 
 We assigned properties to the nodes of the network, matching the nodes with their corresponding districts, then assign nodes as attributes based on the district level data (population and crimes, see section \ref{safety}). For the pollution data, we calculated the corresponding Voronoi cells, for the air quality stations, and matched the nodes with them, we divided the pollution by the number of nodes in each corresponding cell and assigned the value to the nodes (See section \ref{environment}). For the edges, we encoded their length $\ell_{ij}$ along with the traversal time $Tt_{ij}$ between nodes $i$ and $j$ calculated as $Tt_{ij}=\frac{\ell_{ij}}{ps}$ where $ps$ is the pedestrian speed as a constant rate of $5km/h$.
 \begin{figure*}[htbp]
-    \centering
-    \includegraphics[width=0.8\textwidth]{images/lqi/Budapest_Network_voronoi_op2.png}
-    \caption{\textbf{(a)} Network representing Budapest pedestrian structure. The network was built following a primal approach, where the edges are sidewalks and pedestrian infrastructure, and nodes are intersections. \textbf{(b)} The graph-Voronoi tessellation of the Budapest network, generated using a subset of 15 parks as seeds. The color of the nodes represents the cell they belong to and the highlighted red dots are the seeds of each cell. The distance measure between two points is defined as the weighted shortest path on the graph, the weights being the average time required to cross a given edge.}
-    \label{fig:BPnetwork}
+	\centering
+	\includegraphics[width=0.8\textwidth]{images/lqi/Budapest_Network_voronoi_op2.png}
+	\caption{\textbf{(a)} Network representing Budapest pedestrian structure. The network was built following a primal approach, where the edges are sidewalks and pedestrian infrastructure, and nodes are intersections. \textbf{(b)} The graph-Voronoi tessellation of the Budapest network, generated using a subset of 15 parks as seeds. The color of the nodes represents the cell they belong to and the highlighted red dots are the seeds of each cell. The distance measure between two points is defined as the weighted shortest path on the graph, the weights being the average time required to cross a given edge.}
+	\label{fig:BPnetwork}
 \end{figure*}
 
 \section{Quantifying Life Quality}
@@ -45,14 +45,14 @@ The fundamental framework of our model and our calculations is the network repre
 
 The final value of the index is a weighted sum, characterizing every node (intersection) in the network:
 \begin{equation} \label{final_Q}
-    Q_i =w^{services}\Tilde{Q}_i^{services} + w^{safety} \Tilde{Q}_i^{safety} + w^{environment}\Tilde{Q}_i^{environment}
+	Q_i =w^{services}\Tilde{Q}_i^{services} + w^{safety} \Tilde{Q}_i^{safety} + w^{environment}\Tilde{Q}_i^{environment}
 \end{equation}
 In the equation $i$ represents an individual node in the network. The ``tilde'' above the $Q$ terms means that the values of the different category indices are normalized within the category. The weights $w$ assigned to every term are arbitrary and are highly context-dependent. We include the weights used for producing the results of this paper in Appendix B.  All terms of the equation are discussed in the following sections.
 
 \subsection{The services index: $Q^{services}$}
 The number quantifying each node in terms of how well it is connected with amenities and services is a weighted sum of sub-categories as well.
 \begin{equation}\label{Q_services}
-    Q_i^{services} =\sum_c w^c Q_i^c
+	Q_i^{services} =\sum_c w^c Q_i^c
 \end{equation}
 
 where, $c$ denotes categories (family, culture, health, sport, and nightlife), and $w^c$ the importance (weight, see Appendix B) of category $c$.
@@ -62,31 +62,31 @@ What sets categories apart is that they incorporate different sets of amenities,
 
 For every service/amenity class we have a given set of points of interest (POI) along with where the amenities of that class are available, with exact geo-location. We assign every POI of a given amenity class (e.g supermarket, pharmacy, school, etc.) to the nearest node on the infrastructure network. Each set of POIs organically generates a spatial partitioning of the city with one partition per POI. The partition of a POI is the set of all the nodes from which that particular POI can be reached faster than any other POI of the same class.
 
-Mathematically these partitions are called graph-Voronoi cells \cite{Erwing2000Graph,Deritei2014Community}, where every node of a cell is assigned to its closest seed (POI). Distance, in this case, is not euclidean or geometric distance, but the distance on the network, where we use the weighted shortest path between two nodes as the distance measure. The weight of links is a temporal parameter encoding the average time required to cross the represented street from one end to the other, thus the weight is a simple product of average speed and length of the street. This is in principle very similar to the way navigation systems find routes between points. For an example of a graph-Voronoi partitioning see Figure 1 (b).\\
+Mathematically these partitions are called graph-Voronoi cells \cite{Erwig2000Graph,Deritei2014Community}, where every node of a cell is assigned to its closest seed (POI). Distance, in this case, is not euclidean or geometric distance, but the distance on the network, where we use the weighted shortest path between two nodes as the distance measure. The weight of links is a temporal parameter encoding the average time required to cross the represented street from one end to the other, thus the weight is a simple product of average speed and length of the street. This is in principle very similar to the way navigation systems find routes between points. For an example of a graph-Voronoi partitioning see Figure 1 (b).\\
 To assess how well connected a node is to amenities we consider the following factors:
 \begin{itemize}
-    \item How important is an amenity - weight ($w_a$)
-    \item How long does it take to reach the amenity - time to reach ($t_ia$)
-    \item Relatively how many nodes (or people) does the amenity share with - exclusivity ($P_a$)
+	\item How important is an amenity - weight ($w_a$)
+	\item How long does it take to reach the amenity - time to reach ($t_ia$)
+	\item Relatively how many nodes (or people) does the amenity share with - exclusivity ($P_a$)
 \end{itemize}
 
 From the three factors, the latter two are calculated using the city infrastructure network. The index for an amenity class, from the perspective of node $i$, is proportional with its importance (weight) and it is inversely proportional with the time to reach the closest POI from $i$ and with the degree of exclusivity.
 \begin{equation}\label{q_i}
-    q_i^a=\frac{w_{a}}{(P_a+1)(t_{ia}+1)}
+	q_i^a=\frac{w_{a}}{(P_a+1)(t_{ia}+1)}
 \end{equation}
 
 There can be certain singular cases when a Voronoi cell is empty ($P_a=0$, i.e. no residents in the area) or the node i in question is right at the POI ($t_{ia}=0$). To avoid anomalies in the index we added 1 to both parameters.
 
 The index of one category is proportional to the sum of its amenity-indices (calculated in (\ref{q_i})). To treat this number on the right scale (in practice we can get very large and very small numbers) we take the natural logarithm of the sum across amenities.
 \begin{equation}
-    Q_i^c=log(\sum_a q_i^a):
+	Q_i^c=log(\sum_a q_i^a):
 \end{equation}
 
 As we have mentioned earlier the final services index is the weighted sum of the indices of the sub-categories.
 $$Q_i^{services} =\sum_c w^cQ_i^c $$
 Finally we normalize the values of $Q^{services}$ so its values are comparable to the other values of the final $Q$ equation (\ref{final_Q}):
 \begin{equation}
-    \Tilde{Q}_i^{services} =\frac{Q_i^{services}+|min(Q^{services})|}{max(Q^{services})+|min(Q^{services})|}
+	\Tilde{Q}_i^{services} =\frac{Q_i^{services}+|min(Q^{services})|}{max(Q^{services})+|min(Q^{services})|}
 \end{equation}
 
 \subsection{Safety index: $Q^{safety}$} \label{safety}
@@ -96,7 +96,7 @@ The safety index is calculated across districts based on the number of crimes co
 $$Q_i^{crime}=\frac{N^{district}_{crime}}{n_i^{district}}$$
 Where $N^{district}_{crime}$ is the number of crimes committed in a district in a year, and $n_i^{district}$ is the number of nodes in the district. The safety index is one minus the normalized crime index.
 \begin{equation}
-    \Tilde{Q}_i^{safety}=1-\frac{Q_i^{crime}}{max(Q^{crime})}
+	\Tilde{Q}_i^{safety}=1-\frac{Q_i^{crime}}{max(Q^{crime})}
 \end{equation}
 
 \subsection{Environmental index $Q^{environment}$} \label{environment}
@@ -125,10 +125,10 @@ $$\Tilde{Q}_i^{environment}=\frac{Q_i^{environment}}{max(Q^{environment})}$$
 We quantify life quality in terms of each category (family support, education healthcare, sport, culture, nightlife, environment), and an overall measurement which contains all 6 categories and crime rate normalized by the population for the city of Budapest. Our method allows us to measure life quality for each intersection of the city, which helps to capture within neighborhood inequalities too. Analysis on the category level is beneficial for targeted policy interventions for better service allocation.
 
 \begin{figure*}[htbp]
-    \centering
-    \includegraphics[width=0.8\textwidth]{images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf}
-    \caption{Budapest neighborhoods, average life quality by categories and aggregated life quality index.}
-    \label{fig:BPlqi}
+	\centering
+	\includegraphics[width=0.8\textwidth]{images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf}
+	\caption{Budapest neighborhoods, average life quality by categories and aggregated life quality index.}
+	\label{fig:BPlqi}
 \end{figure*}
 
 Figure~\ref{fig:BPlqi} shows our overall life quality index (LQI) and by categories. Heatmaps reveal important features of Budapest. Similarly to most European cities life quality is much better in the inner districts \cite{Hohenberg1996Urban,Brueckner1999Central}, especially in the case of Night Life and Culture.
@@ -141,17 +141,17 @@ The compact city concept focuses on building more sustainable and livable cities
 
 \subsection{Evaluation}
 
-Multiple methods have been developed to evaluate the accuracy of quality of life metrics: Scholars used expert validation with geographic visualization \cite{Rinner2007Geographic,Gavrilidis2016Urban}, correlations with socioeconomic characteristics \cite{Talen2012Pedestrian} and surveying citizens’ perceptions of the conditions of life \cite{Santos2007Monitoring}.
+Multiple methods have been developed to evaluate the accuracy of quality of life metrics: Scholars used expert validation with geographic visualization \cite{Rinner2007Geographic,Gavrilidis2016Urban}, correlations with socioeconomic characteristics \cite{Talen2002Pedestrian} and surveying citizens’ perceptions of the conditions of life \cite{Santos2007Monitoring}.
 
 Our evaluation is based on the micro-economical {\it hedonic approach} of estimating the values of public goods. In a capitalist market, real estate prices reflect the recognition of a neighborhood's characteristics: Prices are formed based on demand, more desirable places are more expensive, due to the underlying assumption of providing a higher quality of life. \cite{Brueckner1999Central} Estimating neighborhoods life-quality with real estate prices has a long tradition in urban literature \cite{Roback1982Wages,Blomquist1988New,Lora2011New}, therefore we adopt this method to evaluate our model.
 
 We collected the average $m^{2}/EUR$ price for all 23 districts of Budapest in January 2019 \cite{HU2019RealEstate} and correlated each LQI category averaged by district with it. Figure \ref{fig:LQI_ev} shows that our overall LQI correlates the most (R=0.91) with the real-estate prices. Most of its components have a positive correlation with real-estate prices, except the environment which is calculated based on air pollution and green surface proximity. The life quality (LQI) in Budapest is much higher in densely populated downtown districts, which are lack of green surface and suffers from high air pollution due to heavy traffic.
 
 \begin{figure*}[htbp]
-    \centering
-    \includegraphics[width=0.8\textwidth]{images/lqi/LQI_categories_regplots.pdf}
-    \caption{Districts of Budapest Life Quality Index (LQI) and its components correlated with real estate prices ($m^{2}/EUR$)}
-    \label{fig:LQI_ev}
+	\centering
+	\includegraphics[width=0.8\textwidth]{images/lqi/LQI_categories_regplots.pdf}
+	\caption{Districts of Budapest Life Quality Index (LQI) and its components correlated with real estate prices ($m^{2}/EUR$)}
+	\label{fig:LQI_ev}
 \end{figure*}
 
 \paragraph{Summary} Locals of Budapest, like in most European cities, traditionally values downtown areas. The relative closeness to CBD, good access to public transport, and vital city life kept it as a desirable area for living \cite{Cassiers2012Socio}. However, in recent years, the city is facing new challenges: due to gentrification \cite{Garcia2004Cultural} and over-tourism (eg.:Airbnb) real estate prices are sky-rocketing in downtown areas. In contrast with the early 2000-s when (upper) middle-class moved to the suburbs, nowadays, lower-income families and young professionals are leaving the downtown behind in hope for more affordable living.
