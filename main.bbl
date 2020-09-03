@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{63}
+\begin{thebibliography}{77}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -691,6 +691,18 @@ National Air Pollution Measurement Network,.
 \endbibitem
 
 %%% 48
+\bibitem{Erwig2000Graph}
+\begin{barticle}
+\bauthor{\bsnm{Erwig}, \binits{M.}}:
+\batitle{The graph voronoi diagram with applications}.
+\bjtitle{Networks: An International Journal}
+\bvolume{36}(\bissue{3}),
+\bfpage{156}--\blpage{163}
+(\byear{2000})
+\end{barticle}
+\endbibitem
+
+%%% 49
 \bibitem{Deritei2014Community}
 \begin{barticle}
 \bauthor{\bsnm{Deritei}, \binits{D.}},
@@ -709,7 +721,7 @@ National Air Pollution Measurement Network,.
 \end{barticle}
 \endbibitem
 
-%%% 49
+%%% 50
 \bibitem{Hohenberg1996Urban}
 \begin{bbook}
 \bauthor{\bsnm{Hohenberg}, \binits{P.M.}},
@@ -720,7 +732,7 @@ National Air Pollution Measurement Network,.
 \end{bbook}
 \endbibitem
 
-%%% 50
+%%% 51
 \bibitem{Brueckner1999Central}
 \begin{barticle}
 \bauthor{\bsnm{Brueckner}, \binits{J.K.}},
@@ -735,7 +747,7 @@ National Air Pollution Measurement Network,.
 \end{barticle}
 \endbibitem
 
-%%% 51
+%%% 52
 \bibitem{Kover2006Magyarorszag}
 \begin{botherref}
 \oauthor{\bsnm{K{\"o}v{\'e}r}, \binits{G.}},
@@ -747,7 +759,7 @@ Osiris
 \end{botherref}
 \endbibitem
 
-%%% 52
+%%% 53
 \bibitem{Dittmar2012New}
 \begin{bbook}
 \bauthor{\bsnm{Dittmar}, \binits{H.}},
@@ -758,7 +770,7 @@ Osiris
 \end{bbook}
 \endbibitem
 
-%%% 53
+%%% 54
 \bibitem{Rogers2011Examining}
 \begin{barticle}
 \bauthor{\bsnm{Rogers}, \binits{S.H.}},
@@ -774,7 +786,7 @@ Osiris
 \end{barticle}
 \endbibitem
 
-%%% 54
+%%% 55
 \bibitem{Rinner2007Geographic}
 \begin{barticle}
 \bauthor{\bsnm{Rinner}, \binits{C.}}:
@@ -787,7 +799,7 @@ Osiris
 \end{barticle}
 \endbibitem
 
-%%% 55
+%%% 56
 \bibitem{Gavrilidis2016Urban}
 \begin{barticle}
 \bauthor{\bsnm{Gavrilidis}, \binits{A.A.}},
@@ -804,7 +816,19 @@ Osiris
 \end{barticle}
 \endbibitem
 
-%%% 56
+%%% 57
+\bibitem{Talen2002Pedestrian}
+\begin{barticle}
+\bauthor{\bsnm{Talen}, \binits{E.}}:
+\batitle{Pedestrian access as a measure of urban quality}.
+\bjtitle{Planning Practice and Research}
+\bvolume{17}(\bissue{3}),
+\bfpage{257}--\blpage{278}
+(\byear{2002})
+\end{barticle}
+\endbibitem
+
+%%% 58
 \bibitem{Santos2007Monitoring}
 \begin{barticle}
 \bauthor{\bsnm{Santos}, \binits{L.D.}},
@@ -817,7 +841,7 @@ Osiris
 \end{barticle}
 \endbibitem
 
-%%% 57
+%%% 59
 \bibitem{Roback1982Wages}
 \begin{barticle}
 \bauthor{\bsnm{Roback}, \binits{J.}}:
@@ -829,7 +853,7 @@ Osiris
 \end{barticle}
 \endbibitem
 
-%%% 58
+%%% 60
 \bibitem{Blomquist1988New}
 \begin{botherref}
 \oauthor{\bsnm{Blomquist}, \binits{G.C.}},
@@ -842,7 +866,7 @@ The American Economic Review,
 \end{botherref}
 \endbibitem
 
-%%% 59
+%%% 61
 \bibitem{Lora2011New}
 \begin{botherref}
 \oauthor{\bsnm{Lora}, \binits{E.A.}},
@@ -852,7 +876,7 @@ A new way of monitoring the quality of urban life
 \end{botherref}
 \endbibitem
 
-%%% 60
+%%% 62
 \bibitem{HU2019RealEstate}
 \begin{botherref}
 \oauthor{\bsnm{ingatlannet}}:
@@ -861,7 +885,7 @@ Budapest Real Estate Statistic.
 \end{botherref}
 \endbibitem
 
-%%% 61
+%%% 63
 \bibitem{Cassiers2012Socio}
 \begin{barticle}
 \bauthor{\bsnm{Cassiers}, \binits{T.}},
@@ -874,7 +898,7 @@ Budapest Real Estate Statistic.
 \end{barticle}
 \endbibitem
 
-%%% 62
+%%% 64
 \bibitem{Garcia2004Cultural}
 \begin{barticle}
 \bauthor{\bsnm{Garcia}, \binits{B.}}:
@@ -887,7 +911,7 @@ Budapest Real Estate Statistic.
 \end{barticle}
 \endbibitem
 
-%%% 63
+%%% 65
 \bibitem{Gobillon2007Mechanisms}
 \begin{barticle}
 \bauthor{\bsnm{Gobillon}, \binits{L.}},
@@ -899,6 +923,114 @@ Budapest Real Estate Statistic.
 \bfpage{2401}--\blpage{2427}
 (\byear{2007})
 \end{barticle}
+\endbibitem
+
+%%% 66
+\bibitem{HU_sport}
+\begin{botherref}
+Sport Associations in Budapest.
+(2019 (accesed June 3, 2019).
+\url{https://sportmegoldasok.hu/klub_budapest.ht}
+\end{botherref}
+\endbibitem
+
+%%% 67
+\bibitem{HU_Edu}
+\begin{botherref}
+Kindergartens \& Daycare, Primary Education, Secondary Education.
+(2019 (accesed June 3, 2019).
+\url{http://budapest.imami.hu/iskolak-ovodak-bolcsodek/}
+\end{botherref}
+\endbibitem
+
+%%% 68
+\bibitem{HU_Art}
+\begin{botherref}
+Art and Music Schools.
+(2019 (accesed June 3, 2019).
+\url{http://budapest.imami.hu/iskolak-ovodak-bolcsodek/muveszeti-es-sportiskolak}
+\end{botherref}
+\endbibitem
+
+%%% 69
+\bibitem{HU_Child}
+\begin{botherref}
+Pediatricians, Gynecologists.
+(2019 (accesed June 3, 2019).
+\url{http://budapest.imami.hu/egeszseg}
+\end{botherref}
+\endbibitem
+
+%%% 70
+\bibitem{HU_Social}
+\begin{botherref}
+Social Welfare.
+(2019 (accesed June 3, 2019).
+\url{http://szocialisportal.hu/intezmenykereso}
+\end{botherref}
+\endbibitem
+
+%%% 71
+\bibitem{HU_Cult}
+\begin{botherref}
+Culture Centers.
+(2019 (accesed June 3, 2019).
+\url{https://holmivan.valami.info/kultura-lista-220/kultura,Budapest}
+\end{botherref}
+\endbibitem
+
+%%% 72
+\bibitem{HU_Play}
+\begin{botherref}
+Indoor Playgrounds.
+(2019 (accesed June 3, 2019).
+\url{http://budapest.imami.hu/szolgaltatok/szulinapi-party}
+\end{botherref}
+\endbibitem
+
+%%% 73
+\bibitem{HU_Health}
+\begin{botherref}
+Healthcare (hospitals, Private and Public Clinics, Specialists).
+(2019 (accesed June 3, 2019).
+\url{https://www.budapestinfo.eu/gyogyitas}
+\end{botherref}
+\endbibitem
+
+%%% 74
+\bibitem{HU_Fitness}
+\begin{botherref}
+Fitness and Training Facilities.
+(2019 (accesed June 3, 2019).
+\url{https://www.budapestinfo.eu/sportolas/fitnesstermek}
+\end{botherref}
+\endbibitem
+
+%%% 75
+\bibitem{HU_outfitness}
+\begin{botherref}
+Outdoor Fitness Training Facilities.
+(2019 (accesed June 3, 2019).
+\url{https://www.google.com/maps/d/u/0/viewer?msa=0\&hl=en&ie=UTF8\&t=h\&ll=47.481378772238784\%2C19.130302999999913&spn=1.329955\%2C3.757785&source=embed&mid=1qIGN-mnKuGrvNxo0ENmACm78RP8&z=11}
+\end{botherref}
+\endbibitem
+
+%%% 76
+\bibitem{HU_Thermal}
+\begin{botherref}
+Thermal and Spa.
+(2019 (accesed June 3, 2019).
+\url{https://www.budapestinfo.eu/furdozes}
+\end{botherref}
+\endbibitem
+
+%%% 77
+\bibitem{HU_Park}
+\begin{botherref}
+Playgrounds and Parks.
+(2019 (accesed June 3, 2019).
+\url{https://zoldkalauz.hu}
+\end{botherref}
 \endbibitem
 
 \end{thebibliography}
@@ -1590,6 +1722,20 @@ Budapest Real Estate Statistic.
 </bibl>
 
 <bibl id="B48">
+  <title><p>The graph Voronoi diagram with applications</p></title>
+  <aug>
+    <au><snm>Erwig</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Networks: An International Journal</source>
+  <publisher>Wiley Online Library</publisher>
+  <pubdate>2000</pubdate>
+  <volume>36</volume>
+  <issue>3</issue>
+  <fpage>156</fpage>
+  <lpage>-163</lpage>
+</bibl>
+
+<bibl id="B49">
   <title><p>Community detection by graph Voronoi diagrams</p></title>
   <aug>
     <au><snm>Deritei</snm><fnm>D</fnm></au>
@@ -1609,7 +1755,7 @@ Budapest Real Estate Statistic.
   <fpage>063007</fpage>
 </bibl>
 
-<bibl id="B49">
+<bibl id="B50">
   <title><p>The Making of Urban Europe: 1000-1994</p></title>
   <aug>
     <au><snm>Hohenberg</snm><fnm>PM</fnm></au>
@@ -1619,7 +1765,7 @@ Budapest Real Estate Statistic.
   <pubdate>1996</pubdate>
 </bibl>
 
-<bibl id="B50">
+<bibl id="B51">
   <title><p>Why is central Paris rich and downtown Detroit poor?: An
   amenity-based theory</p></title>
   <aug>
@@ -1636,7 +1782,7 @@ Budapest Real Estate Statistic.
   <lpage>-107</lpage>
 </bibl>
 
-<bibl id="B51">
+<bibl id="B52">
   <title><p>Magyarorsz{\'a}g t{\'a}rsadalomt{\"o}rt{\'e}nete a reformkort{\'o}l
   a m{\'a}sodik vil{\'a}gh{\'a}bor{\'u}ig</p></title>
   <aug>
@@ -1647,7 +1793,7 @@ Budapest Real Estate Statistic.
   <pubdate>1998</pubdate>
 </bibl>
 
-<bibl id="B52">
+<bibl id="B53">
   <title><p>The new transit town: Best practices in transit-oriented
   development</p></title>
   <aug>
@@ -1658,7 +1804,7 @@ Budapest Real Estate Statistic.
   <pubdate>2012</pubdate>
 </bibl>
 
-<bibl id="B53">
+<bibl id="B54">
   <title><p>Examining walkability and social capital as indicators of quality
   of life at the municipal and neighborhood scales</p></title>
   <aug>
@@ -1676,7 +1822,7 @@ Budapest Real Estate Statistic.
   <lpage>-213</lpage>
 </bibl>
 
-<bibl id="B54">
+<bibl id="B55">
   <title><p>A geographic visualization approach to multi-criteria evaluation of
   urban quality of life</p></title>
   <aug>
@@ -1691,7 +1837,7 @@ Budapest Real Estate Statistic.
   <lpage>-919</lpage>
 </bibl>
 
-<bibl id="B55">
+<bibl id="B56">
   <title><p>Urban landscape quality index--planning tool for evaluating urban
   landscapes and improving the quality of life</p></title>
   <aug>
@@ -1709,7 +1855,21 @@ Budapest Real Estate Statistic.
   <lpage>-167</lpage>
 </bibl>
 
-<bibl id="B56">
+<bibl id="B57">
+  <title><p>Pedestrian access as a measure of urban quality</p></title>
+  <aug>
+    <au><snm>Talen</snm><fnm>E</fnm></au>
+  </aug>
+  <source>Planning Practice and Research</source>
+  <publisher>Taylor \& Francis Group</publisher>
+  <pubdate>2002</pubdate>
+  <volume>17</volume>
+  <issue>3</issue>
+  <fpage>257</fpage>
+  <lpage>-278</lpage>
+</bibl>
+
+<bibl id="B58">
   <title><p>Monitoring urban quality of life: The Porto experience</p></title>
   <aug>
     <au><snm>Santos</snm><fnm>LD</fnm></au>
@@ -1724,7 +1884,7 @@ Budapest Real Estate Statistic.
   <lpage>-425</lpage>
 </bibl>
 
-<bibl id="B57">
+<bibl id="B59">
   <title><p>Wages, rents, and the quality of life</p></title>
   <aug>
     <au><snm>Roback</snm><fnm>J</fnm></au>
@@ -1738,7 +1898,7 @@ Budapest Real Estate Statistic.
   <lpage>-1278</lpage>
 </bibl>
 
-<bibl id="B58">
+<bibl id="B60">
   <title><p>New estimates of quality of life in urban areas</p></title>
   <aug>
     <au><snm>Blomquist</snm><fnm>GC</fnm></au>
@@ -1752,7 +1912,7 @@ Budapest Real Estate Statistic.
   <lpage>-107</lpage>
 </bibl>
 
-<bibl id="B59">
+<bibl id="B61">
   <title><p>A new way of monitoring the quality of urban life</p></title>
   <aug>
     <au><snm>Lora</snm><fnm>EA</fnm></au>
@@ -1762,7 +1922,7 @@ Budapest Real Estate Statistic.
   <pubdate>2011</pubdate>
 </bibl>
 
-<bibl id="B60">
+<bibl id="B62">
   <title><p>Budapest Real Estate Statistic</p></title>
   <aug>
     <au><cnm>ingatlannet</cnm></au>
@@ -1770,7 +1930,7 @@ Budapest Real Estate Statistic.
   <url>https://www.ingatlannet.hu/statisztika/Budapest</url>
 </bibl>
 
-<bibl id="B61">
+<bibl id="B63">
   <title><p>Socio-spatial inequalities and social cohesion in European
   cities</p></title>
   <aug>
@@ -1786,7 +1946,7 @@ Budapest Real Estate Statistic.
   <lpage>-1924</lpage>
 </bibl>
 
-<bibl id="B62">
+<bibl id="B64">
   <title><p>Cultural policy and urban regeneration in Western European cities:
   lessons from experience, prospects for the future</p></title>
   <aug>
@@ -1801,7 +1961,7 @@ Budapest Real Estate Statistic.
   <lpage>-326</lpage>
 </bibl>
 
-<bibl id="B63">
+<bibl id="B65">
   <title><p>The mechanisms of spatial mismatch</p></title>
   <aug>
     <au><snm>Gobillon</snm><fnm>L</fnm></au>
@@ -1815,6 +1975,80 @@ Budapest Real Estate Statistic.
   <issue>12</issue>
   <fpage>2401</fpage>
   <lpage>-2427</lpage>
+</bibl>
+
+<bibl id="B66">
+  <title><p>Sport associations in Budapest</p></title>
+  <pubdate>2019 (accesed June 3, 2019</pubdate>
+  <url>https://sportmegoldasok.hu/klub_budapest.ht</url>
+</bibl>
+
+<bibl id="B67">
+  <title><p>Kindergartens &amp daycare, primary education, secondary
+  education</p></title>
+  <pubdate>2019 (accesed June 3, 2019</pubdate>
+  <url>http://budapest.imami.hu/iskolak-ovodak-bolcsodek/</url>
+</bibl>
+
+<bibl id="B68">
+  <title><p>Art and music schools</p></title>
+  <pubdate>2019 (accesed June 3, 2019</pubdate>
+  <url>http://budapest.imami.hu/iskolak-ovodak-bolcsodek/muveszeti-es-sportiskolak</url>
+</bibl>
+
+<bibl id="B69">
+  <title><p>Pediatricians, Gynecologists</p></title>
+  <pubdate>2019 (accesed June 3, 2019</pubdate>
+  <url>http://budapest.imami.hu/egeszseg</url>
+</bibl>
+
+<bibl id="B70">
+  <title><p>Social Welfare</p></title>
+  <pubdate>2019 (accesed June 3, 2019</pubdate>
+  <url>http://szocialisportal.hu/intezmenykereso</url>
+</bibl>
+
+<bibl id="B71">
+  <title><p>Culture centers</p></title>
+  <pubdate>2019 (accesed June 3, 2019</pubdate>
+  <url>https://holmivan.valami.info/kultura-lista-220/kultura,Budapest</url>
+</bibl>
+
+<bibl id="B72">
+  <title><p>Indoor playgrounds</p></title>
+  <pubdate>2019 (accesed June 3, 2019</pubdate>
+  <url>http://budapest.imami.hu/szolgaltatok/szulinapi-party</url>
+</bibl>
+
+<bibl id="B73">
+  <title><p>Healthcare (hospitals, private and public clinics,
+  specialists)</p></title>
+  <pubdate>2019 (accesed June 3, 2019</pubdate>
+  <url>https://www.budapestinfo.eu/gyogyitas</url>
+</bibl>
+
+<bibl id="B74">
+  <title><p>Fitness and training facilities</p></title>
+  <pubdate>2019 (accesed June 3, 2019</pubdate>
+  <url>https://www.budapestinfo.eu/sportolas/fitnesstermek</url>
+</bibl>
+
+<bibl id="B75">
+  <title><p>Outdoor fitness training facilities</p></title>
+  <pubdate>2019 (accesed June 3, 2019</pubdate>
+  <url>https://www.google.com/maps/d/u/0/viewer?msa=0\&hl=en&ie=UTF8\&t=h\&ll=47.481378772238784\%2C19.130302999999913&spn=1.329955\%2C3.757785&source=embed&mid=1qIGN-mnKuGrvNxo0ENmACm78RP8&z=11</url>
+</bibl>
+
+<bibl id="B76">
+  <title><p>Thermal and Spa</p></title>
+  <pubdate>2019 (accesed June 3, 2019</pubdate>
+  <url>https://www.budapestinfo.eu/furdozes</url>
+</bibl>
+
+<bibl id="B77">
+  <title><p>Playgrounds and parks</p></title>
+  <pubdate>2019 (accesed June 3, 2019</pubdate>
+  <url>https://zoldkalauz.hu</url>
 </bibl>
 
 </refgrp>

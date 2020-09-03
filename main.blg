@@ -20,54 +20,64 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: bibliography.bib
-Warning--I didn't find a database entry for "Erwing2000Graph"
-Warning--I didn't find a database entry for "Talen2012Pedestrian"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--to sort, need author, organization, or key in HU2019Districts
 Warning--to sort, need author, organization, or key in HU2016Population
+Warning--to sort, need author, organization, or key in HU_sport
+Warning--to sort, need author, organization, or key in HU_Edu
+Warning--to sort, need author, organization, or key in HU_Art
+Warning--to sort, need author, organization, or key in HU_Child
+Warning--to sort, need author, organization, or key in HU_Social
+Warning--to sort, need author, organization, or key in HU_Cult
+Warning--to sort, need author, organization, or key in HU_Play
+Warning--to sort, need author, organization, or key in HU_Health
+Warning--to sort, need author, organization, or key in HU_Fitness
+Warning--to sort, need author, organization, or key in HU_outfitness
+Warning--to sort, need author, organization, or key in HU_Thermal
+Warning--to sort, need author, organization, or key in HU_Park
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 63 entries,
+You've used 77 entries,
             7128 wiz_defined-function locations,
-            1598 strings with 23173 characters,
-and the built_in function-call counts, 961361 in all, are:
-= -- 170925
-> -- 1861
-< -- 1126
-+ -- 100070
-- -- 563
-* -- 30729
-:= -- 169570
-add.period$ -- 90
-call.type$ -- 63
-change.case$ -- 641
-chr.to.int$ -- 2370
-cite$ -- 65
-duplicate$ -- 5625
-empty$ -- 17457
-format.name$ -- 1724
-if$ -- 242914
-int.to.chr$ -- 1
-int.to.str$ -- 162
-missing$ -- 2097
-newline$ -- 1757
-num.names$ -- 305
-pop$ -- 2456
+            1660 strings with 24690 characters,
+and the built_in function-call counts, 1222836 in all, are:
+= -- 221656
+> -- 1921
+< -- 1174
++ -- 132817
+- -- 601
+* -- 35573
+:= -- 213525
+add.period$ -- 116
+call.type$ -- 77
+change.case$ -- 771
+chr.to.int$ -- 2493
+cite$ -- 91
+duplicate$ -- 6457
+empty$ -- 19409
+format.name$ -- 1748
+if$ -- 311361
+int.to.chr$ -- 12
+int.to.str$ -- 190
+missing$ -- 2541
+newline$ -- 1989
+num.names$ -- 315
+pop$ -- 2978
 preamble$ -- 1
-purify$ -- 285
-quote$ -- 126
-skip$ -- 101485
+purify$ -- 329
+quote$ -- 154
+skip$ -- 132367
 stack$ -- 0
-substring$ -- 97058
-swap$ -- 1836
-text.length$ -- 1025
+substring$ -- 121095
+swap$ -- 1960
+text.length$ -- 1205
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2596
-warning$ -- 2
-while$ -- 2070
+type$ -- 3058
+warning$ -- 14
+while$ -- 2280
 width$ -- 0
-write$ -- 2306
-(There were 4 warnings)
+write$ -- 2558
+(There were 14 warnings)
