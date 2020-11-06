@@ -10,7 +10,7 @@
 \contentsline {section}{\numberline {2.3}Defining bicycle network growth strategies and quality metrics}{9}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Growing bicycle networks shows stark improvements with small investments}{13}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Different cities have different optimal investment strategies}{15}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Discussion}{16}{section.2.6}%
+\contentsline {section}{\numberline {2.6}Discussion}{17}{section.2.6}%
 \contentsline {chapter}{\numberline {3}Life quality as walkability}{21}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Prelude}{21}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Data}{22}{section.3.2}%

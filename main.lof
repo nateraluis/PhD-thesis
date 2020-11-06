@@ -5,7 +5,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Multimodal configuration}}{10}{figure.caption.9}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Algorithms improvement}}{14}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Cities bicycle connectivity improvement}}{17}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Cities bicycle connectivity improvement}}{16}{figure.caption.11}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces \textbf {(a)} Network representing Budapest pedestrian structure. The network was built following a primal approach, where the edges are sidewalks and pedestrian infrastructure, and nodes are intersections. \textbf {(b)} The graph-Voronoi tessellation of the Budapest network, generated using a subset of 15 parks as seeds. The color of the nodes represents the cell they belong to and the highlighted red dots are the seeds of each cell. The distance measure between two points is defined as the weighted shortest path on the graph, the weights being the average time required to cross a given edge.\relax }}{24}{figure.caption.12}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Budapest neighborhoods, average life quality by categories and aggregated life quality index.\relax }}{28}{figure.caption.15}%
