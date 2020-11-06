@@ -1,5 +1,7 @@
 \babel@toc {english}{}
 \contentsline {chapter}{Contents}{i}{chapter*.3}%
+\contentsline {chapter}{List of Tables}{iii}{chapter*.5}%
+\contentsline {chapter}{List of Figures}{vi}{chapter*.6}%
 \contentsline {chapter}{\numberline {1}Extracting the multimodal fingerprint for transportation networks}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Prelude}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}METHODS AND DATA}{2}{section.1.2}%
@@ -18,11 +20,11 @@
 \contentsline {subsection}{\numberline {3.3.1}The services index: $Q^{services}$}{25}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Safety index: $Q^{safety}$}{26}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Environmental index $Q^{environment}$}{27}{subsection.3.3.3}%
-\contentsline {subsubsection}{Air pollution ratio}{27}{subsubsection*.13}%
-\contentsline {subsubsection}{Ratio of natural areas}{27}{subsubsection*.14}%
+\contentsline {subsubsection}{Air pollution ratio}{27}{subsubsection*.14}%
+\contentsline {subsubsection}{Ratio of natural areas}{27}{subsubsection*.15}%
 \contentsline {section}{\numberline {3.4}Results}{28}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Evaluation}{29}{subsection.3.4.1}%
-\contentsline {paragraph}{Summary}{29}{paragraph*.17}%
+\contentsline {paragraph}{Summary}{29}{paragraph*.18}%
 \contentsline {section}{\numberline {3.5}Discussion}{30}{section.3.5}%
 \contentsline {chapter}{\numberline {4}Appendices}{45}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Life quality as walkability}{45}{section.4.1}%
