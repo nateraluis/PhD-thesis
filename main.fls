@@ -292,14 +292,9 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplro8r.tfm
 INPUT /Users/natera/Dropbox/PhD/thesis/main.lot
 INPUT /Users/natera/Dropbox/PhD/thesis/main.lot
 OUTPUT /Users/natera/Dropbox/PhD/thesis/main.lot
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/mathpazo/zplmr7y.vf
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /Users/natera/Dropbox/PhD/thesis/main.lof
 INPUT /Users/natera/Dropbox/PhD/thesis/main.lof
 OUTPUT /Users/natera/Dropbox/PhD/thesis/main.lof
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/mathpazo/zplmr7t.vf
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /Users/natera/Dropbox/PhD/thesis/chapters_tex/overlapcensus.tex
 INPUT /Users/natera/Dropbox/PhD/thesis/chapters_tex/overlapcensus.tex
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplrc7t.tfm
@@ -307,6 +302,8 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/adobe/palatino/pplrc7t.vf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/mathpazo/zplmr7y.vf
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /Users/natera/Dropbox/PhD/thesis/images/multiplex/Multilayer_NY_op2.png
 INPUT /Users/natera/Dropbox/PhD/thesis/images/multiplex/Multilayer_NY_op2.png
 INPUT /Users/natera/Dropbox/PhD/thesis/images/multiplex/Multilayer_NY_op2.png
@@ -316,6 +313,8 @@ INPUT /Users/natera/Dropbox/PhD/thesis/images/multiplex/Fig02.png
 INPUT /Users/natera/Dropbox/PhD/thesis/images/multiplex/Fig02.png
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/adobe/palatino/pplbi7t.vf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplbi8r.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/mathpazo/zplmr7t.vf
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /Users/natera/Dropbox/PhD/thesis/chapters_tex/bikegrowth.tex
 INPUT /Users/natera/Dropbox/PhD/thesis/chapters_tex/bikegrowth.tex
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
@@ -343,6 +342,7 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf
