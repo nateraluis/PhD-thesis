@@ -17,9 +17,9 @@
 \contentsline {section}{\numberline {3.1}Prelude}{21}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Data}{22}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Quantifying Life Quality}{23}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}The services index: $Q^{services}$}{25}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Safety index: $Q^{safety}$}{26}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Environmental index $Q^{environment}$}{27}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}The services index: $Q^{\text {services}}$}{25}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Safety index: $Q^{\text {safety}}$}{26}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Environmental index $Q^{\text {environment}}$}{27}{subsection.3.3.3}%
 \contentsline {subsubsection}{Air pollution ratio}{27}{subsubsection*.14}%
 \contentsline {subsubsection}{Ratio of natural areas}{27}{subsubsection*.15}%
 \contentsline {section}{\numberline {3.4}Results}{28}{section.3.4}%

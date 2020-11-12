@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  12 NOV 2020 10:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  12 NOV 2020 10:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -842,65 +842,17 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 15.0049pt on input line 52.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 8.33606pt on input line 52.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 52.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 52.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 52.
-
-[24 </Users/natera/Dropbox/PhD/thesis/images/lqi/Budapest_Network_voronoi_op2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
-
- []
-
-[25]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 92.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 92.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 92.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 102.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 102.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 102.
-
-[26] [27]
+ [24 </Users/natera/Dropbox/PhD/thesis/images/lqi/Budapest_Network_voronoi_op2.png>] [25] [26] [27]
 <images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf, id=745, 1772.44177pt x 716.6775pt>
 File: images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf Graphic file (type pdf)
 <use images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf>
-Package pdftex.def Info: images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf  used on input line 129.
+Package pdftex.def Info: images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf  used on input line 130.
 (pdftex.def)             Requested size: 334.60422pt x 135.29529pt.
  [28 </Users/natera/Dropbox/PhD/thesis/images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf>]
 <images/lqi/LQI_categories_regplots.pdf, id=808, 867.24pt x 578.16pt>
 File: images/lqi/LQI_categories_regplots.pdf Graphic file (type pdf)
 <use images/lqi/LQI_categories_regplots.pdf>
-Package pdftex.def Info: images/lqi/LQI_categories_regplots.pdf  used on input line 152.
+Package pdftex.def Info: images/lqi/LQI_categories_regplots.pdf  used on input line 153.
 (pdftex.def)             Requested size: 334.60422pt x 223.07307pt.
  [29] [30 </Users/natera/Dropbox/PhD/thesis/images/lqi/LQI_categories_regplots.pdf>]) (/Users/natera/Dropbox/PhD/thesis/main.bbl [31] [32
 
@@ -1172,7 +1124,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 260.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 260.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 260.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8DDA16920A6A0EFE6E3E2C255032F20E;5216.
+(rerunfilecheck)             Checksum: 59242CCF0462A0F199973338C8AC83B6;5225.
 
 
 LaTeX Warning: There were undefined references.
@@ -1180,14 +1132,14 @@ LaTeX Warning: There were undefined references.
  ) 
 Here is how much of TeX's memory you used:
  16684 strings out of 480608
- 245906 string characters out of 5903631
- 575896 words of memory out of 5000000
- 31982 multiletter control sequences out of 15000+600000
- 577244 words of font info for 144 fonts, out of 8000000 for 9000
+ 245920 string characters out of 5903631
+ 575987 words of memory out of 5000000
+ 31984 multiletter control sequences out of 15000+600000
+ 577328 words of font info for 144 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,96p,1816b,495s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/natera/Dropbox/PhD/thesis/main.pdf (61 pages, 16660243 bytes).
+Output written on /Users/natera/Dropbox/PhD/thesis/main.pdf (61 pages, 16660131 bytes).
 PDF statistics:
  1136 PDF objects out of 1200 (max. 8388607)
  838 compressed objects within 9 object streams

@@ -49,16 +49,16 @@ The final value of the index is a weighted sum, characterizing every node (inter
 \end{equation}
 In the equation $i$ represents an individual node in the network. The ``tilde'' above the $Q$ terms means that the values of the different category indices are normalized within the category. The weights $w$ assigned to every term are arbitrary and are highly context-dependent. We include the weights used for producing the results of this paper in Appendix B.  All terms of the equation are discussed in the following sections.
 
-\subsection{The services index: $Q^{services}$}
+\subsection{The services index: \texorpdfstring{$Q^{\text{services}}$}{Q\^services}}
 The number quantifying each node in terms of how well it is connected with amenities and services is a weighted sum of sub-categories as well.
 \begin{equation}\label{Q_services}
 	Q_i^{services} =\sum_c w^c Q_i^c
 \end{equation}
 
 where, $c$ denotes categories (family, culture, health, sport, and nightlife), and $w^c$ the importance (weight, see Appendix B) of category $c$.
-Some categories, like family, have further subcategories. Even though we have also had data and made a separate analysis on tourism, its effects on life quality of the residents are ambiguous, so we decided to omit it from the index.\\
+Some categories, like family, have further subcategories. Even though we have also had data and made a separate analysis on tourism, its effects on life quality of the residents are ambiguous, so we decided to omit it from the index.
 
-What sets categories apart is that they incorporate different sets of amenities, with a few overlaps. The details of the categorization of amenities are included in the Appendix. \\
+What sets categories apart is that they incorporate different sets of amenities, with a few overlaps. The details of the categorization of amenities are included in the Appendix.
 
 For every service/amenity class we have a given set of points of interest (POI) along with where the amenities of that class are available, with exact geo-location. We assign every POI of a given amenity class (e.g supermarket, pharmacy, school, etc.) to the nearest node on the infrastructure network. Each set of POIs organically generates a spatial partitioning of the city with one partition per POI. The partition of a POI is the set of all the nodes from which that particular POI can be reached faster than any other POI of the same class.
 
@@ -89,7 +89,7 @@ Finally we normalize the values of $Q^{services}$ so its values are comparable t
 	\Tilde{Q}_i^{services} =\frac{Q_i^{services}+|min(Q^{services})|}{max(Q^{services})+|min(Q^{services})|}
 \end{equation}
 
-\subsection{Safety index: $Q^{safety}$} \label{safety}
+\subsection{Safety index: \texorpdfstring{$Q^{\text{safety}}$}{Q\^safety}} \label{safety}
 
 The safety index is calculated across districts based on the number of crimes committed per one hundred thousand residents. Since the highest resolution data available to us was on the district level, every node $i$ in the same district will have the same safety index value. The crime index:
 
@@ -99,7 +99,8 @@ Where $N^{district}_{crime}$ is the number of crimes committed in a district in 
 	\Tilde{Q}_i^{safety}=1-\frac{Q_i^{crime}}{max(Q^{crime})}
 \end{equation}
 
-\subsection{Environmental index $Q^{environment}$} \label{environment}
+\subsection{Environmental index  \texorpdfstring{$Q^{\text{environment}}$}{Q\^environment}} \label{environment}
+
 The environmental index is made up of two components: air pollution ratio and ratio of natural areas.
 
 \subsubsection{Air pollution ratio}
