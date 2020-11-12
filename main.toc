@@ -30,3 +30,7 @@
 \contentsline {section}{\numberline {4.1}Life quality as walkability}{45}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Secondary data sources}{45}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Weights used in the calculations}{46}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Data-driven strategies for optimal bicycle network growth}{46}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Data}{46}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Algorithms}{47}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Bicycle network improvement}{48}{subsection.4.2.3}%
