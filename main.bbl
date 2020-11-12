@@ -43,6 +43,21 @@
 \csname PreBibitemsHook\endcsname
 
 %%% 1
+\bibitem{natera2020multimodal}
+\begin{barticle}
+\bauthor{\bsnm{{Natera Orozco}}, \binits{L.G.}},
+\bauthor{\bsnm{Battiston}, \binits{F.}},
+\bauthor{\bsnm{I{\~{n}}iguez}, \binits{G.}},
+\bauthor{\bsnm{Szell}, \binits{M.}}:
+\batitle{Extracting the multimodal fingerprint of urban transportation
+  networks}.
+\bjtitle{Transport Findings}
+(\byear{2020}).
+doi:\doiurl{10.32866/001c.13171}
+\end{barticle}
+\endbibitem
+
+%%% 2
 \bibitem{Morris2012Transport}
 \begin{barticle}
 \bauthor{\bsnm{Morris}, \binits{R.G.}},
@@ -56,7 +71,7 @@ doi:\doiurl{10.1103/PhysRevLett.109.128703}
 \end{barticle}
 \endbibitem
 
-%%% 2
+%%% 3
 \bibitem{Strano2012Evolution}
 \begin{barticle}
 \bauthor{\bsnm{Strano}, \binits{E.}},
@@ -73,7 +88,7 @@ doi:\doiurl{10.1038/srep00296}
 \end{barticle}
 \endbibitem
 
-%%% 3
+%%% 4
 \bibitem{Barthelemy2013Evolution}
 \begin{barticle}
 \bauthor{\bsnm{Barthelemy}, \binits{M.}},
@@ -90,7 +105,7 @@ doi:\doiurl{10.1038/srep02153}
 \end{barticle}
 \endbibitem
 
-%%% 4
+%%% 5
 \bibitem{Battiston2014Structural}
 \begin{barticle}
 \bauthor{\bsnm{Battiston}, \binits{F.}},
@@ -105,7 +120,7 @@ doi:\doiurl{10.1103/PhysRevE.89.032804}
 \end{barticle}
 \endbibitem
 
-%%% 5
+%%% 6
 \bibitem{Gallotti2014Efficiency}
 \begin{barticle}
 \bauthor{\bsnm{Gallotti}, \binits{R.}},
@@ -119,7 +134,7 @@ doi:\doiurl{10.1038/srep06911}
 \end{barticle}
 \endbibitem
 
-%%% 6
+%%% 7
 \bibitem{DeDomenico2014Navigability}
 \begin{barticle}
 \bauthor{\bsnm{{De Domenico}}, \binits{M.}},
@@ -135,7 +150,7 @@ doi:\doiurl{10.1073/pnas.1318469111}
 \end{barticle}
 \endbibitem
 
-%%% 7
+%%% 8
 \bibitem{Strano2015Features}
 \begin{barticle}
 \bauthor{\bsnm{Strano}, \binits{E.}},
@@ -152,7 +167,7 @@ doi:\doiurl{10.1098/rsif.2015.0651}
 \end{barticle}
 \endbibitem
 
-%%% 8
+%%% 9
 \bibitem{Aleta2017Multilayer}
 \begin{botherref}
 \oauthor{\bsnm{Aleta}, \binits{A.}},
@@ -166,7 +181,7 @@ doi:\doiurl{10.1038/srep44359}
 \end{botherref}
 \endbibitem
 
-%%% 9
+%%% 10
 \bibitem{Lee2017Morphology}
 \begin{barticle}
 \bauthor{\bsnm{Lee}, \binits{M.}},
@@ -183,7 +198,7 @@ doi:\doiurl{10.1038/s41467-017-02374-7}
 \end{barticle}
 \endbibitem
 
-%%% 10
+%%% 11
 \bibitem{Jacobs1961Death}
 \begin{bbook}
 \bauthor{\bsnm{Jacobs}, \binits{J.}}:
@@ -195,7 +210,7 @@ p. \bfpage{458}.
 \end{bbook}
 \endbibitem
 
-%%% 11
+%%% 12
 \bibitem{Gossling2016Distribution}
 \begin{barticle}
 \bauthor{\bsnm{G{\"{o}}ssling}, \binits{S.}},
@@ -211,7 +226,7 @@ doi:\doiurl{10.1080/01441647.2016.1147101}
 \end{barticle}
 \endbibitem
 
-%%% 12
+%%% 13
 \bibitem{Szell2018Crowdsourced}
 \begin{barticle}
 \bauthor{\bsnm{Szell}, \binits{M.}}:
@@ -225,7 +240,7 @@ doi:\doiurl{10.17645/up.v3i1.1209}
 \end{barticle}
 \endbibitem
 
-%%% 13
+%%% 14
 \bibitem{Boeing2017OSMNX}
 \begin{barticle}
 \bauthor{\bsnm{Boeing}, \binits{G.}}:
@@ -239,7 +254,7 @@ doi:\doiurl{10.1016/j.compenvurbsys.2017.05.004}
 \end{barticle}
 \endbibitem
 
-%%% 14
+%%% 15
 \bibitem{Haklay2010OpenStreetMap}
 \begin{barticle}
 \bauthor{\bsnm{Haklay}, \binits{M.}}:
@@ -253,7 +268,7 @@ doi:\doiurl{10.1068/b35097}
 \end{barticle}
 \endbibitem
 
-%%% 15
+%%% 16
 \bibitem{Girres2010Quality}
 \begin{barticle}
 \bauthor{\bsnm{Girres}, \binits{J.F.}},
@@ -267,7 +282,7 @@ doi:\doiurl{10.1111/j.1467-9671.2010.01203.x}
 \end{barticle}
 \endbibitem
 
-%%% 16
+%%% 17
 \bibitem{Ferster2019Bicycle}
 \begin{botherref}
 \oauthor{\bsnm{Ferster}, \binits{C.}},
@@ -284,7 +299,7 @@ doi:\doiurl{10.1080/15568318.2018.1519746}
 \end{botherref}
 \endbibitem
 
-%%% 17
+%%% 18
 \bibitem{Barbosa-Filho2017Models}
 \begin{botherref}
 \oauthor{\bsnm{Barbosa-Filho}, \binits{H.}},
@@ -302,7 +317,7 @@ doi:\doiurl{10.1080/15568318.2018.1519746}
 \end{botherref}
 \endbibitem
 
-%%% 18
+%%% 19
 \bibitem{natera2019data}
 \begin{botherref}
 \oauthor{\bsnm{Natera~Orozco}, \binits{L.G.}}:
@@ -313,7 +328,7 @@ doi:\doiurl{10.7910/DVN/GSOPCK}
 \end{botherref}
 \endbibitem
 
-%%% 19
+%%% 20
 \bibitem{Boccaletti2014Structure}
 \begin{botherref}
 \oauthor{\bsnm{Boccaletti}, \binits{S.}},
@@ -332,7 +347,7 @@ doi:\doiurl{10.1016/j.physrep.2014.07.001}.
 \end{botherref}
 \endbibitem
 
-%%% 20
+%%% 21
 \bibitem{Kivela2014Multilayer}
 \begin{barticle}
 \bauthor{\bsnm{Kivel{\"{a}}}, \binits{M.}},
@@ -350,7 +365,7 @@ doi:\doiurl{10.1093/comnet/cnu016}
 \end{barticle}
 \endbibitem
 
-%%% 21
+%%% 22
 \bibitem{Battiston2017Challenges}
 \begin{barticle}
 \bauthor{\bsnm{Battiston}, \binits{F.}},
@@ -365,7 +380,7 @@ doi:\doiurl{10.1140/epjst/e2016-60274-8}
 \end{barticle}
 \endbibitem
 
-%%% 22
+%%% 23
 \bibitem{Porta2006Primal}
 \begin{barticle}
 \bauthor{\bsnm{Porta}, \binits{S.}},
@@ -380,7 +395,7 @@ doi:\doiurl{10.1068/b32045}
 \end{barticle}
 \endbibitem
 
-%%% 23
+%%% 24
 \bibitem{Rodrigue2013Geography}
 \begin{bbook}
 \bauthor{\bsnm{Rodrigue}, \binits{J.-P.}},
@@ -396,7 +411,7 @@ doi:\doiurl{10.1080/10630732.2011.603579}.
 \end{bbook}
 \endbibitem
 
-%%% 24
+%%% 25
 \bibitem{Louf2014Typology}
 \begin{barticle}
 \bauthor{\bsnm{Louf}, \binits{R.}},
@@ -410,7 +425,7 @@ doi:\doiurl{10.1098/rsif.2014.0924}
 \end{barticle}
 \endbibitem
 
-%%% 25
+%%% 26
 \bibitem{Gossling2016Space}
 \begin{barticle}
 \bauthor{\bsnm{G{\"{o}}ssling}, \binits{S.}},
@@ -426,7 +441,7 @@ doi:\doiurl{10.1080/01441647.2016.1147101}
 \end{barticle}
 \endbibitem
 
-%%% 26
+%%% 27
 \bibitem{Eliasson2008Lessons}
 \begin{barticle}
 \bauthor{\bsnm{Eliasson}, \binits{J.}}:
@@ -439,7 +454,7 @@ doi:\doiurl{10.1016/j.tranpol.2008.12.004}
 \end{barticle}
 \endbibitem
 
-%%% 27
+%%% 28
 \bibitem{Littke2016parklets}
 \begin{barticle}
 \bauthor{\bsnm{Littke}, \binits{H.}}:
@@ -453,7 +468,7 @@ doi:\doiurl{10.1016/j.ufug.2015.12.010}
 \end{barticle}
 \endbibitem
 
-%%% 28
+%%% 29
 \bibitem{bliss2019hcp}
 \begin{botherref}
 \oauthor{\bsnm{Bliss}, \binits{L.}}:
@@ -463,7 +478,7 @@ Citylab
 \end{botherref}
 \endbibitem
 
-%%% 29
+%%% 30
 \bibitem{Nieuwenhuijsen2016Car}
 \begin{botherref}
 \oauthor{\bsnm{Nieuwenhuijsen}, \binits{M.J.}},
@@ -475,7 +490,7 @@ doi:\doiurl{10.1016/j.envint.2016.05.032}
 \end{botherref}
 \endbibitem
 
-%%% 30
+%%% 31
 \bibitem{Reynolds2009impact}
 \begin{barticle}
 \bauthor{\bsnm{Reynolds}, \binits{C.C.O.}},
@@ -493,7 +508,7 @@ doi:\doiurl{10.1186/1476-069X-8-47}
 \end{barticle}
 \endbibitem
 
-%%% 31
+%%% 32
 \bibitem{Teschke2012route}
 \begin{barticle}
 \bauthor{\bsnm{Teschke}, \binits{K.}},
@@ -520,7 +535,7 @@ doi:\doiurl{10.2105/AJPH.2012.300762}
 \end{barticle}
 \endbibitem
 
-%%% 32
+%%% 33
 \bibitem{Pucher2016Safer}
 \begin{barticle}
 \bauthor{\bsnm{Pucher}, \binits{J.}},
@@ -534,7 +549,7 @@ doi:\doiurl{10.2105/ajph.2016.303507}
 \end{barticle}
 \endbibitem
 
-%%% 33
+%%% 34
 \bibitem{aldred2018cycling}
 \begin{barticle}
 \bauthor{\bsnm{Aldred}, \binits{R.}},
@@ -551,7 +566,7 @@ doi:\doiurl{10.2105/ajph.2016.303507}
 \end{barticle}
 \endbibitem
 
-%%% 34
+%%% 35
 \bibitem{gossling2019social}
 \begin{barticle}
 \bauthor{\bsnm{G{\"o}ssling}, \binits{S.}},
@@ -567,7 +582,7 @@ doi:\doiurl{10.2105/ajph.2016.303507}
 \end{barticle}
 \endbibitem
 
-%%% 35
+%%% 36
 \bibitem{Gossling2020Cities}
 \begin{botherref}
 \oauthor{\bsnm{G{\"o}ssling}, \binits{S.}}:
@@ -578,7 +593,7 @@ Journal of Urban Design,
 \end{botherref}
 \endbibitem
 
-%%% 36
+%%% 37
 \bibitem{Dill2013Bicycle}
 \begin{barticle}
 \bauthor{\bsnm{Dill}, \binits{J.}},
@@ -594,7 +609,7 @@ doi:\doiurl{10.3141/1828-14}
 \end{barticle}
 \endbibitem
 
-%%% 37
+%%% 38
 \bibitem{Schoner2014Missing}
 \begin{barticle}
 \bauthor{\bsnm{Schoner}, \binits{J.E.}},
@@ -609,7 +624,7 @@ doi:\doiurl{10.1007/s11116-014-9538-1}
 \end{barticle}
 \endbibitem
 
-%%% 38
+%%% 39
 \bibitem{Hull2014Infrastructure}
 \begin{barticle}
 \bauthor{\bsnm{Hull}, \binits{A.}},
@@ -623,7 +638,7 @@ doi:\doiurl{10.1080/21650020.2014.955210}
 \end{barticle}
 \endbibitem
 
-%%% 39
+%%% 40
 \bibitem{Buehler2016Bikable}
 \begin{barticle}
 \bauthor{\bsnm{Buehler}, \binits{R.}},
@@ -637,7 +652,7 @@ doi:\doiurl{10.1080/01441647.2015.1069908}
 \end{barticle}
 \endbibitem
 
-%%% 40
+%%% 41
 \bibitem{Twaddell2018Multimodal}
 \begin{botherref}
 \oauthor{\bsnm{{Hannah Twaddell (ICF)}}},
@@ -655,7 +670,7 @@ U.S. Department of Transportation, Federal Highway Administration
 \end{botherref}
 \endbibitem
 
-%%% 41
+%%% 42
 \bibitem{Boeing2020Planarity}
 \begin{barticle}
 \bauthor{\bsnm{Boeing}, \binits{G.}}:
@@ -668,7 +683,7 @@ doi:\doiurl{10.1177/2399808318802941}
 \end{barticle}
 \endbibitem
 
-%%% 42
+%%% 43
 \bibitem{Hochmair2012}
 \begin{botherref}
 \oauthor{\bsnm{Hochmair}, \binits{H.H.}},
@@ -681,7 +696,7 @@ pp. 111--137
 \end{botherref}
 \endbibitem
 
-%%% 43
+%%% 44
 \bibitem{Krizek2005Discontinuities}
 \begin{barticle}
 \bauthor{\bsnm{Krizek}, \binits{K.J.}},
@@ -696,7 +711,7 @@ doi:\doiurl{10.1016/j.trd.2004.09.005}
 \end{barticle}
 \endbibitem
 
-%%% 44
+%%% 45
 \bibitem{movement2013Cycling}
 \begin{botherref}
 \oauthor{\bsnm{Movement}, \binits{U.}}:
@@ -707,7 +722,7 @@ London
 \end{botherref}
 \endbibitem
 
-%%% 45
+%%% 46
 \bibitem{Dobrovolny2014Pedestrian}
 \begin{botherref}
 \oauthor{\bsnm{Systems}, \binits{U.}}:
@@ -718,7 +733,7 @@ Toronto
 \end{botherref}
 \endbibitem
 
-%%% 46
+%%% 47
 \bibitem{Beck2019Space}
 \begin{barticle}
 \bauthor{\bsnm{Beck}, \binits{B.}},
@@ -740,7 +755,7 @@ doi:\doiurl{10.1016/j.aap.2019.03.007}
 \end{barticle}
 \endbibitem
 
-%%% 47
+%%% 48
 \bibitem{global2016global}
 \begin{bbook}
 \bauthor{\bsnm{Initiative}, \binits{G.D.C.}},
@@ -749,21 +764,6 @@ doi:\doiurl{10.1016/j.aap.2019.03.007}
 \bpublisher{Island Press}, \blocation{???}
 (\byear{2016})
 \end{bbook}
-\endbibitem
-
-%%% 48
-\bibitem{natera2020multimodal}
-\begin{barticle}
-\bauthor{\bsnm{{Natera Orozco}}, \binits{L.G.}},
-\bauthor{\bsnm{Battiston}, \binits{F.}},
-\bauthor{\bsnm{I{\~{n}}iguez}, \binits{G.}},
-\bauthor{\bsnm{Szell}, \binits{M.}}:
-\batitle{Extracting the multimodal fingerprint of urban transportation
-  networks}.
-\bjtitle{Transport Findings}
-(\byear{2020}).
-doi:\doiurl{10.32866/001c.13171}
-\end{barticle}
 \endbibitem
 
 %%% 49
@@ -1660,6 +1660,19 @@ Playgrounds and Parks.
 <refgrp>
 
 <bibl id="B1">
+  <title><p>Extracting the multimodal fingerprint of urban transportation
+  networks</p></title>
+  <aug>
+    <au><snm>{Natera Orozco}</snm><fnm>LG</fnm></au>
+    <au><snm>Battiston</snm><fnm>F</fnm></au>
+    <au><snm>I{\~{n}}iguez</snm><fnm>G</fnm></au>
+    <au><snm>Szell</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Transport Findings</source>
+  <pubdate>2020</pubdate>
+</bibl>
+
+<bibl id="B2">
   <title><p>{Transport on coupled spatial networks}</p></title>
   <aug>
     <au><snm>Morris</snm><fnm>R. G.</fnm></au>
@@ -1674,7 +1687,7 @@ Playgrounds and Parks.
   <url>https://link.aps.org/doi/10.1103/PhysRevLett.109.128703</url>
 </bibl>
 
-<bibl id="B2">
+<bibl id="B3">
   <title><p>{Elementary processes governing the evolution of road
   networks}</p></title>
   <aug>
@@ -1693,7 +1706,7 @@ Playgrounds and Parks.
   <url>http://www.nature.com/articles/srep00296</url>
 </bibl>
 
-<bibl id="B3">
+<bibl id="B4">
   <title><p>{Self-organization versus top-down planning in the evolution of a
   city}</p></title>
   <aug>
@@ -1710,7 +1723,7 @@ Playgrounds and Parks.
   <url>http://www.nature.com/articles/srep02153</url>
 </bibl>
 
-<bibl id="B4">
+<bibl id="B5">
   <title><p>{Structural measures for multiplex networks}</p></title>
   <aug>
     <au><snm>Battiston</snm><fnm>F</fnm></au>
@@ -1726,7 +1739,7 @@ Playgrounds and Parks.
   <lpage>-16</lpage>
 </bibl>
 
-<bibl id="B5">
+<bibl id="B6">
   <title><p>{Anatomy and efficiency of urban multimodal mobility}</p></title>
   <aug>
     <au><snm>Gallotti</snm><fnm>R</fnm></au>
@@ -1741,7 +1754,7 @@ Playgrounds and Parks.
   <url>http://www.nature.com/articles/srep06911</url>
 </bibl>
 
-<bibl id="B6">
+<bibl id="B7">
   <title><p>{Navigability of interconnected networks under random
   failures}</p></title>
   <aug>
@@ -1759,7 +1772,7 @@ Playgrounds and Parks.
   <lpage>-8356</lpage>
 </bibl>
 
-<bibl id="B7">
+<bibl id="B8">
   <title><p>{Multiplex networks in metropolitan areas: generic features and
   local effects}</p></title>
   <aug>
@@ -1776,7 +1789,7 @@ Playgrounds and Parks.
   <fpage>20150651</fpage>
 </bibl>
 
-<bibl id="B8">
+<bibl id="B9">
   <title><p>{A Multilayer perspective for the analysis of urban transportation
   systems}</p></title>
   <aug>
@@ -1790,7 +1803,7 @@ Playgrounds and Parks.
   <url>https://www.nature.com/articles/srep44359.pdf</url>
 </bibl>
 
-<bibl id="B9">
+<bibl id="B10">
   <title><p>{Morphology of travel routes and the organization of
   cities}</p></title>
   <aug>
@@ -1809,7 +1822,7 @@ Playgrounds and Parks.
   <url>http://www.nature.com/articles/s41467-017-02374-7</url>
 </bibl>
 
-<bibl id="B10">
+<bibl id="B11">
   <title><p>The death and life of great American cities</p></title>
   <aug>
     <au><snm>Jacobs</snm><fnm>J</fnm></au>
@@ -1819,7 +1832,7 @@ Playgrounds and Parks.
   <fpage>458</fpage>
 </bibl>
 
-<bibl id="B11">
+<bibl id="B12">
   <title><p>{Urban Space Distribution and Sustainable Transport}</p></title>
   <aug>
     <au><snm>G{\"{o}}ssling</snm><fnm>S</fnm></au>
@@ -1837,7 +1850,7 @@ Playgrounds and Parks.
   <url>http://www.tandfonline.com/doi/full/10.1080/ 01441647.2016.1147101</url>
 </bibl>
 
-<bibl id="B12">
+<bibl id="B13">
   <title><p>{Crowdsourced Quantification and Visualization of Urban Mobility
   Space Inequality}</p></title>
   <aug>
@@ -1850,7 +1863,7 @@ Playgrounds and Parks.
   <fpage>1</fpage>
 </bibl>
 
-<bibl id="B13">
+<bibl id="B14">
   <title><p>{OSMnx: New methods for acquiring, constructing, analyzing, and
   visualizing complex street networks}</p></title>
   <aug>
@@ -1864,7 +1877,7 @@ Playgrounds and Parks.
   <lpage>-139</lpage>
 </bibl>
 
-<bibl id="B14">
+<bibl id="B15">
   <title><p>{How good is volunteered geographical information? A comparative
   study of OpenStreetMap and ordnance survey datasets}</p></title>
   <aug>
@@ -1879,7 +1892,7 @@ Playgrounds and Parks.
   <url>http://journals.sagepub.com/doi/pdf/10.1068/b35097</url>
 </bibl>
 
-<bibl id="B15">
+<bibl id="B16">
   <title><p>{Quality Assessment of the French OpenStreetMap
   Dataset}</p></title>
   <aug>
@@ -1895,7 +1908,7 @@ Playgrounds and Parks.
   <lpage>-459</lpage>
 </bibl>
 
-<bibl id="B16">
+<bibl id="B17">
   <title><p>{Using OpenStreetMap to inventory bicycle infrastructure: A
   comparison with open data from cities}</p></title>
   <aug>
@@ -1914,7 +1927,7 @@ Playgrounds and Parks.
   https://doi.org/10.1080/ 15568318.2018.1519746</url>
 </bibl>
 
-<bibl id="B17">
+<bibl id="B18">
   <title><p>{Human Mobility: Models and Applications}</p></title>
   <aug>
     <au><snm>Barbosa Filho</snm><fnm>H</fnm></au>
@@ -1933,7 +1946,7 @@ Playgrounds and Parks.
   1710.00004</url>
 </bibl>
 
-<bibl id="B18">
+<bibl id="B19">
   <title><p>Multiplex urban networks</p></title>
   <aug>
     <au><snm>Natera Orozco</snm><fnm>LG</fnm></au>
@@ -1943,7 +1956,7 @@ Playgrounds and Parks.
   <pubdate>2019</pubdate>
 </bibl>
 
-<bibl id="B19">
+<bibl id="B20">
   <title><p>{The structure and dynamics of multilayer networks}</p></title>
   <aug>
     <au><snm>Boccaletti</snm><fnm>S</fnm></au>
@@ -1965,7 +1978,7 @@ Playgrounds and Parks.
   <url>https://arxiv.org/pdf/1407.0742.pdf</url>
 </bibl>
 
-<bibl id="B20">
+<bibl id="B21">
   <title><p>{Multilayer networks}</p></title>
   <aug>
     <au><snm>Kivel{\"{a}}</snm><fnm>M</fnm></au>
@@ -1986,7 +1999,7 @@ Playgrounds and Parks.
   comnet/cnu016</url>
 </bibl>
 
-<bibl id="B21">
+<bibl id="B22">
   <title><p>{The new challenges of multiplex networks: Measures and
   models}</p></title>
   <aug>
@@ -2004,7 +2017,7 @@ Playgrounds and Parks.
   <url>http://link.springer.com/10.1140/epjst/e2016-60274-8</url>
 </bibl>
 
-<bibl id="B22">
+<bibl id="B23">
   <title><p>{The network analysis of urban streets : a primal
   approach}</p></title>
   <aug>
@@ -2021,7 +2034,7 @@ Playgrounds and Parks.
   <lpage>-726</lpage>
 </bibl>
 
-<bibl id="B23">
+<bibl id="B24">
   <title><p>The Geography of Transport Systems (Third Edition)</p></title>
   <aug>
     <au><snm>Rodrigue</snm><fnm>JP</fnm></au>
@@ -2036,7 +2049,7 @@ Playgrounds and Parks.
   Systems-4th-Edition/Rodrigue-Comtois-Slack/p/book/ 9781138669574</url>
 </bibl>
 
-<bibl id="B24">
+<bibl id="B25">
   <title><p>A typology of street patterns</p></title>
   <aug>
     <au><snm>Louf</snm><fnm>R</fnm></au>
@@ -2050,7 +2063,7 @@ Playgrounds and Parks.
   <fpage>20140924</fpage>
 </bibl>
 
-<bibl id="B25">
+<bibl id="B26">
   <title><p>{Urban Space Distribution and Sustainable Transport}</p></title>
   <aug>
     <au><snm>G{\"{o}}ssling</snm><fnm>S</fnm></au>
@@ -2068,7 +2081,7 @@ Playgrounds and Parks.
   <url>http://www.tandfonline.com/doi/full/10.1080/ 01441647.2016.1147101</url>
 </bibl>
 
-<bibl id="B26">
+<bibl id="B27">
   <title><p>{Lessons from the Stockholm congestion charging trial}</p></title>
   <aug>
     <au><snm>Eliasson</snm><fnm>J</fnm></au>
@@ -2082,7 +2095,7 @@ Playgrounds and Parks.
   <lpage>-404</lpage>
 </bibl>
 
-<bibl id="B27">
+<bibl id="B28">
   <title><p>{Revisiting the San Francisco parklets problematizing publicness,
   parks, and transferability}</p></title>
   <aug>
@@ -2096,7 +2109,7 @@ Playgrounds and Parks.
   <lpage>-173</lpage>
 </bibl>
 
-<bibl id="B28">
+<bibl id="B29">
   <title><p>How to Cut 10,000 Parking Spaces Without Anyone
   Complaining</p></title>
   <aug>
@@ -2106,7 +2119,7 @@ Playgrounds and Parks.
   <pubdate>2019</pubdate>
 </bibl>
 
-<bibl id="B29">
+<bibl id="B30">
   <title><p>{Car free cities: Pathway to healthy urban living}</p></title>
   <aug>
     <au><snm>Nieuwenhuijsen</snm><fnm>MJ</fnm></au>
@@ -2120,7 +2133,7 @@ Playgrounds and Parks.
   <lpage>-262</lpage>
 </bibl>
 
-<bibl id="B30">
+<bibl id="B31">
   <title><p>The impact of transportation infrastructure on bicycling injuries
   and crashes: A review of the literature</p></title>
   <aug>
@@ -2138,7 +2151,7 @@ Playgrounds and Parks.
   <fpage>47</fpage>
 </bibl>
 
-<bibl id="B31">
+<bibl id="B32">
   <title><p>Route infrastructure and the risk of injuries to bicyclists: A
   case-crossover study</p></title>
   <aug>
@@ -2165,7 +2178,7 @@ Playgrounds and Parks.
   <lpage>-2343</lpage>
 </bibl>
 
-<bibl id="B32">
+<bibl id="B33">
   <title><p>Safer Cycling Through Improved Infrastructure</p></title>
   <aug>
     <au><snm>Pucher</snm><fnm>J</fnm></au>
@@ -2180,7 +2193,7 @@ Playgrounds and Parks.
   <lpage>-2091</lpage>
 </bibl>
 
-<bibl id="B33">
+<bibl id="B34">
   <title><p>Cycling injury risk in London: A case-control study exploring the
   impact of cycle volumes, motor vehicle volumes, and road characteristics
   including speed limits</p></title>
@@ -2198,7 +2211,7 @@ Playgrounds and Parks.
   <lpage>-84</lpage>
 </bibl>
 
-<bibl id="B34">
+<bibl id="B35">
   <title><p>The social cost of automobility, cycling and walking in the
   European Union</p></title>
   <aug>
@@ -2215,7 +2228,7 @@ Playgrounds and Parks.
   <lpage>-74</lpage>
 </bibl>
 
-<bibl id="B35">
+<bibl id="B36">
   <title><p>Why cities need to take road space from cars-and how this could be
   done</p></title>
   <aug>
@@ -2228,7 +2241,7 @@ Playgrounds and Parks.
   <lpage>-6</lpage>
 </bibl>
 
-<bibl id="B36">
+<bibl id="B37">
   <title><p>Bicycle Commuting and Facilities in Major U.S. Cities: If You Build
   Them, Commuters Will Use Them</p></title>
   <aug>
@@ -2245,7 +2258,7 @@ Playgrounds and Parks.
   <lpage>-123</lpage>
 </bibl>
 
-<bibl id="B37">
+<bibl id="B38">
   <title><p>{The missing link : bicycle infrastructure networks and ridership
   in 74 US cities}</p></title>
   <aug>
@@ -2261,7 +2274,7 @@ Playgrounds and Parks.
   <lpage>-1204</lpage>
 </bibl>
 
-<bibl id="B38">
+<bibl id="B39">
   <title><p>{Bicycle infrastructure: can good design encourage
   cycling?}</p></title>
   <aug>
@@ -2277,7 +2290,7 @@ Playgrounds and Parks.
   <lpage>-406</lpage>
 </bibl>
 
-<bibl id="B39">
+<bibl id="B40">
   <title><p>Bikeway Networks: A Review of Effects on Cycling</p></title>
   <aug>
     <au><snm>Buehler</snm><fnm>R</fnm></au>
@@ -2292,7 +2305,7 @@ Playgrounds and Parks.
   <lpage>-27</lpage>
 </bibl>
 
-<bibl id="B40">
+<bibl id="B41">
   <title><p>{Measuring Multimodal Network Connectivity}</p></title>
   <aug>
     <au><cnm>{Hannah Twaddell (ICF)}</cnm></au>
@@ -2312,7 +2325,7 @@ Playgrounds and Parks.
   <fpage>76</fpage>
 </bibl>
 
-<bibl id="B41">
+<bibl id="B42">
   <title><p>Planarity and street network representation in urban form
   analysis</p></title>
   <aug>
@@ -2326,7 +2339,7 @@ Playgrounds and Parks.
   <lpage>869</lpage>
 </bibl>
 
-<bibl id="B42">
+<bibl id="B43">
   <title><p>Assessing the Completeness of Bicycle Trail and Designated Lane
   Features in OpenStreetMap for the United States and Europe
   Revised</p></title>
@@ -2340,7 +2353,7 @@ Playgrounds and Parks.
   <lpage>-137</lpage>
 </bibl>
 
-<bibl id="B43">
+<bibl id="B44">
   <title><p>What is at the end of the road? Understanding discontinuities of
   on-street bicycle lanes in urban settings</p></title>
   <aug>
@@ -2356,7 +2369,7 @@ Playgrounds and Parks.
   <lpage>-68</lpage>
 </bibl>
 
-<bibl id="B44">
+<bibl id="B45">
   <title><p>{Cycling in the city}</p></title>
   <aug>
     <au><snm>Movement</snm><fnm>U</fnm></au>
@@ -2366,7 +2379,7 @@ Playgrounds and Parks.
   <fpage>68</fpage>
 </bibl>
 
-<bibl id="B45">
+<bibl id="B46">
   <title><p>Pedestrian and Bicycle Facility Design Guidance</p></title>
   <aug>
     <au><snm>Systems</snm><fnm>U</fnm></au>
@@ -2376,7 +2389,7 @@ Playgrounds and Parks.
   <fpage>86</fpage>
 </bibl>
 
-<bibl id="B46">
+<bibl id="B47">
   <title><p>How much space do drivers provide when passing cyclists?
   Understanding the impact of motor vehicle and infrastructure characteristics
   on passing distance</p></title>
@@ -2397,7 +2410,7 @@ Playgrounds and Parks.
   <pubdate>2019</pubdate>
 </bibl>
 
-<bibl id="B47">
+<bibl id="B48">
   <title><p>Global street design guide</p></title>
   <aug>
     <au><snm>Initiative</snm><fnm>GDC</fnm></au>
@@ -2405,19 +2418,6 @@ Playgrounds and Parks.
   </aug>
   <publisher>Island Press</publisher>
   <pubdate>2016</pubdate>
-</bibl>
-
-<bibl id="B48">
-  <title><p>Extracting the multimodal fingerprint of urban transportation
-  networks</p></title>
-  <aug>
-    <au><snm>{Natera Orozco}</snm><fnm>LG</fnm></au>
-    <au><snm>Battiston</snm><fnm>F</fnm></au>
-    <au><snm>I{\~{n}}iguez</snm><fnm>G</fnm></au>
-    <au><snm>Szell</snm><fnm>M</fnm></au>
-  </aug>
-  <source>Transport Findings</source>
-  <pubdate>2020</pubdate>
 </bibl>
 
 <bibl id="B49">
