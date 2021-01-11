@@ -41,35 +41,6 @@ The category weights used in equation (\ref{Q_services}), aggregating $Q^{servic
 
 \section{Data-driven strategies for optimal bicycle network growth}
 \subsection{Data}
-Table~\ref{tab:DataDrivenCities} shows measures for the fifteen analyzed cities. For each layer in a city we report the number of nodes $N$ and the number of connected components $CC$.
-\begin{table*}[ht!]
-  \centering
-  \begin{adjustbox}{width=0.9\textwidth,keepaspectratio}
-    \begin{tabular}{llllllllllllll}
-      \toprule
-      {}         & \multicolumn{3}{l}{walk} & \multicolumn{3}{l}{bike} & \multicolumn{3}{l}{rail} & \multicolumn{3}{l}{drive} & Population                                                                                                             \\
-      {}         & $N$                      & $CC$                     & $\ell(km)$               & $N$                       & $CC$       & $\ell(km)$ & $N$     & $CC$ & $\ell(km)$ & $N$       & $CC$ & \multicolumn{2}{l}{$\ell(km)$}              \\
-      \midrule
-      Amsterdam  & 23,321.0                 & 1.0                      & 2,075.67                 & 34,529.0                  & 355.0      & 972.08     & 1,096.0 & 8.0  & 288.72     & 15,125.0  & 1.0  & 2,010.49                       & 872,680    \\
-      Barcelona  & 20,203.0                 & 1.0                      & 2,122.6                  & 7,553.0                   & 122.0      & 229.19     & 263.0   & 29.0 & 105.98     & 10,393.0  & 1.0  & 1,551.44                       & 1,600,000  \\
-      Bogota     & 81,814.0                 & 1.0                      & 8,686.51                 & 9,760.0                   & 171.0      & 367.33     & 166.0   & 12.0 & 20.2       & 62,017.0  & 1.0  & 7,383.69                       & 7,412,566  \\
-      Budapest   & 73,172.0                 & 1.0                      & 7,746.12                 & 10,494.0                  & 257.0      & 336.13     & 1,588.0 & 20.0 & 522.06     & 37,012.0  & 1.0  & 5,332.97                       & 1,752,286  \\
-      Copenhagen & 30,746.0                 & 1.0                      & 2,286.66                 & 13,980.0                  & 321.0      & 417.01     & 276.0   & 3.0  & 123.56     & 15,822.0  & 1.0  & 1,547.3                        & 2,557,737  \\
-      Detroit    & 47,828.0                 & 1.0                      & 6,769.46                 & 3,663.0                   & 53.0       & 141.06     & 20.0    & 3.0  & 11.54      & 28,462.0  & 1.0  & 5,624.49                       & 672,662    \\
-      Jakarta    & 140,042.0                & 1.0                      & 13,947.96                & 248.0                     & 19.0       & 8.44       & 60.0    & 8.0  & 81.24      & 138,388.0 & 1.0  & 14,194.2                       & 10,075,310 \\
-      LA         & 89,543.0                 & 1.0                      & 14,329.92                & 14,577.0                  & 230.0      & 653.16     & 173.0   & 9.0  & 90.82      & 71,091.0  & 1.0  & 13,324.46                      & 3,792,621  \\
-      London     & 270,659.0                & 1.0                      & 23,846.62                & 62,398.0                  & 3,023.0    & 1,281.71   & 2,988.0 & 38.0 & 1,045.39   & 179,782.0 & 1.0  & 18,154.52                      & 8,908,081  \\
-      Manhattan  & 13,326.0                 & 1.0                      & 1,320.78                 & 3,871.0                   & 105.0      & 111.42     & 349.0   & 5.0  & 197.51     & 5,671.0   & 1.0  & 1,022.13                       & 1,628,701  \\
-      Mexico     & 108,033.0                & 1.0                      & 14,547.18                & 5,218.0                   & 52.0       & 332.37     & 371.0   & 18.0 & 253.48     & 95,375.0  & 1.0  & 13,732.39                      & 8,918,653  \\
-      Phoenix    & 111,363.0                & 1.0                      & 14,314.0                 & 35,631.0                  & 141.0      & 1,221.18   & 105.0   & 4.0  & 71.64      & 73,688.0  & 1.0  & 11,841.49                      & 1,445,632  \\
-      Portland   & 50,878.0                 & 1.0                      & 5,324.78                 & 24,252.0                  & 198.0      & 596.36     & 230.0   & 2.0  & 132.36     & 35,025.0  & 1.0  & 4,583.47                       & 583,776    \\
-      Singapore  & 82,808.0                 & 1.0                      & 8,633.13                 & 12,981.0                  & 104.0      & 339.39     & 683.0   & 14.0 & 428.66     & 50,403.0  & 1.0  & 6,635.37                       & 5,638,700  \\
-      \bottomrule
-    \end{tabular}
-  \end{adjustbox}
-  \caption{Measures for the administrative area of analyzed cities. The number of connected components ($CC$) and nodes ($N$) for each layer in all cities of our dataset are highly diverse due to the varying developmental levels and focus of transport.
-    \label{tab:DataDrivenCities}}
-\end{table*}
 
 Figure \ref{fig:Nodes} shows the connected component size distribution $P(N_{cc})$ for all considered layers and cities.
 
@@ -86,71 +57,71 @@ We develop two main algorithms to improve the bicycle layer. The first algorithm
 
 To evaluate our algorithms we test them against a random baseline, \textit{Random-to-Closest}. In each step, \textit{Random-to-Closest} picks a component at random and connects it to the closest of the remaining components. We implement another baseline, the extreme case of \textit{Closest-Components}, which prioritizes connecting the closest two components.
 
-\begin{algorithm}[h!]
-  \caption{Largest-to-Second}\label{greedy_lcc}
-  \begin{algorithmic}[1]
-    \Procedure{\textit{L2S}}{}
-    \State $\textit{G} \gets \text{ bicycle network graph}$
-    \State $\textit{wcc} \gets \text{ components of network G}$
-    \For {i in length(wcc)-1}
-    \State  \text{sort \textit{wcc} by components size}
-    \State $\textit{cc} \gets \text{ two biggest components from \textit{wcc}}$
-    \State $\textit{i\_j} \gets \text{ closest nodes between } cc_0 \text{ and } cc_1$
-    \State $\text{connect } cc_0 \text{ and } cc_1 \text{ in } i\_j$
-    \EndFor
-    \EndProcedure
-  \end{algorithmic}
-\end{algorithm}
+% \begin{algorithm}[h!]
+%   \caption{Largest-to-Second}\label{greedy_lcc}
+%   \begin{algorithmic}[1]
+%     \Procedure{\textit{L2S}}{}
+%     \State $\textit{G} \gets \text{ bicycle network graph}$
+%     \State $\textit{wcc} \gets \text{ components of network G}$
+%     \For {i in length(wcc)-1}
+%     \State  \text{sort \textit{wcc} by components size}
+%     \State $\textit{cc} \gets \text{ two biggest components from \textit{wcc}}$
+%     \State $\textit{i\_j} \gets \text{ closest nodes between } cc_0 \text{ and } cc_1$
+%     \State $\text{connect } cc_0 \text{ and } cc_1 \text{ in } i\_j$
+%     \EndFor
+%     \EndProcedure
+%   \end{algorithmic}
+% \end{algorithm}
 
-\begin{algorithm}[h!]
-  \caption{Largest-to-Closest}\label{greedy_min}
-  \begin{algorithmic}[1]
-    \Procedure{\textit{L2C}}{}
-    \State $\textit{G} \gets \text{ bicycle network graph}$
-    \State $\textit{wcc} \gets \text{ components of network G}$
-    \For {i in length(wcc)-1}
-    \State  \text{sort \textit{wcc} by components size}
-    \State $cc_0 \gets \text{ biggest component from \textit{wcc}}$
-    \State $cc_n \gets \text{ clossest component to } cc_0$
-    \State $\textit{i\_j} \gets \text{ closest nodes between } cc_0 \text{ and } cc_n$
-    \State $\text{connect } cc_0 \text{ and } cc_n \text{ in } i\_j$
-    \EndFor
-    \EndProcedure
-  \end{algorithmic}
-\end{algorithm}
+% \begin{algorithm}[h!]
+%   \caption{Largest-to-Closest}\label{greedy_min}
+%   \begin{algorithmic}[1]
+%     \Procedure{\textit{L2C}}{}
+%     \State $\textit{G} \gets \text{ bicycle network graph}$
+%     \State $\textit{wcc} \gets \text{ components of network G}$
+%     \For {i in length(wcc)-1}
+%     \State  \text{sort \textit{wcc} by components size}
+%     \State $cc_0 \gets \text{ biggest component from \textit{wcc}}$
+%     \State $cc_n \gets \text{ clossest component to } cc_0$
+%     \State $\textit{i\_j} \gets \text{ closest nodes between } cc_0 \text{ and } cc_n$
+%     \State $\text{connect } cc_0 \text{ and } cc_n \text{ in } i\_j$
+%     \EndFor
+%     \EndProcedure
+%   \end{algorithmic}
+% \end{algorithm}
 
-\begin{algorithm}[h!]
-  \caption{Random-to-Closest}\label{random}
-  \begin{algorithmic}[1]
-    \Procedure{\textit{R2C}}{}
-    \State $\textit{G} \gets \text{ bicycle network graph}$
-    \State $\textit{wcc} \gets \text{ components of network G}$
-    \For {i in length(wcc)-1}
-    \State $cc_{ran} \gets \text{ random component from \textit{wcc}}$
-    \State $cc_n \gets \text{ clossest component to } cc_{ran}$
-    \State $\textit{i\_j} \gets \text{ closest nodes between } cc_{ran} \text{ and } cc_n$
-    \State $\text{connect } cc_{ran} \text{ and } cc_n \text{ in } i\_j$
-    \EndFor
-    \EndProcedure
-  \end{algorithmic}
-\end{algorithm}
+% \begin{algorithm}[h!]
+%   \caption{Random-to-Closest}\label{random}
+%   \begin{algorithmic}[1]
+%     \Procedure{\textit{R2C}}{}
+%     \State $\textit{G} \gets \text{ bicycle network graph}$
+%     \State $\textit{wcc} \gets \text{ components of network G}$
+%     \For {i in length(wcc)-1}
+%     \State $cc_{ran} \gets \text{ random component from \textit{wcc}}$
+%     \State $cc_n \gets \text{ clossest component to } cc_{ran}$
+%     \State $\textit{i\_j} \gets \text{ closest nodes between } cc_{ran} \text{ and } cc_n$
+%     \State $\text{connect } cc_{ran} \text{ and } cc_n \text{ in } i\_j$
+%     \EndFor
+%     \EndProcedure
+%   \end{algorithmic}
+% \end{algorithm}
 
-\begin{algorithm}[h!]
-  \caption{Closest-Components}\label{min_delta}
-  \begin{algorithmic}[1]
-    \Procedure{\textit{CC}}{}
-    \State $\textit{G} \gets \text{ bicycle network graph}$
-    \State $\textit{wcc} \gets \text{ components of network G}$
-    \For {i in length(wcc)-1}
-    \State $\Delta_{min} \gets \text{ clossest components in \textit{wcc}}$
-    \State $cc_{0} \gets \text{ first component for }\Delta_{min}$
-    \State $cc_{1} \gets \text{ second component for } \Delta_{min}$
-    \State $\textit{i\_j} \gets \text{ closest nodes between } cc_{0} \text{ and } cc_{1}$
-    \State $\text{connect } cc_{0} \text{ and } cc_{1} \text{ in } i\_j$
-    \EndFor
-    \EndProcedure
-  \end{algorithmic}
-\end{algorithm}
+% \begin{algorithm}[h!]
+%   \caption{Closest-Components}\label{min_delta}
+%   \begin{algorithmic}[1]
+%     \Procedure{\textit{CC}}{}
+%     \State $\textit{G} \gets \text{ bicycle network graph}$
+%     \State $\textit{wcc} \gets \text{ components of network G}$
+%     \For {i in length(wcc)-1}
+%     \State $\Delta_{min} \gets \text{ clossest components in \textit{wcc}}$
+%     \State $cc_{0} \gets \text{ first component for }\Delta_{min}$
+%     \State $cc_{1} \gets \text{ second component for } \Delta_{min}$
+%     \State $\textit{i\_j} \gets \text{ closest nodes between } cc_{0} \text{ and } cc_{1}$
+%     \State $\text{connect } cc_{0} \text{ and } cc_{1} \text{ in } i\_j$
+%     \EndFor
+%     \EndProcedure
+%   \end{algorithmic}
+% \end{algorithm}
 
 \subsection{Bicycle network improvement}
 

@@ -1,6 +1,6 @@
 \chapter{Data-driven strategies for optimal bicycle network growth}
 
-Urban transportation networks, from sidewalks and bicycle paths to streets and rails, provide the backbone for movement and socioeconomic life in cities. To make urban transport sustainable, cities are increasingly investing to develop their bicycle networks. However, it is yet unclear how to extend them comprehensively and effectively given a limited budget. Here we investigate the structure of bicycle networks in cities around the world, and find that they consist of hundreds of disconnected patches, even in cycling-friendly cities like Copenhagen. To connect these patches, we develop and apply data-driven, algorithmic network growth strategies, showing that small but focused investments allow to significantly increase the connectedness and directness of urban bicycle networks. We introduce two greedy algorithms to add the most critical missing links in the bicycle network focusing on connectedness, and show that they outmatch both a random approach and a baseline minimum investment strategy. Our computational approach outlines novel pathways from car-centric towards sustainable cities by taking advantage of urban data available on a city-wide scale. It is a first step towards a quantitative consolidation of bicycle infrastructure development that can become valuable for urban planners and stakeholders.\footnote{This chapter draws on work that is under review at a journal at the time of submission of the thesis. A preprint is available at \url{https://arxiv.org/abs/1907.07080}}
+Urban transportation networks, from sidewalks and bicycle paths to streets and rails, provide the backbone for movement and socioeconomic life in cities. To make urban transport sustainable, cities are increasingly investing to develop their bicycle networks. However, it is yet unclear how to extend them comprehensively and effectively given a limited budget. Here we investigate the structure of bicycle networks in cities around the world, and find that they consist of hundreds of disconnected patches, even in cycling-friendly cities like Copenhagen. To connect these patches, we develop and apply data-driven, algorithmic network growth strategies, showing that small but focused investments allow to significantly increase the connectedness and directness of urban bicycle networks. We introduce two greedy algorithms to add the most critical missing links in the bicycle network focusing on connectedness, and show that they outmatch both a random approach and a baseline minimum investment strategy. Our computational approach outlines novel pathways from car-centric towards sustainable cities by taking advantage of urban data available on a city-wide scale. It is a first step towards a quantitative consolidation of bicycle infrastructure development that can become valuable for urban planners and stakeholders.\footnote{A stand alone version of this chapter has been published in Royal Socity Open Science \cite{natera2020growth}}
 
 
 
@@ -11,20 +11,49 @@ From an urban sustainability perspective, this situation is suboptimal because t
 
 Here we analyze the bicycle infrastructure network of 14 world cities, from leading bicycle-culture countries like Netherlands, to car-centric countries like Great Britain, the USA, or Colombia. We first uncover network fragmentation within the bicycle dedicated infrastructure. Then, to improve a city's vital dedicated bicycle infrastructure \cite{Dill2013Bicycle,Schoner2014Missing,Hull2014Infrastructure,Buehler2016Bikable}, we develop algorithms for connecting disconnected graphs based on concrete quality metrics from bicycle network planning \cite{Twaddell2018Multimodal} and apply them to the empirical bicycle networks via network growth simulations. We find that localized investment into targeted missing links can rapidly consolidate fragmented bicycle networks, allowing to significantly increase their connectedness and directness, with potentially crucial implications for sustainable transport policy planning.
 
-\section{Data acquisition and network construction}
-We acquired street and bicycle infrastructure networks from multiple cities around the world using OSMnx \cite{Boeing2017OSMNX}, a Python library to download and construct networks from OpenStreetMap (OSM). OSMnx simplifies the OpenStreetMap's raw data to retain only nodes at the intersections and dead ends of streets, and the spatial geometry of the edges, generating a length-weighted nonplanar directed graph \cite{Boeing2020Planarity}. These data sets are of high quality \cite{Haklay2010OpenStreetMap,Girres2010Quality} in terms of correspondence with municipal open data \cite{Ferster2019Bicycle} and completeness: More than $80\%$ of the world is covered by OSM \cite{Barbosa-Filho2017Models}. In particular, OSM's bicycle layer has better coverage than proprietary alternatives like Google Maps \cite{Hochmair2012}. We collect data from a diverse set of cities to capture different development states of bicycle infrastructure networks; from consolidated networks like Amsterdam and Copenhagen, less developed ones like Manhattan and Mexico City, to rapidly developing cities like Jakarta and Singapore. The various analyzed urban areas and their properties are reported in Table~\ref{tab:DataDrivenCities} in the Supplementary Information (SI). Code to replicate our results is available as Jupyter Notebooks (\url{https://github.com/nateraluis/bicycle-network-growth}) and data can be downloaded from Harvard Dataverse \cite{natera2019data}.
-
-We characterize each city street and bicycle infrastructure as a primal network, \cite{Porta2006Primal} in which nodes are intersections, while links represent bicycle paths, and designated bicycle infrastructure. This recent approach has been useful to demonstrate how cities grow \cite{Strano2012Evolution,Barthelemy2013Evolution}, how efficient \cite{Gallotti2014Efficiency} and dense they are, and to capture the tendency of travel routes to gravitate towards city centers \cite{Lee2017Morphology}. This network is described by an adjacency matrix $A=\{a_{ij}^{[\alpha]}\}$ where $a_{ij}=1$ if there is a link between nodes $i$ and $j$ and 0 otherwise.
-
-\begin{figure}[htbp]
+\begin{figure}[th!]
   \centering
   \includegraphics[width=\textwidth]{images/datadriven/Fig01.png}
   \caption[Multimodal configuration]{\textbf{(Map plots, left)} Networks representing various layers of transport infrastructure (pedestrian paths, bicycle paths, rail lines, and streets) for Copenhagen and London, with data from OpenStreetMap. \textbf{(Right)} Connected component size distribution $P(N_{cc})$ as a function of the ranking of the component for all considered network layers and cities. All layers are well connected except the bicycle layer: Copenhagen has 321 bicycle network components despite being known as a bicycle-friendly city, while London's bicycle layer is much more fragmented, featuring over 3000 disconnected components. Copenhagen's largest connected bicycle component (leftmost data point) spans 50\% of the network, but London's only less than 5\%.}
   \label{fig:Multimodal}
 \end{figure}
 
+\section{Data acquisition and network construction}
+We acquired street and bicycle infrastructure networks from multiple cities around the world using OSMnx \cite{Boeing2017OSMNX}, a Python library to download and construct networks from OpenStreetMap (OSM). OSMnx simplifies the OpenStreetMap's raw data to retain only nodes at the intersections and dead ends of streets, and the spatial geometry of the edges, generating a length-weighted nonplanar directed graph \cite{Boeing2020Planarity}. These data sets are of high quality \cite{Haklay2010OpenStreetMap,Girres2010Quality} in terms of correspondence with municipal open data \cite{Ferster2019Bicycle} and completeness: More than $80\%$ of the world is covered by OSM \cite{Barbosa-Filho2017Models}. In particular, OSM's bicycle layer has better coverage than proprietary alternatives like Google Maps \cite{Hochmair2012}. We collect data from a diverse set of cities to capture different development states of bicycle infrastructure networks; from consolidated networks like Amsterdam and Copenhagen, less developed ones like Manhattan and Mexico City, to rapidly developing cities like Jakarta and Singapore. The various analyzed urban areas and their properties (number of nodes $N$, number of connected components $CC$, and population) are reported in Table~\ref{tab:DataDrivenCities}. Code to replicate our results is available as Jupyter Notebooks (\url{https://github.com/nateraluis/bicycle-network-growth}) and data can be downloaded from Harvard Dataverse \cite{natera2019data}.
+
+\begin{table*}[th!]
+  \centering
+  \begin{adjustbox}{width=0.9\textwidth,keepaspectratio}
+    \begin{tabular}{llllllllllllll}
+      \toprule
+      {}         & \multicolumn{3}{l}{walk} & \multicolumn{3}{l}{bike} & \multicolumn{3}{l}{rail} & \multicolumn{3}{l}{drive} & Population                                                                                                             \\
+      {}         & $N$                      & $CC$                     & $\ell(km)$               & $N$                       & $CC$       & $\ell(km)$ & $N$     & $CC$ & $\ell(km)$ & $N$       & $CC$ & \multicolumn{2}{l}{$\ell(km)$}              \\
+      \midrule
+      Amsterdam  & 23,321.0                 & 1.0                      & 2,075.67                 & 34,529.0                  & 355.0      & 972.08     & 1,096.0 & 8.0  & 288.72     & 15,125.0  & 1.0  & 2,010.49                       & 872,680    \\
+      Barcelona  & 20,203.0                 & 1.0                      & 2,122.6                  & 7,553.0                   & 122.0      & 229.19     & 263.0   & 29.0 & 105.98     & 10,393.0  & 1.0  & 1,551.44                       & 1,600,000  \\
+      Bogota     & 81,814.0                 & 1.0                      & 8,686.51                 & 9,760.0                   & 171.0      & 367.33     & 166.0   & 12.0 & 20.2       & 62,017.0  & 1.0  & 7,383.69                       & 7,412,566  \\
+      Budapest   & 73,172.0                 & 1.0                      & 7,746.12                 & 10,494.0                  & 257.0      & 336.13     & 1,588.0 & 20.0 & 522.06     & 37,012.0  & 1.0  & 5,332.97                       & 1,752,286  \\
+      Copenhagen & 30,746.0                 & 1.0                      & 2,286.66                 & 13,980.0                  & 321.0      & 417.01     & 276.0   & 3.0  & 123.56     & 15,822.0  & 1.0  & 1,547.3                        & 2,557,737  \\
+      Detroit    & 47,828.0                 & 1.0                      & 6,769.46                 & 3,663.0                   & 53.0       & 141.06     & 20.0    & 3.0  & 11.54      & 28,462.0  & 1.0  & 5,624.49                       & 672,662    \\
+      Jakarta    & 140,042.0                & 1.0                      & 13,947.96                & 248.0                     & 19.0       & 8.44       & 60.0    & 8.0  & 81.24      & 138,388.0 & 1.0  & 14,194.2                       & 10,075,310 \\
+      LA         & 89,543.0                 & 1.0                      & 14,329.92                & 14,577.0                  & 230.0      & 653.16     & 173.0   & 9.0  & 90.82      & 71,091.0  & 1.0  & 13,324.46                      & 3,792,621  \\
+      London     & 270,659.0                & 1.0                      & 23,846.62                & 62,398.0                  & 3,023.0    & 1,281.71   & 2,988.0 & 38.0 & 1,045.39   & 179,782.0 & 1.0  & 18,154.52                      & 8,908,081  \\
+      Manhattan  & 13,326.0                 & 1.0                      & 1,320.78                 & 3,871.0                   & 105.0      & 111.42     & 349.0   & 5.0  & 197.51     & 5,671.0   & 1.0  & 1,022.13                       & 1,628,701  \\
+      Mexico     & 108,033.0                & 1.0                      & 14,547.18                & 5,218.0                   & 52.0       & 332.37     & 371.0   & 18.0 & 253.48     & 95,375.0  & 1.0  & 13,732.39                      & 8,918,653  \\
+      Phoenix    & 111,363.0                & 1.0                      & 14,314.0                 & 35,631.0                  & 141.0      & 1,221.18   & 105.0   & 4.0  & 71.64      & 73,688.0  & 1.0  & 11,841.49                      & 1,445,632  \\
+      Portland   & 50,878.0                 & 1.0                      & 5,324.78                 & 24,252.0                  & 198.0      & 596.36     & 230.0   & 2.0  & 132.36     & 35,025.0  & 1.0  & 4,583.47                       & 583,776    \\
+      Singapore  & 82,808.0                 & 1.0                      & 8,633.13                 & 12,981.0                  & 104.0      & 339.39     & 683.0   & 14.0 & 428.66     & 50,403.0  & 1.0  & 6,635.37                       & 5,638,700  \\
+      \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+  \caption[Measures for analyzed cities]{Measures for the administrative area of analyzed cities. The number of connected components ($CC$) and nodes ($N$) for each layer in all cities of our dataset are highly diverse due to the varying developmental levels and focus of transport.
+    \label{tab:DataDrivenCities}}
+\end{table*}
+
+We characterize each city street and bicycle infrastructure as a primal network, \cite{Porta2006Primal} in which nodes are intersections, while links represent bicycle paths, and designated bicycle infrastructure. This recent approach has been useful to demonstrate how cities grow \cite{Strano2012Evolution,Barthelemy2013Evolution}, how efficient \cite{Gallotti2014Efficiency} and dense they are, and to capture the tendency of travel routes to gravitate towards city centers \cite{Lee2017Morphology}. This network is described by an adjacency matrix $A=\{a_{ij}^{[\alpha]}\}$ where $a_{ij}=1$ if there is a link between nodes $i$ and $j$ and 0 otherwise.
+
 \section{Defining bicycle network growth strategies and quality metrics}
-Across all cities considered, we find that almost all network layers are made up of one giant component, except for the bicycle layer which is always fragmented into many disconnected components (see Table~\ref{tab:DataDrivenCities} in SI). This discovery is remarkable given that the fragmentation occurs also in bicycle-friendly cities like Copenhagen (Fig.~\ref{fig:Multimodal}), showing that cycling infrastructure can be suboptimal even in the leading cycling cities on the planet. To quantify such an underdevelopment in the sustainable mobility infrastructure of cycling, we focus on the single layer of bicycle networks and on two well-established metrics in bicycle infrastructure quality assessment \cite{Krizek2005Discontinuities,movement2013Cycling,Dobrovolny2014Pedestrian,Twaddell2018Multimodal,Beck2019Space}: \textit{connectedness} and \textit{directness}. Connectedness indicates ``the ease with which people can travel across the transportation system'' \cite{Twaddell2018Multimodal}, and it is related to answering the question ``can I go where I want to, safely?''. Directness addresses the question ``how far out of their way do users have to travel to find a facility they can or want to use?'', and can be measured by how easy it is to go from one point to another in a city using bicycle infrastructure versus other mobility options, like car travel.
+Across all cities considered, we find that almost all network layers are made up of one giant component, except for the bicycle layer which is always fragmented into many disconnected components (see Table~\ref{tab:DataDrivenCities}). This discovery is remarkable given that the fragmentation occurs also in bicycle-friendly cities like Copenhagen (Fig.~\ref{fig:Multimodal}), showing that cycling infrastructure can be suboptimal even in the leading cycling cities on the planet. To quantify such an underdevelopment in the sustainable mobility infrastructure of cycling, we focus on the single layer of bicycle networks and on two well-established metrics in bicycle infrastructure quality assessment \cite{Krizek2005Discontinuities,movement2013Cycling,Dobrovolny2014Pedestrian,Twaddell2018Multimodal,Beck2019Space}: \textit{connectedness} and \textit{directness}. Connectedness indicates ``the ease with which people can travel across the transportation system'' \cite{Twaddell2018Multimodal}, and it is related to answering the question ``can I go where I want to, safely?''. Directness addresses the question ``how far out of their way do users have to travel to find a facility they can or want to use?'', and can be measured by how easy it is to go from one point to another in a city using bicycle infrastructure versus other mobility options, like car travel.
 
 As our main approach, we choose to measure connectedness and directness over the designated bicycle infrastructure only, without considering travel on streets. Although it is possible to cycle on streets, growing evidence from bicycle infrastructure and safety research is unveiling serious safety issues for cycling when mixed with vehicular traffic \cite{Reynolds2009impact,Teschke2012route,Pucher2016Safer}. However, we also tested our algorithms on a combination of bicycle infrastructure plus streets for which the maximum speed is $30\,\mathrm{km/h}$, following common best-practice reasoning that low speed limits can make streets safe for cycling \cite{global2016global}. The results of these additional simulations are available in the Supplementary Information; they do not differ significantly from the case of designated bicycle infrastructure presented below, as the developed algorithms follow the same rules to connect the multiple components in both cases of segregated bicycle infrastructure only and of included bikeable streets.
 
@@ -32,9 +61,77 @@ To quantify connectedness, we first measure the number of disconnected component
 
 There are various approaches in developing automated strategies for bicycle infrastructure planning. Hyodo et al.~\cite{Hyodo2000Modeling} have proposed a bicycle route choice model to plan bicycle lanes taking into account facility characteristics. Other studies have used input data from bicycle share systems \cite{Bao2017Planning} or origin destination matrices \cite{Mauttone2017Design} to plan bicycle lanes. More recently, taxi trips have been used to identify susceptible clusters for bicycle infrastructure \cite{Akbarzadeh2018Design}. Here we attempt an alternative approach: Since hundreds of bicycle network components already exist in most cities, we aim at consolidating the existing infrastructure by making strategic connections between components rather than starting from scratch.
 
-Our approach takes into account the currently available bicycle infrastructure and uses an algorithmic process to improve the network by finding the most important missing links step by step. This way we focus on optimizing the connectedness metric, growing the bicycle infrastructure by making it more connected, merging parts into fewer and fewer components. We develop two iterative greedy algorithms that we check against a random and a minimum investment approach. The first algorithm, \emph{Largest-to-Second} (L2S), identifies in each step the largest connected component in the bicycle infrastructure network and connects it to the second largest. The second algorithm, \emph{Largest-to-Closest} (L2C), also identifies the largest connected component, but connects it to the closest of the remaining bicycle infrastructure components. See the SI for details. In both algorithms, components are connected through a direct link between their two closest nodes. We use this technique as an approximation to the underlying street-shortest path -- since the most relevant shortest 100 connections typically range from $14$ to $500$ meters, roughly the length of two blocks, this approximation is reasonable. The algorithms repeat this process until there are no more disconnected components in the network.
 
-To have a random baseline, we compare our algorithms with a \emph{Random-to-Closest} (R2C) component approach. In each step of this baseline approach, one component is picked at random and connected with the closest remaining one. This baseline allows us to model a scenario where infrastructure is developed following a systematic but random linking approach -- in urban development this corresponds to uncoordinated local planning that randomly connects close pieces of bicycle infrastructure. We also implement a second baseline, the extreme case of \emph{Closest-Components} (CC), which prioritizes connecting the closest two components disregarding their size. This CC approach is equivalent to an ``invest as little as possible'' development strategy -- it builds up a minimum-spanning-tree-like structure  following a modified Kruskal's algorithm \cite{Kruskal1956Spanning}. All four algorithms connect components optimizing a well-defined criterion, finding the critical missing links in the network, and adding one new link per iteration. See Fig.~\ref{fig:Algorithms}(a) for a schematic of the four algorithms.
+\begin{algorithm}[h!]
+  \begin{algorithmic}[1]
+    \Procedure{\textit{L2S}}{}
+    \State $\textit{G} \gets \text{ bicycle network graph}$
+    \State $\textit{wcc} \gets \text{ components of network G}$
+    \For {i in length(wcc)-1}
+    \State  \text{sort \textit{wcc} by components size}
+    \State $\textit{cc} \gets \text{ two biggest components from \textit{wcc}}$
+    \State $\textit{i\_j} \gets \text{ closest nodes between } cc_0 \text{ and } cc_1$
+    \State $\text{connect } cc_0 \text{ and } cc_1 \text{ in } i\_j$
+    \EndFor
+    \EndProcedure
+  \end{algorithmic}
+  \caption{Largest-to-Second. \textcolor{blue}{The algorithm takes the bicycle network \textit{G} and a list of its weakly connected components \textit{wcc}, then it iterates over the weakly connected components, sorts them by their size (number of nodes inside each component), locates the closest pairs of nodes between the first and the second components. The process is repeated until all the components have been connected.}}\label{al:L2S}
+\end{algorithm}
+
+\begin{algorithm}[h!]
+  \caption{Largest-to-Closest. \textcolor{blue}{The algorithm takes the bicycle network \textit{G} and a list of its weakly connected components \textit{wcc}, then it iterates over the weakly connected components, sorts them by their size (number of nodes inside each component), locates the largest connected component and the closest of the remaining components, the components are connected. The process is repeated until all the components have been connected.}}\label{al:L2C}
+  \begin{algorithmic}[1]
+    \Procedure{\textit{L2C}}{}
+    \State $\textit{G} \gets \text{ bicycle network graph}$
+    \State $\textit{wcc} \gets \text{ components of network G}$
+    \For {i in length(wcc)-1}
+    \State  \text{sort \textit{wcc} by components size}
+    \State $cc_0 \gets \text{ biggest component from \textit{wcc}}$
+    \State $cc_n \gets \text{ clossest component to } cc_0$
+    \State $\textit{i\_j} \gets \text{ closest nodes between } cc_0 \text{ and } cc_n$
+    \State $\text{connect } cc_0 \text{ and } cc_n \text{ in } i\_j$
+    \EndFor
+    \EndProcedure
+  \end{algorithmic}
+\end{algorithm}
+
+Our approach takes into account the currently available bicycle infrastructure and uses an algorithmic process to improve the network by finding the most important missing links step by step. This way we focus on optimizing the connectedness metric, growing the bicycle infrastructure by making it more connected, merging parts into fewer and fewer components. We develop two iterative greedy algorithms that we check against a random and a minimum investment approach. The first algorithm, \emph{Largest-to-Second} (L2S), identifies in each step the largest connected component in the bicycle infrastructure network and connects it to the second largest (see algorithm~\ref{al:L2S} for details). The second algorithm, \emph{Largest-to-Closest} (L2C), also identifies the largest connected component, but connects it to the closest of the remaining bicycle infrastructure components (see algorithm~\ref{al:L2C} for details). In both algorithms, components are connected through a direct link between their two closest nodes. We use this technique as an approximation to the underlying street-shortest path -- since the most relevant shortest 100 connections typically range from $14$ to $500$ meters, roughly the length of two blocks, this approximation is reasonable. The algorithms repeat this process until there are no more disconnected components in the network.
+
+To have a random baseline, we compare our algorithms with a \emph{Random-to-Closest} (R2C) component approach. In each step of this baseline approach, one component is picked at random and connected with the closest remaining one (see algorithm~\ref{al:R2C} for details). This baseline allows us to model a scenario where infrastructure is developed following a systematic but random linking approach -- in urban development this corresponds to uncoordinated local planning that randomly connects close pieces of bicycle infrastructure. We also implement a second baseline, the extreme case of \emph{Closest-Components} (CC), which prioritizes connecting the closest two components disregarding their size (see algorithm~\ref{al:CC} for details). This CC approach is equivalent to an ``invest as little as possible'' development strategy -- it builds up a minimum-spanning-tree-like structure  following a modified Kruskal's algorithm \cite{Kruskal1956Spanning}. All four algorithms connect components optimizing a well-defined criterion, finding the critical missing links in the network, and adding one new link per iteration. See Fig.~\ref{fig:Algorithms}(a) for a schematic of the four algorithms.
+
+
+\begin{algorithm}[h!]
+  \caption{Random-to-Closest. \textcolor{blue}{The algorithm takes the bicycle network \textit{G} and a list of its weakly connected components \textit{wcc}, then it iterates over the weakly connected components, randomly picks a component and connects it to the closest of the remaining components. The process is repeated until all the components have been connected.}\label{al:R2C}
+  \begin{algorithmic}[1]
+    \Procedure{\textit{R2C}}{}
+    \State $\textit{G} \gets \text{ bicycle network graph}$
+    \State $\textit{wcc} \gets \text{ components of network G}$
+    \For {i in length(wcc)-1}
+    \State $cc_{ran} \gets \text{ random component from \textit{wcc}}$
+    \State $cc_n \gets \text{ clossest component to } cc_{ran}$
+    \State $\textit{i\_j} \gets \text{ closest nodes between } cc_{ran} \text{ and } cc_n$
+    \State $\text{connect } cc_{ran} \text{ and } cc_n \text{ in } i\_j$
+    \EndFor
+    \EndProcedure
+  \end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}[h!]
+  \caption{Closest-Components}\label{al:CC}
+  \begin{algorithmic}[1]
+    \Procedure{\textit{CC}}{}
+    \State $\textit{G} \gets \text{ bicycle network graph}$
+    \State $\textit{wcc} \gets \text{ components of network G}$
+    \For {i in length(wcc)-1}
+    \State $\Delta_{min} \gets \text{ clossest components in \textit{wcc}}$
+    \State $cc_{0} \gets \text{ first component for }\Delta_{min}$
+    \State $cc_{1} \gets \text{ second component for } \Delta_{min}$
+    \State $\textit{i\_j} \gets \text{ closest nodes between } cc_{0} \text{ and } cc_{1}$
+    \State $\text{connect } cc_{0} \text{ and } cc_{1} \text{ in } i\_j$
+    \EndFor
+    \EndProcedure
+  \end{algorithmic}
+\end{algorithm}
 
 We apply the algorithms to the bicycle infrastrucutre inside the political demarcation of the cities, however it is possible to extend the methods and include bicycle highways and cross-city trails, since they use as input a set of spatial network components to connect. We opt to not include cross-city links, since they are a special case only available in a few regions and where adequate intra-urban bicycle infrastructure has already been established \cite{Hildebrandt2013BicycleHighways,Taciuk2018Bicycle}.
 
