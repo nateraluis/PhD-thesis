@@ -331,7 +331,6 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplb7t.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/adobe/palatino/pplrc7t.vf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
@@ -339,8 +338,6 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/adobe/palatino/pplb7t.vf
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /Users/natera/Dropbox/PhD/thesis/images/multiplex/Multilayer_NY_op2.png
 INPUT /Users/natera/Dropbox/PhD/thesis/images/multiplex/Multilayer_NY_op2.png
 INPUT /Users/natera/Dropbox/PhD/thesis/images/multiplex/Multilayer_NY_op2.png
@@ -412,11 +409,14 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplb7t.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplb7t.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/mathpazo/fplmri.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/adobe/palatino/pplb7t.vf
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/mathpazo/zplmr7v.vf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
@@ -428,6 +428,9 @@ INPUT /Users/natera/Dropbox/PhD/thesis/images/lqi/Budapest_LQI_Neighborhoods-eps
 INPUT /Users/natera/Dropbox/PhD/thesis/images/lqi/LQI_categories_regplots.pdf
 INPUT /Users/natera/Dropbox/PhD/thesis/images/lqi/LQI_categories_regplots.pdf
 INPUT /Users/natera/Dropbox/PhD/thesis/images/lqi/LQI_categories_regplots.pdf
+INPUT /Users/natera/Dropbox/PhD/thesis/main.bbl
+INPUT /Users/natera/Dropbox/PhD/thesis/main.bbl
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
 INPUT /Users/natera/Dropbox/PhD/thesis/chapters_tex/chapter7.tex
 INPUT /Users/natera/Dropbox/PhD/thesis/chapters_tex/chapter7.tex
 INPUT /Users/natera/Dropbox/PhD/thesis/images/datadriven/Nodes_cc.png
@@ -463,6 +466,7 @@ INPUT /Users/natera/Dropbox/PhD/thesis/main.out
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb
