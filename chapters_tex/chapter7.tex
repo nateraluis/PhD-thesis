@@ -52,10 +52,10 @@ Figure \ref{fig:Nodes} shows the connected component size distribution $P(N_{cc}
 \end{figure*}
 
 
-\subsection{Algorithms}
-We develop two main algorithms to improve the bicycle layer. The first algorithm, \textit{Largest-to-Second}, identifies in each step the largest connected component and connects it to the second largest. The second algorithm, \textit{Largest-to-Closest}, also identifies the largest connected component, but in each step connects it to the closest of the remaining components.
+% \subsection{Algorithms}
+% We develop two main algorithms to improve the bicycle layer. The first algorithm, \textit{Largest-to-Second}, identifies in each step the largest connected component and connects it to the second largest. The second algorithm, \textit{Largest-to-Closest}, also identifies the largest connected component, but in each step connects it to the closest of the remaining components.
 
-To evaluate our algorithms we test them against a random baseline, \textit{Random-to-Closest}. In each step, \textit{Random-to-Closest} picks a component at random and connects it to the closest of the remaining components. We implement another baseline, the extreme case of \textit{Closest-Components}, which prioritizes connecting the closest two components.
+% To evaluate our algorithms we test them against a random baseline, \textit{Random-to-Closest}. In each step, \textit{Random-to-Closest} picks a component at random and connects it to the closest of the remaining components. We implement another baseline, the extreme case of \textit{Closest-Components}, which prioritizes connecting the closest two components.
 
 % \begin{algorithm}[h!]
 %   \caption{Largest-to-Second}\label{greedy_lcc}
@@ -123,7 +123,7 @@ To evaluate our algorithms we test them against a random baseline, \textit{Rando
 %   \end{algorithmic}
 % \end{algorithm}
 
-\subsection{Bicycle network improvement}
+\subsection{Bicycle network improvement}\label{SI:BikeImprovement}
 
 Here we show the improvement of the bicycle network after the implementation of the algorithms. We measure the improvement with four different metrics. Two of them implement the notion of connectedness: i) Fraction of nodes inside the largest connected component compared to the total number of nodes in the bicycle layer, and ii) the fraction of link kilometers inside the largest connected component. In Figure \ref{fig:NodesIncrease} and \ref{fig:Lengthsncrease} we show these two measures for fourteen different cities. We also quantify iii) bicycle-to-car directness to answer the question ``how direct are the average routes of bicycles compared to cars?''. Finally, in order to measure the cumulative efficiency of our algorithms, we define the metric: iv) $G_{LCC}$ as the relative gain of bicycle path kilometers in the largest connected component. In Figures \ref{fig:Directness} and \ref{fig:Gain} we report these two measures for all algorithms and cities considered.
 
@@ -138,7 +138,7 @@ Here we show the improvement of the bicycle network after the implementation of 
   \centering
   \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Lengths.png}
   \caption{Normalized increase in kilometers inside the largest connected component ($\ell_{LCC}$).}
-  \label{fig:Lengthsncrease}
+  \label{fig:LengthsIncrease}
 \end{figure*}
 
 \begin{figure*}[h!]
@@ -162,14 +162,8 @@ Here we show the improvement of the bicycle network after the implementation of 
   \label{fig:Gain}
 \end{figure*}
 
-\begin{figure*}[h!]
-  \centering
-  \includegraphics[width=0.8\textwidth]{images/datadriven/Reviewer_Coverage.png}
-  \caption{Area of influence (coverage) for the bicycle infrastructure in the street layer.}
-  \label{fig:Coverage}
-\end{figure*}
 
-\section*{Bicycle network and 30 km/hr streets}
+\subsection{Bicycle network and 30 km/hr streets}\label{SI:BikeStreets}
 We applied the algorithms to the bicycle infrastructure and all the bikeable streets, those with a speed limit of $30\ km/hr$ or less (see Figures~\ref{fig:NodesIncrease_BikeStreets}, \ref{fig:Lengthsncrease_BikeStreets}, \ref{fig:Directness_BikeStreets}, and \ref{fig:Gain_BikeStreets}).
 
 \begin{figure*}[h!]
@@ -179,12 +173,12 @@ We applied the algorithms to the bicycle infrastructure and all the bikeable str
   \label{fig:NodesIncrease_BikeStreets}
 \end{figure*}
 
-\begin{figure*}[h!]
-  \centering
-  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Lengths_Bike_Streets.png}
-  \caption{Normalized increase in kilometers inside the largest connected component ($\ell_{LCC}$).}
-  \label{fig:Lengthsncrease_BikeStreets}
-\end{figure*}
+% \begin{figure*}[h!]
+%   \centering
+%   \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Lengths_Bike_Streets.png}
+%   \caption{Normalized increase in kilometers inside the largest connected component ($\ell_{LCC}$).}
+%   \label{fig:Lengthsncrease_BikeStreets}
+% \end{figure*}
 
 \begin{figure*}[h!]
   \centering
