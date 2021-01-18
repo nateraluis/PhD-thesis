@@ -39,45 +39,45 @@ Warning--to sort, need author, organization, or key in HU_Park
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 118 entries,
+You've used 119 entries,
             7128 wiz_defined-function locations,
-            1949 strings with 34418 characters,
-and the built_in function-call counts, 1701414 in all, are:
-= -- 300116
-> -- 3343
-< -- 1993
-+ -- 173390
-- -- 1061
-* -- 56550
-:= -- 301227
-add.period$ -- 186
-call.type$ -- 118
-change.case$ -- 1185
-chr.to.int$ -- 4181
-cite$ -- 132
-duplicate$ -- 10486
-empty$ -- 33050
-format.name$ -- 3227
-if$ -- 428338
+            1956 strings with 34747 characters,
+and the built_in function-call counts, 1711176 in all, are:
+= -- 301227
+> -- 3408
+< -- 2019
++ -- 173509
+- -- 1080
+* -- 57418
+:= -- 303211
+add.period$ -- 188
+call.type$ -- 119
+change.case$ -- 1193
+chr.to.int$ -- 4242
+cite$ -- 133
+duplicate$ -- 10621
+empty$ -- 33756
+format.name$ -- 3297
+if$ -- 430432
 int.to.chr$ -- 12
-int.to.str$ -- 292
-missing$ -- 3971
-newline$ -- 3209
-num.names$ -- 523
-pop$ -- 4710
+int.to.str$ -- 294
+missing$ -- 4006
+newline$ -- 3248
+num.names$ -- 531
+pop$ -- 4777
 preamble$ -- 1
-purify$ -- 513
-quote$ -- 236
-skip$ -- 176899
+purify$ -- 517
+quote$ -- 238
+skip$ -- 177368
 stack$ -- 0
-substring$ -- 174451
-swap$ -- 3297
-text.length$ -- 1894
+substring$ -- 176085
+swap$ -- 3352
+text.length$ -- 1911
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4752
+type$ -- 4799
 warning$ -- 14
-while$ -- 3800
+while$ -- 3858
 width$ -- 0
-write$ -- 4257
+write$ -- 4312
 (There were 14 warnings)

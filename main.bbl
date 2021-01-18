@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{118}
+\begin{thebibliography}{119}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -320,7 +320,7 @@ doi:\doiurl{10.1080/15568318.2018.1519746}
 %%% 19
 \bibitem{natera2019data}
 \begin{botherref}
-\oauthor{\bsnm{Natera~Orozco}, \binits{L.G.}}:
+\oauthor{\bsnm{{Natera Orozco}}, \binits{L.G.}}:
 Multiplex urban networks.
 Harvard Dataverse, V1, \url{https://doi.org/10.7910/DVN/GSOPCK}
 (2019).
@@ -1032,18 +1032,40 @@ doi:\doiurl{10.1016/j.ypmed.2017.12.011}
 \endbibitem
 
 %%% 65
-\bibitem{Heylen2006Liveability}
+\bibitem{natera2020walkability}
 \begin{bchapter}
-\bauthor{\bsnm{Heylen}, \binits{K.}}:
-\bctitle{Liveability in social housing: three case studies in flanders}.
-In: \bbtitle{ENHR Conference'Housing in an Expanding Europe: Theory, Policy,
-  Implementation and Participation', Date: 2006/07/02-2006/07/05, Location:
-  Ljubljana (Slovenia)}
-(\byear{2006})
+\bauthor{\bsnm{{Natera Orozco}}, \binits{L.G.}},
+\bauthor{\bsnm{Deritei}, \binits{D.}},
+\bauthor{\bsnm{Vancs\'{o}}, \binits{A.}},
+\bauthor{\bsnm{V\'{a}s\'{a}rhelyi}, \binits{O.}}:
+\bctitle{Quantifying life quality as walkability on urban networks: The case of
+  {Budapest}}.
+In: \beditor{\bsnm{Cherifi}, \binits{H.}},
+\beditor{\bsnm{Gaito}, \binits{S.}},
+\beditor{\bsnm{Mendes}, \binits{J.F.}},
+\beditor{\bsnm{Moro}, \binits{E.}},
+\beditor{\bsnm{Rocha}, \binits{L.M.}} (eds.)
+\bbtitle{Complex Networks and Their Applications VIII},
+pp. \bfpage{905}--\blpage{918}.
+\bpublisher{Springer},
+\blocation{Cham}
+(\byear{2020})
 \end{bchapter}
 \endbibitem
 
 %%% 66
+\bibitem{Heylen2006Liveability}
+\begin{bchapter}
+\bauthor{\bsnm{Heylen}, \binits{K.}}:
+\bctitle{Liveability in social housing: three case studies in flanders}.
+In: \bbtitle{ENHR Conference 'Housing in an Expanding Europe: Theory, Policy,
+  Implementation and Participation'},
+\bconflocation{Ljubljana, Slovenia}
+(\byear{2006})
+\end{bchapter}
+\endbibitem
+
+%%% 67
 \bibitem{Shamsuddin2012Walkable}
 \begin{barticle}
 \bauthor{\bsnm{Shamsuddin}, \binits{S.}},
@@ -1057,7 +1079,7 @@ In: \bbtitle{ENHR Conference'Housing in an Expanding Europe: Theory, Policy,
 \end{barticle}
 \endbibitem
 
-%%% 67
+%%% 68
 \bibitem{Campbell1996Green}
 \begin{barticle}
 \bauthor{\bsnm{Campbell}, \binits{S.}}:
@@ -1070,7 +1092,7 @@ In: \bbtitle{ENHR Conference'Housing in an Expanding Europe: Theory, Policy,
 \end{barticle}
 \endbibitem
 
-%%% 68
+%%% 69
 \bibitem{Jabareen2013Planning}
 \begin{barticle}
 \bauthor{\bsnm{Jabareen}, \binits{Y.}}:
@@ -1083,7 +1105,7 @@ In: \bbtitle{ENHR Conference'Housing in an Expanding Europe: Theory, Policy,
 \end{barticle}
 \endbibitem
 
-%%% 69
+%%% 70
 \bibitem{Frank2006Many}
 \begin{barticle}
 \bauthor{\bsnm{Frank}, \binits{L.D.}},
@@ -1102,7 +1124,7 @@ In: \bbtitle{ENHR Conference'Housing in an Expanding Europe: Theory, Policy,
 \end{barticle}
 \endbibitem
 
-%%% 70
+%%% 71
 \bibitem{Speck2012Walkability}
 \begin{bbook}
 \bauthor{\bsnm{Speck}, \binits{J.}}:
@@ -1113,7 +1135,7 @@ In: \bbtitle{ENHR Conference'Housing in an Expanding Europe: Theory, Policy,
 \end{bbook}
 \endbibitem
 
-%%% 71
+%%% 72
 \bibitem{Barthelemy2008Modeling}
 \begin{barticle}
 \bauthor{\bsnm{Barth{\'e}lemy}, \binits{M.}},
@@ -1126,7 +1148,7 @@ In: \bbtitle{ENHR Conference'Housing in an Expanding Europe: Theory, Policy,
 \end{barticle}
 \endbibitem
 
-%%% 72
+%%% 73
 \bibitem{Boeing2019Morphology}
 \begin{bchapter}
 \bauthor{\bsnm{Boeing}, \binits{G.}}:
@@ -1140,7 +1162,7 @@ pp. \bfpage{271}--\blpage{287}.
 \end{bchapter}
 \endbibitem
 
-%%% 73
+%%% 74
 \bibitem{Hajrasouliha2015Impact}
 \begin{barticle}
 \bauthor{\bsnm{Hajrasouliha}, \binits{A.}},
@@ -1153,7 +1175,7 @@ pp. \bfpage{271}--\blpage{287}.
 \end{barticle}
 \endbibitem
 
-%%% 74
+%%% 75
 \bibitem{Quercia2015Digital}
 \begin{bchapter}
 \bauthor{\bsnm{Quercia}, \binits{D.}},
@@ -1168,7 +1190,7 @@ pp. \bfpage{875}--\blpage{884}
 \end{bchapter}
 \endbibitem
 
-%%% 75
+%%% 76
 \bibitem{Silva2018Investigating}
 \begin{barticle}
 \bauthor{\bsnm{Silva}, \binits{J.P.}},
@@ -1183,7 +1205,7 @@ pp. \bfpage{875}--\blpage{884}
 \end{barticle}
 \endbibitem
 
-%%% 76
+%%% 77
 \bibitem{Krambeck2006Global}
 \begin{botherref}
 \oauthor{\bsnm{Krambeck}, \binits{H.V.}}:
@@ -1194,7 +1216,7 @@ Massachusetts Institute of Technology
 \end{botherref}
 \endbibitem
 
-%%% 77
+%%% 78
 \bibitem{Southworth2005Designing}
 \begin{barticle}
 \bauthor{\bsnm{Southworth}, \binits{M.}}:
@@ -1206,7 +1228,7 @@ Massachusetts Institute of Technology
 \end{barticle}
 \endbibitem
 
-%%% 78
+%%% 79
 \bibitem{Carr2010Walk}
 \begin{barticle}
 \bauthor{\bsnm{Carr}, \binits{L.J.}},
@@ -1220,7 +1242,7 @@ Massachusetts Institute of Technology
 \end{barticle}
 \endbibitem
 
-%%% 79
+%%% 80
 \bibitem{Stephen2014Sustainable}
 \begin{bbook}
 \bauthor{\bsnm{Wheeler}, \binits{S.M.}},
@@ -1232,7 +1254,7 @@ Massachusetts Institute of Technology
 \end{bbook}
 \endbibitem
 
-%%% 80
+%%% 81
 \bibitem{Childs2018Planning}
 \begin{botherref}
 \oauthor{\bsnm{Childs}, \binits{S.}}:
@@ -1242,7 +1264,7 @@ A Case for Data-Driven City Planning.
 \end{botherref}
 \endbibitem
 
-%%% 81
+%%% 82
 \bibitem{Kaushik2017Planning}
 \begin{botherref}
 \oauthor{\bsnm{Kaushik}, \binits{V.}}:
@@ -1252,7 +1274,7 @@ How Technology Empowers Data-Driven Urban Planning.
 \end{botherref}
 \endbibitem
 
-%%% 82
+%%% 83
 \bibitem{Fitzgerald2016Data}
 \begin{botherref}
 \oauthor{\bsnm{Fitzgerald}, \binits{M.}}:
@@ -1262,7 +1284,7 @@ Data-Driven City Management.
 \end{botherref}
 \endbibitem
 
-%%% 83
+%%% 84
 \bibitem{HU2019Districts}
 \begin{botherref}
 Budapest Districts.
@@ -1270,7 +1292,7 @@ Budapest Districts.
 \end{botherref}
 \endbibitem
 
-%%% 84
+%%% 85
 \bibitem{HU2019Police}
 \begin{botherref}
 \oauthor{\bsnm{Police}, \binits{H.}}:
@@ -1280,7 +1302,7 @@ Bunugyi Statisztikak.
 \end{botherref}
 \endbibitem
 
-%%% 85
+%%% 86
 \bibitem{HU2016Population}
 \begin{botherref}
 Hungarian Population Data.
@@ -1289,7 +1311,7 @@ Hungarian Population Data.
 \end{botherref}
 \endbibitem
 
-%%% 86
+%%% 87
 \bibitem{HU2019Pollution}
 \begin{botherref}
 \oauthor{\bsnm{Network}, \binits{A.M.}}:
@@ -1299,7 +1321,7 @@ National Air Pollution Measurement Network,.
 \end{botherref}
 \endbibitem
 
-%%% 87
+%%% 88
 \bibitem{Rosow1961Social}
 \begin{barticle}
 \bauthor{\bsnm{Rosow}, \binits{I.}}:
@@ -1311,7 +1333,7 @@ National Air Pollution Measurement Network,.
 \end{barticle}
 \endbibitem
 
-%%% 88
+%%% 89
 \bibitem{Kahneman2006Developments}
 \begin{barticle}
 \bauthor{\bsnm{Kahneman}, \binits{D.}},
@@ -1324,7 +1346,7 @@ National Air Pollution Measurement Network,.
 \end{barticle}
 \endbibitem
 
-%%% 89
+%%% 90
 \bibitem{Erwig2000Graph}
 \begin{barticle}
 \bauthor{\bsnm{Erwig}, \binits{M.}}:
@@ -1336,7 +1358,7 @@ National Air Pollution Measurement Network,.
 \end{barticle}
 \endbibitem
 
-%%% 90
+%%% 91
 \bibitem{Deritei2014Community}
 \begin{barticle}
 \bauthor{\bsnm{Deritei}, \binits{D.}},
@@ -1355,7 +1377,7 @@ National Air Pollution Measurement Network,.
 \end{barticle}
 \endbibitem
 
-%%% 91
+%%% 92
 \bibitem{Hohenberg1996Urban}
 \begin{bbook}
 \bauthor{\bsnm{Hohenberg}, \binits{P.M.}},
@@ -1366,7 +1388,7 @@ National Air Pollution Measurement Network,.
 \end{bbook}
 \endbibitem
 
-%%% 92
+%%% 93
 \bibitem{Brueckner1999Central}
 \begin{barticle}
 \bauthor{\bsnm{Brueckner}, \binits{J.K.}},
@@ -1381,7 +1403,7 @@ National Air Pollution Measurement Network,.
 \end{barticle}
 \endbibitem
 
-%%% 93
+%%% 94
 \bibitem{Kover2006Magyarorszag}
 \begin{botherref}
 \oauthor{\bsnm{K{\"o}v{\'e}r}, \binits{G.}},
@@ -1393,7 +1415,7 @@ Osiris
 \end{botherref}
 \endbibitem
 
-%%% 94
+%%% 95
 \bibitem{Dittmar2012New}
 \begin{bbook}
 \bauthor{\bsnm{Dittmar}, \binits{H.}},
@@ -1404,7 +1426,7 @@ Osiris
 \end{bbook}
 \endbibitem
 
-%%% 95
+%%% 96
 \bibitem{Rogers2011Examining}
 \begin{barticle}
 \bauthor{\bsnm{Rogers}, \binits{S.H.}},
@@ -1420,7 +1442,7 @@ Osiris
 \end{barticle}
 \endbibitem
 
-%%% 96
+%%% 97
 \bibitem{Rinner2007Geographic}
 \begin{barticle}
 \bauthor{\bsnm{Rinner}, \binits{C.}}:
@@ -1433,7 +1455,7 @@ Osiris
 \end{barticle}
 \endbibitem
 
-%%% 97
+%%% 98
 \bibitem{Gavrilidis2016Urban}
 \begin{barticle}
 \bauthor{\bsnm{Gavrilidis}, \binits{A.A.}},
@@ -1450,7 +1472,7 @@ Osiris
 \end{barticle}
 \endbibitem
 
-%%% 98
+%%% 99
 \bibitem{Talen2002Pedestrian}
 \begin{barticle}
 \bauthor{\bsnm{Talen}, \binits{E.}}:
@@ -1462,7 +1484,7 @@ Osiris
 \end{barticle}
 \endbibitem
 
-%%% 99
+%%% 100
 \bibitem{Santos2007Monitoring}
 \begin{barticle}
 \bauthor{\bsnm{Santos}, \binits{L.D.}},
@@ -1475,7 +1497,7 @@ Osiris
 \end{barticle}
 \endbibitem
 
-%%% 100
+%%% 101
 \bibitem{Roback1982Wages}
 \begin{barticle}
 \bauthor{\bsnm{Roback}, \binits{J.}}:
@@ -1487,7 +1509,7 @@ Osiris
 \end{barticle}
 \endbibitem
 
-%%% 101
+%%% 102
 \bibitem{Blomquist1988New}
 \begin{botherref}
 \oauthor{\bsnm{Blomquist}, \binits{G.C.}},
@@ -1500,7 +1522,7 @@ The American Economic Review,
 \end{botherref}
 \endbibitem
 
-%%% 102
+%%% 103
 \bibitem{Lora2011New}
 \begin{botherref}
 \oauthor{\bsnm{Lora}, \binits{E.A.}},
@@ -1510,7 +1532,7 @@ A new way of monitoring the quality of urban life
 \end{botherref}
 \endbibitem
 
-%%% 103
+%%% 104
 \bibitem{HU2019RealEstate}
 \begin{botherref}
 \oauthor{\bsnm{ingatlannet}}:
@@ -1519,7 +1541,7 @@ Budapest Real Estate Statistic.
 \end{botherref}
 \endbibitem
 
-%%% 104
+%%% 105
 \bibitem{Cassiers2012Socio}
 \begin{barticle}
 \bauthor{\bsnm{Cassiers}, \binits{T.}},
@@ -1532,7 +1554,7 @@ Budapest Real Estate Statistic.
 \end{barticle}
 \endbibitem
 
-%%% 105
+%%% 106
 \bibitem{Garcia2004Cultural}
 \begin{barticle}
 \bauthor{\bsnm{Garcia}, \binits{B.}}:
@@ -1545,7 +1567,7 @@ Budapest Real Estate Statistic.
 \end{barticle}
 \endbibitem
 
-%%% 106
+%%% 107
 \bibitem{Gobillon2007Mechanisms}
 \begin{barticle}
 \bauthor{\bsnm{Gobillon}, \binits{L.}},
@@ -1559,7 +1581,7 @@ Budapest Real Estate Statistic.
 \end{barticle}
 \endbibitem
 
-%%% 107
+%%% 108
 \bibitem{HU_sport}
 \begin{botherref}
 Sport Associations in Budapest.
@@ -1568,7 +1590,7 @@ Sport Associations in Budapest.
 \end{botherref}
 \endbibitem
 
-%%% 108
+%%% 109
 \bibitem{HU_Edu}
 \begin{botherref}
 Kindergartens \& Daycare, Primary Education, Secondary Education.
@@ -1577,7 +1599,7 @@ Kindergartens \& Daycare, Primary Education, Secondary Education.
 \end{botherref}
 \endbibitem
 
-%%% 109
+%%% 110
 \bibitem{HU_Art}
 \begin{botherref}
 Art and Music Schools.
@@ -1586,7 +1608,7 @@ Art and Music Schools.
 \end{botherref}
 \endbibitem
 
-%%% 110
+%%% 111
 \bibitem{HU_Child}
 \begin{botherref}
 Pediatricians, Gynecologists.
@@ -1595,7 +1617,7 @@ Pediatricians, Gynecologists.
 \end{botherref}
 \endbibitem
 
-%%% 111
+%%% 112
 \bibitem{HU_Social}
 \begin{botherref}
 Social Welfare.
@@ -1604,7 +1626,7 @@ Social Welfare.
 \end{botherref}
 \endbibitem
 
-%%% 112
+%%% 113
 \bibitem{HU_Cult}
 \begin{botherref}
 Culture Centers.
@@ -1613,7 +1635,7 @@ Culture Centers.
 \end{botherref}
 \endbibitem
 
-%%% 113
+%%% 114
 \bibitem{HU_Play}
 \begin{botherref}
 Indoor Playgrounds.
@@ -1622,7 +1644,7 @@ Indoor Playgrounds.
 \end{botherref}
 \endbibitem
 
-%%% 114
+%%% 115
 \bibitem{HU_Health}
 \begin{botherref}
 Healthcare (hospitals, Private and Public Clinics, Specialists).
@@ -1631,7 +1653,7 @@ Healthcare (hospitals, Private and Public Clinics, Specialists).
 \end{botherref}
 \endbibitem
 
-%%% 115
+%%% 116
 \bibitem{HU_Fitness}
 \begin{botherref}
 Fitness and Training Facilities.
@@ -1640,7 +1662,7 @@ Fitness and Training Facilities.
 \end{botherref}
 \endbibitem
 
-%%% 116
+%%% 117
 \bibitem{HU_outfitness}
 \begin{botherref}
 Outdoor Fitness Training Facilities.
@@ -1649,7 +1671,7 @@ Outdoor Fitness Training Facilities.
 \end{botherref}
 \endbibitem
 
-%%% 117
+%%% 118
 \bibitem{HU_Thermal}
 \begin{botherref}
 Thermal and Spa.
@@ -1658,7 +1680,7 @@ Thermal and Spa.
 \end{botherref}
 \endbibitem
 
-%%% 118
+%%% 119
 \bibitem{HU_Park}
 \begin{botherref}
 Playgrounds and Parks.
@@ -1965,7 +1987,7 @@ Playgrounds and Parks.
 <bibl id="B19">
   <title><p>Multiplex urban networks</p></title>
   <aug>
-    <au><snm>Natera Orozco</snm><fnm>LG</fnm></au>
+    <au><snm>{Natera Orozco}</snm><fnm>LG</fnm></au>
   </aug>
   <source>Harvard Dataverse, V1,
   \url{https://doi.org/10.7910/DVN/GSOPCK}</source>
@@ -2710,18 +2732,36 @@ Playgrounds and Parks.
 </bibl>
 
 <bibl id="B65">
+  <title><p>Quantifying life quality as walkability on urban networks: The case
+  of {Budapest}</p></title>
+  <aug>
+    <au><snm>{Natera Orozco}</snm><fnm>LG</fnm></au>
+    <au><snm>Deritei</snm><fnm>D</fnm></au>
+    <au><snm>Vancs\'{o}</snm><fnm>A</fnm></au>
+    <au><snm>V\'{a}s\'{a}rhelyi</snm><fnm>O</fnm></au>
+  </aug>
+  <source>Complex Networks and Their Applications VIII</source>
+  <publisher>Cham: Springer International Publishing</publisher>
+  <editor>Cherifi, Hocine and Gaito, Sabrina and Mendes, Jos{\'{e}} Fernendo
+  and Moro, Esteban and Rocha, Luis Mateus</editor>
+  <pubdate>2020</pubdate>
+  <fpage>905</fpage>
+  <lpage>-918</lpage>
+</bibl>
+
+<bibl id="B66">
   <title><p>Liveability in social housing: three case studies in
   Flanders</p></title>
   <aug>
     <au><snm>Heylen</snm><fnm>K</fnm></au>
   </aug>
-  <source>ENHR Conference'Housing in an Expanding Europe: Theory, Policy,
-  Implementation and Participation', Date: 2006/07/02-2006/07/05, Location:
-  Ljubljana (Slovenia)</source>
+  <source>ENHR Conference 'Housing in an Expanding Europe: Theory, Policy,
+  Implementation and Participation'</source>
+  <publisher>Ljubljana, Slovenia</publisher>
   <pubdate>2006</pubdate>
 </bibl>
 
-<bibl id="B66">
+<bibl id="B67">
   <title><p>Walkable environment in increasing the liveability of a
   city</p></title>
   <aug>
@@ -2737,7 +2777,7 @@ Playgrounds and Parks.
   <lpage>-178</lpage>
 </bibl>
 
-<bibl id="B67">
+<bibl id="B68">
   <title><p>Green cities, growing cities, just cities?: Urban planning and the
   contradictions of sustainable development</p></title>
   <aug>
@@ -2752,7 +2792,7 @@ Playgrounds and Parks.
   <lpage>-312</lpage>
 </bibl>
 
-<bibl id="B68">
+<bibl id="B69">
   <title><p>Planning the resilient city: Concepts and strategies for coping
   with climate change and environmental risk</p></title>
   <aug>
@@ -2766,7 +2806,7 @@ Playgrounds and Parks.
   <lpage>-229</lpage>
 </bibl>
 
-<bibl id="B69">
+<bibl id="B70">
   <title><p>Many pathways from land use to health: associations between
   neighborhood walkability and active transportation, body mass index, and air
   quality</p></title>
@@ -2787,7 +2827,7 @@ Playgrounds and Parks.
   <lpage>-87</lpage>
 </bibl>
 
-<bibl id="B70">
+<bibl id="B71">
   <title><p>Walkable City: How Downtown Can Save America, One Step at a
   Time</p></title>
   <aug>
@@ -2797,7 +2837,7 @@ Playgrounds and Parks.
   <pubdate>2012</pubdate>
 </bibl>
 
-<bibl id="B71">
+<bibl id="B72">
   <title><p>Modeling urban street patterns</p></title>
   <aug>
     <au><snm>Barth{\'e}lemy</snm><fnm>M</fnm></au>
@@ -2811,7 +2851,7 @@ Playgrounds and Parks.
   <fpage>138702</fpage>
 </bibl>
 
-<bibl id="B72">
+<bibl id="B73">
   <title><p>The morphology and circuity of walkable and drivable street
   networks</p></title>
   <aug>
@@ -2825,7 +2865,7 @@ Playgrounds and Parks.
   <lpage>-287</lpage>
 </bibl>
 
-<bibl id="B73">
+<bibl id="B74">
   <title><p>The impact of street network connectivity on pedestrian
   volume</p></title>
   <aug>
@@ -2841,7 +2881,7 @@ Playgrounds and Parks.
   <lpage>-2497</lpage>
 </bibl>
 
-<bibl id="B74">
+<bibl id="B75">
   <title><p>The digital life of walkable streets</p></title>
   <aug>
     <au><snm>Quercia</snm><fnm>D</fnm></au>
@@ -2856,7 +2896,7 @@ Playgrounds and Parks.
   <lpage>-884</lpage>
 </bibl>
 
-<bibl id="B75">
+<bibl id="B76">
   <title><p>Investigating the relationships between the built environment, the
   climate, walkability and physical activity in the Arabian Peninsula: The case
   of Bahrain</p></title>
@@ -2872,7 +2912,7 @@ Playgrounds and Parks.
   <fpage>1502907</fpage>
 </bibl>
 
-<bibl id="B76">
+<bibl id="B77">
   <title><p>The global walkability index</p></title>
   <aug>
     <au><snm>Krambeck</snm><fnm>HV</fnm></au>
@@ -2882,7 +2922,7 @@ Playgrounds and Parks.
   <pubdate>2006</pubdate>
 </bibl>
 
-<bibl id="B77">
+<bibl id="B78">
   <title><p>Designing the walkable city</p></title>
   <aug>
     <au><snm>Southworth</snm><fnm>M</fnm></au>
@@ -2896,7 +2936,7 @@ Playgrounds and Parks.
   <lpage>-257</lpage>
 </bibl>
 
-<bibl id="B78">
+<bibl id="B79">
   <title><p>Walk score™ as a global estimate of neighborhood
   walkability</p></title>
   <aug>
@@ -2913,7 +2953,7 @@ Playgrounds and Parks.
   <lpage>-463</lpage>
 </bibl>
 
-<bibl id="B79">
+<bibl id="B80">
   <title><p>Sustainable urban development reader</p></title>
   <aug>
     <au><snm>Wheeler</snm><fnm>SM</fnm></au>
@@ -2923,7 +2963,7 @@ Playgrounds and Parks.
   <pubdate>2014</pubdate>
 </bibl>
 
-<bibl id="B80">
+<bibl id="B81">
   <title><p>A Case for Data-Driven City Planning</p></title>
   <aug>
     <au><snm>Childs</snm><fnm>S</fnm></au>
@@ -2932,7 +2972,7 @@ Playgrounds and Parks.
   <url>https://medium.com/citiesense/a-case-for-data-driven-city-planning-8cd7d9332a</url>
 </bibl>
 
-<bibl id="B81">
+<bibl id="B82">
   <title><p>How Technology Empowers Data-Driven Urban Planning</p></title>
   <aug>
     <au><snm>Kaushik</snm><fnm>V</fnm></au>
@@ -2941,7 +2981,7 @@ Playgrounds and Parks.
   <url>https://www.getrevue.co/profile/TGIC/issues/how-technology-empowers-data-driven-urban-planning-59814</url>
 </bibl>
 
-<bibl id="B82">
+<bibl id="B83">
   <title><p>Data-Driven City Management</p></title>
   <aug>
     <au><snm>Fitzgerald</snm><fnm>M</fnm></au>
@@ -2950,12 +2990,12 @@ Playgrounds and Parks.
   <url>https://sloanreview.mit.edu/case-study/data-driven-city-management/</url>
 </bibl>
 
-<bibl id="B83">
+<bibl id="B84">
   <title><p>Budapest districts</p></title>
   <url>https://data2.openstreetmap.hu/hatarok/index.php?admin=9</url>
 </bibl>
 
-<bibl id="B84">
+<bibl id="B85">
   <title><p>Bunugyi statisztikak</p></title>
   <aug>
     <au><snm>Police</snm><fnm>H</fnm></au>
@@ -2964,13 +3004,13 @@ Playgrounds and Parks.
   <note>\textit{Data available at request}</note>
 </bibl>
 
-<bibl id="B85">
+<bibl id="B86">
   <title><p>Hungarian population data</p></title>
   <pubdate>2016</pubdate>
   <url>https://www.ksh.hu/mikrocenzus2016/</url>
 </bibl>
 
-<bibl id="B86">
+<bibl id="B87">
   <title><p>National Air Pollution Measurement Network,</p></title>
   <aug>
     <au><snm>Network</snm><fnm>AM</fnm></au>
@@ -2979,7 +3019,7 @@ Playgrounds and Parks.
   <note>\textit{Data available at request}</note>
 </bibl>
 
-<bibl id="B87">
+<bibl id="B88">
   <title><p>The social effects of the physical environment</p></title>
   <aug>
     <au><snm>Rosow</snm><fnm>I</fnm></au>
@@ -2993,7 +3033,7 @@ Playgrounds and Parks.
   <lpage>-133</lpage>
 </bibl>
 
-<bibl id="B88">
+<bibl id="B89">
   <title><p>Developments in the measurement of subjective
   well-being</p></title>
   <aug>
@@ -3008,7 +3048,7 @@ Playgrounds and Parks.
   <lpage>-24</lpage>
 </bibl>
 
-<bibl id="B89">
+<bibl id="B90">
   <title><p>The graph Voronoi diagram with applications</p></title>
   <aug>
     <au><snm>Erwig</snm><fnm>M</fnm></au>
@@ -3022,7 +3062,7 @@ Playgrounds and Parks.
   <lpage>-163</lpage>
 </bibl>
 
-<bibl id="B90">
+<bibl id="B91">
   <title><p>Community detection by graph Voronoi diagrams</p></title>
   <aug>
     <au><snm>Deritei</snm><fnm>D</fnm></au>
@@ -3042,7 +3082,7 @@ Playgrounds and Parks.
   <fpage>063007</fpage>
 </bibl>
 
-<bibl id="B91">
+<bibl id="B92">
   <title><p>The Making of Urban Europe: 1000-1994</p></title>
   <aug>
     <au><snm>Hohenberg</snm><fnm>PM</fnm></au>
@@ -3052,7 +3092,7 @@ Playgrounds and Parks.
   <pubdate>1996</pubdate>
 </bibl>
 
-<bibl id="B92">
+<bibl id="B93">
   <title><p>Why is central Paris rich and downtown Detroit poor?: An
   amenity-based theory</p></title>
   <aug>
@@ -3069,7 +3109,7 @@ Playgrounds and Parks.
   <lpage>-107</lpage>
 </bibl>
 
-<bibl id="B93">
+<bibl id="B94">
   <title><p>Magyarorsz{\'a}g t{\'a}rsadalomt{\"o}rt{\'e}nete a reformkort{\'o}l
   a m{\'a}sodik vil{\'a}gh{\'a}bor{\'u}ig</p></title>
   <aug>
@@ -3080,7 +3120,7 @@ Playgrounds and Parks.
   <pubdate>1998</pubdate>
 </bibl>
 
-<bibl id="B94">
+<bibl id="B95">
   <title><p>The new transit town: Best practices in transit-oriented
   development</p></title>
   <aug>
@@ -3091,7 +3131,7 @@ Playgrounds and Parks.
   <pubdate>2012</pubdate>
 </bibl>
 
-<bibl id="B95">
+<bibl id="B96">
   <title><p>Examining walkability and social capital as indicators of quality
   of life at the municipal and neighborhood scales</p></title>
   <aug>
@@ -3109,7 +3149,7 @@ Playgrounds and Parks.
   <lpage>-213</lpage>
 </bibl>
 
-<bibl id="B96">
+<bibl id="B97">
   <title><p>A geographic visualization approach to multi-criteria evaluation of
   urban quality of life</p></title>
   <aug>
@@ -3124,7 +3164,7 @@ Playgrounds and Parks.
   <lpage>-919</lpage>
 </bibl>
 
-<bibl id="B97">
+<bibl id="B98">
   <title><p>Urban landscape quality index--planning tool for evaluating urban
   landscapes and improving the quality of life</p></title>
   <aug>
@@ -3142,7 +3182,7 @@ Playgrounds and Parks.
   <lpage>-167</lpage>
 </bibl>
 
-<bibl id="B98">
+<bibl id="B99">
   <title><p>Pedestrian access as a measure of urban quality</p></title>
   <aug>
     <au><snm>Talen</snm><fnm>E</fnm></au>
@@ -3156,7 +3196,7 @@ Playgrounds and Parks.
   <lpage>-278</lpage>
 </bibl>
 
-<bibl id="B99">
+<bibl id="B100">
   <title><p>Monitoring urban quality of life: The Porto experience</p></title>
   <aug>
     <au><snm>Santos</snm><fnm>LD</fnm></au>
@@ -3171,7 +3211,7 @@ Playgrounds and Parks.
   <lpage>-425</lpage>
 </bibl>
 
-<bibl id="B100">
+<bibl id="B101">
   <title><p>Wages, rents, and the quality of life</p></title>
   <aug>
     <au><snm>Roback</snm><fnm>J</fnm></au>
@@ -3185,7 +3225,7 @@ Playgrounds and Parks.
   <lpage>-1278</lpage>
 </bibl>
 
-<bibl id="B101">
+<bibl id="B102">
   <title><p>New estimates of quality of life in urban areas</p></title>
   <aug>
     <au><snm>Blomquist</snm><fnm>GC</fnm></au>
@@ -3199,7 +3239,7 @@ Playgrounds and Parks.
   <lpage>-107</lpage>
 </bibl>
 
-<bibl id="B102">
+<bibl id="B103">
   <title><p>A new way of monitoring the quality of urban life</p></title>
   <aug>
     <au><snm>Lora</snm><fnm>EA</fnm></au>
@@ -3209,7 +3249,7 @@ Playgrounds and Parks.
   <pubdate>2011</pubdate>
 </bibl>
 
-<bibl id="B103">
+<bibl id="B104">
   <title><p>Budapest Real Estate Statistic</p></title>
   <aug>
     <au><cnm>ingatlannet</cnm></au>
@@ -3217,7 +3257,7 @@ Playgrounds and Parks.
   <url>https://www.ingatlannet.hu/statisztika/Budapest</url>
 </bibl>
 
-<bibl id="B104">
+<bibl id="B105">
   <title><p>Socio-spatial inequalities and social cohesion in European
   cities</p></title>
   <aug>
@@ -3233,7 +3273,7 @@ Playgrounds and Parks.
   <lpage>-1924</lpage>
 </bibl>
 
-<bibl id="B105">
+<bibl id="B106">
   <title><p>Cultural policy and urban regeneration in Western European cities:
   lessons from experience, prospects for the future</p></title>
   <aug>
@@ -3248,7 +3288,7 @@ Playgrounds and Parks.
   <lpage>-326</lpage>
 </bibl>
 
-<bibl id="B106">
+<bibl id="B107">
   <title><p>The mechanisms of spatial mismatch</p></title>
   <aug>
     <au><snm>Gobillon</snm><fnm>L</fnm></au>
@@ -3264,75 +3304,75 @@ Playgrounds and Parks.
   <lpage>-2427</lpage>
 </bibl>
 
-<bibl id="B107">
+<bibl id="B108">
   <title><p>Sport associations in Budapest</p></title>
   <pubdate>2019 (accesed June 3, 2019</pubdate>
   <url>https://sportmegoldasok.hu/klub_budapest.ht</url>
 </bibl>
 
-<bibl id="B108">
+<bibl id="B109">
   <title><p>Kindergartens &amp daycare, primary education, secondary
   education</p></title>
   <pubdate>2019 (accesed June 3, 2019</pubdate>
   <url>http://budapest.imami.hu/iskolak-ovodak-bolcsodek/</url>
 </bibl>
 
-<bibl id="B109">
+<bibl id="B110">
   <title><p>Art and music schools</p></title>
   <pubdate>2019 (accesed June 3, 2019</pubdate>
   <url>http://budapest.imami.hu/iskolak-ovodak-bolcsodek/muveszeti-es-sportiskolak</url>
 </bibl>
 
-<bibl id="B110">
+<bibl id="B111">
   <title><p>Pediatricians, Gynecologists</p></title>
   <pubdate>2019 (accesed June 3, 2019</pubdate>
   <url>http://budapest.imami.hu/egeszseg</url>
 </bibl>
 
-<bibl id="B111">
+<bibl id="B112">
   <title><p>Social Welfare</p></title>
   <pubdate>2019 (accesed June 3, 2019</pubdate>
   <url>http://szocialisportal.hu/intezmenykereso</url>
 </bibl>
 
-<bibl id="B112">
+<bibl id="B113">
   <title><p>Culture centers</p></title>
   <pubdate>2019 (accesed June 3, 2019</pubdate>
   <url>https://holmivan.valami.info/kultura-lista-220/kultura,Budapest</url>
 </bibl>
 
-<bibl id="B113">
+<bibl id="B114">
   <title><p>Indoor playgrounds</p></title>
   <pubdate>2019 (accesed June 3, 2019</pubdate>
   <url>http://budapest.imami.hu/szolgaltatok/szulinapi-party</url>
 </bibl>
 
-<bibl id="B114">
+<bibl id="B115">
   <title><p>Healthcare (hospitals, private and public clinics,
   specialists)</p></title>
   <pubdate>2019 (accesed June 3, 2019</pubdate>
   <url>https://www.budapestinfo.eu/gyogyitas</url>
 </bibl>
 
-<bibl id="B115">
+<bibl id="B116">
   <title><p>Fitness and training facilities</p></title>
   <pubdate>2019 (accesed June 3, 2019</pubdate>
   <url>https://www.budapestinfo.eu/sportolas/fitnesstermek</url>
 </bibl>
 
-<bibl id="B116">
+<bibl id="B117">
   <title><p>Outdoor fitness training facilities</p></title>
   <pubdate>2019 (accesed June 3, 2019</pubdate>
   <url>https://www.google.com/maps/d/u/0/viewer?msa=0\&hl=en&ie=UTF8\&t=h\&ll=47.481378772238784\%2C19.130302999999913&spn=1.329955\%2C3.757785&source=embed&mid=1qIGN-mnKuGrvNxo0ENmACm78RP8&z=11</url>
 </bibl>
 
-<bibl id="B117">
+<bibl id="B118">
   <title><p>Thermal and Spa</p></title>
   <pubdate>2019 (accesed June 3, 2019</pubdate>
   <url>https://www.budapestinfo.eu/furdozes</url>
 </bibl>
 
-<bibl id="B118">
+<bibl id="B119">
   <title><p>Playgrounds and parks</p></title>
   <pubdate>2019 (accesed June 3, 2019</pubdate>
   <url>https://zoldkalauz.hu</url>
