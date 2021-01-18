@@ -1,7 +1,6 @@
 \chapter{Life quality as walkability}
 
 Life quality in cities is deeply related to the mobility options, and how easily one can access different services and attractions. The pedestrian infrastructure network provides the backbone for social life in cities. While there are many approaches to quantify life quality, most do not take specifically into account the walkability of the city, and rather offer a city-wide measure. Here we develop a data-driven, network-based method to quantify the liveability of a city. We introduce a life quality index (LQI) based on pedestrian accessibility to amenities and services, safety and environmental variables. Our computational approach outlines novel ways to measure life quality in a more granular scale, that can become valuable for urban planners, city officials and stakeholders. We apply data-driven methods to Budapest, but as having an emphasis on the online and easily available quantitative data, the methods can be generalized and applied to any city.\footnote{A stand alone version of this chapter has been published in Complex Networks and Their Applications VIII \cite{natera2020walkability} }
-%include editors to citation:
 
 \section{Prelude}
 
@@ -20,9 +19,9 @@ Since the number of components which should be taken into consideration in creat
 \section{Data}
 We work with three different data sources: networks, points of interest and city attributes. The pedestrian network and points of interest were acquired using OSMnx~\cite{Boeing2017OSMNX}, a python library to download and construct networks from OpenStreetMap (OSM). The data contained in OSM is of high quality~\cite{Haklay2010OpenStreetMap,Girres2010Quality} in terms of correspondence with municipal open data~\cite{Ferster2019Bicycle} and completeness: More than $80\%$ of the world is covered by OSM~\cite{Barbosa-Filho2017Models}.
 
-The majority of points of interest were downloaded from OpenStreetMap, from different classification keys (amenity, tourism, shop, office, leisure) using OSMnx~\cite{Boeing2017OSMNX}. We filtered the points of interest using the districts' demarcation~\cite{HU2019Districts}, to get only the data within Budapest boundaries, having, as a result, more than $39,000$ data points. We complement the data sets with secondary data sources as specialized directories of doctors and childcare facilities (see appendix).
+The majority of points of interest were downloaded from OpenStreetMap, from different classification keys (amenity, tourism, shop, office, leisure) using OSMnx~\cite{Boeing2017OSMNX}. We filtered the points of interest using the districts' demarcation~\cite{HU2019Districts}, to get only the data within Budapest boundaries, having, as a result, more than $39,000$ data points. We complement the data sets with secondary data sources as specialized directories of doctors and childcare facilities (see Section~\ref{SI:walkabilityData}).
 
-We categorize the points of interest in six main categories: I) Family friendliness (Access to education and daycare, and family support services), II) Access to health care and sport facilities, III) Art and culture (e.g. museums, exhibitions), IV) Nightlife (e.g. bars, restaurants), V) Environment (air quality and access to green areas), and VI) Public Safety. The points of interest and secondary data sources are available at \url{https://github.com/nateraluis/Budapest_LQI}
+We categorize the points of interest in six main categories: I) Family friendliness (Access to education and daycare, and family support services), II) Access to health care and sport facilities, III) Art and culture (e.g. museums, exhibitions), IV) Nightlife (e.g. bars, restaurants), V) Environment (air quality and access to green areas), and VI) Public Safety. %The points of interest and secondary data sources are available at \url{https://github.com/nateraluis/Budapest_LQI}
 
 The district-level data (population and crimes) were obtained from the Hungarian Police's public database, calculated based on the number of crimes committed in public places 100 thousand per capita in 2018~\cite{HU2019Police}. Population data is coming from the 2016 micro-census conducted by the Hungarian Statistical Bureau~\cite{HU2016Population}. We took into account the air pollution, this data set coming from National Air Pollution Measurement Network~\cite{HU2019Pollution}, containing the geolocation of the air quality stations and different measures (annual median concentration of carbon monoxide, nitrogen dioxide, and PM10 dust).
 
@@ -49,7 +48,18 @@ The final value of the index is a weighted sum, characterizing every node (inter
 \begin{equation} \label{final_Q}
 	Q_i =w^{services}\Tilde{Q}_i^{services} + w^{safety} \Tilde{Q}_i^{safety} + w^{environment}\Tilde{Q}_i^{environment}
 \end{equation}
-In the equation $i$ represents an individual node in the network. The ``tilde'' above the $Q$ terms means that the values of the different category indices are normalized within the category. The weights $w$ assigned to every term are arbitrary and are highly context-dependent. We include the weights used for producing the results of this paper in Appendix B.  All terms of the equation are discussed in the following sections.
+In the equation $i$ represents an individual node in the network. The ``tilde'' above the $Q$ terms means that the values of the different category indices are normalized within the category. The weights $w$ assigned to every term are arbitrary and are highly context-dependent. All terms of the equation are discussed in the following sections.
+%We include the weights used for producing the results of this paper in Appendix B.
+
+\textcolor{blue}{The weights of the different $Q$ indices in the final aggregation highly depends on the context and the nature of the problem. Here we present the values we used to generate the results of this study, that were agreed upon consulting with experts, and policy makers.}
+
+\textcolor{blue}{The weights of the sub-indices from equation (\ref{final_Q}) are of the following values:}
+
+\begin{itemize}
+  \item \textcolor{blue}{$w^{\text{services}}=0.7$;}
+  \item \textcolor{blue}{$w^{\text{safety}}=0.1$;}
+  \item \textcolor{blue}{$w^{\text{environment}}=0.2$}
+\end{itemize}
 
 \subsection{The services index: \texorpdfstring{$Q^{\text{services}}$}{Q\^services}}
 The number quantifying each node in terms of how well it is connected with amenities and services is a weighted sum of sub-categories as well.

@@ -20,10 +20,10 @@
 \contentsline {subsection}{\numberline {3.3.1}The services index: $Q^{\text {services}}$}{29}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Safety index: $Q^{\text {safety}}$}{31}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Environmental index $Q^{\text {environment}}$}{31}{subsection.3.3.3}%
-\contentsline {subsubsection}{Air pollution ratio}{31}{subsubsection*.20}%
-\contentsline {subsubsection}{Ratio of natural areas}{31}{subsubsection*.21}%
-\contentsline {section}{\numberline {3.4}Results}{32}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Evaluation}{33}{subsection.3.4.1}%
+\contentsline {subsubsection}{Air pollution ratio}{32}{subsubsection*.20}%
+\contentsline {subsubsection}{Ratio of natural areas}{32}{subsubsection*.21}%
+\contentsline {section}{\numberline {3.4}Results}{33}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Evaluation}{34}{subsection.3.4.1}%
 \contentsline {paragraph}{Summary}{34}{paragraph*.24}%
 \contentsline {section}{\numberline {3.5}Discussion}{35}{section.3.5}%
 \contentsline {chapter}{\numberline {4}Appendices}{49}{chapter.4}%
