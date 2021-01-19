@@ -29,7 +29,8 @@
 \contentsline {chapter}{\numberline {4}Appendices}{49}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Life quality as walkability}{49}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Secondary data sources}{49}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Categorization}{50}{subsection.4.1.2}%
 \contentsline {section}{\numberline {4.2}Data-driven strategies for optimal bicycle network growth}{50}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Data}{50}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Bicycle network improvement}{50}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Bicycle network and 30 km/hr streets}{51}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.2}Bicycle network improvement}{51}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Bicycle network and 30 km/hr streets}{52}{subsection.4.2.3}%
