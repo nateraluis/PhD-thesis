@@ -32,7 +32,7 @@ The network contains all the sidewalks and pedestrian designated infrastructure,
 We assigned properties to the nodes of the network, matching the nodes with their corresponding districts, then assign nodes as attributes based on the district level data (population and crimes, see section \ref{safety}). For the pollution data, we calculated the corresponding Voronoi cells, for the air quality stations, and matched the nodes with them, we divided the pollution by the number of nodes in each corresponding cell and assigned the value to the nodes (See section \ref{environment}). For the edges, we encoded their length $\ell_{ij}$ along with the traversal time $Tt_{ij}$ between nodes $i$ and $j$ calculated as $Tt_{ij}=\frac{\ell_{ij}}{ps}$ where $ps$ is the pedestrian speed as a constant rate of $5km/h$.
 \begin{figure*}[htbp]
 	\centering
-	\includegraphics[width=0.8\textwidth]{images/lqi/Budapest_Network_voronoi_op2.png}
+	\includegraphics[width=\textwidth]{images/lqi/Budapest_Network_voronoi_op2.png}
 	\caption[Budapest pedestrian network]{\textbf{(a)} Network representing Budapest pedestrian structure. The network was built following a primal approach, where the edges are sidewalks and pedestrian infrastructure, and nodes are intersections. \textbf{(b)} The graph-Voronoi tessellation of the Budapest network, generated using a subset of 15 parks as seeds. The color of the nodes represents the cell they belong to and the highlighted red dots are the seeds of each cell. The distance measure between two points is defined as the weighted shortest path on the graph, the weights being the average time required to cross a given edge.}
 	\label{fig:BPnetwork}
 \end{figure*}
@@ -67,7 +67,18 @@ The number quantifying each node in terms of how well it is connected with ameni
 	Q_i^{services} =\sum_c w^c Q_i^c
 \end{equation}
 
-where, $c$ denotes categories (family, culture, health, sport, and nightlife), and $w^c$ the importance (weight, see Appendix B) of category $c$.
+where, $c$ denotes categories (family, culture, health, sport, and nightlife), and $w^c$ the importance of category $c$. %(weight, see Appendix B)
+
+\textcolor{blue}{The category weights used in equation (\ref{Q_services}), aggregating $Q^{services}$ are:}
+
+\begin{itemize}
+  \item \textcolor{blue}{$w^{\text{family}}= 0.3$;}
+  \item \textcolor{blue}{$w^{\text{health}}= 0.3$;}
+  \item \textcolor{blue}{$w^{\text{culture}} = 0.15$;}
+  \item \textcolor{blue}{$w^{\text{sport}} = 0.15$;}
+  \item \textcolor{blue}{$w^{\text{night life}}=0.1$}
+\end{itemize}
+
 Some categories, like family, have further subcategories. Even though we have also had data and made a separate analysis on tourism, its effects on life quality of the residents are ambiguous, so we decided to omit it from the index.
 
 What sets categories apart is that they incorporate different sets of amenities, with a few overlaps. The details of the categorization of amenities are included in the Appendix.
@@ -129,7 +140,7 @@ $$T_i=\frac{R_{water}^{nh(i)}+ R_{forest}^{nh(i)}+R_{park}^{nh(i)}}{max(T)}$$
 Where $R_x^{nh(i)}$ is the relative surface area of natural area $x$ within the neighborhood that $i$ belongs to ($nh(i)$). In other words, the surface area of a natural area is divided by the number of nodes in the neighborhood and the surface area of the neighborhood. Thus
 $R_x^{nh(i)}=\frac{T(x)}{T(nh(i))n_{nh}}$, where $T(x)$ is the surface area of $x$ natural area, $T(nh)$ is the surface area of $nh$ neighborhood and $n_{nh}$ is the number of nodes in neighborhood $nh$.
 The final environmental index:
-$$Q_i^{environment}=\frac{1+T_i}{1+C_i}$$,
+$$Q_i^{environment}=\frac{1+T_i}{1+C_i},$$
 That after a normalization is:
 $$\Tilde{Q}_i^{environment}=\frac{Q_i^{environment}}{max(Q^{environment})}$$
 
@@ -139,7 +150,7 @@ We quantify life quality in terms of each category (family support, education he
 
 \begin{figure*}[htbp]
 	\centering
-	\includegraphics[width=0.8\textwidth]{images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf}
+	\includegraphics[width=\textwidth]{images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf}
 	\caption[Budapest neighborhoods life quality index]{Budapest neighborhoods, average life quality by categories and aggregated life quality index.}
 	\label{fig:BPlqi}
 \end{figure*}
@@ -162,7 +173,7 @@ We collected the average $m^{2}/EUR$ price for all 23 districts of Budapest in J
 
 \begin{figure*}[htbp]
 	\centering
-	\includegraphics[width=0.8\textwidth]{images/lqi/LQI_categories_regplots.pdf}
+	\includegraphics[width=\textwidth]{images/lqi/LQI_categories_regplots.pdf}
 	\caption[Budapest life quality index correlation with real estate prices]{Districts of Budapest Life Quality Index (LQI) and its components correlated with real estate prices ($m^{2}/EUR$)}
 	\label{fig:LQI_ev}
 \end{figure*}

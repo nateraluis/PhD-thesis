@@ -16,12 +16,12 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Budapest neighborhoods life quality index}}{33}{figure.caption.22}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Budapest life quality index correlation with real estate prices}}{35}{figure.caption.23}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Connected component size distribution for analyzed cities}}{51}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Normalized increase in nodes inside the largest connected component ($n_{LCC}$).\relax }}{52}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Normalized increase in kilometers inside the largest connected component ($\ell _{LCC}$).\relax }}{53}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Normalized increase in kilometers inside the largest connected component ($\ell _{LCC}$) versus the fraction of extant kilometers to be added.\relax }}{54}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Bike-car directness $\Delta $ per invested kilometers.\relax }}{55}{figure.caption.30}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Kilometers gain in the largest connected component.\relax }}{56}{figure.caption.31}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Normalized increase in nodes inside the largest connected component ($n_{LCC}$).\relax }}{57}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Bike-car directness $\Delta $ per invested kilometers.\relax }}{58}{figure.caption.33}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Kilometers gain in the largest connected component.\relax }}{59}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Connected component size distribution for analyzed cities}}{50}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Normalized increase in nodes inside the largest connected component ($n_{LCC}$).\relax }}{51}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Normalized increase in kilometers inside the largest connected component ($\ell _{LCC}$).\relax }}{52}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Normalized increase in kilometers inside the largest connected component ($\ell _{LCC}$) versus the fraction of extant kilometers to be added.\relax }}{53}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Bike-car directness $\Delta $ per invested kilometers.\relax }}{54}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Kilometers gain in the largest connected component.\relax }}{55}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Normalized increase in nodes inside the largest connected component ($n_{LCC}$).\relax }}{56}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Bike-car directness $\Delta $ per invested kilometers.\relax }}{57}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Kilometers gain in the largest connected component.\relax }}{58}{figure.caption.34}%
