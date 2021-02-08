@@ -10,9 +10,11 @@
 \contentsline {section}{\numberline {3.3}A local measure of multimodal integration}{7}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Identifying clusters of cities with the Overlap Census}{9}{section.3.4}%
 \contentsline {chapter}{\numberline {4}Data-driven strategies for optimal bicycle network growth}{11}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Prelude}{12}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Data acquisition and network construction}{13}{section.4.2}%
+\contentsline {section}{\numberline {4.1}Introduction}{12}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Data}{13}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Defining bicycle network growth strategies and quality metrics}{14}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Algorithmic approach}{15}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Evaluating the algorithms impact}{18}{subsection.4.3.2}%
 \contentsline {section}{\numberline {4.4}Growing bicycle networks shows stark improvements with small investments}{20}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Different cities have different optimal investment strategies}{22}{section.4.5}%
 \contentsline {section}{\numberline {4.6}Discussion}{24}{section.4.6}%
