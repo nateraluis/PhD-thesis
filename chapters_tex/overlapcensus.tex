@@ -59,6 +59,7 @@ We characterize each city as a multiplex network~\cite{Boccaletti2014Structure,K
 	\label{fig:SchemaOverlapCensus}
 \end{figure*}
 
+\section{Overlap census}
 \textcolor{blue}{Whereas one of the simplest features of single layer networks is the degree distribution, in multiplex networks a node can have different degrees in each layer, which inform us about the multimodal potential of a city through the different roles that its intersections play. If a city has nodes that are mainly active in one layer but not in others, there is no potential for multimodality. On the contrary, in a multimodal city we expect to find many transport hubs that connect different layers, such as train stations with bicycle and street access, i.e. nodes that are active in different multiplex configurations. Note that even in a multimodally ”optimal” city there will be a high heterogeneity of node activities due to the different speeds and nature of transport modes, implying, for example, a much lower density of nodes necessary for a train network than for a bicycle network. Still, if we had a way to see and compare all combinations of node activities in the system, we could learn how much focus a city puts on connecting different modes. We can define such a fingerprint using the multiplex network formalism}
 
 In a multimodal city, we expect to find many transport hubs that connect different layers, such as train stations with bicycle and street access, i.e. nodes that are active in different multiplex configurations. Here we propose a method to assess all such combinations of node activities in the system, helping us to learn how well connected different modes are. For each city, we build a profile based on the combinations of node activities, and refer to it as \emph{overlap census} (Figure~\ref{fig:SchemaOverlapCensus}). The overlap census captures the percentage of nodes that are active in different multiplex configurations and provides an ``urban fingerprint'' of its multimodality~\cite{Aleta2017Multilayer}. To define the overlap census formally, given a multiplex transport network with $M$ layers the overlap census is a vector of $(2^M)-1$ components, which accounts for the fractions of nodes that can be reached through at least one layer.
@@ -66,7 +67,7 @@ In a multimodal city, we expect to find many transport hubs that connect differe
 In Fig.~\ref{fig:SchemaOverlapCensus} we show a schematic of how the overlap census is built: taking the multiplex network, and calculating the percentage of nodes that overlap in different configurations. The multiplex approach addresses the multimodality of a city: it not only counts how many nodes or links there are in each layer, but it shows how they are combined, revealing the possible multimodal mobility combinations in the city. Understanding the possibilities for interchange between mobility layers provides us with a better understanding of urban systems, showing us the complexity and interplay between layers.
 
 
-\section{FINDINGS}
+\section{Identifying clusters of cities with the Overlap Census}
 
 \begin{figure*}[t!]
 	\centering
