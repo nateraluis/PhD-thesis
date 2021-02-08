@@ -1,202 +1,86 @@
-\chapter{Appendices}
+\chapter{Extracting the multimodal fingerprint for transportation networks}\label{ch:OverlapCensus}
 
-\section{Life quality as walkability}
+Urban mobility increasingly relies on multimodality, combining the use of bicycle paths, streets, and rail networks. These different modes of transportation are well described by multiplex networks. Here we propose the overlap census method which extracts a multimodal profile from a city's multiplex transportation network. We apply this method to 15 cities, identify clusters of cities with similar profiles, and link this feature to the level of sustainable mobility of each cluster. Our work highlights the importance of evaluating all the transportation systems of a city together to adequately identify and compare its potential for sustainable, multimodal mobility\footnote{A stand alone of this chapter has been published in Transport findings \cite{natera2020multimodal}}.
 
-\subsection{Secondary data sources}
-\label{SI:walkabilityData}
-\begin{itemize}
-  \item {Sport associations in Budapest}~\cite{HU_sport}
-  \item {Kindergartens, daycares, primary and secondary education}~\cite{HU_Edu}
-  \item {Art and music schools}~\cite{HU_Art}
-  \item {Child health services}~\cite{HU_Child}
-  \item {Social welfare system (eg.: elderly care)}~\cite{HU_Social}
-  \item {Culture centers}~\cite{HU_Cult}
-  \item {Indoor playgrounds}~\cite{HU_Play}
-  \item {Healthcare (hospitals, private and public clinics, specialists)}~\cite{HU_Health}
-  \item {Fitness and training facilities}~\cite{HU_Fitness}
-  \item {Outdoor fitness facilities}~\cite{HU_outfitness}
-  \item {Thermal baths and spa}~\cite{HU_Thermal}
-  \item {Playgrounds and parks}~\cite{HU_Park}
-\end{itemize}
 
-% \subsection{Weights used in the calculations}
-% The weights of the different $Q$ indices in the final aggregation as well as in sub-categories highly depends on the context and the nature of the problem. Here we present the values we used to generate the results of this study, that were agreed upon consulting with experts.
+\section{Prelude}
+The infrastructure of different modes of transportation can be described as a mathematical object, the multiplex transport network~\cite{Morris2012Transport,Strano2012Evolution,Barthelemy2013Evolution,Battiston2014Structural,Gallotti2014Efficiency,DeDomenico2014Navigability,Strano2015Features,Aleta2017Multilayer,Lee2017Morphology}. A city's multiplex transport network contains the layer of streets and other coevolving network layers, such as the bicycle or the rail networks, which together constitute the multimodal transportation backbone of a city. Due to the car-centric development of most cities~\cite{Jacobs1961Death}, streets form the most developed layers~\cite{Gossling2016Distribution,Szell2018Crowdsourced} and define or strongly limit other layers: For example, sidewalks are by definition footpaths along the side of a street and make up a substantial part of a city's pedestrian space~\cite{Gossling2016Distribution}. Similarly, most bicycle paths are part of a street or are built along the side. Yet, the different layers of a multimodal network typically serve as diverse channels to permeate a city. Here we consider the transport networks of 15 world cities and develop an urban fingerprinting technique based on multiplex network theory to characterize the various ways in which transport layers can be interconnected, identifying the potential for multimodal transport. Using clustering algorithms on the resulting urban fingerprints, we find distinct classes of cities, reflecting their transport priorities.
 
-% The weights of the sub-indices from equation (\ref{final_Q}) are of the following values:
-% \begin{itemize}
-%   \item $w^{\text{services}}=0.7$;
-%   \item $w^{\text{safety}}=0.1$;
-%   \item $w^{\text{environment}}=0.2$
-% \end{itemize}
+\section{DATA}
 
-% The category weights used in equation (\ref{Q_services}), aggregating $Q^{services}$ are:
-
-% \begin{itemize}
-%   \item $w^{\text{family}}= 0.3$;
-%   \item $w^{\text{health}}= 0.3$;
-%   \item $w^{\text{culture}} = 0.15$;
-%   \item $w^{\text{sport}} = 0.15$;
-%   \item $w^{\text{night life}}=0.1$
-% \end{itemize}
-
-\subsection{Categorization}\label{SI:LQIcategories}
-The amenities used for each categoy are as follows:
-
-\begin{itemize}
-  \item Culture
-\end{itemize}
-
-\section{Data-driven strategies for optimal bicycle network growth}
-\subsection{Data}
-
-Figure \ref{fig:Nodes} shows the connected component size distribution $P(N_{cc})$ for all considered layers and cities.
-
-\begin{figure*}[h!]
-  \centering
-  \includegraphics[width=0.8\textwidth]{images/datadriven/Nodes_cc.png}
-  \caption[Connected component size distribution for analyzed cities]{The connected component size distribution [$P(N_{cc})$] for all cities and layers is well connected except in the bicycle layer. London has the most fragmented bicycle infrastructure layer, with more than 3000 components}
-  \label{fig:Nodes}
+\begin{figure*}[t!]
+	\centering
+	\includegraphics[width=\textwidth]{images/multiplex/Multilayer_NY_op2.png}
+	\caption[Manhattan multiplex network]{\textbf{(Map plot left)} Multiplex network representation of Manhattan with the four analyzed layers of transport infrastructure (pedestrian paths, bicycle paths, rail lines, and streets), with data from OpenStreetMap. \textbf{(Right)} Network information for each layer, number of nodes, links and average degree $\langle k \rangle$.}
+	\label{fig:ManhattanMultiplex}
 \end{figure*}
 
 
-% \subsection{Algorithms}
-% We develop two main algorithms to improve the bicycle layer. The first algorithm, \textit{Largest-to-Second}, identifies in each step the largest connected component and connects it to the second largest. The second algorithm, \textit{Largest-to-Closest}, also identifies the largest connected component, but in each step connects it to the closest of the remaining components.
+We acquired urban transportation networks from multiple cities around the world, defined by their administrative boundaries, using OSMnx~\cite{Boeing2017OSMNX}. These data sets are of high quality~\cite{Haklay2010OpenStreetMap,Girres2010Quality} in terms of correspondence with municipal open data~\cite{Ferster2019Bicycle} and completeness~\cite{Barbosa-Filho2017Models}. The various analyzed urban areas and their properties are reported in Table~\ref{tab:MultiplexCities}. Figure~\ref{fig:ManhattanMultiplex} shows the different network layers for Manhattan, one  of our analyzed cities.
 
-% To evaluate our algorithms we test them against a random baseline, \textit{Random-to-Closest}. In each step, \textit{Random-to-Closest} picks a component at random and connects it to the closest of the remaining components. We implement another baseline, the extreme case of \textit{Closest-Components}, which prioritizes connecting the closest two components.
+\begin{table*}[ht!]
+	\centering
+	\begin{adjustbox}{width=\textwidth,keepaspectratio}
+		\begin{tabular}{l|rrr|rrr|rrr|rrr|r}
+			{}         & \multicolumn{3}{c|}{Pedestrian} & \multicolumn{3}{c|}{Bicycle} & \multicolumn{3}{c|}{Rail} & \multicolumn{3}{c|}{Street} & Population                                                                                                                      \\
+			{}         & Nodes                           & Links                        & $\langle k \rangle$       & Nodes                       & Links      & $\langle k \rangle$ & Nodes & Links & $\langle k \rangle$ & Nodes   & Links   & {$\langle k \rangle$}              \\
+			\midrule
+			Amsterdam  & 23,321                          & 33,665                       & 2.89                      & 34,529                      & 35,619     & 2.06                & 1,096 & 1,655 & 3.02                & 15,125  & 21,722  & 2.87                  & 872,680    \\
+			Barcelona  & 20,203                          & 30,267                       & 3.00                      & 7,553                       & 7,647      & 2.02                & 249   & 249   & 2.00                & 10,393  & 15,809  & 3.04                  & 1,600,000  \\
+			Beihai     & 2,026                           & 2,978                        & 2.94                      & 0                           & 0          & 0.00                & 59    & 62    & 2.10                & 2,192   & 3,209   & 2.93                  & 1,539,300  \\
+			Bogota     & 81,814                          & 121,038                      & 2.96                      & 9,760                       & 9,651      & 1.98                & 166   & 165   & 1.99                & 62,017  & 91,197  & 2.94                  & 7,412,566  \\
+			Budapest   & 73,172                          & 106,167                      & 2.90                      & 10,494                      & 10,318     & 1.97                & 1,588 & 1,964 & 2.47                & 37,012  & 52,361  & 2.83                  & 1,752,286  \\
+			Copenhagen & 30,746                          & 41,916                       & 2.73                      & 13,980                      & 13,988     & 2.00                & 276   & 369   & 2.67                & 15,822  & 20,451  & 2.59                  & 2,557,737  \\
+			Detroit    & 47,828                          & 78,391                       & 3.28                      & 3,663                       & 3,626      & 1.98                & 20    & 21    & 2.10                & 28,462  & 45,979  & 3.23                  & 672,662    \\
+			Jakarta    & 140,042                         & 191,268                      & 2.73                      & 248                         & 231        & 1.86                & 58    & 54    & 1.86                & 138,388 & 188,637 & 2.73                  & 10,075,310 \\
+			LA         & 89,543                          & 128,757                      & 2.88                      & 14,577                      & 14,428     & 1.98                & 173   & 221   & 2.55                & 71,091  & 101,692 & 2.86                  & 3,792,621  \\
+			London     & 270,659                         & 351,824                      & 2.60                      & 62,398                      & 60,043     & 1.92                & 2,988 & 3,535 & 2.37                & 179,782 & 219,917 & 2.45                  & 8,908,081  \\
+			Manhattan  & 13,326                          & 21,447                       & 3.22                      & 3,871                       & 3,777      & 1.95                & 349   & 436   & 2.50                & 5,671   & 9,379   & 3.31                  & 1,628,701  \\
+			Mexico     & 108,033                         & 158,425                      & 2.93                      & 5,218                       & 5,278      & 2.02                & 370   & 364   & 1.97                & 95,375  & 140,684 & 2.95                  & 8,918,653  \\
+			Phoenix    & 111,363                         & 157,075                      & 2.82                      & 35,631                      & 35,979     & 2.02                & 105   & 138   & 2.63                & 73,688  & 102,139 & 2.77                  & 1,445,632  \\
+			Portland   & 50,878                          & 72,958                       & 2.87                      & 24,252                      & 24,325     & 2.01                & 230   & 340   & 2.96                & 35,025  & 49,062  & 2.80                  & 583,776    \\
+			Singapore  & 82,808                          & 110,612                      & 2.67                      & 12,981                      & 12,947     & 1.99                & 683   & 740   & 2.17                & 50,403  & 66,779  & 2.65                  & 5,638,700
+		\end{tabular}
+	\end{adjustbox}
+	\caption[Layers measures for analyzed cities]{Measures for the administrative area of analyzed cities. The number of nodes, links and average degree ($\langle k \rangle$) for each layer in all cities of our dataset are highly diverse due to the varying developmental levels and focus of transport. The range of population in the analyzed cities goes from half million people to ten million people living in Jakarta, this allows to
+		have a range of different sizes and cover different developmental stages.
+		\label{tab:MultiplexCities}}
+\end{table*}
 
-% \begin{algorithm}[h!]
-%   \caption{Largest-to-Second}\label{greedy_lcc}
-%   \begin{algorithmic}[1]
-%     \Procedure{\textit{L2S}}{}
-%     \State $\textit{G} \gets \text{ bicycle network graph}$
-%     \State $\textit{wcc} \gets \text{ components of network G}$
-%     \For {i in length(wcc)-1}
-%     \State  \text{sort \textit{wcc} by components size}
-%     \State $\textit{cc} \gets \text{ two biggest components from \textit{wcc}}$
-%     \State $\textit{i\_j} \gets \text{ closest nodes between } cc_0 \text{ and } cc_1$
-%     \State $\text{connect } cc_0 \text{ and } cc_1 \text{ in } i\_j$
-%     \EndFor
-%     \EndProcedure
-%   \end{algorithmic}
-% \end{algorithm}
+Code to replicate our results is available as Jupyter Notebooks (\url{https://github.com/nateraluis/Multimodal-Fingerprint}) and data can be downloaded from Harvard Dataverse \cite{natera2019data}.
 
-% \begin{algorithm}[h!]
-%   \caption{Largest-to-Closest}\label{greedy_min}
-%   \begin{algorithmic}[1]
-%     \Procedure{\textit{L2C}}{}
-%     \State $\textit{G} \gets \text{ bicycle network graph}$
-%     \State $\textit{wcc} \gets \text{ components of network G}$
-%     \For {i in length(wcc)-1}
-%     \State  \text{sort \textit{wcc} by components size}
-%     \State $cc_0 \gets \text{ biggest component from \textit{wcc}}$
-%     \State $cc_n \gets \text{ clossest component to } cc_0$
-%     \State $\textit{i\_j} \gets \text{ closest nodes between } cc_0 \text{ and } cc_n$
-%     \State $\text{connect } cc_0 \text{ and } cc_n \text{ in } i\_j$
-%     \EndFor
-%     \EndProcedure
-%   \end{algorithmic}
-% \end{algorithm}
+We characterize each city as a multiplex network~\cite{Boccaletti2014Structure,Kivela2014Multilayer,Battiston2017Challenges} with $M$ layers and $N$ nodes that can be active in one or more layers in the system. Layers follow a primal approach~\cite{Porta2006Primal} where nodes represent intersections (that may be present in one or more layers), and links represent streets (denoted by \textit{s}), bicycle paths and designated bicycle infrastructure (\textit{b}), subways, trams and rail infrastructure (\textit{r}), or pedestrian infrastructure (\textit{p}). Construction of these intersection nodes follows the topological simplification rules of OSMnx~\cite{Boeing2017OSMNX}. \textcolor{blue}{ This recent approach has been useful to demonstrate how cities grow \cite{Strano2012Evolution,Barthelemy2013Evolution}, how efficient \cite{Gallotti2014Efficiency} and dense they are, and to capturethe tendency of travel routes to gravitate towards city centers \cite{Lee2017Morphology}. Each layer $\alpha = 1,\dots, M$ is described by anadjacency matrix $A^{[\alpha]} = {a^{[\alpha]}_{ij}}$ where $a^{[\alpha]}_{ij} = 1$ if there is a link between nodes $i$ and $j$ in layer $\alpha$ and 0 otherwise. The multiplex urban system is then specified as a vector of adjacency matrices $A = (A^{[1]},\dots,A^{[M]})$.}
 
-% \begin{algorithm}[h!]
-%   \caption{Random-to-Closest}\label{random}
-%   \begin{algorithmic}[1]
-%     \Procedure{\textit{R2C}}{}
-%     \State $\textit{G} \gets \text{ bicycle network graph}$
-%     \State $\textit{wcc} \gets \text{ components of network G}$
-%     \For {i in length(wcc)-1}
-%     \State $cc_{ran} \gets \text{ random component from \textit{wcc}}$
-%     \State $cc_n \gets \text{ clossest component to } cc_{ran}$
-%     \State $\textit{i\_j} \gets \text{ closest nodes between } cc_{ran} \text{ and } cc_n$
-%     \State $\text{connect } cc_{ran} \text{ and } cc_n \text{ in } i\_j$
-%     \EndFor
-%     \EndProcedure
-%   \end{algorithmic}
-% \end{algorithm}
-
-% \begin{algorithm}[h!]
-%   \caption{Closest-Components}\label{min_delta}
-%   \begin{algorithmic}[1]
-%     \Procedure{\textit{CC}}{}
-%     \State $\textit{G} \gets \text{ bicycle network graph}$
-%     \State $\textit{wcc} \gets \text{ components of network G}$
-%     \For {i in length(wcc)-1}
-%     \State $\Delta_{min} \gets \text{ clossest components in \textit{wcc}}$
-%     \State $cc_{0} \gets \text{ first component for }\Delta_{min}$
-%     \State $cc_{1} \gets \text{ second component for } \Delta_{min}$
-%     \State $\textit{i\_j} \gets \text{ closest nodes between } cc_{0} \text{ and } cc_{1}$
-%     \State $\text{connect } cc_{0} \text{ and } cc_{1} \text{ in } i\_j$
-%     \EndFor
-%     \EndProcedure
-%   \end{algorithmic}
-% \end{algorithm}
-
-\subsection{Bicycle network improvement}\label{SI:BikeImprovement}
-
-Here we show the improvement of the bicycle network after the implementation of the algorithms. We measure the improvement with four different metrics. Two of them implement the notion of connectedness: i) Fraction of nodes inside the largest connected component compared to the total number of nodes in the bicycle layer, and ii) the fraction of link kilometers inside the largest connected component. In Figure \ref{fig:NodesIncrease} and \ref{fig:Lengthsncrease} we show these two measures for fourteen different cities. We also quantify iii) bicycle-to-car directness to answer the question ``how direct are the average routes of bicycles compared to cars?''. Finally, in order to measure the cumulative efficiency of our algorithms, we define the metric: iv) $G_{LCC}$ as the relative gain of bicycle path kilometers in the largest connected component. In Figures \ref{fig:Directness} and \ref{fig:Gain} we report these two measures for all algorithms and cities considered.
-
-\begin{figure*}[h!]
-  \centering
-  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Nodes.png}
-  \caption{Normalized increase in nodes inside the largest connected component ($n_{LCC}$).}
-  \label{fig:NodesIncrease}
+\begin{figure*}[th!]
+	\centering
+	\includegraphics[width=\textwidth]{images/multiplex/SchemaOverlapCensus.png}
+	\caption[Schematic overlap census]{
+		Schematic of multiplex layers in a city (left) and its transformation to the overlap census (right). In the overlap census, the vertical red line gives a visual separation of the left from the right half where nodes become active in the street layer. High spikes in the right half indicate car-centricity.}
+	\label{fig:SchemaOverlapCensus}
 \end{figure*}
 
-\begin{figure*}[h!]
-  \centering
-  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Lengths.png}
-  \caption{Normalized increase in kilometers inside the largest connected component ($\ell_{LCC}$).}
-  \label{fig:LengthsIncrease}
+\textcolor{blue}{Whereas one of the simplest features of single layer networks is the degree distribution, in multiplex networks a node can have different degrees in each layer, which inform us about the multimodal potential of a city through the different roles that its intersections play. If a city has nodes that are mainly active in one layer but not in others, there is no potential for multimodality. On the contrary, in a multimodal city we expect to find many transport hubs that connect different layers, such as train stations with bicycle and street access, i.e. nodes that are active in different multiplex configurations. Note that even in a multimodally ”optimal” city there will be a high heterogeneity of node activities due to the different speeds and nature of transport modes, implying, for example, a much lower density of nodes necessary for a train network than for a bicycle network. Still, if we had a way to see and compare all combinations of node activities in the system, we could learn how much focus a city puts on connecting different modes. We can define such a fingerprint using the multiplex network formalism}
+
+In a multimodal city, we expect to find many transport hubs that connect different layers, such as train stations with bicycle and street access, i.e. nodes that are active in different multiplex configurations. Here we propose a method to assess all such combinations of node activities in the system, helping us to learn how well connected different modes are. For each city, we build a profile based on the combinations of node activities, and refer to it as \emph{overlap census} (Figure~\ref{fig:SchemaOverlapCensus}). The overlap census captures the percentage of nodes that are active in different multiplex configurations and provides an ``urban fingerprint'' of its multimodality~\cite{Aleta2017Multilayer}. To define the overlap census formally, given a multiplex transport network with $M$ layers the overlap census is a vector of $(2^M)-1$ components, which accounts for the fractions of nodes that can be reached through at least one layer.
+
+In Fig.~\ref{fig:SchemaOverlapCensus} we show a schematic of how the overlap census is built: taking the multiplex network, and calculating the percentage of nodes that overlap in different configurations. The multiplex approach addresses the multimodality of a city: it not only counts how many nodes or links there are in each layer, but it shows how they are combined, revealing the possible multimodal mobility combinations in the city. Understanding the possibilities for interchange between mobility layers provides us with a better understanding of urban systems, showing us the complexity and interplay between layers.
+
+
+\section{FINDINGS}
+
+\begin{figure*}[t!]
+	\centering
+	\includegraphics[width=\textwidth]{images/multiplex/ResultsOverlapCensus-01.png}
+	\caption[Overlap Census clusters]{
+		Clusters of cities based on similarity of their overlap census. We find six different clusters using a k-means algorithm (coloured areas), which explain more than $90\%$ of the variance.
+		}
+	\label{fig:ResultsOverlapCensus}
 \end{figure*}
+% \textbf{(b)} Overlap census for cities in each cluster. The first one corresponds to Amsterdam (the city with most active nodes in bicycle-only configurations). The Copenhagen-Manhattan-Barcelona-Portland city cluster has many active nodes in pedestrian-only and bicycle-only configurations, representing an active mobility city. The clusters of Los Angeles-Bogota and Mexico-Beihai-Jakarta are car-centric.
 
-\begin{figure*}[h!]
-  \centering
-  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf}
-  \caption{Normalized increase in kilometers inside the largest connected component ($\ell_{LCC}$) versus the fraction of extant kilometers to be added.}
-  \label{fig:Lengthsncrease_norm}
-\end{figure*}
+%Even in a multimodally ``optimal'' city there will be a high heterogeneity of node activities due to the different speeds and nature of transport modes, implying, for example, a much lower density of nodes necessary for a train network than for a bicycle network. 
+\textcolor{blue}{Due to the expected heterogeneity of node activities in different layers, the overlap census of a specific city is also expected to be heterogeneous and hard to assess on its own.} Therefore, a good way to assess a city's overlap census is by comparing it with the overlap census of other cities. We find similarities between cities via a k-means algorithm fed with fifteen vectors (one per city), where each vector contains the percentages of nodes active in each possible configuration. The algorithm separates the 15 analyzed cities into six different clusters [Fig.~\ref{fig:ResultsOverlapCensus}].
 
-\begin{figure*}[h!]
-  \centering
-  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Directness.png}
-  \caption{Bike-car directness $\Delta$ per invested kilometers.}
-  \label{fig:Directness}
-\end{figure*}
+On the left half of the overlap census, we show the configurations in which nodes are not active in the street layer, while the right half contains car-related configurations [Fig.~\ref{fig:ResultsOverlapCensus}] . These clusters of cities are useful to explain similarities in infrastructure planning in different transport development paths~\cite{Rodrigue2013Geography,Louf2014Typology}, with clusters of car-centric urbanization (like Mexico, Beihai, and Jakarta) opposed to clusters that show a more multimodal focus in their mobility infrastructure (like Copenhagen, Manhattan, Barcelona, and Portland). In the extreme cluster that contains only Amsterdam, close to $50\%$ of nodes are active in the bicycle layer, whereas in the Mexico-Beihai-Jakarta cluster more than $50\%$ of nodes are active in the street-pedestrian configuration. The concentration of nodes in just one configuration informs not only about the mobility character of the city, i.e. Amsterdam being a bicycle-friendly city, but unveils the importance of explicitly considering overlooked layers and their interconnections. For example, Singapore, Budapest, London, and Detroit have two main peaks indicating that most of their nodes are either active in the street-pedestrian or only in the pedestrian configuration. This is not the case in Los Angeles and Bogota, where the majority of nodes are active in the car-pedestrian combination, i.e. the pedestrians have to share most of the city with cars. Our multimodal fingerprint unravels how different transport modes are interlaced, helping identifying which layer (or set of layers) could be improved to promote multimodal, sustainable mobility.
 
-\begin{figure*}[h!]
-  \centering
-  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Gain.png}
-  \caption{Kilometers gain in the largest connected component.}
-  \label{fig:Gain}
-\end{figure*}
-
-
-\subsection{Bicycle network and 30 km/hr streets}\label{SI:BikeStreets}
-We applied the algorithms to the bicycle infrastructure and all the bikeable streets, those with a speed limit of $30\ km/hr$ or less (see Figures~\ref{fig:NodesIncrease_BikeStreets}, \ref{fig:Lengthsncrease_BikeStreets}, \ref{fig:Directness_BikeStreets}, and \ref{fig:Gain_BikeStreets}).
-
-\begin{figure*}[h!]
-  \centering
-  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Nodes_Bike_Streets.png}
-  \caption{Normalized increase in nodes inside the largest connected component ($n_{LCC}$).}
-  \label{fig:NodesIncrease_BikeStreets}
-\end{figure*}
-
-% \begin{figure*}[h!]
-%   \centering
-%   \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Lengths_Bike_Streets.png}
-%   \caption{Normalized increase in kilometers inside the largest connected component ($\ell_{LCC}$).}
-%   \label{fig:Lengthsncrease_BikeStreets}
-% \end{figure*}
-
-\begin{figure*}[h!]
-  \centering
-  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Directness_Bike_Streets.png}
-  \caption{Bike-car directness $\Delta$ per invested kilometers.}
-  \label{fig:Directness_BikeStreets}
-\end{figure*}
-
-\begin{figure*}[h!]
-  \centering
-  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Gain_Bike_Streets.png}
-  \caption{Kilometers gain in the largest connected component.}
-  \label{fig:Gain_BikeStreets}
-\end{figure*}
+To summarize, we propose the new ``overlap census'' method based on multiplex network theory allowing to rigorously identify and compare the multimodal potential of cities.
