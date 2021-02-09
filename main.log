@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  9 FEB 2021 16:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  9 FEB 2021 17:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -611,7 +611,6 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 88.
 LaTeX Info: Redefining \pageref on input line 88.
 LaTeX Info: Redefining \nameref on input line 88.
- (/Users/natera/Dropbox/PhD/thesis/main.out) (/Users/natera/Dropbox/PhD/thesis/main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -624,7 +623,7 @@ Package epstopdf Info: Source file: <images/ceulogo.eps>
 (epstopdf)             Command: <repstopdf --outfile=images/ceulogo-eps-converted-to.pdf images/ceulogo.eps>
 (epstopdf)             \includegraphics on input line 95.
 Package epstopdf Info: Output file is already uptodate.
-<images/ceulogo-eps-converted-to.pdf, id=184, 480.79625pt x 319.1925pt>
+<images/ceulogo-eps-converted-to.pdf, id=4, 480.79625pt x 319.1925pt>
 File: images/ceulogo-eps-converted-to.pdf Graphic file (type pdf)
 <use images/ceulogo-eps-converted-to.pdf>
 Package pdftex.def Info: images/ceulogo-eps-converted-to.pdf  used on input line 95.
@@ -646,53 +645,21 @@ File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 
 ] [7] [8
 
-] (/Users/natera/Dropbox/PhD/thesis/main.toc
-LaTeX Font Info:    Trying to load font information for OML+zplm on input line 7.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omlzplm.fd
-File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
-)
-LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 7.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omszplm.fd
-File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
-)
-LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 7.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omxzplm.fd
-File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
-)
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 7.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 7.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 7.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 7.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 7.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 7.
-LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 7.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1zplm.fd
-File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 7.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1
-
-])
+]
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [2] (/Users/natera/Dropbox/PhD/thesis/main.lot)
+ [1
+
+] [2
+
+]
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
- [3
+ [3] [4
 
-] [4
-
-] (/Users/natera/Dropbox/PhD/thesis/main.lof)
+]
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
@@ -715,10 +682,100 @@ l.1 \chapter
 ]
 Chapter 2.
 
+LaTeX Warning: Citation `batty2013new' on page 3 undefined on input line 3.
+
+
+LaTeX Warning: Citation `lobo2020urban' on page 3 undefined on input line 3.
+
+
+LaTeX Warning: Citation `lin2013complex' on page 3 undefined on input line 3.
+
+
+LaTeX Warning: Citation `barthelemy2011spatial' on page 3 undefined on input line 3.
+
+
+LaTeX Warning: Citation `ding2019application' on page 3 undefined on input line 3.
+
+
+LaTeX Warning: Citation `jiang2004topological' on page 3 undefined on input line 3.
+
+
+LaTeX Warning: Citation `cardillo2006structural' on page 3 undefined on input line 3.
+
+
+LaTeX Warning: Citation `barthelemy2008patterns' on page 3 undefined on input line 3.
+
+
+LaTeX Warning: Citation `batty2008size' on page 3 undefined on input line 3.
+
+
+LaTeX Warning: Citation `barthelemy2011spatial' on page 3 undefined on input line 3.
+
+
+LaTeX Warning: Citation `strano2013comparative' on page 3 undefined on input line 3.
+
+
+LaTeX Warning: Citation `louf2014typology' on page 3 undefined on input line 3.
+
+
+LaTeX Warning: Citation `boeing2020multiscale' on page 3 undefined on input line 3.
+
+
+LaTeX Warning: Citation `crucitti2008centrality' on page 3 undefined on input line 3.
+
+
 LaTeX Warning: Citation `boeing2018planarity' on page 3 undefined on input line 3.
 
 
+LaTeX Warning: Citation `kirkley2018structural' on page 3 undefined on input line 3.
+
+
+LaTeX Warning: Citation `makse1995growth' on page 3 undefined on input line 3.
+
+
+LaTeX Warning: Citation `strano2012evolution' on page 3 undefined on input line 3.
+
+
+LaTeX Warning: Citation `hajrasouliha2015connectivity' on page 3 undefined on input line 3.
+
+
+LaTeX Warning: Citation `denadai2016death' on page 3 undefined on input line 3.
+
+
+LaTeX Warning: Citation `biazzo2019accesibility' on page 3 undefined on input line 3.
+
+
 LaTeX Warning: Citation `natera2019walkability' on page 3 undefined on input line 3.
+
+
+LaTeX Warning: Citation `baggag2018resilience' on page 3 undefined on input line 3.
+
+
+LaTeX Warning: Citation `ferretti2019resilience' on page 3 undefined on input line 3.
+
+
+LaTeX Warning: Citation `natera2020growth' on page 3 undefined on input line 3.
+
+
+LaTeX Warning: Citation `organizers2019roundtable' on page 3 undefined on input line 5.
+
+
+LaTeX Warning: Citation `resch2019hds' on page 3 undefined on input line 5.
+
+
+LaTeX Warning: Citation `porta2006primal' on page 3 undefined on input line 7.
+
+
+LaTeX Warning: Reference `sec:multilayernetworks' on page 3 undefined on input line 9.
+
+
+LaTeX Warning: Reference `sec:multimodalinfrastructures' on page 3 undefined on input line 9.
+
+
+LaTeX Warning: Reference `sec:multimodalmobility' on page 3 undefined on input line 9.
+
+
+LaTeX Warning: Reference `sec:datatools' on page 3 undefined on input line 9.
 
 
 Underfull \vbox (badness 1132) has occurred while \output is active []
@@ -727,22 +784,148 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has b
 <to be read again> 
                    \relax 
 l.10 
-      [3]pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
+      [3]
+
+LaTeX Warning: Citation `albert2002statistical' on page 4 undefined on input line 13.
+
+
+LaTeX Warning: Citation `dorogovtsev2002evolution' on page 4 undefined on input line 13.
+
+
+LaTeX Warning: Citation `newman2003structure' on page 4 undefined on input line 13.
+
+
+LaTeX Warning: Citation `boccaletti2006complex' on page 4 undefined on input line 13.
+
+
+LaTeX Warning: Citation `barthelemy2011spatial' on page 4 undefined on input line 13.
+
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 13.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 13.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 13.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 13.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 13.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 13.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 13.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 13.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 13.
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 13.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 13.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+
+LaTeX Warning: Citation `lin2013complex' on page 4 undefined on input line 13.
+
+
+LaTeX Warning: Citation `boccaletti2014structure' on page 4 undefined on input line 17.
+
+
+LaTeX Warning: Citation `battiston2014structural' on page 4 undefined on input line 17.
+
+
+LaTeX Warning: Citation `dedomenico2013mathematical' on page 4 undefined on input line 17.
+
+
+LaTeX Warning: Citation `kivela2014multilayer' on page 4 undefined on input line 17.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.21 
       [4]
+
+LaTeX Warning: Citation `battiston2014structural' on page 5 undefined on input line 24.
+
+
+LaTeX Warning: Citation `nicosia2015measuring' on page 5 undefined on input line 24.
+
+
+LaTeX Warning: Citation `kurant2006layered' on page 5 undefined on input line 26.
+
+
+LaTeX Warning: Citation `cardillo2013emergence' on page 5 undefined on input line 26.
+
+
+LaTeX Warning: Citation `dedomenico2015structural' on page 5 undefined on input line 28.
+
+
+LaTeX Warning: Citation `latora2001efficient' on page 5 undefined on input line 28.
+
+
+LaTeX Warning: Citation `buldyrev2010catastrophic' on page 5 undefined on input line 28.
+
+
+LaTeX Warning: Citation `dedomenico2014interconnected' on page 5 undefined on input line 28.
+
+
+LaTeX Warning: Citation `boccaletti2014structure' on page 5 undefined on input line 28.
+
+
+LaTeX Warning: Citation `kivela2014multilayer' on page 5 undefined on input line 28.
+
+
+LaTeX Warning: Citation `bianconi2018multilayer' on page 5 undefined on input line 28.
+
+
+LaTeX Warning: Citation `aleta2019multilayer' on page 5 undefined on input line 28.
+
+
+LaTeX Warning: Citation `battiston2017new' on page 5 undefined on input line 28.
+
+
+LaTeX Warning: Citation `dedomenico2016physics' on page 5 undefined on input line 28.
+
+
 Underfull \vbox (badness 1221) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.29 
-      [5]pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
+      [5]
+
+LaTeX Warning: Reference `sec:modelinginsrastructure' on page 6 undefined on input line 38.
+
+
+LaTeX Warning: Reference `sec:measuresinfrastructure' on page 6 undefined on input line 38.
+
+
+LaTeX Warning: Citation `decea2005equilibrium' on page 6 undefined on input line 46.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.47 
       [6]
+
+LaTeX Warning: Citation `decea2005equilibrium' on page 7 undefined on input line 48.
+
+
+LaTeX Warning: Citation `li2007parkride' on page 7 undefined on input line 52.
+
+
+LaTeX Warning: Citation `li2007parkride' on page 7 undefined on input line 54.
+
+
 Underfull \vbox (badness 4303) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
@@ -750,6 +933,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has b
                    \relax 
 l.56 W
       hen the authors analyzed the numerical simulations of the model, they ... [7]
+
+LaTeX Warning: Citation `gil2014configuration' on page 8 undefined on input line 58.
+
+
+LaTeX Warning: Citation `Aleta2017Multilayer' on page 8 undefined on input line 62.
+
+
 Underfull \vbox (badness 4303) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
@@ -763,18 +953,294 @@ LaTeX Warning: Citation `aleta2017transportation' on page 9 undefined on input l
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9] [10]
+ [9]
+
+LaTeX Warning: Citation `battista1996path' on page 10 undefined on input line 79.
+
+
+LaTeX Warning: Citation `lozano2001path' on page 10 undefined on input line 79.
+
+
+LaTeX Warning: Citation `lozano2001path' on page 10 undefined on input line 81.
+
+[10]
 
 LaTeX Warning: Citation `aleta2017transportation' on page 11 undefined on input line 83.
 
-[11] [12] [13] [14] [15]
+
+LaTeX Warning: Citation `strano2015features' on page 11 undefined on input line 86.
+
+
+LaTeX Warning: Citation `strano2015features' on page 11 undefined on input line 95.
+
+
+LaTeX Warning: Citation `biazzo2019accesibility' on page 11 undefined on input line 97.
+
+
+LaTeX Warning: Citation `morris2012transport' on page 11 undefined on input line 100.
+
+
+LaTeX Warning: Citation `nicosia2013growing' on page 11 undefined on input line 100.
+
+
+LaTeX Warning: Citation `strano2015features' on page 11 undefined on input line 100.
+
+[11]
+
+LaTeX Warning: Citation `Aleta2017Multilayer' on page 12 undefined on input line 109.
+
+
+LaTeX Warning: Citation `Aleta2017Multilayer' on page 12 undefined on input line 117.
+
+[12]
+
+LaTeX Warning: Citation `Freeman1977Centrality' on page 13 undefined on input line 122.
+
+
+LaTeX Warning: Citation `ding2018traffic' on page 13 undefined on input line 136.
+
+
+LaTeX Warning: Citation `ding2018traffic' on page 13 undefined on input line 138.
+
+
+LaTeX Warning: Citation `strano2015features' on page 13 undefined on input line 138.
+
+[13]
+
+LaTeX Warning: Citation `dedomenico2019public' on page 14 undefined on input line 142.
+
+
+LaTeX Warning: Citation `dedomenico2014interconnected' on page 14 undefined on input line 142.
+
+
+LaTeX Warning: Citation `baggag2018resilience' on page 14 undefined on input line 142.
+
+
+LaTeX Warning: Citation `ferretti2019resilience' on page 14 undefined on input line 142.
+
+
+LaTeX Warning: Citation `strano2015features' on page 14 undefined on input line 144.
+
+
+LaTeX Warning: Citation `ding2018traffic' on page 14 undefined on input line 144.
+
+
+LaTeX Warning: Citation `sole-ribalta2016congestion' on page 14 undefined on input line 144.
+
+
+LaTeX Warning: Citation `nicosia2015measuring' on page 14 undefined on input line 148.
+
+
+LaTeX Warning: Citation `brodka2017similarity' on page 14 undefined on input line 148.
+
+[14]
+
+LaTeX Warning: Citation `natera2020multimodal' on page 15 undefined on input line 150.
+
+
+LaTeX Warning: Reference `ch:OverlapCensus' on page 15 undefined on input line 150.
+
+
+LaTeX Warning: Citation `patriksson2015traffic' on page 15 undefined on input line 155.
+
+
+LaTeX Warning: Citation `barbosa2018human' on page 15 undefined on input line 157.
+
+
+LaTeX Warning: Reference `mobility_1' on page 15 undefined on input line 159.
+
+
+LaTeX Warning: Reference `mobility_2' on page 15 undefined on input line 159.
+
+
+LaTeX Warning: Citation `mcnally2000four' on page 15 undefined on input line 162.
+
+
+LaTeX Warning: Citation `mcnally2000four' on page 15 undefined on input line 162.
+
+[15]
+
+LaTeX Warning: Citation `dedomenico2014interconnected' on page 16 undefined on input line 167.
+
+
+LaTeX Warning: Citation `dedomenico2014interconnected' on page 16 undefined on input line 170.
+
 LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 174.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ufplmbb.fd
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
-) [16] [17]
+)
+
+LaTeX Warning: Citation `dedomenico2014interconnected' on page 16 undefined on input line 177.
+
+
+LaTeX Warning: Reference `coverage' on page 16 undefined on input line 177.
+
+[16]
+
+LaTeX Warning: Citation `sole2016random' on page 17 undefined on input line 179.
+
+
+LaTeX Warning: Citation `sole2016random' on page 17 undefined on input line 179.
+
+
+LaTeX Warning: Citation `tan2014congestion' on page 17 undefined on input line 182.
+
+
+LaTeX Warning: Citation `bassolas2020scaling' on page 17 undefined on input line 182.
+
+
+LaTeX Warning: Citation `manfredi2018congestion' on page 17 undefined on input line 182.
+
+
+LaTeX Warning: Citation `sole-ribalta2016congestion' on page 17 undefined on input line 182.
+
+
+LaTeX Warning: Citation `bassolas2020scaling' on page 17 undefined on input line 184.
+
+
+LaTeX Warning: Citation `manfredi2018congestion' on page 17 undefined on input line 186.
+
+[17]
+
+LaTeX Warning: Citation `arentze2013travelers' on page 18 undefined on input line 190.
+
+
+LaTeX Warning: Citation `abrantes2011meta' on page 18 undefined on input line 190.
+
+
+LaTeX Warning: Citation `wardman2001review' on page 18 undefined on input line 190.
+
+
+LaTeX Warning: Citation `arentze2013travelers' on page 18 undefined on input line 190.
+
+
+LaTeX Warning: Citation `nobis2007multimodality' on page 18 undefined on input line 190.
+
+
+LaTeX Warning: Citation `chen2016promises' on page 18 undefined on input line 190.
+
+
+LaTeX Warning: Citation `zannat2019emerging' on page 18 undefined on input line 190.
+
+
+LaTeX Warning: Citation `arentze2013travelers' on page 18 undefined on input line 190.
+
+
+LaTeX Warning: Citation `barbosa2018human' on page 18 undefined on input line 192.
+
+
+LaTeX Warning: Citation `barbosa2018human' on page 18 undefined on input line 194.
+
+
 Underfull \vbox (badness 2409) has occurred while \output is active []
 
- [18] [19] [20] [21]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/overlapcensus.tex [22]
+ [18]
+
+LaTeX Warning: Citation `Gallotti2014Efficiency' on page 19 undefined on input line 200.
+
+
+LaTeX Warning: Citation `barthelemy2016structure' on page 19 undefined on input line 200.
+
+
+LaTeX Warning: Citation `Gallotti2014Efficiency' on page 19 undefined on input line 206.
+
+
+LaTeX Warning: Citation `alessandretti2016user' on page 19 undefined on input line 222.
+
+
+LaTeX Warning: Citation `sui2019publictransport' on page 19 undefined on input line 222.
+
+
+LaTeX Warning: Citation `holleczek2014detecting' on page 19 undefined on input line 222.
+
+[19]
+
+LaTeX Warning: Citation `chodrow2016congestion' on page 20 undefined on input line 225.
+
+
+LaTeX Warning: Citation `chodrow2016congestion' on page 20 undefined on input line 238.
+
+
+LaTeX Warning: Citation `gallotti2016limits' on page 20 undefined on input line 247.
+
+[20]
+
+LaTeX Warning: Citation `rosvall2005networks' on page 21 undefined on input line 253.
+
+
+LaTeX Warning: Citation `gallotti2016limits' on page 21 undefined on input line 259.
+
+
+LaTeX Warning: Citation `chen2016promises' on page 21 undefined on input line 262.
+
+
+LaTeX Warning: Citation `zannat2019emerging' on page 21 undefined on input line 262.
+
+
+LaTeX Warning: Citation `pelletier2011smart' on page 21 undefined on input line 262.
+
+
+LaTeX Warning: Citation `ma2013mining' on page 21 undefined on input line 262.
+
+
+LaTeX Warning: Citation `zheng2018coupling' on page 21 undefined on input line 266.
+
+
+LaTeX Warning: Reference `eq:coupling' on page 21 undefined on input line 266.
+
+
+LaTeX Warning: Citation `strano2015features' on page 21 undefined on input line 266.
+
+
+LaTeX Warning: Reference `eq:coupling' on page 21 undefined on input line 266.
+
+
+LaTeX Warning: Citation `strano2015features' on page 21 undefined on input line 266.
+
+
+LaTeX Warning: Citation `chodrow2016congestion' on page 21 undefined on input line 266.
+
+[21]
+
+LaTeX Warning: Citation `barbosa2018human' on page 22 undefined on input line 269.
+
+
+LaTeX Warning: Citation `gallotti2016stochastic' on page 22 undefined on input line 269.
+
+
+LaTeX Warning: Citation `zhao2015explaining' on page 22 undefined on input line 269.
+
+
+LaTeX Warning: Citation `zhao2015explaining' on page 22 undefined on input line 269.
+
+
+LaTeX Warning: Citation `gallotti2016stochastic' on page 22 undefined on input line 269.
+
+
+LaTeX Warning: Citation `varga2016further' on page 22 undefined on input line 269.
+
+
+LaTeX Warning: Citation `haklay2010openstreetmap' on page 22 undefined on input line 276.
+
+
+LaTeX Warning: Citation `girres2010quality' on page 22 undefined on input line 276.
+
+
+LaTeX Warning: Citation `ferster2019openstreetmap' on page 22 undefined on input line 276.
+
+
+LaTeX Warning: Citation `barbosa2018human' on page 22 undefined on input line 276.
+
+[22]
+
+LaTeX Warning: Citation `boeing2020multiscale' on page 23 undefined on input line 278.
+
+
+LaTeX Warning: Citation `boeing2020world' on page 23 undefined on input line 278.
+
+) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/overlapcensus.tex [23] [24
+
+]
 Chapter 3.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 10.42007pt on input line 3.
@@ -789,614 +1255,260 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 6.25204pt on input line 3.
 
-LaTeX Warning: Citation `DeDomenico2014Navigability' on page 23 undefined on input line 9.
+LaTeX Warning: Citation `natera2020multimodal' on page 25 undefined on input line 3.
 
-[23
 
-]
-<images/multiplex/Multilayer_NY_op2.png, id=719, 2199.21625pt x 741.77126pt>
+LaTeX Warning: Citation `morris2012transport' on page 25 undefined on input line 9.
+
+
+LaTeX Warning: Citation `strano2012evolution' on page 25 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Barthelemy2013Evolution' on page 25 undefined on input line 9.
+
+
+LaTeX Warning: Citation `battiston2014structural' on page 25 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Gallotti2014Efficiency' on page 25 undefined on input line 9.
+
+
+LaTeX Warning: Citation `DeDomenico2014Navigability' on page 25 undefined on input line 9.
+
+
+LaTeX Warning: Citation `strano2015features' on page 25 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Aleta2017Multilayer' on page 25 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Lee2017Morphology' on page 25 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Jacobs1961Death' on page 25 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Gossling2016Space' on page 25 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Szell2018Crowdsourced' on page 25 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Gossling2016Space' on page 25 undefined on input line 9.
+
+[25]
+<images/multiplex/Multilayer_NY_op2.png, id=216, 2199.21625pt x 741.77126pt>
 File: images/multiplex/Multilayer_NY_op2.png Graphic file (type png)
 <use images/multiplex/Multilayer_NY_op2.png>
 Package pdftex.def Info: images/multiplex/Multilayer_NY_op2.png  used on input line 15.
 (pdftex.def)             Requested size: 418.25368pt x 141.07382pt.
- [24 </Users/natera/Dropbox/PhD/thesis/images/multiplex/Multilayer_NY_op2.png>]
-<images/multiplex/SchemaOverlapCensus.png, id=756, 11326.315pt x 5187.38pt>
+
+
+LaTeX Warning: Citation `boeing2017osmnx' on page 26 undefined on input line 21.
+
+
+LaTeX Warning: Citation `haklay2010openstreetmap' on page 26 undefined on input line 21.
+
+
+LaTeX Warning: Citation `girres2010quality' on page 26 undefined on input line 21.
+
+
+LaTeX Warning: Citation `Ferster2019Bicycle' on page 26 undefined on input line 21.
+
+
+LaTeX Warning: Citation `barbosa2018human' on page 26 undefined on input line 21.
+
+
+LaTeX Warning: Reference `tab:MultiplexCities' on page 26 undefined on input line 21.
+
+
+LaTeX Warning: Reference `fig:ManhattanMultiplex' on page 26 undefined on input line 21.
+
+
+LaTeX Warning: Citation `natera2019data' on page 26 undefined on input line 52.
+
+
+LaTeX Warning: Citation `boccaletti2014structure' on page 26 undefined on input line 54.
+
+
+LaTeX Warning: Citation `kivela2014multilayer' on page 26 undefined on input line 54.
+
+
+LaTeX Warning: Citation `battiston2017new' on page 26 undefined on input line 54.
+
+
+LaTeX Warning: Reference `ch:litReview' on page 26 undefined on input line 54.
+
+
+LaTeX Warning: Citation `porta2006primal' on page 26 undefined on input line 54.
+
+
+LaTeX Warning: Citation `boeing2017osmnx' on page 26 undefined on input line 54.
+
+
+LaTeX Warning: Citation `strano2012evolution' on page 26 undefined on input line 54.
+
+
+LaTeX Warning: Citation `Barthelemy2013Evolution' on page 26 undefined on input line 54.
+
+
+LaTeX Warning: Citation `Gallotti2014Efficiency' on page 26 undefined on input line 54.
+
+
+LaTeX Warning: Citation `Lee2017Morphology' on page 26 undefined on input line 54.
+
+[26 </Users/natera/Dropbox/PhD/thesis/images/multiplex/Multilayer_NY_op2.png>]
+<images/multiplex/SchemaOverlapCensus.png, id=229, 11326.315pt x 5187.38pt>
 File: images/multiplex/SchemaOverlapCensus.png Graphic file (type png)
 <use images/multiplex/SchemaOverlapCensus.png>
 Package pdftex.def Info: images/multiplex/SchemaOverlapCensus.png  used on input line 58.
 (pdftex.def)             Requested size: 418.25368pt x 191.55013pt.
- [25]
+ [27]
+
+LaTeX Warning: Reference `fig:SchemaOverlapCensus' on page 28 undefined on input line 67.
+
+
+LaTeX Warning: Citation `Aleta2017Multilayer' on page 28 undefined on input line 67.
+
+
 Underfull \vbox (badness 3679) has occurred while \output is active []
 
- [26 </Users/natera/Dropbox/PhD/thesis/images/multiplex/SchemaOverlapCensus.png>]
-<images/multiplex/ResultsOverlapCensus-01.png, id=770, 1456.2405pt x 658.3797pt>
+ [28 </Users/natera/Dropbox/PhD/thesis/images/multiplex/SchemaOverlapCensus.png>]
+
+LaTeX Warning: Reference `fig:SchemaOverlapCensus' on page 29 undefined on input line 69.
+
+<images/multiplex/ResultsOverlapCensus-01.png, id=242, 1456.2405pt x 658.3797pt>
 File: images/multiplex/ResultsOverlapCensus-01.png Graphic file (type png)
 <use images/multiplex/ResultsOverlapCensus-01.png>
 Package pdftex.def Info: images/multiplex/ResultsOverlapCensus-01.png  used on input line 76.
 (pdftex.def)             Requested size: 418.25368pt x 189.09683pt.
- [27 </Users/natera/Dropbox/PhD/thesis/images/multiplex/ResultsOverlapCensus-01.png>]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/bikegrowth.tex [28]
+
+LaTeX Warning: Reference `fig:ResultsOverlapCensus' on page 29 undefined on input line 85.
+
+[29 </Users/natera/Dropbox/PhD/thesis/images/multiplex/ResultsOverlapCensus-01.png>]
+
+LaTeX Warning: Reference `fig:ResultsOverlapCensus' on page 30 undefined on input line 87.
+
+
+LaTeX Warning: Citation `Rodrigue2013Geography' on page 30 undefined on input line 87.
+
+
+LaTeX Warning: Citation `louf2014typology' on page 30 undefined on input line 87.
+
+) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/bikegrowth.tex [30]
 Chapter 4.
+
+LaTeX Warning: Citation `natera2020growth' on page 31 undefined on input line 3.
+
+
+LaTeX Warning: Citation `Jacobs1961Death' on page 31 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Gossling2016Space' on page 31 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Szell2018Crowdsourced' on page 31 undefined on input line 9.
+
+
+LaTeX Warning: Citation `morris2012transport' on page 31 undefined on input line 9.
+
+
+LaTeX Warning: Citation `strano2015features' on page 31 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Aleta2017Multilayer' on page 31 undefined on input line 9.
+
+
+LaTeX Warning: Reference `ch:OverlapCensus' on page 31 undefined on input line 9.
+
+
+LaTeX Warning: Reference `fig:Multimodal' on page 31 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Gossling2016Space' on page 31 undefined on input line 9.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29
+ [31
 
 ]
-<images/datadriven/Fig01.png, id=818, 1723.94923pt x 589.10374pt>
+
+LaTeX Warning: Citation `Eliasson2008Lessons' on page 32 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Littke2016parklets' on page 32 undefined on input line 11.
+
+
+LaTeX Warning: Citation `bliss2019hcp' on page 32 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Nieuwenhuijsen2016Car' on page 32 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Reynolds2009impact' on page 32 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Teschke2012route' on page 32 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Pucher2016Safer' on page 32 undefined on input line 11.
+
+
+LaTeX Warning: Citation `aldred2018cycling' on page 32 undefined on input line 11.
+
+
+LaTeX Warning: Citation `gossling2019social' on page 32 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Gossling2020Cities' on page 32 undefined on input line 11.
+
+
+LaTeX Warning: Reference `ch:OverlapCensus' on page 32 undefined on input line 13.
+
+
+LaTeX Warning: Citation `Dill2013Bicycle' on page 32 undefined on input line 13.
+
+
+LaTeX Warning: Citation `Schoner2014Missing' on page 32 undefined on input line 13.
+
+
+LaTeX Warning: Citation `Hull2014Infrastructure' on page 32 undefined on input line 13.
+
+
+LaTeX Warning: Citation `Buehler2016Bikable' on page 32 undefined on input line 13.
+
+
+LaTeX Warning: Citation `Twaddell2018Multimodal' on page 32 undefined on input line 13.
+
+<images/datadriven/Fig01.png, id=262, 1723.94923pt x 589.10374pt>
 File: images/datadriven/Fig01.png Graphic file (type png)
 <use images/datadriven/Fig01.png>
 Package pdftex.def Info: images/datadriven/Fig01.png  used on input line 17.
 (pdftex.def)             Requested size: 418.25368pt x 142.9249pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Citation `boeing2017osmnx' on page 32 undefined on input line 23.
 
- [30]
-Underfull \vbox (badness 2951) has occurred while \output is active []
 
- [31 </Users/natera/Dropbox/PhD/thesis/images/datadriven/Fig01.png>] [32]
+LaTeX Warning: Citation `Boeing2020Planarity' on page 32 undefined on input line 23.
 
-LaTeX Font Warning: Font shape `OT1/ppl/m/scit' undefined
-(Font)              using `OT1/ppl/m/it' instead on input line 70.
 
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 81.
+LaTeX Warning: Citation `haklay2010openstreetmap' on page 32 undefined on input line 23.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+LaTeX Warning: Citation `girres2010quality' on page 32 undefined on input line 23.
 
-LaTeX Font Warning: Font shape `OT1/ppl/m/scit' undefined
-(Font)              using `OT1/ppl/m/it' instead on input line 87.
 
+LaTeX Warning: Citation `Ferster2019Bicycle' on page 32 undefined on input line 23.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[33]
-Underfull \vbox (badness 2828) has occurred while \output is active []
+LaTeX Warning: Citation `barbosa2018human' on page 32 undefined on input line 23.
 
- [34]
 
-LaTeX Font Warning: Font shape `OT1/ppl/m/scit' undefined
-(Font)              using `OT1/ppl/m/it' instead on input line 109.
+LaTeX Warning: Citation `Hochmair2012' on page 32 undefined on input line 23.
 
 
-LaTeX Font Warning: Font shape `OT1/ppl/m/scit' undefined
-(Font)              using `OT1/ppl/m/it' instead on input line 125.
+LaTeX Warning: Reference `tab:DataDrivenCities' on page 32 undefined on input line 23.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[35]
-<images/datadriven/algorithms.png, id=923, 1146.4431pt x 486.1362pt>
-File: images/datadriven/algorithms.png Graphic file (type png)
-<use images/datadriven/algorithms.png>
-Package pdftex.def Info: images/datadriven/algorithms.png  used on input line 147.
-(pdftex.def)             Requested size: 418.25368pt x 177.35292pt.
- [36]
-<images/datadriven/BPincrease.png, id=930, 1199.4411pt x 1031.052pt>
-File: images/datadriven/BPincrease.png Graphic file (type png)
-<use images/datadriven/BPincrease.png>
-Package pdftex.def Info: images/datadriven/BPincrease.png  used on input line 160.
-(pdftex.def)             Requested size: 418.25368pt x 359.52061pt.
- [37 </Users/natera/Dropbox/PhD/thesis/images/datadriven/algorithms.png (PNG copy)>] [38 </Users/natera/Dropbox/PhD/thesis/images/datadriven/BPincrease.png (PNG copy)>]
-<images/datadriven/SI_Lengths_Bike_Streets.png, id=946, 1057.82631pt x 933.7284pt>
-File: images/datadriven/SI_Lengths_Bike_Streets.png Graphic file (type png)
-<use images/datadriven/SI_Lengths_Bike_Streets.png>
-Package pdftex.def Info: images/datadriven/SI_Lengths_Bike_Streets.png  used on input line 171.
-(pdftex.def)             Requested size: 334.60422pt x 295.35129pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (27.5pt): 
-Make it at least 27.59193pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[39]
-<images/datadriven/5km.png, id=954, 1020.2115pt x 1126.6893pt>
-File: images/datadriven/5km.png Graphic file (type png)
-<use images/datadriven/5km.png>
-Package pdftex.def Info: images/datadriven/5km.png  used on input line 182.
-(pdftex.def)             Requested size: 418.25368pt x 461.91122pt.
- [40 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Lengths_Bike_Streets.png>] [41 </Users/natera/Dropbox/PhD/thesis/images/datadriven/5km.png (PNG copy)>]
-<images/datadriven/35km.png, id=968, 1020.2115pt x 1126.6893pt>
-File: images/datadriven/35km.png Graphic file (type png)
-<use images/datadriven/35km.png>
-Package pdftex.def Info: images/datadriven/35km.png  used on input line 191.
-(pdftex.def)             Requested size: 418.25368pt x 461.91122pt.
-<images/datadriven/Reviewer_Coverage.png, id=970, 937.44514pt x 1259.97583pt>
-File: images/datadriven/Reviewer_Coverage.png Graphic file (type png)
-<use images/datadriven/Reviewer_Coverage.png>
-Package pdftex.def Info: images/datadriven/Reviewer_Coverage.png  used on input line 200.
-(pdftex.def)             Requested size: 334.60422pt x 449.7266pt.
- [42] [43 </Users/natera/Dropbox/PhD/thesis/images/datadriven/35km.png (PNG copy)>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44 </Users/natera/Dropbox/PhD/thesis/images/datadriven/Reviewer_Coverage.png>]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/lqi.tex [45] [46
-
-]
-Chapter 5.
-[47]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [48]
-<images/lqi/Budapest_Network_voronoi_op2.png, id=1075, 1264.725pt x 565.6332pt>
-File: images/lqi/Budapest_Network_voronoi_op2.png Graphic file (type png)
-<use images/lqi/Budapest_Network_voronoi_op2.png>
-Package pdftex.def Info: images/lqi/Budapest_Network_voronoi_op2.png  used on input line 35.
-(pdftex.def)             Requested size: 418.25368pt x 187.05655pt.
- [49] [50 </Users/natera/Dropbox/PhD/thesis/images/lqi/Budapest_Network_voronoi_op2.png>]
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 15.0049pt on input line 64.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 64.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 15.0049pt on input line 64.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 64.
- [51] [52] [53] [54]
-<images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf, id=1127, 1772.44177pt x 716.6775pt>
-File: images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf Graphic file (type pdf)
-<use images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf>
-Package pdftex.def Info: images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf  used on input line 153.
-(pdftex.def)             Requested size: 418.25368pt x 169.11911pt.
- [55 </Users/natera/Dropbox/PhD/thesis/images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf>]
-<images/lqi/LQI_categories_regplots.pdf, id=1190, 867.24pt x 578.16pt>
-File: images/lqi/LQI_categories_regplots.pdf Graphic file (type pdf)
-<use images/lqi/LQI_categories_regplots.pdf>
-Package pdftex.def Info: images/lqi/LQI_categories_regplots.pdf  used on input line 176.
-(pdftex.def)             Requested size: 418.25368pt x 278.83694pt.
- [56] [57 </Users/natera/Dropbox/PhD/thesis/images/lqi/LQI_categories_regplots.pdf>]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/conclusion.tex [58]
-Chapter 6.
-) (/Users/natera/Dropbox/PhD/thesis/main.bbl [59
-
-] [60
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 77--87
-[]\OT1/ppl/m/n/12 Lin, J., Ban, Y.: Com-plex Net-work Topol-ogy of Trans-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--87
-\OT1/ppl/m/n/12 porta-tion Sys-tems. Trans-port Re-views \OT1/ppl/b/n/12 33\OT1/ppl/m/n/12 (6), 658--685 (2013).
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--167
-[]\OT1/ppl/m/n/12 Barth[]elemy, M., Flam-mini, A.: Mod-el-ing Ur-ban street
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--167
-\OT1/ppl/m/n/12 pat-terns. Phys-i-cal Re-view Let-ters \OT1/ppl/b/n/12 100\OT1/ppl/m/n/12 (13), 138702 (2008).
- []
-
-[61]
-Underfull \hbox (badness 4120) in paragraph at lines 203--213
-[]\OT1/ppl/m/n/12 Louf, R., Barthelemy, M.: A ty-pol-ogy of street pat-terns. Jour-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 203--213
-\OT1/ppl/m/n/12 nal of the Royal So-ci-ety, In-ter-face \OT1/ppl/b/n/12 11\OT1/ppl/m/n/12 (101), 20140924 (2014).
- []
-
-
-Underfull \hbox (badness 2334) in paragraph at lines 231--243
-[]\OT1/ppl/m/n/12 Crucitti, P., La-tora, V., Porta, S.: Cen-tral-ity Mea-sures in Spa-tial
- []
-
-
-Underfull \hbox (badness 2837) in paragraph at lines 231--243
-\OT1/ppl/m/n/12 Net-works of Ur-ban Streets. Phys-i-cal Re-view E \OT1/ppl/b/n/12 73\OT1/ppl/m/n/12 (3), 1--4 (2008).
- []
-
-
-Underfull \hbox (badness 1584) in paragraph at lines 247--260
-[]\OT1/ppl/m/n/12 Kirkley, A., Bar-bosa, H., Barthelemy, M., Ghoshal, G.: From the
- []
-
-
-Underfull \hbox (badness 2538) in paragraph at lines 247--260
-\OT1/ppl/m/n/12 ran-dom pla-nar graphs. Na-ture Com-mu-ni-ca-tions \OT1/ppl/b/n/12 9\OT1/ppl/m/n/12 (1), 2501 (2018).
- []
-
-
-Underfull \hbox (badness 1019) in paragraph at lines 296--306
-[]\OT1/ppl/m/n/12 Hajrasouliha, A., Yin, L.: The im-pact of street net-work con-nec-tiv-
- []
-
-
-Underfull \hbox (badness 1715) in paragraph at lines 296--306
-\OT1/ppl/m/n/12 ity on pedes-trian vol-ume. Ur-ban Stud-ies \OT1/ppl/b/n/12 52\OT1/ppl/m/n/12 (13), 2483--2497 (2015).
- []
-
-[62]
-Underfull \hbox (badness 1728) in paragraph at lines 418--427
-[]\OT1/ppl/m/n/12 Resch, B., Szell, M.: Human-centric data sci-ence for ur-ban stud-
- []
-
-
-Underfull \hbox (badness 3557) in paragraph at lines 418--427
-\OT1/ppl/m/n/12 ies. IS-PRS In-ter-na-tional Jour-nal of Geo-Information \OT1/ppl/b/n/12 8\OT1/ppl/m/n/12 (584) (2019).
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 501--516
-[]\OT1/ppl/m/n/12 Boccaletti, S., Bian-coni, G., Cri-ado, R., del Ge-nio, C.I., G[]omez-
- []
-
-
-Underfull \hbox (badness 2772) in paragraph at lines 501--516
-\OT1/ppl/m/n/12 Garde[]nes, J., Ro-mance, M., Sendi[]na-Nadal, I., Wang, Z., Zanin,
- []
-
-
-Underfull \hbox (badness 3735) in paragraph at lines 501--516
-\OT1/ppl/m/n/12 M.: The struc-ture and dy-nam-ics of mul-ti-layer net-works (2014).
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 501--516
-\OT1/ppl/m/n/12 doi:\OT1/cmss/m/n/12 10.1016/j.physrep.2014.07.001\OT1/ppl/m/n/12 . []$\OT1/cmtt/m/n/12 https : / / arxiv . org / pdf / 1407 . 0742 .
- []
-
-[63]
-Underfull \hbox (badness 4048) in paragraph at lines 535--551
-\OT1/ppl/m/n/12 Y., Porter, M.A., G[]omez, S., Are-nas, A.: Math-e-mat-i-cal for-mu-
- []
-
-
-Underfull \hbox (badness 7777) in paragraph at lines 535--551
-\OT1/ppl/m/n/12 la-tion of mul-ti-layer net-works. Phys. Rev. X \OT1/ppl/b/n/12 3\OT1/ppl/m/n/12 , 041022 (2013).
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 661--673
-[]\OT1/ppl/m/n/12 De Domenico, M., Sol[]e-Ribalta, A., G[]omez, S., Are-nas, A.: Nav-i-
- []
-
-[64]
-Underfull \hbox (badness 10000) in paragraph at lines 837--847
-[]\OT1/ppl/m/n/12 Morris, R.G., Barthelemy, M.: Trans-port on cou-pled spa-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 837--847
-\OT1/ppl/m/n/12 tial net-works. Phys-i-cal Re-view Let-ters \OT1/ppl/b/n/12 109\OT1/ppl/m/n/12 (12), 128703 (2012).
- []
-
-
-Underfull \hbox (badness 3449) in paragraph at lines 851--863
-[]\OT1/ppl/m/n/12 Nicosia, V., Bian-coni, G., La-tora, V., Barthelemy, M.: Grow-ing
- []
-
-
-Underfull \hbox (badness 1881) in paragraph at lines 851--863
-\OT1/ppl/m/n/12 mul-ti-plex net-works. Phys-i-cal Re-view Let-ters \OT1/ppl/b/n/12 111\OT1/ppl/m/n/12 (5), 058701 (2013).
- []
-
-[65]
-Underfull \hbox (badness 1590) in paragraph at lines 879--895
-[]\OT1/ppl/m/n/12 Ding, R., Ujang, N., bin Hamid, H., Manan, M.S.A., He, Y., Li,
- []
-
-
-Underfull \hbox (badness 1721) in paragraph at lines 879--895
-\OT1/ppl/m/n/12 R., Wu, J.: De-tect-ing the ur-ban traf-fic net-work struc-ture dy-nam-
- []
-
-[66] [67] [68]
-Underfull \hbox (badness 2875) in paragraph at lines 1428--1438
-[]\OT1/ppl/m/n/12 Szell, M.: Crowd-sourced Quan-tifi-ca-tion and Vi-su-al-iza-tion of Ur-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1428--1438
-\OT1/ppl/m/n/12 ban Mo-bil-ity Space In-equal-ity. Ur-ban Plan-ning \OT1/ppl/b/n/12 3\OT1/ppl/m/n/12 (1), 1 (2018).
- []
-
-
-Underfull \hbox (badness 7415) in paragraph at lines 1442--1452
-[]\OT1/ppl/m/n/12 Boeing, G.: OSMnx: New meth-ods for ac-quir-ing, con-struct-
- []
-
-
-Underfull \hbox (badness 6559) in paragraph at lines 1442--1452
-\OT1/ppl/m/n/12 ing, an-a-lyz-ing, and vi-su-al-iz-ing com-plex street net-works. Com-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1442--1452
-\OT1/ppl/m/n/12 put-ers, En-vi-ron-ment and Ur-ban Sys-tems \OT1/ppl/b/n/12 65\OT1/ppl/m/n/12 , 126--139 (2017).
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1501--1508
-[]\OT1/ppl/m/n/12 Natera Orozco, L.G.: Mul-ti-plex ur-ban net-works. Har-vard
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1501--1508
-\OT1/ppl/m/n/12 Data-verse, V1, []$\OT1/cmtt/m/n/12 https : / / doi . org / 10 . 7910 / DVN / GSOPCK$[] \OT1/ppl/m/n/12 (2019).
- []
-
-
-Underfull \hbox (badness 1831) in paragraph at lines 1512--1524
-[]\OT1/ppl/m/n/12 Rodrigue, J.-P., Com-tois, C., Slack, B.: The Ge-og-ra-phy of Trans-
- []
-
-
-Underfull \hbox (badness 6542) in paragraph at lines 1512--1524
-\OT1/ppl/m/n/12 port Sys-tems (Third Edi-tion), p. 432. Rout-ledge, ??? (2013).
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1512--1524
-\OT1/ppl/m/n/12 doi:\OT1/cmss/m/n/12 10.1080/10630732.2011.603579\OT1/ppl/m/n/12 . \OT1/cmss/m/n/12 https://www.routledge.com/The-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1512--1524
-\OT1/cmss/m/n/12 Geography-of-Transport- Systems-4th-Edition/Rodrigue-Comtois-
- []
-
-[69]
-Underfull \hbox (badness 1147) in paragraph at lines 1622--1632
-[]\OT1/ppl/m/n/12 Pucher, J., Buehler, R.: Safer cy-cling through im-proved in-fras-truc-
- []
-
-
-Underfull \hbox (badness 1502) in paragraph at lines 1622--1632
-\OT1/ppl/m/n/12 ture. Amer-i-can Jour-nal of Pub-lic Health \OT1/ppl/b/n/12 106\OT1/ppl/m/n/12 (12), 2089--2091 (2016).
- []
-
-[70] [71]
-Underfull \hbox (badness 1394) in paragraph at lines 1866--1879
-\OT1/ppl/m/n/12 cep-tions and re-ported be-hav-ior re-lated to cy-cling in mixed traf-fic:
- []
-
-
-Underfull \hbox (badness 1881) in paragraph at lines 1866--1879
-\OT1/ppl/m/n/12 search Part F: Traf-fic Psy-chol-ogy and Be-haviour \OT1/ppl/b/n/12 23\OT1/ppl/m/n/12 , 32--43 (2014).
- []
-
-
-Underfull \hbox (badness 3557) in paragraph at lines 1922--1935
-[]\OT1/ppl/m/n/12 Mauttone, A., Mer-cadante, G., Rabaza, M., Toledo, F.: Bi-cy-cle
- []
-
-
-Underfull \hbox (badness 3291) in paragraph at lines 1922--1935
-\OT1/ppl/m/n/12 net-work de-sign: Model and so-lu-tion al-go-rithm. In: Trans-porta-
- []
-
-
-Underfull \hbox (badness 1189) in paragraph at lines 1922--1935
-\OT1/ppl/m/n/12 tion Re-search Pro-ce-dia, vol. 27, pp. 969--976. El-se-vier, ??? (2017).
- []
-
-
-Underfull \hbox (badness 5667) in paragraph at lines 1995--2006
-[]\OT1/ppl/m/n/12 Achlioptas, D., D'Souza, R.M., Spencer, J.: Ex-plo-sive per-co-la-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1995--2006
-\OT1/ppl/m/n/12 tion in ran-dom net-works. Sci-ence \OT1/ppl/b/n/12 323\OT1/ppl/m/n/12 (5920), 1453--1455 (2009).
- []
-
-[72]
-Underfull \hbox (badness 1205) in paragraph at lines 2010--2021
-[]\OT1/ppl/m/n/12 Morone, F., Makse, H.A.: In-flu-ence max-i-miza-tion in com-plex net-
- []
-
-
-Underfull \hbox (badness 1215) in paragraph at lines 2010--2021
-\OT1/ppl/m/n/12 works through op-ti-mal per-co-la-tion. Na-ture \OT1/ppl/b/n/12 524\OT1/ppl/m/n/12 (7563), 65--68 (2015).
- []
-
-
-Underfull \hbox (badness 1337) in paragraph at lines 2054--2067
-\OT1/ppl/m/n/12 friendly in-fras-truc-ture plan-ning in bei-jing and copenhagen-between
- []
-
-[73]
-Underfull \hbox (badness 10000) in paragraph at lines 2298--2304
-[]\OT1/ppl/m/n/12 Childs, S.: A Case for Data-Driven City Plan-ning. (2018
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2298--2304
-\OT1/ppl/m/n/12 (ac-cessed June 3, 2019)). []$\OT1/cmtt/m/n/12 https : / / medium . com / citiesense /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2308--2314
-[]\OT1/ppl/m/n/12 Kaushik, V.: How Tech-nol-ogy Em-pow-ers Data-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2308--2314
-\OT1/ppl/m/n/12 Driven Ur-ban Plan-ning. (2017 (ac-cesed June 3,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2308--2314
-\OT1/ppl/m/n/12 2019). []$\OT1/cmtt/m/n/12 https : / / www . getrevue . co / profile / TGIC / issues /
- []
-
-[74]
-Underfull \hbox (badness 10000) in paragraph at lines 2318--2324
-[]\OT1/ppl/m/n/12 Fitzgerald, M.: Data-Driven City Man-age-ment. (2016 (ac-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2318--2324
-\OT1/ppl/m/n/12 cesed June 3, 2019). []$\OT1/cmtt/m/n/12 https : / / sloanreview . mit . edu / case-[]study /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2346--2351
-[]\OT1/ppl/m/n/12 Hungarian Pop-u-la-tion Data. (2016). []$\OT1/cmtt/m/n/12 https : / / www . ksh . hu /
- []
-
-[75] [76]
-Underfull \hbox (badness 4967) in paragraph at lines 2634--2639
-[]\OT1/ppl/m/n/12 Kindergartens & Day-care, Pri-mary Ed-u-ca-tion, Sec-ondary Ed-u-ca-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2634--2639
-\OT1/ppl/m/n/12 tion. (2019 (ac-cesed June 3, 2019). []$\OT1/cmtt/m/n/12 http : / / budapest . imami . hu /
- []
-
-
-Underfull \hbox (badness 1902) in paragraph at lines 2652--2657
-[]\OT1/ppl/m/n/12 Pediatricians, Gy-ne-col-o-gists. (2019 (ac-cesed June 3, 2019). []$\OT1/cmtt/m/n/12 http : / /
- []
-
-
-Underfull \hbox (badness 3536) in paragraph at lines 2706--2711
-[]\OT1/ppl/m/n/12 Outdoor Fit-ness Train-ing Fa-cil-i-ties. (2019 (ac-cesed June 3, 2019).
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2706--2711
-[]$\OT1/cmtt/m/n/12 https : / / www . google . com / maps / d / u / 0 / viewer ? msa = 0 & hl = en & ie = UTF8 &
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2706--2711
-\OT1/cmtt/m/n/12 t = h & ll = 47 . 481378772238784 % 2C19 . 130302999999913 & spn = 1 . 329955 %
- []
-
-
-Underfull \hbox (badness 8000) in paragraph at lines 2715--2720
-[]\OT1/ppl/m/n/12 Thermal and Spa. (2019 (ac-cesed June 3, 2019). []$\OT1/cmtt/m/n/12 https : / / www .
- []
-
-
-Underfull \hbox (badness 5245) in paragraph at lines 2724--2729
-[]\OT1/ppl/m/n/12 Playgrounds and Parks. (2019 (ac-cesed June 3, 2019). []$\OT1/cmtt/m/n/12 https : / /
- []
-
-) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/chapter7.tex [77] [78
-
-]
-Chapter 7.
-[79]
-<images/datadriven/Nodes_cc.png, id=1444, 1156.32pt x 939.51pt>
-File: images/datadriven/Nodes_cc.png Graphic file (type png)
-<use images/datadriven/Nodes_cc.png>
-Package pdftex.def Info: images/datadriven/Nodes_cc.png  used on input line 56.
-(pdftex.def)             Requested size: 334.60422pt x 271.86316pt.
-
-
-LaTeX Warning: Reference `fig:Lengthsncrease' on page 80 undefined on input line 135.
-
-[80 </Users/natera/Dropbox/PhD/thesis/images/datadriven/Nodes_cc.png>]
-<images/datadriven/SI_Nodes.png, id=1453, 1057.41335pt x 933.7284pt>
-File: images/datadriven/SI_Nodes.png Graphic file (type png)
-<use images/datadriven/SI_Nodes.png>
-Package pdftex.def Info: images/datadriven/SI_Nodes.png  used on input line 139.
-(pdftex.def)             Requested size: 334.60422pt x 295.46527pt.
-<images/datadriven/SI_Lengths.png, id=1454, 1057.82631pt x 933.7284pt>
-File: images/datadriven/SI_Lengths.png Graphic file (type png)
-<use images/datadriven/SI_Lengths.png>
-Package pdftex.def Info: images/datadriven/SI_Lengths.png  used on input line 146.
-(pdftex.def)             Requested size: 334.60422pt x 295.35129pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf, id=1455, 1065.34328pt x 933.85765pt>
-File: images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf Graphic file (type pdf)
-<use images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf>
-Package pdftex.def Info: images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf  used on input line 153.
-(pdftex.def)             Requested size: 334.60422pt x 293.31174pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/datadriven/SI_Directness.png, id=1456, 1057.41335pt x 933.7284pt>
-File: images/datadriven/SI_Directness.png Graphic file (type png)
-<use images/datadriven/SI_Directness.png>
-Package pdftex.def Info: images/datadriven/SI_Directness.png  used on input line 160.
-(pdftex.def)             Requested size: 334.60422pt x 295.46527pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/datadriven/SI_Gain.png, id=1457, 1057.82631pt x 933.7284pt>
-File: images/datadriven/SI_Gain.png Graphic file (type png)
-<use images/datadriven/SI_Gain.png>
-Package pdftex.def Info: images/datadriven/SI_Gain.png  used on input line 167.
-(pdftex.def)             Requested size: 334.60422pt x 295.35129pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 4168) has occurred while \output is active []
-
- [81 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Nodes.png>]
-<images/datadriven/SI_Nodes_Bike_Streets.png, id=1467, 1057.41335pt x 933.7284pt>
-File: images/datadriven/SI_Nodes_Bike_Streets.png Graphic file (type png)
-<use images/datadriven/SI_Nodes_Bike_Streets.png>
-Package pdftex.def Info: images/datadriven/SI_Nodes_Bike_Streets.png  used on input line 178.
-(pdftex.def)             Requested size: 334.60422pt x 295.46527pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/datadriven/SI_Directness_Bike_Streets.png, id=1468, 1057.41335pt x 933.7284pt>
-File: images/datadriven/SI_Directness_Bike_Streets.png Graphic file (type png)
-<use images/datadriven/SI_Directness_Bike_Streets.png>
-Package pdftex.def Info: images/datadriven/SI_Directness_Bike_Streets.png  used on input line 192.
-(pdftex.def)             Requested size: 334.60422pt x 295.46527pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/datadriven/SI_Gain_Bike_Streets.png, id=1469, 1057.82631pt x 933.7284pt>
-File: images/datadriven/SI_Gain_Bike_Streets.png Graphic file (type png)
-<use images/datadriven/SI_Gain_Bike_Streets.png>
-Package pdftex.def Info: images/datadriven/SI_Gain_Bike_Streets.png  used on input line 199.
-(pdftex.def)             Requested size: 334.60422pt x 295.35129pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [82 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Lengths.png>] [83 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf>] [84 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Directness.png>] [85 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Gain.png>] [86 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Nodes_Bike_Streets.png>] [87 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Directness_Bike_Streets.png>] [88 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Gain_Bike_Streets.png>]pdfTeX warning (ext4): destination with the same identifier (name{page.88}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.263 \end{document}
-                     [88
-
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
- (/Users/natera/Dropbox/PhD/thesis/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 263.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 263.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1E7D07F61C7AED92B5348083E876C889;8626.
-
-
-LaTeX Warning: There were undefined references.
-
- ) 
-Here is how much of TeX's memory you used:
- 17627 strings out of 480608
- 263156 string characters out of 5903631
- 626424 words of memory out of 5000000
- 32714 multiletter control sequences out of 15000+600000
- 583299 words of font info for 165 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 55i,12n,96p,1911b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/natera/Dropbox/PhD/thesis/main.pdf (103 pages, 19450307 bytes).
-PDF statistics:
- 1691 PDF objects out of 1728 (max. 8388607)
- 1386 compressed objects within 14 object streams
- 394 named destinations out of 1000 (max. 500000)
- 476 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+LaTeX Warning: Citation `natera2019data' on page 32 undefined on input line 23.
