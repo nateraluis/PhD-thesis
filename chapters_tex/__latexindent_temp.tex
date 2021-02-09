@@ -221,24 +221,40 @@ where $\Omega$ is the total number of stop-events per hour (e.g. the number of t
 
 Other studies focused on the efficiency in terms of ability to satisfy users demand. In Alessandretti et al.~\cite{alessandretti2016user}, the authors introduced a method based on non-negative matrix factorization to compare the network of commuting flows and the public transport network. The methodology, applied to various public transport systems in France, showed that, while in Paris the transportation system meets the overall demands, it does not in smaller cities, where even people with access to fast public transportation prefer to use car. In Sui et al.~\cite{sui2019publictransport}, the authors proposed three topological metrics to quantify the interaction between public transport network and passengers’ flow and applied it to study differences between the cities of Chengdu and Qingdao in China. In Hollecsek et al.~\cite{holleczek2014detecting} the authors used data mining approaches to compare the use of public and private transportation and identify the existence of weak transportation connections.
  
-% \paragraph{Congestion.} 
-% Congestion can dramatically alter travel time estimates for routes that use popular network links in a urban system, but adding network layers in a multilayer transport system can help reduce global congestion \cite{chodrow2016congestion}. Given a network with edges $e$ and flows $j_e$, one can quantify the total time lost in congestion as 
+\paragraph{Congestion.} 
+Congestion can dramatically alter travel time estimates for routes that use popular network links in a urban system, but adding network layers in a multilayer transport system can help reduce global congestion~\cite{chodrow2016congestion}. Given a network with edges $e$ and flows $j_e$, one can quantify the total time lost in congestion as 
+
+\begin{equation}
+    T_c(\textbf{j})=\sum_{e\in \mathcal{L}}j_e(t_e^* - t_e(j_e)),
+\end{equation}
+
+where $\textbf{j}$ is the vector of flows whose $e$th element is the flow along edge $e$, $t_e^*$ is the free flow time on edge $e$ (in the absence of congestion), and $t_e(j_e)$ is the congested travel time in the presence of flow $j_e$. 
+This measures can be used to analyze the impact of changes in flow along a route. The quantity
+\begin{equation}
+    \Delta_p = - \nabla T_c(\textbf{j}) \cdot \textbf{e}_p
+\end{equation}
+
+where $p$ is a path and $\textbf{e}_p$ is the vector whose $e$th component is 1 iff $e \in p$, quantifies the impact of removing a single unit of flow from $p$ on the global congestion function $T_c$. 
+Chodrow et al.~\cite{chodrow2016congestion}, quantified how the creation of a planned metro network in Riyadh would affect congestion, by quantifying the change $\Delta_p$ as a function of the speed ratio between the street and metro systems:
+
+\begin{equation}
+    \beta = v_{c}/v_{m}
+\end{equation}
+
+The authors showed that, as the subway speed increases the global congestion is reduced, but increases locally close to key metro station.
+
+% \paragraph{Navigability} 
+% As cities and their transportation systems become increasingly complex and multimodal, it is important to quantify our difficulty navigating in them. It has been shown that multilayer transport system are characterized by limited navigability, implying that finding one's way is cognitively challenging \citep{gallotti2016limits}. To quantify the difficulty of navigating between two nodes $s$ and $t$ in a network, one can compute the total information value of knowing any of the shortest paths to reach $t$ from $s$:
 
 % \begin{equation}
-%     T_c(\textbf{j})=\sum_{e\in \mathcal{L}}j_e(t_e^* - t_e(j_e)),
+% S(s \rightarrow t) = - log_2 \sum_{\{p(s,t)\}} P[p(s,t)]
 % \end{equation}
 
-% where $\textbf{j}$ is the vector of flows whose $e$th element is the flow along edge $e$, $t_e^*$ is the free flow time on edge $e$ (in the absence of congestion), and $t_e(j_e)$ is the congested travel time in the presence of flow $j_e$. 
-% This measures can be used to analyze the impact of changes in flow along a route. The quantity
-% \begin{equation}
-%     \Delta_p = - \nabla T_c(\textbf{j}) \cdot \textbf{e}_p
-% \end{equation}
-
-% where $p$ is a path and $\textbf{e}_p$ is the vector whose $e$th component is 1 iff $e \in p$, quantifies the impact of removing a single unit of flow from $p$ on the global congestion function $T_c$. 
-% In \cite{chodrow2016congestion}, the authors quantified how the creation of a planned metro network in Riyadh would affect congestion, by quantifying the change $\Delta_p$ as a function of the speed ratio between the street and metro systems:
+% where  ${p(s, t)}$ is the set of shortest paths between $s$ and $t$ (note that there can be more than one with the same length) and $P[p(s,t)]$ is the probability to follow path $p(s,t)$, making the right choice at each intersection along the path \citep{rosvall2005networks}:
 
 % \begin{equation}
-%     \beta = v_{c}/v_{m}
+%      P[p(s,t)]=\frac{1}{k_s}\prod_{j\in p(s,t)}\frac{1}{k_j-1}, 
 % \end{equation}
 
-% The authors showed that, as the subway speed increases the global congestion is reduced, but increases locally close to key metro station (see Figure~\ref{Panel2}d and e).
+% In Gallotti et al. \citep{gallotti2016limits} the authors quantified the amount of information an individual needs in order to travel along the shortest path between any given pair of metro stations, in the single-layer metro networks for 15 large cities. They found that this information has an upper bound of the order of 8 bits, corresponding to approximately 250 connections between different routes. Further, studying several among the largest multi-layer transport networks (metro/buses/light rail), they showed that the amount of information one needs to know to travel between any two points exceeds the identified cognitive limit of 8 bits in 80\% the cases, suggesting multi-layer are too complex for individuals to navigate easily (see Figure~\ref{Panel2}c).
+

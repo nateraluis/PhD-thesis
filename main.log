@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  9 FEB 2021 15:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  9 FEB 2021 15:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -715,88 +715,10 @@ l.1 \chapter
 ]
 Chapter 2.
 
-LaTeX Warning: Citation `batty2013new' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `lobo2020urban' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `lin2013complex' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `barthelemy2011spatial' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `ding2019application' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `jiang2004topological' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `cardillo2006structural' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `barthelemy2008patterns' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `batty2008size' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `barthelemy2011spatial' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `strano2013comparative' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `louf2014typology' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `boeing2020multiscale' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `crucitti2008centrality' on page 3 undefined on input line 3.
-
-
 LaTeX Warning: Citation `boeing2018planarity' on page 3 undefined on input line 3.
 
 
-LaTeX Warning: Citation `kirkley2018structural' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `makse1995growth' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `strano2012evolution' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `hajrasouliha2015connectivity' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `denadai2016death' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `biazzo2019accesibility' on page 3 undefined on input line 3.
-
-
 LaTeX Warning: Citation `natera2019walkability' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `baggag2018resilience' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `ferretti2019resilience' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `natera2020growth' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `organizers2019roundtable' on page 3 undefined on input line 5.
-
-
-LaTeX Warning: Citation `resch2019hds' on page 3 undefined on input line 5.
-
-
-LaTeX Warning: Citation `porta2006primal' on page 3 undefined on input line 7.
 
 
 Underfull \vbox (badness 1132) has occurred while \output is active []
@@ -805,125 +727,30 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has b
 <to be read again> 
                    \relax 
 l.10 
-      [3]
-
-LaTeX Warning: Citation `albert2002statistical' on page 4 undefined on input line 13.
-
-
-LaTeX Warning: Citation `dorogovtsev2002evolution' on page 4 undefined on input line 13.
-
-
-LaTeX Warning: Citation `newman2003structure' on page 4 undefined on input line 13.
-
-
-LaTeX Warning: Citation `boccaletti2006complex' on page 4 undefined on input line 13.
-
-
-LaTeX Warning: Citation `barthelemy2011spatial' on page 4 undefined on input line 13.
-
-
-LaTeX Warning: Citation `lin2013complex' on page 4 undefined on input line 13.
-
-
-LaTeX Warning: Citation `boccaletti2014structure' on page 4 undefined on input line 17.
-
-
-LaTeX Warning: Citation `battiston2014structural' on page 4 undefined on input line 17.
-
-
-LaTeX Warning: Citation `dedomenico2013mathematical' on page 4 undefined on input line 17.
-
-
-LaTeX Warning: Citation `kivela2014multilayer' on page 4 undefined on input line 17.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
+      [3]pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.22 I
-      n the case of transportation networks, identifying nodes of different ... [4]
-
-LaTeX Warning: Citation `battiston2014structural' on page 5 undefined on input line 24.
-
-
-LaTeX Warning: Citation `nicosia2015measuring' on page 5 undefined on input line 24.
-
-
-LaTeX Warning: Citation `kurant2006layered' on page 5 undefined on input line 26.
-
-
-LaTeX Warning: Citation `cardillo2013emergence' on page 5 undefined on input line 26.
-
-
-LaTeX Warning: Citation `dedomenico2015structural' on page 5 undefined on input line 28.
-
-
-LaTeX Warning: Citation `latora2001efficient' on page 5 undefined on input line 28.
-
-
-LaTeX Warning: Citation `buldyrev2010catastrophic' on page 5 undefined on input line 28.
-
-
-LaTeX Warning: Citation `dedomenico2014interconnected' on page 5 undefined on input line 28.
-
-
-LaTeX Warning: Citation `boccaletti2014structure' on page 5 undefined on input line 28.
-
-
-LaTeX Warning: Citation `kivela2014multilayer' on page 5 undefined on input line 28.
-
-
-LaTeX Warning: Citation `bianconi2018multilayer' on page 5 undefined on input line 28.
-
-
-LaTeX Warning: Citation `aleta2019multilayer' on page 5 undefined on input line 28.
-
-
-LaTeX Warning: Citation `battiston2017new' on page 5 undefined on input line 28.
-
-
-LaTeX Warning: Citation `dedomenico2016physics' on page 5 undefined on input line 28.
-
-
-Underfull \vbox (badness 1803) has occurred while \output is active []
+l.21 
+      [4]
+Underfull \vbox (badness 1221) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.29 
-      [5]
-
-LaTeX Warning: Citation `decea2005equilibrium' on page 6 undefined on input line 46.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
+      [5]pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.47 
       [6]
-
-LaTeX Warning: Citation `decea2005equilibrium' on page 7 undefined on input line 48.
-
-
-LaTeX Warning: Citation `li2007parkride' on page 7 undefined on input line 52.
-
-
-LaTeX Warning: Citation `li2007parkride' on page 7 undefined on input line 54.
-
-
-Underfull \vbox (badness 2205) has occurred while \output is active []
+Underfull \vbox (badness 4303) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.57 
-      [7]
-
-LaTeX Warning: Citation `gil2014configuration' on page 8 undefined on input line 58.
-
-
-LaTeX Warning: Citation `Aleta2017Multilayer' on page 8 undefined on input line 62.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+l.56 W
+      hen the authors analyzed the numerical simulations of the model, they ... [7]
+Underfull \vbox (badness 4303) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
 <to be read again> 
@@ -936,192 +763,25 @@ LaTeX Warning: Citation `aleta2017transportation' on page 9 undefined on input l
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9]
+ [9] [10]
 
-LaTeX Warning: Citation `battista1996path' on page 10 undefined on input line 79.
+LaTeX Warning: Citation `aleta2017transportation' on page 11 undefined on input line 83.
 
-
-LaTeX Warning: Citation `lozano2001path' on page 10 undefined on input line 79.
-
-
-LaTeX Warning: Citation `lozano2001path' on page 10 undefined on input line 81.
-
-
-LaTeX Warning: Citation `aleta2017transportation' on page 10 undefined on input line 83.
-
-[10]
-
-LaTeX Warning: Citation `strano2015features' on page 11 undefined on input line 86.
-
-
-LaTeX Warning: Citation `strano2015features' on page 11 undefined on input line 95.
-
-
-LaTeX Warning: Citation `biazzo2019accesibility' on page 11 undefined on input line 97.
-
-
-LaTeX Warning: Citation `morris2012transport' on page 11 undefined on input line 100.
-
-
-LaTeX Warning: Citation `nicosia2013growing' on page 11 undefined on input line 100.
-
-
-LaTeX Warning: Citation `strano2015features' on page 11 undefined on input line 100.
-
-[11]
-
-LaTeX Warning: Citation `Aleta2017Multilayer' on page 12 undefined on input line 109.
-
-
-LaTeX Warning: Citation `Aleta2017Multilayer' on page 12 undefined on input line 117.
-
-
-LaTeX Warning: Citation `Freeman1977Centrality' on page 12 undefined on input line 122.
-
-[12]
-
-LaTeX Warning: Citation `ding2018traffic' on page 13 undefined on input line 136.
-
-
-LaTeX Warning: Citation `ding2018traffic' on page 13 undefined on input line 138.
-
-
-LaTeX Warning: Citation `strano2015features' on page 13 undefined on input line 138.
-
-[13]
-
-LaTeX Warning: Citation `dedomenico2019public' on page 14 undefined on input line 142.
-
-
-LaTeX Warning: Citation `dedomenico2014interconnected' on page 14 undefined on input line 142.
-
-
-LaTeX Warning: Citation `baggag2018resilience' on page 14 undefined on input line 142.
-
-
-LaTeX Warning: Citation `ferretti2019resilience' on page 14 undefined on input line 142.
-
-
-LaTeX Warning: Citation `strano2015features' on page 14 undefined on input line 144.
-
-
-LaTeX Warning: Citation `ding2018traffic' on page 14 undefined on input line 144.
-
-
-LaTeX Warning: Citation `sole-ribalta2016congestion' on page 14 undefined on input line 144.
-
-
-LaTeX Warning: Citation `nicosia2015measuring' on page 14 undefined on input line 148.
-
-
-LaTeX Warning: Citation `brodka2017similarity' on page 14 undefined on input line 148.
-
-
-LaTeX Warning: Citation `natera2020multimodal' on page 14 undefined on input line 150.
-
-[14]
-
-LaTeX Warning: Citation `patriksson2015traffic' on page 15 undefined on input line 155.
-
-
-LaTeX Warning: Citation `barbosa2018human' on page 15 undefined on input line 157.
-
-
-LaTeX Warning: Citation `mcnally2000four' on page 15 undefined on input line 162.
-
-
-LaTeX Warning: Citation `mcnally2000four' on page 15 undefined on input line 162.
-
-[15]
-
-LaTeX Warning: Citation `dedomenico2014interconnected' on page 16 undefined on input line 167.
-
-
-LaTeX Warning: Citation `dedomenico2014interconnected' on page 16 undefined on input line 170.
-
+[11] [12] [13] [14] [15]
 LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 174.
-(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ufplmbb.fd
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
-)
+) [16] [17]
+Underfull \vbox (badness 2409) has occurred while \output is active []
 
-LaTeX Warning: Citation `dedomenico2014interconnected' on page 16 undefined on input line 177.
+ [18] [19]
 
-[16]
-
-LaTeX Warning: Citation `sole2016random' on page 17 undefined on input line 179.
-
-
-LaTeX Warning: Citation `sole2016random' on page 17 undefined on input line 179.
+LaTeX Warning: Citation `chodrow2016congestion' on page 20 undefined on input line 225.
 
 
-LaTeX Warning: Citation `tan2014congestion' on page 17 undefined on input line 182.
+LaTeX Warning: Citation `chodrow2016congestion' on page 20 undefined on input line 238.
 
-
-LaTeX Warning: Citation `bassolas2020scaling' on page 17 undefined on input line 182.
-
-
-LaTeX Warning: Citation `manfredi2018congestion' on page 17 undefined on input line 182.
-
-
-LaTeX Warning: Citation `sole-ribalta2016congestion' on page 17 undefined on input line 182.
-
-
-LaTeX Warning: Citation `bassolas2020scaling' on page 17 undefined on input line 184.
-
-
-LaTeX Warning: Citation `manfredi2018congestion' on page 17 undefined on input line 186.
-
-
-LaTeX Warning: Citation `arentze2013travelers' on page 17 undefined on input line 190.
-
-
-LaTeX Warning: Citation `abrantes2011meta' on page 17 undefined on input line 190.
-
-
-LaTeX Warning: Citation `wardman2001review' on page 17 undefined on input line 190.
-
-
-LaTeX Warning: Citation `arentze2013travelers' on page 17 undefined on input line 190.
-
-
-LaTeX Warning: Citation `nobis2007multimodality' on page 17 undefined on input line 190.
-
-
-LaTeX Warning: Citation `chen2016promises' on page 17 undefined on input line 190.
-
-
-LaTeX Warning: Citation `zannat2019emerging' on page 17 undefined on input line 190.
-
-
-LaTeX Warning: Citation `arentze2013travelers' on page 17 undefined on input line 190.
-
-[17]
-
-LaTeX Warning: Citation `barbosa2018human' on page 18 undefined on input line 192.
-
-
-LaTeX Warning: Citation `barbosa2018human' on page 18 undefined on input line 194.
-
-
-LaTeX Warning: Citation `Gallotti2014Efficiency' on page 18 undefined on input line 200.
-
-
-LaTeX Warning: Citation `barthelemy2016structure' on page 18 undefined on input line 200.
-
-[18]
-
-LaTeX Warning: Citation `Gallotti2014Efficiency' on page 19 undefined on input line 206.
-
-
-LaTeX Warning: Citation `alessandretti2016user' on page 19 undefined on input line 222.
-
-
-LaTeX Warning: Citation `sui2019publictransport' on page 19 undefined on input line 222.
-
-
-LaTeX Warning: Citation `holleczek2014detecting' on page 19 undefined on input line 222.
-
-) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/overlapcensus.tex [19] [20]
+) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/overlapcensus.tex [20]
 Chapter 3.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 10.42007pt on input line 3.
@@ -1136,103 +796,13 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 6.25204pt on input line 3.
 
-LaTeX Warning: Citation `natera2020multimodal' on page 21 undefined on input line 3.
-
-
-LaTeX Warning: Citation `morris2012transport' on page 21 undefined on input line 9.
-
-
-LaTeX Warning: Citation `strano2012evolution' on page 21 undefined on input line 9.
-
-
-LaTeX Warning: Citation `Barthelemy2013Evolution' on page 21 undefined on input line 9.
-
-
-LaTeX Warning: Citation `battiston2014structural' on page 21 undefined on input line 9.
-
-
-LaTeX Warning: Citation `Gallotti2014Efficiency' on page 21 undefined on input line 9.
-
-
 LaTeX Warning: Citation `DeDomenico2014Navigability' on page 21 undefined on input line 9.
-
-
-LaTeX Warning: Citation `strano2015features' on page 21 undefined on input line 9.
-
-
-LaTeX Warning: Citation `Aleta2017Multilayer' on page 21 undefined on input line 9.
-
-
-LaTeX Warning: Citation `Lee2017Morphology' on page 21 undefined on input line 9.
-
-
-LaTeX Warning: Citation `Jacobs1961Death' on page 21 undefined on input line 9.
-
-
-LaTeX Warning: Citation `Gossling2016Space' on page 21 undefined on input line 9.
-
-
-LaTeX Warning: Citation `Szell2018Crowdsourced' on page 21 undefined on input line 9.
-
-
-LaTeX Warning: Citation `Gossling2016Space' on page 21 undefined on input line 9.
 
 [21
 
 ]
-<images/multiplex/Multilayer_NY_op2.png, id=465, 2199.21625pt x 741.77126pt>
+<images/multiplex/Multilayer_NY_op2.png, id=674, 2199.21625pt x 741.77126pt>
 File: images/multiplex/Multilayer_NY_op2.png Graphic file (type png)
 <use images/multiplex/Multilayer_NY_op2.png>
 Package pdftex.def Info: images/multiplex/Multilayer_NY_op2.png  used on input line 15.
-(pdftex.def)             Requested size: 418.25368pt x 141.07382pt.
-
-
-LaTeX Warning: Citation `boeing2017osmnx' on page 22 undefined on input line 21.
-
-
-LaTeX Warning: Citation `haklay2010openstreetmap' on page 22 undefined on input line 21.
-
-
-LaTeX Warning: Citation `girres2010quality' on page 22 undefined on input line 21.
-
-
-LaTeX Warning: Citation `Ferster2019Bicycle' on page 22 undefined on input line 21.
-
-
-LaTeX Warning: Citation `barbosa2018human' on page 22 undefined on input line 21.
-
-
-LaTeX Warning: Citation `natera2019data' on page 22 undefined on input line 52.
-
-
-LaTeX Warning: Citation `boccaletti2014structure' on page 22 undefined on input line 54.
-
-
-LaTeX Warning: Citation `kivela2014multilayer' on page 22 undefined on input line 54.
-
-
-LaTeX Warning: Citation `battiston2017new' on page 22 undefined on input line 54.
-
-
-LaTeX Warning: Citation `porta2006primal' on page 22 undefined on input line 54.
-
-
-LaTeX Warning: Citation `boeing2017osmnx' on page 22 undefined on input line 54.
-
-
-LaTeX Warning: Citation `strano2012evolution' on page 22 undefined on input line 54.
-
-
-LaTeX Warning: Citation `Barthelemy2013Evolution' on page 22 undefined on input line 54.
-
-
-LaTeX Warning: Citation `Gallotti2014Efficiency' on page 22 undefined on input line 54.
-
-
-LaTeX Warning: Citation `Lee2017Morphology' on page 22 undefined on input line 54.
-
-[22 </Users/natera/Dropbox/PhD/thesis/images/multiplex/Multilayer_NY_op2.png>]
-<images/multiplex/SchemaOverlapCensus.png, id=479, 11326.315pt x 5187.38pt>
-File: images/multiplex/SchemaOverlapCensus.png Graphic file (type png)
-<use images/multiplex/SchemaOverlapCensus.png>
-Package pdf
+(pdftex
