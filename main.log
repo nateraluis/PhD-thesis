@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  9 FEB 2021 17:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  9 FEB 2021 17:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1238,6 +1238,9 @@ LaTeX Warning: Citation `boeing2020multiscale' on page 23 undefined on input lin
 
 LaTeX Warning: Citation `boeing2020world' on page 23 undefined on input line 278.
 
+
+LaTeX Warning: Citation `gil2015building' on page 23 undefined on input line 278.
+
 ) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/overlapcensus.tex [23] [24
 
 ]
@@ -1512,3 +1515,388 @@ LaTeX Warning: Reference `tab:DataDrivenCities' on page 32 undefined on input li
 
 
 LaTeX Warning: Citation `natera2019data' on page 32 undefined on input line 23.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+Underfull \vbox (badness 2951) has occurred while \output is active []
+
+ [33 </Users/natera/Dropbox/PhD/thesis/images/datadriven/Fig01.png>]
+
+LaTeX Warning: Citation `porta2006primal' on page 34 undefined on input line 54.
+
+
+LaTeX Warning: Citation `strano2012evolution' on page 34 undefined on input line 54.
+
+
+LaTeX Warning: Citation `Barthelemy2013Evolution' on page 34 undefined on input line 54.
+
+
+LaTeX Warning: Citation `Gallotti2014Efficiency' on page 34 undefined on input line 54.
+
+
+LaTeX Warning: Citation `Lee2017Morphology' on page 34 undefined on input line 54.
+
+
+LaTeX Warning: Reference `tab:DataDrivenCities' on page 34 undefined on input line 57.
+
+
+LaTeX Warning: Reference `fig:Multimodal' on page 34 undefined on input line 57.
+
+
+LaTeX Warning: Citation `Krizek2005Discontinuities' on page 34 undefined on input line 57.
+
+
+LaTeX Warning: Citation `movement2013Cycling' on page 34 undefined on input line 57.
+
+
+LaTeX Warning: Citation `Dobrovolny2014Pedestrian' on page 34 undefined on input line 57.
+
+
+LaTeX Warning: Citation `Twaddell2018Multimodal' on page 34 undefined on input line 57.
+
+
+LaTeX Warning: Citation `Beck2019Space' on page 34 undefined on input line 57.
+
+
+LaTeX Warning: Citation `Twaddell2018Multimodal' on page 34 undefined on input line 57.
+
+[34]
+
+LaTeX Warning: Citation `Reynolds2009impact' on page 35 undefined on input line 59.
+
+
+LaTeX Warning: Citation `Teschke2012route' on page 35 undefined on input line 59.
+
+
+LaTeX Warning: Citation `Pucher2016Safer' on page 35 undefined on input line 59.
+
+
+LaTeX Warning: Citation `global2016global' on page 35 undefined on input line 59.
+
+
+LaTeX Warning: Reference `fig:Multimodal' on page 35 undefined on input line 61.
+
+
+LaTeX Warning: Citation `natera2020multimodal' on page 35 undefined on input line 61.
+
+
+LaTeX Warning: Citation `Dill2009infrastructure' on page 35 undefined on input line 61.
+
+
+LaTeX Warning: Citation `Chataway2014Safety' on page 35 undefined on input line 61.
+
+
+LaTeX Warning: Citation `Hyodo2000Modeling' on page 35 undefined on input line 65.
+
+
+LaTeX Warning: Citation `Bao2017Planning' on page 35 undefined on input line 65.
+
+
+LaTeX Warning: Citation `Mauttone2017Design' on page 35 undefined on input line 65.
+
+
+LaTeX Warning: Citation `Akbarzadeh2018Design' on page 35 undefined on input line 65.
+
+
+LaTeX Font Warning: Font shape `OT1/ppl/m/scit' undefined
+(Font)              using `OT1/ppl/m/it' instead on input line 70.
+
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 81.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Font Warning: Font shape `OT1/ppl/m/scit' undefined
+(Font)              using `OT1/ppl/m/it' instead on input line 87.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `al:L2S' on page 35 undefined on input line 101.
+
+
+LaTeX Warning: Reference `al:L2C' on page 35 undefined on input line 101.
+
+[35]
+Underfull \vbox (badness 2828) has occurred while \output is active []
+
+ [36]
+
+LaTeX Warning: Reference `al:R2C' on page 37 undefined on input line 103.
+
+
+LaTeX Warning: Reference `al:CC' on page 37 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Kruskal1956Spanning' on page 37 undefined on input line 103.
+
+
+LaTeX Warning: Reference `fig:algorithms' on page 37 undefined on input line 103.
+
+
+LaTeX Font Warning: Font shape `OT1/ppl/m/scit' undefined
+(Font)              using `OT1/ppl/m/it' instead on input line 109.
+
+
+LaTeX Font Warning: Font shape `OT1/ppl/m/scit' undefined
+(Font)              using `OT1/ppl/m/it' instead on input line 125.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `Hildebrandt2013BicycleHighways' on page 37 undefined on input line 139.
+
+
+LaTeX Warning: Citation `Taciuk2018Bicycle' on page 37 undefined on input line 139.
+
+[37]
+<images/datadriven/algorithms.png, id=301, 1146.4431pt x 486.1362pt>
+File: images/datadriven/algorithms.png Graphic file (type png)
+<use images/datadriven/algorithms.png>
+Package pdftex.def Info: images/datadriven/algorithms.png  used on input line 147.
+(pdftex.def)             Requested size: 418.25368pt x 177.35292pt.
+ [38]
+<images/datadriven/BPincrease.png, id=308, 1199.4411pt x 1031.052pt>
+File: images/datadriven/BPincrease.png Graphic file (type png)
+<use images/datadriven/BPincrease.png>
+Package pdftex.def Info: images/datadriven/BPincrease.png  used on input line 160.
+(pdftex.def)             Requested size: 418.25368pt x 359.52061pt.
+
+
+LaTeX Warning: Reference `fig:Nodes' on page 39 undefined on input line 161.
+
+
+LaTeX Warning: Reference `fig:Nodes' on page 39 undefined on input line 161.
+
+[39 </Users/natera/Dropbox/PhD/thesis/images/datadriven/algorithms.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig:ImprovementBP' on page 40 undefined on input line 165.
+
+
+LaTeX Warning: Reference `SI:BikeImprovement' on page 40 undefined on input line 165.
+
+[40 </Users/natera/Dropbox/PhD/thesis/images/datadriven/BPincrease.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig:ImprovementBP' on page 41 undefined on input line 167.
+
+
+LaTeX Warning: Reference `fig:ImprovementBP' on page 41 undefined on input line 167.
+
+
+LaTeX Warning: Reference `fig:ImprovementBP' on page 41 undefined on input line 167.
+
+<images/datadriven/SI_Lengths_Bike_Streets.png, id=320, 1057.82631pt x 933.7284pt>
+File: images/datadriven/SI_Lengths_Bike_Streets.png Graphic file (type png)
+<use images/datadriven/SI_Lengths_Bike_Streets.png>
+Package pdftex.def Info: images/datadriven/SI_Lengths_Bike_Streets.png  used on input line 171.
+(pdftex.def)             Requested size: 334.60422pt x 295.35129pt.
+
+LaTeX Warning: Reference `fig:ImprovementBP' on page 41 undefined on input line 176.
+
+
+LaTeX Warning: Reference `fig:Lengthsncrease_BikeStreets' on page 41 undefined on input line 176.
+
+
+LaTeX Warning: Reference `SI:BikeStreets' on page 41 undefined on input line 176.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (27.5pt): 
+Make it at least 27.59193pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[41]
+<images/datadriven/5km.png, id=326, 1020.2115pt x 1126.6893pt>
+File: images/datadriven/5km.png Graphic file (type png)
+<use images/datadriven/5km.png>
+Package pdftex.def Info: images/datadriven/5km.png  used on input line 182.
+(pdftex.def)             Requested size: 418.25368pt x 461.91122pt.
+
+
+LaTeX Warning: Reference `fig:Improvement5' on page 42 undefined on input line 187.
+
+
+LaTeX Warning: Reference `fig:Improvement35' on page 42 undefined on input line 187.
+
+
+LaTeX Warning: Reference `tab:DataDrivenCities' on page 42 undefined on input line 187.
+
+[42 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Lengths_Bike_Streets.png>] [43 </Users/natera/Dropbox/PhD/thesis/images/datadriven/5km.png (PNG copy)>]
+<images/datadriven/35km.png, id=339, 1020.2115pt x 1126.6893pt>
+File: images/datadriven/35km.png Graphic file (type png)
+<use images/datadriven/35km.png>
+Package pdftex.def Info: images/datadriven/35km.png  used on input line 191.
+(pdftex.def)             Requested size: 418.25368pt x 461.91122pt.
+
+
+LaTeX Warning: Reference `fig:Coverage' on page 44 undefined on input line 196.
+
+<images/datadriven/Reviewer_Coverage.png, id=340, 937.44514pt x 1259.97583pt>
+File: images/datadriven/Reviewer_Coverage.png Graphic file (type png)
+<use images/datadriven/Reviewer_Coverage.png>
+Package pdftex.def Info: images/datadriven/Reviewer_Coverage.png  used on input line 200.
+(pdftex.def)             Requested size: 334.60422pt x 449.7266pt.
+
+LaTeX Warning: Citation `achlioptas2009explosive' on page 44 undefined on input line 205.
+
+
+LaTeX Warning: Citation `morone2015influence' on page 44 undefined on input line 205.
+
+
+LaTeX Warning: Citation `latora2001efficient' on page 44 undefined on input line 205.
+
+
+LaTeX Warning: Citation `Mueller2018Health' on page 44 undefined on input line 209.
+
+[44] [45 </Users/natera/Dropbox/PhD/thesis/images/datadriven/35km.png (PNG copy)>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46 </Users/natera/Dropbox/PhD/thesis/images/datadriven/Reviewer_Coverage.png>]
+
+LaTeX Warning: Citation `Twaddell2018Multimodal' on page 47 undefined on input line 211.
+
+
+LaTeX Warning: Citation `zhao2018bicycle' on page 47 undefined on input line 215.
+
+
+LaTeX Warning: Citation `carstensen2015spatio' on page 47 undefined on input line 215.
+
+) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/lqi.tex [47] [48
+
+]
+Chapter 5.
+
+LaTeX Warning: Citation `natera2020walkability' on page 49 undefined on input line 3.
+
+
+LaTeX Warning: Citation `Jacobs1961Death' on page 49 undefined on input line 7.
+
+
+LaTeX Warning: Citation `Gossling2016Space' on page 49 undefined on input line 7.
+
+
+LaTeX Warning: Citation `Szell2018Crowdsourced' on page 49 undefined on input line 7.
+
+
+LaTeX Warning: Citation `Heylen2006Liveability' on page 49 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Shamsuddin2012Walkable' on page 49 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Campbell1996Green' on page 49 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Jabareen2013Planning' on page 49 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Frank2006Many' on page 49 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Speck2012Walkability' on page 49 undefined on input line 9.
+
+[49]
+
+LaTeX Warning: Citation `porta2006primal' on page 50 undefined on input line 11.
+
+
+LaTeX Warning: Citation `barthelemy2008patterns' on page 50 undefined on input line 11.
+
+
+LaTeX Warning: Citation `louf2014typology' on page 50 undefined on input line 11.
+
+
+LaTeX Warning: Citation `strano2012evolution' on page 50 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Barthelemy2013Evolution' on page 50 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Boeing2019Morphology' on page 50 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Hajrasouliha2015Impact' on page 50 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Quercia2015Digital' on page 50 undefined on input line 13.
+
+
+LaTeX Warning: Citation `Silva2018Investigating' on page 50 undefined on input line 13.
+
+
+LaTeX Warning: Citation `Krambeck2006Global' on page 50 undefined on input line 13.
+
+
+LaTeX Warning: Citation `Speck2012Walkability' on page 50 undefined on input line 13.
+
+
+LaTeX Warning: Citation `Southworth2005Designing' on page 50 undefined on input line 13.
+
+
+LaTeX Warning: Citation `Carr2010Walk' on page 50 undefined on input line 13.
+
+
+LaTeX Warning: Citation `Stephen2014Sustainable' on page 50 undefined on input line 13.
+
+
+LaTeX Warning: Citation `Childs2018Planning' on page 50 undefined on input line 15.
+
+
+LaTeX Warning: Citation `Kaushik2017Planning' on page 50 undefined on input line 15.
+
+
+LaTeX Warning: Citation `Fitzgerald2016Data' on page 50 undefined on input line 15.
+
+
+LaTeX Warning: Citation `boeing2017osmnx' on page 50 undefined on input line 20.
+
+
+LaTeX Warning: Citation `haklay2010openstreetmap' on page 50 undefined on input line 20.
+
+
+LaTeX Warning: Citation `girres2010quality' on page 50 undefined on input line 20.
+
+
+LaTeX Warning: Citation `Ferster2019Bicycle' on page 50 undefined on input line 20.
+
+
+LaTeX Warning: Citation `barbosa2018human' on page 50 undefined on input line 20.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50]
+
+LaTeX Warning: Citation `boeing2017osmnx' on page 51 undefined on input line 22.
+
+
+LaTeX Warning: Citation `HU2019Districts' on page 51 undefined on input line 22.
+
+
+LaTeX Warning: Reference `SI:walkabilityData' on page 51 undefined on input line 22.
+
+
+LaTeX Warning: Citation `HU2019Police' on page 51 undefined on input line 26.
+
+
+LaTeX Warning: Citation `HU2016Population' on page 51 undefined on input line 26.
+
+
+LaTeX Warning: Citation `HU2019Pollution' on page 51 undefined on input line 26.
+
+
+LaTeX Warning: Citation `porta2006primal' on page 51 undefined on input line 30.
+
+
+LaTeX Warning: Reference `safety' on page 51 undefined on input line 32.
+
+
+LaTeX Warning: Reference `environment' o
