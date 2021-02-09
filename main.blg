@@ -1,0 +1,100 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: bmc-mathphys.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 10642 items from 5000.
+Database file #1: bibliography.bib
+Warning--I didn't find a database entry for "boeing2018planarity"
+Warning--I didn't find a database entry for "natera2019walkability"
+Warning--I didn't find a database entry for "aleta2017transportation"
+Warning--I didn't find a database entry for "DeDomenico2014Navigability"
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--to sort, need author, organization, or key in HU2019Districts
+Warning--to sort, need author, organization, or key in HU2016Population
+Warning--to sort, need author, organization, or key in HU_sport
+Warning--to sort, need author, organization, or key in HU_Edu
+Warning--to sort, need author, organization, or key in HU_Art
+Warning--to sort, need author, organization, or key in HU_Child
+Warning--to sort, need author, organization, or key in HU_Social
+Warning--to sort, need author, organization, or key in HU_Cult
+Warning--to sort, need author, organization, or key in HU_Play
+Warning--to sort, need author, organization, or key in HU_Health
+Warning--to sort, need author, organization, or key in HU_Fitness
+Warning--to sort, need author, organization, or key in HU_outfitness
+Warning--to sort, need author, organization, or key in HU_Thermal
+Warning--to sort, need author, organization, or key in HU_Park
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--"{Multilayer" isn't a brace-balanced string for entry bianconi2018multilayer
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"{Multilayer" isn't a brace-balanced string for entry bianconi2018multilayer
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"{Multilayer" isn't a brace-balanced string for entry bianconi2018multilayer
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"function}" isn't a brace-balanced string for entry bianconi2018multilayer
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"function}" isn't a brace-balanced string for entry bianconi2018multilayer
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"FUNCTION}" isn't a brace-balanced string for entry bianconi2018multilayer
+while executing--line 2686 of file bmc-mathphys.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 178 entries,
+            7128 wiz_defined-function locations,
+            2304 strings with 47035 characters,
+and the built_in function-call counts, 2477419 in all, are:
+= -- 431064
+> -- 5499
+< -- 3261
++ -- 244669
+- -- 1714
+* -- 87635
+:= -- 441292
+add.period$ -- 284
+call.type$ -- 178
+change.case$ -- 1813
+chr.to.int$ -- 6902
+cite$ -- 192
+duplicate$ -- 16503
+empty$ -- 51983
+format.name$ -- 5363
+if$ -- 620530
+int.to.chr$ -- 12
+int.to.str$ -- 439
+missing$ -- 6062
+newline$ -- 5037
+num.names$ -- 826
+pop$ -- 7093
+preamble$ -- 1
+purify$ -- 780
+quote$ -- 356
+skip$ -- 253228
+stack$ -- 0
+substring$ -- 256105
+swap$ -- 5448
+text.length$ -- 2905
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 7395
+warning$ -- 14
+while$ -- 6063
+width$ -- 0
+write$ -- 6773
+(There were 24 warnings)
