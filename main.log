@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  9 FEB 2021 15:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  9 FEB 2021 16:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -774,14 +774,16 @@ File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 ) [16] [17]
 Underfull \vbox (badness 2409) has occurred while \output is active []
 
- [18] [19]
+ [18] [19] [20]
 
-LaTeX Warning: Citation `chodrow2016congestion' on page 20 undefined on input line 225.
+LaTeX Warning: Citation `pelletier2011smart' on page 21 undefined on input line 262.
 
 
-LaTeX Warning: Citation `chodrow2016congestion' on page 20 undefined on input line 238.
+LaTeX Warning: Citation `ma2013mining' on page 21 undefined on input line 262.
 
-) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/overlapcensus.tex [20]
+) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/overlapcensus.tex [21] [22
+
+]
 Chapter 3.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 10.42007pt on input line 3.
@@ -796,13 +798,103 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 6.25204pt on input line 3.
 
-LaTeX Warning: Citation `DeDomenico2014Navigability' on page 21 undefined on input line 9.
+LaTeX Warning: Citation `DeDomenico2014Navigability' on page 23 undefined on input line 9.
 
-[21
-
-]
-<images/multiplex/Multilayer_NY_op2.png, id=674, 2199.21625pt x 741.77126pt>
+[23]
+<images/multiplex/Multilayer_NY_op2.png, id=697, 2199.21625pt x 741.77126pt>
 File: images/multiplex/Multilayer_NY_op2.png Graphic file (type png)
 <use images/multiplex/Multilayer_NY_op2.png>
 Package pdftex.def Info: images/multiplex/Multilayer_NY_op2.png  used on input line 15.
-(pdftex
+(pdftex.def)             Requested size: 418.25368pt x 141.07382pt.
+ [24 </Users/natera/Dropbox/PhD/thesis/images/multiplex/Multilayer_NY_op2.png>]
+<images/multiplex/SchemaOverlapCensus.png, id=735, 11326.315pt x 5187.38pt>
+File: images/multiplex/SchemaOverlapCensus.png Graphic file (type png)
+<use images/multiplex/SchemaOverlapCensus.png>
+Package pdftex.def Info: images/multiplex/SchemaOverlapCensus.png  used on input line 58.
+(pdftex.def)             Requested size: 418.25368pt x 191.55013pt.
+ [25]
+Underfull \vbox (badness 3679) has occurred while \output is active []
+
+ [26 </Users/natera/Dropbox/PhD/thesis/images/multiplex/SchemaOverlapCensus.png>]
+<images/multiplex/ResultsOverlapCensus-01.png, id=749, 1456.2405pt x 658.3797pt>
+File: images/multiplex/ResultsOverlapCensus-01.png Graphic file (type png)
+<use images/multiplex/ResultsOverlapCensus-01.png>
+Package pdftex.def Info: images/multiplex/ResultsOverlapCensus-01.png  used on input line 76.
+(pdftex.def)             Requested size: 418.25368pt x 189.09683pt.
+ [27 </Users/natera/Dropbox/PhD/thesis/images/multiplex/ResultsOverlapCensus-01.png>]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/bikegrowth.tex [28]
+Chapter 4.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29
+
+]
+<images/datadriven/Fig01.png, id=798, 1723.94923pt x 589.10374pt>
+File: images/datadriven/Fig01.png Graphic file (type png)
+<use images/datadriven/Fig01.png>
+Package pdftex.def Info: images/datadriven/Fig01.png  used on input line 17.
+(pdftex.def)             Requested size: 418.25368pt x 142.9249pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+Underfull \vbox (badness 2951) has occurred while \output is active []
+
+ [31 </Users/natera/Dropbox/PhD/thesis/images/datadriven/Fig01.png>] [32]
+
+LaTeX Font Warning: Font shape `OT1/ppl/m/scit' undefined
+(Font)              using `OT1/ppl/m/it' instead on input line 70.
+
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 81.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Font Warning: Font shape `OT1/ppl/m/scit' undefined
+(Font)              using `OT1/ppl/m/it' instead on input line 87.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[33]
+Underfull \vbox (badness 2828) has occurred while \output is active []
+
+ [34]
+
+LaTeX Font Warning: Font shape `OT1/ppl/m/scit' undefined
+(Font)              using `OT1/ppl/m/it' instead on input line 109.
+
+
+LaTeX Font Warning: Font shape `OT1/ppl/m/scit' undefined
+(Font)              using `OT1/ppl/m/it' instead on input line 125.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[35]
+<images/datadriven/algorithms.png, id=905, 1146.4431pt x 486.1362pt>
+File: images/datadriven/algorithms.png Graphic file (type png)
+<use images/datadriven/algorithms.png>
+Package pdftex.def Info: images/datadriven/algorithms.png  used on input line 147.
+(pdftex.def)             Requested size: 418.25368pt x 177.35292pt.
+ [36]
+<images/datadriven/BPincrease.png, id=912, 1199.4411pt x 1031.052pt>
+File: images/datadriven/BPincrease.png Graphic file (type png)
+<use images/datadriven/BPincrease.png>
+Package pdftex.def Info: images/datadriven/BPincrease.png  used on input line 160.
+(pdftex.def)             Requested size: 418.25368pt x 359.52061pt.
+ [37 </Users/natera/Dropbox/PhD/thesis/images/datadriven/algorithms.png (PNG copy)>] [38 </Users/natera/Dropbox/PhD/thesis/images/datadriven/BPincrease.png (PNG copy)>]
+<images/datadriven/SI_Lengths_Bike_Streets.png, id=928, 1057.82631pt x 933.7284pt>
+File: images/datadriven/SI_Lengths_Bike_Streets.png Graphic file (type png)
+<use images/datadriven/SI_Lengths_Bike_Streets.png>
+Package pdftex.def Info: images/datadriven/SI_Lengths_Bike_Streets.png  used on input line 171.
+(pdftex.def)             Requested size: 334.60422pt x 295.35129pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (27.5pt): 
+Make it at least 27.59193pt.
+We now make it that large for the rest of the document.
+This may cause the page la
