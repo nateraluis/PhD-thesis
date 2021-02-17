@@ -33,7 +33,7 @@ The network contains all the sidewalks and pedestrian designated infrastructure,
 
 We assigned properties to the nodes of the network, matching the nodes with their corresponding districts, then assign nodes as attributes based on the district level data (population and crimes, see section \ref{safety}). For the pollution data, we calculated the corresponding Voronoi cells for the air quality stations, and matched the nodes with them. FInally, we divided the pollution by the number of nodes in each corresponding cell and assigned the value to the nodes (See section \ref{environment}). For the edges, we encoded their length $\ell_{ij}$ along with the traversal time $Tt_{ij}$ between nodes $i$ and $j$ calculated as $Tt_{ij}=\frac{\ell_{ij}}{ps}$ where $ps$ is the pedestrian speed as a constant rate of $5km/h$.
 
-\begin{figure*}[htbp]
+\begin{figure*}[ht!]
 	\centering
 	\includegraphics[width=\textwidth]{images/lqi/Budapest_Network_voronoi_op2.png}
 	\caption[Budapest pedestrian network]{\textbf{(a)} Network representing Budapest pedestrian structure. The network was built following a primal approach, where the edges are sidewalks and pedestrian infrastructure, and nodes are intersections. \textbf{(b)} The graph-Voronoi tessellation of the Budapest network, generated using a subset of 15 parks as seeds. The color of the nodes represents the cell they belong to and the highlighted red dots are the seeds of each cell. The distance measure between two points is defined as the weighted shortest path on the graph, the weights being the average time required to cross a given edge.}
@@ -52,7 +52,7 @@ The final value of the index is a weighted sum, characterizing every node (inter
 	Q_i =w^{services}\Tilde{Q}_i^{services} + w^{safety} \Tilde{Q}_i^{safety} + w^{environment}\Tilde{Q}_i^{environment}
 \end{equation}
 In the equation $i$ represents an individual node in the network. The ``tilde'' above the $Q$ terms means that the values of the different category indices are normalized within the category. The weights $w$ assigned to every term are arbitrary and are highly context-dependent. All terms of the equation are discussed in the following sections.
-%We include the weights used for producing the results of this paper in Appendix B.
+%We include the weights used for producing the results of this chapter in Appendix B.
 
 \textcolor{blue}{The weights of the different $Q$ indices in the final aggregation highly depends on the context and the nature of the problem. Here we present the values we used to generate the results of this study, that were agreed upon consulting with experts, and policy makers.}
 
