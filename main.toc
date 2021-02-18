@@ -3,6 +3,7 @@
 \contentsline {chapter}{List of Tables}{iii}{chapter*.5}%
 \contentsline {chapter}{List of Figures}{v}{chapter*.6}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {subsubsection}{Aim and structure of the thesis}{2}{subsubsection*.7}%
 \contentsline {chapter}{\numberline {2}Related Work}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Introduction}{3}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Multilayer networks: a framework for multimodality}{4}{section.2.2}%
@@ -11,16 +12,16 @@
 \contentsline {subsection}{\numberline {2.3.2}Characterizing multimodal infrastructure}{10}{subsection.2.3.2}%
 \contentsline {section}{\numberline {2.4}Multimodal mobility}{15}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Modeling urban mobility }{16}{subsection.2.4.1}%
-\contentsline {paragraph}{Random walks.}{16}{paragraph*.7}%
-\contentsline {paragraph}{Agent-based models accounting for congestion.}{17}{paragraph*.8}%
+\contentsline {paragraph}{Random walks.}{16}{paragraph*.8}%
+\contentsline {paragraph}{Agent-based models accounting for congestion.}{17}{paragraph*.9}%
 \contentsline {subsection}{\numberline {2.4.2}Characterizing multi-modal mobility. }{18}{subsection.2.4.2}%
-\contentsline {subsubsection}{Public transport systems dynamics.}{19}{subsubsection*.9}%
-\contentsline {paragraph}{Efficiency}{19}{paragraph*.10}%
-\contentsline {paragraph}{Congestion.}{20}{paragraph*.11}%
-\contentsline {paragraph}{Navigability}{21}{paragraph*.12}%
-\contentsline {subsubsection}{Individual multi-modal behaviour.}{21}{subsubsection*.13}%
-\contentsline {paragraph}{Route choices.}{22}{paragraph*.14}%
-\contentsline {paragraph}{Power-law distribution of displacements}{22}{paragraph*.15}%
+\contentsline {subsubsection}{Public transport systems dynamics.}{19}{subsubsection*.10}%
+\contentsline {paragraph}{Efficiency}{19}{paragraph*.11}%
+\contentsline {paragraph}{Congestion.}{20}{paragraph*.12}%
+\contentsline {paragraph}{Navigability}{21}{paragraph*.13}%
+\contentsline {subsubsection}{Individual multi-modal behaviour.}{21}{subsubsection*.14}%
+\contentsline {paragraph}{Route choices.}{22}{paragraph*.15}%
+\contentsline {paragraph}{Power-law distribution of displacements}{22}{paragraph*.16}%
 \contentsline {section}{\numberline {2.5}Open data \& Tools }{23}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Data}{23}{subsection.2.5.1}%
 \contentsline {subsection}{\numberline {2.5.2}Tools}{24}{subsection.2.5.2}%
@@ -45,11 +46,11 @@
 \contentsline {subsection}{\numberline {5.3.1}The services index: $Q^{\text {services}}$}{56}{subsection.5.3.1}%
 \contentsline {subsection}{\numberline {5.3.2}Safety index: $Q^{\text {safety}}$}{58}{subsection.5.3.2}%
 \contentsline {subsection}{\numberline {5.3.3}Environmental index $Q^{\text {environment}}$}{58}{subsection.5.3.3}%
-\contentsline {subsubsection}{Air pollution ratio}{58}{subsubsection*.29}%
-\contentsline {subsubsection}{Ratio of natural areas}{58}{subsubsection*.30}%
+\contentsline {subsubsection}{Air pollution ratio}{58}{subsubsection*.30}%
+\contentsline {subsubsection}{Ratio of natural areas}{58}{subsubsection*.31}%
 \contentsline {section}{\numberline {5.4}Results}{59}{section.5.4}%
 \contentsline {subsection}{\numberline {5.4.1}Evaluation}{60}{subsection.5.4.1}%
-\contentsline {paragraph}{Summary}{61}{paragraph*.33}%
+\contentsline {paragraph}{Summary}{61}{paragraph*.34}%
 \contentsline {section}{\numberline {5.5}Discussion}{62}{section.5.5}%
 \contentsline {chapter}{\numberline {6}Conclusion}{63}{chapter.6}%
 \contentsline {chapter}{\numberline {7}Appendices}{85}{chapter.7}%

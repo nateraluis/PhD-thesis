@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  18 FEB 2021 10:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  18 FEB 2021 13:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -650,35 +650,35 @@ Underfull \vbox (badness 4543) has occurred while \output is active []
 ] [9] [10
 
 ] (/Users/natera/Dropbox/PhD/thesis/main.toc
-LaTeX Font Info:    Trying to load font information for OML+zplm on input line 7.
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 8.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 7.
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 8.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 7.
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 8.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 7.
+(Font)              scaled to size 12.50409pt on input line 8.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 7.
+(Font)              scaled to size 9.37807pt on input line 8.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 7.
+(Font)              scaled to size 7.29405pt on input line 8.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 7.
+(Font)              scaled to size 12.50409pt on input line 8.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 7.
+(Font)              scaled to size 9.37807pt on input line 8.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 7.
-LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 7.
+(Font)              scaled to size 7.29405pt on input line 8.
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 8.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 7.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 8.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
@@ -703,19 +703,17 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 ] (/Users/natera/Dropbox/PhD/thesis/chapters_tex/introduction.tex
 Chapter 1.
-) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/literature.texpdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.13 
+      [1
+
+]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/literature.texpdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            {Related Work}\label{ch:litReview} [1
-
-]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            {Related Work}\label{ch:litReview} [2
-
-]
+            {Related Work}\label{ch:litReview} [2]
 Chapter 2.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 10.42007pt on input line 3.
@@ -733,7 +731,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has b
 <to be read again> 
                    \relax 
 l.8 T
-     he most recent of these approaches can be seen as the beginning of the ... [3]pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
+     he most recent of these approaches can be seen as the beginning of the ... [3
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.19 
@@ -787,7 +787,7 @@ Chapter 3.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
-<images/multiplex/Multilayer_NY_op2.png, id=820, 2199.21625pt x 741.77126pt>
+<images/multiplex/Multilayer_NY_op2.png, id=825, 2199.21625pt x 741.77126pt>
 File: images/multiplex/Multilayer_NY_op2.png Graphic file (type png)
 <use images/multiplex/Multilayer_NY_op2.png>
 Package pdftex.def Info: images/multiplex/Multilayer_NY_op2.png  used on input line 15.
@@ -796,13 +796,13 @@ Package pdftex.def Info: images/multiplex/Multilayer_NY_op2.png  used on input l
 Underfull \vbox (badness 1742) has occurred while \output is active []
 
  [29 </Users/natera/Dropbox/PhD/thesis/images/multiplex/Multilayer_NY_op2.png>]
-<images/multiplex/SchemaOverlapCensus.png, id=859, 11326.315pt x 5187.38pt>
+<images/multiplex/SchemaOverlapCensus.png, id=864, 11326.315pt x 5187.38pt>
 File: images/multiplex/SchemaOverlapCensus.png Graphic file (type png)
 <use images/multiplex/SchemaOverlapCensus.png>
 Package pdftex.def Info: images/multiplex/SchemaOverlapCensus.png  used on input line 58.
 (pdftex.def)             Requested size: 418.25368pt x 191.55013pt.
  [30 </Users/natera/Dropbox/PhD/thesis/images/multiplex/SchemaOverlapCensus.png>]
-<images/multiplex/ResultsOverlapCensus-01.png, id=868, 1456.2405pt x 658.3797pt>
+<images/multiplex/ResultsOverlapCensus-01.png, id=873, 1456.2405pt x 658.3797pt>
 File: images/multiplex/ResultsOverlapCensus-01.png Graphic file (type png)
 <use images/multiplex/ResultsOverlapCensus-01.png>
 Package pdftex.def Info: images/multiplex/ResultsOverlapCensus-01.png  used on input line 76.
@@ -818,7 +818,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1158) has occurred while \output is active []
 
  [34]
-<images/datadriven/Fig01.png, id=936, 1723.94923pt x 589.10374pt>
+<images/datadriven/Fig01.png, id=941, 1723.94923pt x 589.10374pt>
 File: images/datadriven/Fig01.png Graphic file (type png)
 <use images/datadriven/Fig01.png>
 Package pdftex.def Info: images/datadriven/Fig01.png  used on input line 17.
@@ -850,7 +850,7 @@ LaTeX Font Warning: Font shape `OT1/ppl/m/scit' undefined
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [39]
-<images/datadriven/algorithms.png, id=1022, 1146.4431pt x 486.1362pt>
+<images/datadriven/algorithms.png, id=1027, 1146.4431pt x 486.1362pt>
 File: images/datadriven/algorithms.png Graphic file (type png)
 <use images/datadriven/algorithms.png>
 Package pdftex.def Info: images/datadriven/algorithms.png  used on input line 147.
@@ -859,12 +859,12 @@ Package pdftex.def Info: images/datadriven/algorithms.png  used on input line 14
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [41 </Users/natera/Dropbox/PhD/thesis/images/datadriven/algorithms.png (PNG copy)>]
-<images/datadriven/BPincrease.png, id=1031, 1199.4411pt x 1031.052pt>
+<images/datadriven/BPincrease.png, id=1037, 1199.4411pt x 1031.052pt>
 File: images/datadriven/BPincrease.png Graphic file (type png)
 <use images/datadriven/BPincrease.png>
 Package pdftex.def Info: images/datadriven/BPincrease.png  used on input line 160.
 (pdftex.def)             Requested size: 418.25368pt x 359.52061pt.
-<images/datadriven/SI_Lengths_Bike_Streets.png, id=1039, 1057.82631pt x 933.7284pt>
+<images/datadriven/SI_Lengths_Bike_Streets.png, id=1045, 1057.82631pt x 933.7284pt>
 File: images/datadriven/SI_Lengths_Bike_Streets.png Graphic file (type png)
 <use images/datadriven/SI_Lengths_Bike_Streets.png>
 Package pdftex.def Info: images/datadriven/SI_Lengths_Bike_Streets.png  used on input line 171.
@@ -877,18 +877,18 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [43 </Users/natera/Dropbox/PhD/thesis/images/datadriven/BPincrease.png (PNG copy)>]
-<images/datadriven/5km.png, id=1052, 1020.2115pt x 1126.6893pt>
+<images/datadriven/5km.png, id=1057, 1020.2115pt x 1126.6893pt>
 File: images/datadriven/5km.png Graphic file (type png)
 <use images/datadriven/5km.png>
 Package pdftex.def Info: images/datadriven/5km.png  used on input line 182.
 (pdftex.def)             Requested size: 418.25368pt x 461.91122pt.
  [44 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Lengths_Bike_Streets.png>] [45 </Users/natera/Dropbox/PhD/thesis/images/datadriven/5km.png (PNG copy)>]
-<images/datadriven/35km.png, id=1066, 1020.2115pt x 1126.6893pt>
+<images/datadriven/35km.png, id=1071, 1020.2115pt x 1126.6893pt>
 File: images/datadriven/35km.png Graphic file (type png)
 <use images/datadriven/35km.png>
 Package pdftex.def Info: images/datadriven/35km.png  used on input line 191.
 (pdftex.def)             Requested size: 418.25368pt x 461.91122pt.
-<images/datadriven/Reviewer_Coverage.png, id=1068, 937.44514pt x 1259.97583pt>
+<images/datadriven/Reviewer_Coverage.png, id=1073, 937.44514pt x 1259.97583pt>
 File: images/datadriven/Reviewer_Coverage.png Graphic file (type png)
 <use images/datadriven/Reviewer_Coverage.png>
 Package pdftex.def Info: images/datadriven/Reviewer_Coverage.png  used on input line 200.
@@ -907,7 +907,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [51
 
 ] [52] [53]
-<images/lqi/Budapest_Network_voronoi_op2.png, id=1181, 1264.725pt x 565.6332pt>
+<images/lqi/Budapest_Network_voronoi_op2.png, id=1186, 1264.725pt x 565.6332pt>
 File: images/lqi/Budapest_Network_voronoi_op2.png Graphic file (type png)
 <use images/lqi/Budapest_Network_voronoi_op2.png>
 Package pdftex.def Info: images/lqi/Budapest_Network_voronoi_op2.png  used on input line 38.
@@ -922,13 +922,13 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 8.33606pt on input line 67.
  [56] [57] [58]
-<images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf, id=1225, 1772.44177pt x 716.6775pt>
+<images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf, id=1230, 1772.44177pt x 716.6775pt>
 File: images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf Graphic file (type pdf)
 <use images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf>
 Package pdftex.def Info: images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf  used on input line 156.
 (pdftex.def)             Requested size: 418.25368pt x 169.11911pt.
  [59] [60 </Users/natera/Dropbox/PhD/thesis/images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf>]
-<images/lqi/LQI_categories_regplots.pdf, id=1298, 867.24pt x 578.16pt>
+<images/lqi/LQI_categories_regplots.pdf, id=1303, 867.24pt x 578.16pt>
 File: images/lqi/LQI_categories_regplots.pdf Graphic file (type pdf)
 <use images/lqi/LQI_categories_regplots.pdf>
 Package pdftex.def Info: images/lqi/LQI_categories_regplots.pdf  used on input line 179.
@@ -1304,7 +1304,7 @@ Underfull \hbox (badness 5245) in paragraph at lines 2949--2954
 ]
 Chapter 7.
 [85]
-<images/datadriven/Nodes_cc.png, id=1566, 1156.32pt x 939.51pt>
+<images/datadriven/Nodes_cc.png, id=1571, 1156.32pt x 939.51pt>
 File: images/datadriven/Nodes_cc.png Graphic file (type png)
 <use images/datadriven/Nodes_cc.png>
 Package pdftex.def Info: images/datadriven/Nodes_cc.png  used on input line 56.
@@ -1314,12 +1314,12 @@ Package pdftex.def Info: images/datadriven/Nodes_cc.png  used on input line 56.
 LaTeX Warning: Reference `fig:Lengthsncrease' on page 86 undefined on input line 135.
 
 [86 </Users/natera/Dropbox/PhD/thesis/images/datadriven/Nodes_cc.png>]
-<images/datadriven/SI_Nodes.png, id=1575, 1057.41335pt x 933.7284pt>
+<images/datadriven/SI_Nodes.png, id=1580, 1057.41335pt x 933.7284pt>
 File: images/datadriven/SI_Nodes.png Graphic file (type png)
 <use images/datadriven/SI_Nodes.png>
 Package pdftex.def Info: images/datadriven/SI_Nodes.png  used on input line 139.
 (pdftex.def)             Requested size: 334.60422pt x 295.46527pt.
-<images/datadriven/SI_Lengths.png, id=1576, 1057.82631pt x 933.7284pt>
+<images/datadriven/SI_Lengths.png, id=1581, 1057.82631pt x 933.7284pt>
 File: images/datadriven/SI_Lengths.png Graphic file (type png)
 <use images/datadriven/SI_Lengths.png>
 Package pdftex.def Info: images/datadriven/SI_Lengths.png  used on input line 146.
@@ -1328,7 +1328,7 @@ Package pdftex.def Info: images/datadriven/SI_Lengths.png  used on input line 14
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf, id=1577, 1065.34328pt x 933.85765pt>
+<images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf, id=1582, 1065.34328pt x 933.85765pt>
 File: images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf Graphic file (type pdf)
 <use images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf>
 Package pdftex.def Info: images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf  used on input line 153.
@@ -1336,7 +1336,7 @@ Package pdftex.def Info: images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pd
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Directness.png, id=1578, 1057.41335pt x 933.7284pt>
+<images/datadriven/SI_Directness.png, id=1583, 1057.41335pt x 933.7284pt>
 File: images/datadriven/SI_Directness.png Graphic file (type png)
 <use images/datadriven/SI_Directness.png>
 Package pdftex.def Info: images/datadriven/SI_Directness.png  used on input line 160.
@@ -1344,7 +1344,7 @@ Package pdftex.def Info: images/datadriven/SI_Directness.png  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Gain.png, id=1579, 1057.82631pt x 933.7284pt>
+<images/datadriven/SI_Gain.png, id=1584, 1057.82631pt x 933.7284pt>
 File: images/datadriven/SI_Gain.png Graphic file (type png)
 <use images/datadriven/SI_Gain.png>
 Package pdftex.def Info: images/datadriven/SI_Gain.png  used on input line 167.
@@ -1356,7 +1356,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 4168) has occurred while \output is active []
 
  [87 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Nodes.png>]
-<images/datadriven/SI_Nodes_Bike_Streets.png, id=1590, 1057.41335pt x 933.7284pt>
+<images/datadriven/SI_Nodes_Bike_Streets.png, id=1595, 1057.41335pt x 933.7284pt>
 File: images/datadriven/SI_Nodes_Bike_Streets.png Graphic file (type png)
 <use images/datadriven/SI_Nodes_Bike_Streets.png>
 Package pdftex.def Info: images/datadriven/SI_Nodes_Bike_Streets.png  used on input line 178.
@@ -1365,7 +1365,7 @@ Package pdftex.def Info: images/datadriven/SI_Nodes_Bike_Streets.png  used on in
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Directness_Bike_Streets.png, id=1591, 1057.41335pt x 933.7284pt>
+<images/datadriven/SI_Directness_Bike_Streets.png, id=1596, 1057.41335pt x 933.7284pt>
 File: images/datadriven/SI_Directness_Bike_Streets.png Graphic file (type png)
 <use images/datadriven/SI_Directness_Bike_Streets.png>
 Package pdftex.def Info: images/datadriven/SI_Directness_Bike_Streets.png  used on input line 192.
@@ -1373,7 +1373,7 @@ Package pdftex.def Info: images/datadriven/SI_Directness_Bike_Streets.png  used 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Gain_Bike_Streets.png, id=1592, 1057.82631pt x 933.7284pt>
+<images/datadriven/SI_Gain_Bike_Streets.png, id=1597, 1057.82631pt x 933.7284pt>
 File: images/datadriven/SI_Gain_Bike_Streets.png Graphic file (type png)
 <use images/datadriven/SI_Gain_Bike_Streets.png>
 Package pdftex.def Info: images/datadriven/SI_Gain_Bike_Streets.png  used on input line 199.
@@ -1402,18 +1402,18 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 17681 strings out of 480608
- 264129 string characters out of 5903631
+ 17682 strings out of 480608
+ 264146 string characters out of 5903631
  633545 words of memory out of 5000000
  32740 multiletter control sequences out of 15000+600000
  583299 words of font info for 165 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,96p,1911b,497s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/natera/Dropbox/PhD/thesis/main.pdf (111 pages, 19469853 bytes).
+Output written on /Users/natera/Dropbox/PhD/thesis/main.pdf (111 pages, 19472802 bytes).
 PDF statistics:
- 1821 PDF objects out of 2073 (max. 8388607)
- 1506 compressed objects within 16 object streams
- 422 named destinations out of 1000 (max. 500000)
+ 1826 PDF objects out of 2073 (max. 8388607)
+ 1511 compressed objects within 16 object streams
+ 423 named destinations out of 1000 (max. 500000)
  508 words of extra memory for PDF output out of 10000 (max. 10000000)
 

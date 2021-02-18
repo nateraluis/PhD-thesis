@@ -307,11 +307,11 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /Users/natera/Dropbox/PhD/thesis/chapters_tex/introduction.tex
 INPUT /Users/natera/Dropbox/PhD/thesis/chapters_tex/introduction.tex
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplrc7t.tfm
-INPUT /Users/natera/Dropbox/PhD/thesis/chapters_tex/literature.tex
-INPUT /Users/natera/Dropbox/PhD/thesis/chapters_tex/literature.tex
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/adobe/palatino/pplrc7t.vf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
+INPUT /Users/natera/Dropbox/PhD/thesis/chapters_tex/literature.tex
+INPUT /Users/natera/Dropbox/PhD/thesis/chapters_tex/literature.tex
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
