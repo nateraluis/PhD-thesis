@@ -3,7 +3,7 @@
 \contentsline {chapter}{List of Tables}{iii}{chapter*.5}%
 \contentsline {chapter}{List of Figures}{v}{chapter*.6}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
-\contentsline {subsubsection}{Aim and structure of the thesis}{2}{subsubsection*.7}%
+\contentsline {subsubsection}{Aim and structure of the thesis}{3}{subsubsection*.7}%
 \contentsline {chapter}{\numberline {2}Related Work}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Introduction}{5}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Multilayer networks: a framework for multimodality}{6}{section.2.2}%
