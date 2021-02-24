@@ -19,7 +19,9 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 11417 items from 5000.
 Database file #1: bibliography.bib
+Warning--I didn't find a database entry for "aleta2017transportation"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--to sort, need author, organization, or key in HU2019Districts
@@ -37,47 +39,71 @@ Warning--to sort, need author, organization, or key in HU_outfitness
 Warning--to sort, need author, organization, or key in HU_Thermal
 Warning--to sort, need author, organization, or key in HU_Park
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--"{Building" isn't a brace-balanced string for entry sennett2018building
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"{Building" isn't a brace-balanced string for entry sennett2018building
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"{Building" isn't a brace-balanced string for entry sennett2018building
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"city}" isn't a brace-balanced string for entry sennett2018building
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"city}" isn't a brace-balanced string for entry sennett2018building
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"CITY}" isn't a brace-balanced string for entry sennett2018building
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"{Multilayer" isn't a brace-balanced string for entry bianconi2018multilayer
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"{Multilayer" isn't a brace-balanced string for entry bianconi2018multilayer
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"{Multilayer" isn't a brace-balanced string for entry bianconi2018multilayer
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"function}" isn't a brace-balanced string for entry bianconi2018multilayer
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"function}" isn't a brace-balanced string for entry bianconi2018multilayer
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"FUNCTION}" isn't a brace-balanced string for entry bianconi2018multilayer
+while executing--line 2686 of file bmc-mathphys.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 119 entries,
+You've used 206 entries,
             7128 wiz_defined-function locations,
-            1956 strings with 34747 characters,
-and the built_in function-call counts, 1711176 in all, are:
-= -- 301227
-> -- 3408
-< -- 2019
-+ -- 173509
-- -- 1080
-* -- 57418
-:= -- 303211
-add.period$ -- 188
-call.type$ -- 119
-change.case$ -- 1193
-chr.to.int$ -- 4242
-cite$ -- 133
-duplicate$ -- 10621
-empty$ -- 33756
-format.name$ -- 3297
-if$ -- 430432
+            2435 strings with 51613 characters,
+and the built_in function-call counts, 2692685 in all, are:
+= -- 464724
+> -- 6269
+< -- 3688
++ -- 260350
+- -- 1951
+* -- 98369
+:= -- 481960
+add.period$ -- 331
+call.type$ -- 206
+change.case$ -- 2062
+chr.to.int$ -- 7728
+cite$ -- 220
+duplicate$ -- 18945
+empty$ -- 59202
+format.name$ -- 6155
+if$ -- 672179
 int.to.chr$ -- 12
-int.to.str$ -- 294
-missing$ -- 4006
-newline$ -- 3248
-num.names$ -- 531
-pop$ -- 4777
+int.to.str$ -- 511
+missing$ -- 6985
+newline$ -- 5799
+num.names$ -- 966
+pop$ -- 8241
 preamble$ -- 1
-purify$ -- 517
-quote$ -- 238
-skip$ -- 177368
+purify$ -- 908
+quote$ -- 412
+skip$ -- 271838
 stack$ -- 0
-substring$ -- 176085
-swap$ -- 3352
-text.length$ -- 1911
+substring$ -- 279958
+swap$ -- 6164
+text.length$ -- 3338
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4799
+type$ -- 8449
 warning$ -- 14
-while$ -- 3858
+while$ -- 6959
 width$ -- 0
-write$ -- 4312
-(There were 14 warnings)
+write$ -- 7791
+(There were 27 warnings)
