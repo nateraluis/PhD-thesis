@@ -19,7 +19,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11386 items from 5000.
+Reallocated field_info (elt_size=4) to 11417 items from 5000.
 Database file #1: bibliography.bib
 Warning--I didn't find a database entry for "aleta2017transportation"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
@@ -65,45 +65,45 @@ Warning--"FUNCTION}" isn't a brace-balanced string for entry bianconi2018multila
 while executing--line 2686 of file bmc-mathphys.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 205 entries,
+You've used 206 entries,
             7128 wiz_defined-function locations,
-            2430 strings with 51492 characters,
-and the built_in function-call counts, 2690078 in all, are:
-= -- 464371
-> -- 6259
-< -- 3684
-+ -- 260271
-- -- 1948
-* -- 98206
-:= -- 481399
-add.period$ -- 330
-call.type$ -- 205
-change.case$ -- 2057
-chr.to.int$ -- 7727
-cite$ -- 219
-duplicate$ -- 18885
-empty$ -- 59072
-format.name$ -- 6143
-if$ -- 671600
+            2435 strings with 51613 characters,
+and the built_in function-call counts, 2692685 in all, are:
+= -- 464724
+> -- 6269
+< -- 3688
++ -- 260350
+- -- 1951
+* -- 98369
+:= -- 481960
+add.period$ -- 331
+call.type$ -- 206
+change.case$ -- 2062
+chr.to.int$ -- 7728
+cite$ -- 220
+duplicate$ -- 18945
+empty$ -- 59202
+format.name$ -- 6155
+if$ -- 672179
 int.to.chr$ -- 12
-int.to.str$ -- 509
-missing$ -- 6955
-newline$ -- 5780
-num.names$ -- 961
-pop$ -- 8200
+int.to.str$ -- 511
+missing$ -- 6985
+newline$ -- 5799
+num.names$ -- 966
+pop$ -- 8241
 preamble$ -- 1
-purify$ -- 904
-quote$ -- 410
-skip$ -- 271681
+purify$ -- 908
+quote$ -- 412
+skip$ -- 271838
 stack$ -- 0
-substring$ -- 279661
-swap$ -- 6158
-text.length$ -- 3327
+substring$ -- 279958
+swap$ -- 6164
+text.length$ -- 3338
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8420
+type$ -- 8449
 warning$ -- 14
-while$ -- 6941
+while$ -- 6959
 width$ -- 0
-write$ -- 7768
+write$ -- 7791
 (There were 27 warnings)
