@@ -1,40 +1,202 @@
-\chapter{Introduction}
-%Why study cities? 
+\chapter{Appendices}
 
-\epigraph{Cities have the capability of providing something for everybody, only because, and only when, they are created by everybody.}{Jane Jacobs, \textit{The Death and Life of Great American Cities} (1961, p. 238)}
+\section{Data-driven strategies for optimal bicycle network growth}
+\subsection{Data}
 
-As cities provide something for everyone, the same happens with their study. Multiple approaches have been follow to understand the different layers of complexity in cities. From the study of their functions and how they should be structured, to the analysis of the social lives and relations that are shaped by our environment.Thus, cities are the [im]perfect interdisciplinarity field of study.
+Figure \ref{fig:Nodes} shows the connected component size distribution $P(N_{cc})$ for all considered layers and cities.
 
-As an architect, my first approach to study cities was from the build form, understanding how, by building, we delimit and shape spaces that model experiences in the city~\cite{ghel1971life}, defining the public space, mobility infrastructures, and even services that enable us to inhabit the \textit{ville}~\cite{sennett2018building}. The way we shape the city has an influence in how we inhabit it. Thus, understanding its infrastructures is fundamental to understand and plan better cities for a complex future. Specially, when tackling urban mobility challenges, as the way we plan, build and use the mobility infrastructures is fundamentally entangled with the livability of our cities.
-
-%Talk about curiosity, why study cities from the complex systems perspective, and specially from network science.
-After working in designing public policies to promote bicycle infrastructure in my home-city's government, I became interested in getting to understand the relation between different transportation modes, and how cities and their mobility infrastructures could be studied using large scale data in a systematic way. This curiosity led me to the complex systems field, and the use of network science to study cities.
-
-\luis{I still have to write about the thesis, from where does it start (complex systems and the study of cities) to the main contributions. I anticipate two paragraphs for the complex systems and cities, and two more paragraphs for the contributions/overview.}
-
-% While predicting how the future city will be is an impossible task, understanding how it has evolve and what is its state of development is possible. This understanding o
-
-% It was with this curiosity to better understand how cities work and the interrelation between its multiple mobility infrastructures, that I started 
-
-% solving the challenges of urban mobility has become one of the key requisites of ensuring urban sustainability. The evolution of urban agglomeration has been accompanied by new mobility options that has enable to cover larger distances evolving from horsecars, to bicycles, trams, cars and nowadays new micromobility options. 
+\begin{figure*}[h!]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/datadriven/Nodes_cc.png}
+  \caption[Connected component size distribution for analyzed cities]{The connected component size distribution [$P(N_{cc})$] for all cities and layers is well connected except in the bicycle layer. London has the most fragmented bicycle infrastructure layer, with more than 3000 components}
+  \label{fig:Nodes}
+\end{figure*}
 
 
-% The car-centric design of cities has fundamental implications on human health and on the efficient organization of society, such as air pollution and road fatalities, urban sprawl, and on the spread of epidemics. The complex system of urban transport infrastructure is shaping the dynamics of human mobility, a network embedded in space with special properties. The availability of data sets on urban infrastructure networks has enabled first insights on the topological constraints on human movements. Large-scale mobile phone data sets, on the other hand, have been used as proxies to understand mobility patterns in cities, finding predictable human mobility motifs related to socio-economic activities in cities. The use of such massive data sets has also provided insights into the possibilities of shareability, and into the efficient allocation of space for different types of transportation.
+% \subsection{Algorithms}
+% We develop two main algorithms to improve the bicycle layer. The first algorithm, \textit{Largest-to-Second}, identifies in each step the largest connected component and connects it to the second largest. The second algorithm, \textit{Largest-to-Closest}, also identifies the largest connected component, but in each step connects it to the closest of the remaining components.
 
-% Despite these first efforts, the interplay between infrastructure networks and mobility flows is still unknown. From the perspective of network science, both are multilayer networks. 1) Multilayer infrastructure networks are the set of networks of physical infrastructures dedicated to multiple mobility options and the connections between those networks. 2) Multimodal mobility is the use of different transportation options in a city, from walking, personalized or collective mobility to motorized mobility.
+% To evaluate our algorithms we test them against a random baseline, \textit{Random-to-Closest}. In each step, \textit{Random-to-Closest} picks a component at random and connects it to the closest of the remaining components. We implement another baseline, the extreme case of \textit{Closest-Components}, which prioritizes connecting the closest two components.
+
+% \begin{algorithm}[h!]
+%   \caption{Largest-to-Second}\label{greedy_lcc}
+%   \begin{algorithmic}[1]
+%     \Procedure{\textit{L2S}}{}
+%     \State $\textit{G} \gets \text{ bicycle network graph}$
+%     \State $\textit{wcc} \gets \text{ components of network G}$
+%     \For {i in length(wcc)-1}
+%     \State  \text{sort \textit{wcc} by components size}
+%     \State $\textit{cc} \gets \text{ two biggest components from \textit{wcc}}$
+%     \State $\textit{i\_j} \gets \text{ closest nodes between } cc_0 \text{ and } cc_1$
+%     \State $\text{connect } cc_0 \text{ and } cc_1 \text{ in } i\_j$
+%     \EndFor
+%     \EndProcedure
+%   \end{algorithmic}
+% \end{algorithm}
+
+% \begin{algorithm}[h!]
+%   \caption{Largest-to-Closest}\label{greedy_min}
+%   \begin{algorithmic}[1]
+%     \Procedure{\textit{L2C}}{}
+%     \State $\textit{G} \gets \text{ bicycle network graph}$
+%     \State $\textit{wcc} \gets \text{ components of network G}$
+%     \For {i in length(wcc)-1}
+%     \State  \text{sort \textit{wcc} by components size}
+%     \State $cc_0 \gets \text{ biggest component from \textit{wcc}}$
+%     \State $cc_n \gets \text{ clossest component to } cc_0$
+%     \State $\textit{i\_j} \gets \text{ closest nodes between } cc_0 \text{ and } cc_n$
+%     \State $\text{connect } cc_0 \text{ and } cc_n \text{ in } i\_j$
+%     \EndFor
+%     \EndProcedure
+%   \end{algorithmic}
+% \end{algorithm}
+
+% \begin{algorithm}[h!]
+%   \caption{Random-to-Closest}\label{random}
+%   \begin{algorithmic}[1]
+%     \Procedure{\textit{R2C}}{}
+%     \State $\textit{G} \gets \text{ bicycle network graph}$
+%     \State $\textit{wcc} \gets \text{ components of network G}$
+%     \For {i in length(wcc)-1}
+%     \State $cc_{ran} \gets \text{ random component from \textit{wcc}}$
+%     \State $cc_n \gets \text{ clossest component to } cc_{ran}$
+%     \State $\textit{i\_j} \gets \text{ closest nodes between } cc_{ran} \text{ and } cc_n$
+%     \State $\text{connect } cc_{ran} \text{ and } cc_n \text{ in } i\_j$
+%     \EndFor
+%     \EndProcedure
+%   \end{algorithmic}
+% \end{algorithm}
+
+% \begin{algorithm}[h!]
+%   \caption{Closest-Components}\label{min_delta}
+%   \begin{algorithmic}[1]
+%     \Procedure{\textit{CC}}{}
+%     \State $\textit{G} \gets \text{ bicycle network graph}$
+%     \State $\textit{wcc} \gets \text{ components of network G}$
+%     \For {i in length(wcc)-1}
+%     \State $\Delta_{min} \gets \text{ clossest components in \textit{wcc}}$
+%     \State $cc_{0} \gets \text{ first component for }\Delta_{min}$
+%     \State $cc_{1} \gets \text{ second component for } \Delta_{min}$
+%     \State $\textit{i\_j} \gets \text{ closest nodes between } cc_{0} \text{ and } cc_{1}$
+%     \State $\text{connect } cc_{0} \text{ and } cc_{1} \text{ in } i\_j$
+%     \EndFor
+%     \EndProcedure
+%   \end{algorithmic}
+% \end{algorithm}
+
+\subsection{Bicycle network improvement}\label{SI:BikeImprovement}
+
+Here we show the improvement of the bicycle network after the implementation of the algorithms. We measure the improvement with four different metrics. Two of them implement the notion of connectedness: i) Fraction of nodes inside the largest connected component compared to the total number of nodes in the bicycle layer, and ii) the fraction of link kilometers inside the largest connected component. In Figure \ref{fig:NodesIncrease} and \ref{fig:Lengthsncrease} we show these two measures for fourteen different cities. We also quantify iii) bicycle-to-car directness to answer the question ``how direct are the average routes of bicycles compared to cars?''. Finally, in order to measure the cumulative efficiency of our algorithms, we define the metric: iv) $G_{LCC}$ as the relative gain of bicycle path kilometers in the largest connected component. In Figures \ref{fig:Directness} and \ref{fig:Gain} we report these two measures for all algorithms and cities considered.
+
+\begin{figure*}[h!]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Nodes.png}
+  \caption{Normalized increase in nodes inside the largest connected component ($n_{LCC}$).}
+  \label{fig:NodesIncrease}
+\end{figure*}
+
+\begin{figure*}[h!]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Lengths.png}
+  \caption{Normalized increase in kilometers inside the largest connected component ($\ell_{LCC}$).}
+  \label{fig:LengthsIncrease}
+\end{figure*}
+
+\begin{figure*}[h!]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf}
+  \caption{Normalized increase in kilometers inside the largest connected component ($\ell_{LCC}$) versus the fraction of extant kilometers to be added.}
+  \label{fig:Lengthsncrease_norm}
+\end{figure*}
+
+\begin{figure*}[h!]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Directness.png}
+  \caption{Bike-car directness $\Delta$ per invested kilometers.}
+  \label{fig:Directness}
+\end{figure*}
+
+\begin{figure*}[h!]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Gain.png}
+  \caption{Kilometers gain in the largest connected component.}
+  \label{fig:Gain}
+\end{figure*}
 
 
-\subsubsection{Aim and structure of the thesis}
-The primary aim of this thesis is to contribute to the better understand of the structural properties of multimodal transportation networks in urban areas. For that, I build on the tools and methods of network science to analyze the underlying complexity of urban mobility infrastructure. 
+\subsection{Bicycle network and 30 km/hr streets}\label{SI:BikeStreets}
+We applied the algorithms to the bicycle infrastructure and all the bike friendly streets, those with a speed limit of $30\ km/hr$ or less (see Figures~\ref{fig:NodesIncrease_BikeStreets}, \ref{fig:Lengthsncrease_BikeStreets}, \ref{fig:Directness_BikeStreets}, and \ref{fig:Gain_BikeStreets}).
 
-In the first part of this thesis I focus the attention in the multimodal infrastructure networks, first providing a review of previous works, and then giving an original contribution on the analysis of multilayer transportation networks. In the second part of the thesis I focus the attention to specific layers, first the bicycle infrastructure one, and then the pedestrian.
+\begin{figure*}[h!]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Nodes_Bike_Streets.png}
+  \caption{Normalized increase in nodes inside the largest connected component ($n_{LCC}$).}
+  \label{fig:NodesIncrease_BikeStreets}
+\end{figure*}
 
-This thesis is structured as follows:
+% \begin{figure*}[h!]
+%   \centering
+%   \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Lengths_Bike_Streets.png}
+%   \caption{Normalized increase in kilometers inside the largest connected component ($\ell_{LCC}$).}
+%   \label{fig:Lengthsncrease_BikeStreets}
+% \end{figure*}
+
+\begin{figure*}[h!]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Directness_Bike_Streets.png}
+  \caption{Bike-car directness $\Delta$ per invested kilometers.}
+  \label{fig:Directness_BikeStreets}
+\end{figure*}
+
+\begin{figure*}[h!]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Gain_Bike_Streets.png}
+  \caption{Kilometers gain in the largest connected component.}
+  \label{fig:Gain_BikeStreets}
+\end{figure*}
+
+\section{Life quality as walkability}
+
+\subsection{Secondary data sources}
+\label{SI:walkabilityData}
+\begin{itemize}
+  \item {Sport associations in Budapest}~\cite{HU_sport}
+  \item {Kindergartens, daycare, primary and secondary education}~\cite{HU_Edu}
+  \item {Art and music schools}~\cite{HU_Art}
+  \item {Child health services}~\cite{HU_Child}
+  \item {Social welfare system (eg.: elderly care)}~\cite{HU_Social}
+  \item {Culture centers}~\cite{HU_Cult}
+  \item {Indoor playgrounds}~\cite{HU_Play}
+  \item {Healthcare (hospitals, private and public clinics, specialists)}~\cite{HU_Health}
+  \item {Fitness and training facilities}~\cite{HU_Fitness}
+  \item {Outdoor fitness facilities}~\cite{HU_outfitness}
+  \item {Thermal baths and spa}~\cite{HU_Thermal}
+  \item {Playgrounds and parks}~\cite{HU_Park}
+\end{itemize}
+
+% \subsection{Weights used in the calculations}
+% The weights of the different $Q$ indices in the final aggregation as well as in sub-categories highly depends on the context and the nature of the problem. Here we present the values we used to generate the results of this study, that were agreed upon consulting with experts.
+
+% The weights of the sub-indices from equation (\ref{final_Q}) are of the following values:
+% \begin{itemize}
+%   \item $w^{\text{services}}=0.7$;
+%   \item $w^{\text{safety}}=0.1$;
+%   \item $w^{\text{environment}}=0.2$
+% \end{itemize}
+
+% The category weights used in equation (\ref{Q_services}), aggregating $Q^{services}$ are:
+
+% \begin{itemize}
+%   \item $w^{\text{family}}= 0.3$;
+%   \item $w^{\text{health}}= 0.3$;
+%   \item $w^{\text{culture}} = 0.15$;
+%   \item $w^{\text{sport}} = 0.15$;
+%   \item $w^{\text{night life}}=0.1$
+% \end{itemize}
+
+\subsection{Categorization}\label{SI:LQIcategories}
+The amenities used for each category are as follows:
 
 \begin{itemize}
-    \item Chapter~\ref{ch:litReview}: We provide a review of previous work on multimodal transportation and mobility research from the complex system perspective. First by focusing on the infrastructure, and measure to quantify it, then on the mobility dynamics on top of these infrastructures, and finally we offer a review of available datasets and tools to analyze this specific type of networks.
-    \item Chapter~\ref{ch:OverlapCensus}: We make an original contribution to the field by proposing a method to extract the multimodal profile from a city multiplex transport network. We apply our methods to fifteen cities, finding clusters of cities with similar multimodal infrastructure.
-    \item Chapter~\ref{ch:BikeGrowth}: In this chapter, we focus our attention in the bicycle layer of the multimodal network, and propose algorithmic approaches to improve its connectivity. We found that focalized investment has the potential to rappidly improves the connectedness and directness of the bicycle infrastructure.
-    \item Chapter~\ref{ch:LQI}: We present a methodology to measure the quality of life in a city based on the pedestrian accessibility to amenities and services. We applied the methodology to Budapest and show how it can be used to capture inequalities in neighborhoods. 
-    \item Chapter~\ref{ch:Conclusion}: We review the main contributions from this thesis, and outline future streams of work and open questions. 
+  \item Culture
 \end{itemize}
