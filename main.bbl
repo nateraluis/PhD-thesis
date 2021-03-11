@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{205}
+\begin{thebibliography}{208}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -2616,6 +2616,51 @@ National Air Pollution Measurement Network,.
 \endbibitem
 
 %%% 176
+\bibitem{kunze2011conceptual}
+\begin{botherref}
+\oauthor{\bsnm{Kunze}, \binits{A.}},
+\oauthor{\bsnm{Halatsch}, \binits{J.}},
+\oauthor{\bsnm{Vanegas}, \binits{C.}},
+\oauthor{\bsnm{Jacobi}, \binits{M.M.}}:
+A conceptual participatory design framework for urban planning: The case study
+  workshop ‘world cup 2014 urban scenarios’, porto alegre, brazil
+(2011)
+\end{botherref}
+\endbibitem
+
+%%% 177
+\bibitem{gaziulusoy2017shifting}
+\begin{barticle}
+\bauthor{\bsnm{Gaziulusoy}, \binits{A.{\. I}.}},
+\bauthor{\bsnm{Ryan}, \binits{C.}}:
+\batitle{Shifting conversations for sustainability transitions using
+  participatory design visioning}.
+\bjtitle{The Design Journal}
+\bvolume{20}(\bissue{sup1}),
+\bfpage{1916}--\blpage{1926}
+(\byear{2017})
+\end{barticle}
+\endbibitem
+
+%%% 178
+\bibitem{heitlinger2018avoiding}
+\begin{bchapter}
+\bauthor{\bsnm{Heitlinger}, \binits{S.}},
+\bauthor{\bsnm{Foth}, \binits{M.}},
+\bauthor{\bsnm{Clarke}, \binits{R.}},
+\bauthor{\bsnm{DiSalvo}, \binits{C.}},
+\bauthor{\bsnm{Light}, \binits{A.}},
+\bauthor{\bsnm{Forlano}, \binits{L.}}:
+\bctitle{Avoiding ecocidal smart cities: participatory design for
+  more-than-human futures}.
+In: \bbtitle{Proceedings of the 15th Participatory Design Conference: Short
+  Papers, Situated Actions, Workshops and Tutorial-Volume 2},
+pp. \bfpage{1}--\blpage{3}
+(\byear{2018})
+\end{bchapter}
+\endbibitem
+
+%%% 179
 \bibitem{Erwig2000Graph}
 \begin{barticle}
 \bauthor{\bsnm{Erwig}, \binits{M.}}:
@@ -2627,7 +2672,7 @@ National Air Pollution Measurement Network,.
 \end{barticle}
 \endbibitem
 
-%%% 177
+%%% 180
 \bibitem{Deritei2014Community}
 \begin{barticle}
 \bauthor{\bsnm{Deritei}, \binits{D.}},
@@ -2646,7 +2691,7 @@ National Air Pollution Measurement Network,.
 \end{barticle}
 \endbibitem
 
-%%% 178
+%%% 181
 \bibitem{Hohenberg1996Urban}
 \begin{bbook}
 \bauthor{\bsnm{Hohenberg}, \binits{P.M.}},
@@ -2657,7 +2702,7 @@ National Air Pollution Measurement Network,.
 \end{bbook}
 \endbibitem
 
-%%% 179
+%%% 182
 \bibitem{Brueckner1999Central}
 \begin{barticle}
 \bauthor{\bsnm{Brueckner}, \binits{J.K.}},
@@ -2672,7 +2717,7 @@ National Air Pollution Measurement Network,.
 \end{barticle}
 \endbibitem
 
-%%% 180
+%%% 183
 \bibitem{Kover2006Magyarorszag}
 \begin{botherref}
 \oauthor{\bsnm{K{\"o}v{\'e}r}, \binits{G.}},
@@ -2684,7 +2729,7 @@ Osiris
 \end{botherref}
 \endbibitem
 
-%%% 181
+%%% 184
 \bibitem{Dittmar2012New}
 \begin{bbook}
 \bauthor{\bsnm{Dittmar}, \binits{H.}},
@@ -2695,7 +2740,7 @@ Osiris
 \end{bbook}
 \endbibitem
 
-%%% 182
+%%% 185
 \bibitem{Rogers2011Examining}
 \begin{barticle}
 \bauthor{\bsnm{Rogers}, \binits{S.H.}},
@@ -2711,7 +2756,7 @@ Osiris
 \end{barticle}
 \endbibitem
 
-%%% 183
+%%% 186
 \bibitem{Rinner2007Geographic}
 \begin{barticle}
 \bauthor{\bsnm{Rinner}, \binits{C.}}:
@@ -2724,7 +2769,7 @@ Osiris
 \end{barticle}
 \endbibitem
 
-%%% 184
+%%% 187
 \bibitem{Gavrilidis2016Urban}
 \begin{barticle}
 \bauthor{\bsnm{Gavrilidis}, \binits{A.A.}},
@@ -2741,7 +2786,7 @@ Osiris
 \end{barticle}
 \endbibitem
 
-%%% 185
+%%% 188
 \bibitem{Talen2002Pedestrian}
 \begin{barticle}
 \bauthor{\bsnm{Talen}, \binits{E.}}:
@@ -2753,7 +2798,7 @@ Osiris
 \end{barticle}
 \endbibitem
 
-%%% 186
+%%% 189
 \bibitem{Santos2007Monitoring}
 \begin{barticle}
 \bauthor{\bsnm{Santos}, \binits{L.D.}},
@@ -2766,7 +2811,7 @@ Osiris
 \end{barticle}
 \endbibitem
 
-%%% 187
+%%% 190
 \bibitem{Roback1982Wages}
 \begin{barticle}
 \bauthor{\bsnm{Roback}, \binits{J.}}:
@@ -2778,7 +2823,7 @@ Osiris
 \end{barticle}
 \endbibitem
 
-%%% 188
+%%% 191
 \bibitem{Blomquist1988New}
 \begin{botherref}
 \oauthor{\bsnm{Blomquist}, \binits{G.C.}},
@@ -2791,7 +2836,7 @@ The American Economic Review,
 \end{botherref}
 \endbibitem
 
-%%% 189
+%%% 192
 \bibitem{Lora2011New}
 \begin{botherref}
 \oauthor{\bsnm{Lora}, \binits{E.A.}},
@@ -2801,7 +2846,7 @@ A new way of monitoring the quality of urban life
 \end{botherref}
 \endbibitem
 
-%%% 190
+%%% 193
 \bibitem{HU2019RealEstate}
 \begin{botherref}
 \oauthor{\bsnm{ingatlannet}}:
@@ -2810,7 +2855,7 @@ Budapest Real Estate Statistic.
 \end{botherref}
 \endbibitem
 
-%%% 191
+%%% 194
 \bibitem{Cassiers2012Socio}
 \begin{barticle}
 \bauthor{\bsnm{Cassiers}, \binits{T.}},
@@ -2823,7 +2868,7 @@ Budapest Real Estate Statistic.
 \end{barticle}
 \endbibitem
 
-%%% 192
+%%% 195
 \bibitem{Garcia2004Cultural}
 \begin{barticle}
 \bauthor{\bsnm{Garcia}, \binits{B.}}:
@@ -2836,7 +2881,7 @@ Budapest Real Estate Statistic.
 \end{barticle}
 \endbibitem
 
-%%% 193
+%%% 196
 \bibitem{Gobillon2007Mechanisms}
 \begin{barticle}
 \bauthor{\bsnm{Gobillon}, \binits{L.}},
@@ -2850,7 +2895,7 @@ Budapest Real Estate Statistic.
 \end{barticle}
 \endbibitem
 
-%%% 194
+%%% 197
 \bibitem{HU_sport}
 \begin{botherref}
 Sport Associations in Budapest.
@@ -2859,7 +2904,7 @@ Sport Associations in Budapest.
 \end{botherref}
 \endbibitem
 
-%%% 195
+%%% 198
 \bibitem{HU_Edu}
 \begin{botherref}
 Kindergartens \& Daycare, Primary Education, Secondary Education.
@@ -2868,7 +2913,7 @@ Kindergartens \& Daycare, Primary Education, Secondary Education.
 \end{botherref}
 \endbibitem
 
-%%% 196
+%%% 199
 \bibitem{HU_Art}
 \begin{botherref}
 Art and Music Schools.
@@ -2877,7 +2922,7 @@ Art and Music Schools.
 \end{botherref}
 \endbibitem
 
-%%% 197
+%%% 200
 \bibitem{HU_Child}
 \begin{botherref}
 Pediatricians, Gynecologists.
@@ -2886,7 +2931,7 @@ Pediatricians, Gynecologists.
 \end{botherref}
 \endbibitem
 
-%%% 198
+%%% 201
 \bibitem{HU_Social}
 \begin{botherref}
 Social Welfare.
@@ -2895,7 +2940,7 @@ Social Welfare.
 \end{botherref}
 \endbibitem
 
-%%% 199
+%%% 202
 \bibitem{HU_Cult}
 \begin{botherref}
 Culture Centers.
@@ -2904,7 +2949,7 @@ Culture Centers.
 \end{botherref}
 \endbibitem
 
-%%% 200
+%%% 203
 \bibitem{HU_Play}
 \begin{botherref}
 Indoor Playgrounds.
@@ -2913,7 +2958,7 @@ Indoor Playgrounds.
 \end{botherref}
 \endbibitem
 
-%%% 201
+%%% 204
 \bibitem{HU_Health}
 \begin{botherref}
 Healthcare (hospitals, Private and Public Clinics, Specialists).
@@ -2922,7 +2967,7 @@ Healthcare (hospitals, Private and Public Clinics, Specialists).
 \end{botherref}
 \endbibitem
 
-%%% 202
+%%% 205
 \bibitem{HU_Fitness}
 \begin{botherref}
 Fitness and Training Facilities.
@@ -2931,7 +2976,7 @@ Fitness and Training Facilities.
 \end{botherref}
 \endbibitem
 
-%%% 203
+%%% 206
 \bibitem{HU_outfitness}
 \begin{botherref}
 Outdoor Fitness Training Facilities.
@@ -2940,7 +2985,7 @@ Outdoor Fitness Training Facilities.
 \end{botherref}
 \endbibitem
 
-%%% 204
+%%% 207
 \bibitem{HU_Thermal}
 \begin{botherref}
 Thermal and Spa.
@@ -2949,7 +2994,7 @@ Thermal and Spa.
 \end{botherref}
 \endbibitem
 
-%%% 205
+%%% 208
 \bibitem{HU_Park}
 \begin{botherref}
 Playgrounds and Parks.
@@ -5657,6 +5702,54 @@ Playgrounds and Parks.
 </bibl>
 
 <bibl id="B176">
+  <title><p>A Conceptual Participatory Design Framework for Urban Planning: The
+  case study workshop ‘World Cup 2014 Urban Scenarios’, Porto Alegre,
+  Brazil</p></title>
+  <aug>
+    <au><snm>Kunze</snm><fnm>A</fnm></au>
+    <au><snm>Halatsch</snm><fnm>J</fnm></au>
+    <au><snm>Vanegas</snm><fnm>C</fnm></au>
+    <au><snm>Jacobi</snm><fnm>MM</fnm></au>
+  </aug>
+  <publisher>CUMINCAD</publisher>
+  <pubdate>2011</pubdate>
+</bibl>
+
+<bibl id="B177">
+  <title><p>Shifting conversations for sustainability transitions using
+  participatory design visioning</p></title>
+  <aug>
+    <au><snm>Gaziulusoy</snm><fnm>A{\.I}</fnm></au>
+    <au><snm>Ryan</snm><fnm>C</fnm></au>
+  </aug>
+  <source>The Design Journal</source>
+  <publisher>Taylor \& Francis</publisher>
+  <pubdate>2017</pubdate>
+  <volume>20</volume>
+  <issue>sup1</issue>
+  <fpage>S1916</fpage>
+  <lpage>-S1926</lpage>
+</bibl>
+
+<bibl id="B178">
+  <title><p>Avoiding ecocidal smart cities: participatory design for
+  more-than-human futures</p></title>
+  <aug>
+    <au><snm>Heitlinger</snm><fnm>S</fnm></au>
+    <au><snm>Foth</snm><fnm>M</fnm></au>
+    <au><snm>Clarke</snm><fnm>R</fnm></au>
+    <au><snm>DiSalvo</snm><fnm>C</fnm></au>
+    <au><snm>Light</snm><fnm>A</fnm></au>
+    <au><snm>Forlano</snm><fnm>L</fnm></au>
+  </aug>
+  <source>Proceedings of the 15th Participatory Design Conference: Short
+  Papers, Situated Actions, Workshops and Tutorial-Volume 2</source>
+  <pubdate>2018</pubdate>
+  <fpage>1</fpage>
+  <lpage>-3</lpage>
+</bibl>
+
+<bibl id="B179">
   <title><p>The graph Voronoi diagram with applications</p></title>
   <aug>
     <au><snm>Erwig</snm><fnm>M</fnm></au>
@@ -5670,7 +5763,7 @@ Playgrounds and Parks.
   <lpage>-163</lpage>
 </bibl>
 
-<bibl id="B177">
+<bibl id="B180">
   <title><p>Community detection by graph Voronoi diagrams</p></title>
   <aug>
     <au><snm>Deritei</snm><fnm>D</fnm></au>
@@ -5690,7 +5783,7 @@ Playgrounds and Parks.
   <fpage>063007</fpage>
 </bibl>
 
-<bibl id="B178">
+<bibl id="B181">
   <title><p>The Making of Urban Europe: 1000-1994</p></title>
   <aug>
     <au><snm>Hohenberg</snm><fnm>PM</fnm></au>
@@ -5700,7 +5793,7 @@ Playgrounds and Parks.
   <pubdate>1996</pubdate>
 </bibl>
 
-<bibl id="B179">
+<bibl id="B182">
   <title><p>Why is central Paris rich and downtown Detroit poor?: An
   amenity-based theory</p></title>
   <aug>
@@ -5717,7 +5810,7 @@ Playgrounds and Parks.
   <lpage>-107</lpage>
 </bibl>
 
-<bibl id="B180">
+<bibl id="B183">
   <title><p>Magyarorsz{\'a}g t{\'a}rsadalomt{\"o}rt{\'e}nete a reformkort{\'o}l
   a m{\'a}sodik vil{\'a}gh{\'a}bor{\'u}ig</p></title>
   <aug>
@@ -5728,7 +5821,7 @@ Playgrounds and Parks.
   <pubdate>1998</pubdate>
 </bibl>
 
-<bibl id="B181">
+<bibl id="B184">
   <title><p>The new transit town: Best practices in transit-oriented
   development</p></title>
   <aug>
@@ -5739,7 +5832,7 @@ Playgrounds and Parks.
   <pubdate>2012</pubdate>
 </bibl>
 
-<bibl id="B182">
+<bibl id="B185">
   <title><p>Examining walkability and social capital as indicators of quality
   of life at the municipal and neighborhood scales</p></title>
   <aug>
@@ -5757,7 +5850,7 @@ Playgrounds and Parks.
   <lpage>-213</lpage>
 </bibl>
 
-<bibl id="B183">
+<bibl id="B186">
   <title><p>A geographic visualization approach to multi-criteria evaluation of
   urban quality of life</p></title>
   <aug>
@@ -5772,7 +5865,7 @@ Playgrounds and Parks.
   <lpage>-919</lpage>
 </bibl>
 
-<bibl id="B184">
+<bibl id="B187">
   <title><p>Urban landscape quality index--planning tool for evaluating urban
   landscapes and improving the quality of life</p></title>
   <aug>
@@ -5790,7 +5883,7 @@ Playgrounds and Parks.
   <lpage>-167</lpage>
 </bibl>
 
-<bibl id="B185">
+<bibl id="B188">
   <title><p>Pedestrian access as a measure of urban quality</p></title>
   <aug>
     <au><snm>Talen</snm><fnm>E</fnm></au>
@@ -5804,7 +5897,7 @@ Playgrounds and Parks.
   <lpage>-278</lpage>
 </bibl>
 
-<bibl id="B186">
+<bibl id="B189">
   <title><p>Monitoring urban quality of life: The Porto experience</p></title>
   <aug>
     <au><snm>Santos</snm><fnm>LD</fnm></au>
@@ -5819,7 +5912,7 @@ Playgrounds and Parks.
   <lpage>-425</lpage>
 </bibl>
 
-<bibl id="B187">
+<bibl id="B190">
   <title><p>Wages, rents, and the quality of life</p></title>
   <aug>
     <au><snm>Roback</snm><fnm>J</fnm></au>
@@ -5833,7 +5926,7 @@ Playgrounds and Parks.
   <lpage>-1278</lpage>
 </bibl>
 
-<bibl id="B188">
+<bibl id="B191">
   <title><p>New estimates of quality of life in urban areas</p></title>
   <aug>
     <au><snm>Blomquist</snm><fnm>GC</fnm></au>
@@ -5847,7 +5940,7 @@ Playgrounds and Parks.
   <lpage>-107</lpage>
 </bibl>
 
-<bibl id="B189">
+<bibl id="B192">
   <title><p>A new way of monitoring the quality of urban life</p></title>
   <aug>
     <au><snm>Lora</snm><fnm>EA</fnm></au>
@@ -5857,7 +5950,7 @@ Playgrounds and Parks.
   <pubdate>2011</pubdate>
 </bibl>
 
-<bibl id="B190">
+<bibl id="B193">
   <title><p>Budapest Real Estate Statistic</p></title>
   <aug>
     <au><cnm>ingatlannet</cnm></au>
@@ -5865,7 +5958,7 @@ Playgrounds and Parks.
   <url>https://www.ingatlannet.hu/statisztika/Budapest</url>
 </bibl>
 
-<bibl id="B191">
+<bibl id="B194">
   <title><p>Socio-spatial inequalities and social cohesion in European
   cities</p></title>
   <aug>
@@ -5881,7 +5974,7 @@ Playgrounds and Parks.
   <lpage>-1924</lpage>
 </bibl>
 
-<bibl id="B192">
+<bibl id="B195">
   <title><p>Cultural policy and urban regeneration in Western European cities:
   lessons from experience, prospects for the future</p></title>
   <aug>
@@ -5896,7 +5989,7 @@ Playgrounds and Parks.
   <lpage>-326</lpage>
 </bibl>
 
-<bibl id="B193">
+<bibl id="B196">
   <title><p>The mechanisms of spatial mismatch</p></title>
   <aug>
     <au><snm>Gobillon</snm><fnm>L</fnm></au>
@@ -5912,75 +6005,75 @@ Playgrounds and Parks.
   <lpage>-2427</lpage>
 </bibl>
 
-<bibl id="B194">
+<bibl id="B197">
   <title><p>Sport associations in Budapest</p></title>
   <pubdate>2019 (accesed June 3, 2019</pubdate>
   <url>https://sportmegoldasok.hu/klub_budapest.ht</url>
 </bibl>
 
-<bibl id="B195">
+<bibl id="B198">
   <title><p>Kindergartens &amp daycare, primary education, secondary
   education</p></title>
   <pubdate>2019 (accesed June 3, 2019</pubdate>
   <url>http://budapest.imami.hu/iskolak-ovodak-bolcsodek/</url>
 </bibl>
 
-<bibl id="B196">
+<bibl id="B199">
   <title><p>Art and music schools</p></title>
   <pubdate>2019 (accesed June 3, 2019</pubdate>
   <url>http://budapest.imami.hu/iskolak-ovodak-bolcsodek/muveszeti-es-sportiskolak</url>
 </bibl>
 
-<bibl id="B197">
+<bibl id="B200">
   <title><p>Pediatricians, Gynecologists</p></title>
   <pubdate>2019 (accesed June 3, 2019</pubdate>
   <url>http://budapest.imami.hu/egeszseg</url>
 </bibl>
 
-<bibl id="B198">
+<bibl id="B201">
   <title><p>Social Welfare</p></title>
   <pubdate>2019 (accesed June 3, 2019</pubdate>
   <url>http://szocialisportal.hu/intezmenykereso</url>
 </bibl>
 
-<bibl id="B199">
+<bibl id="B202">
   <title><p>Culture centers</p></title>
   <pubdate>2019 (accesed June 3, 2019</pubdate>
   <url>https://holmivan.valami.info/kultura-lista-220/kultura,Budapest</url>
 </bibl>
 
-<bibl id="B200">
+<bibl id="B203">
   <title><p>Indoor playgrounds</p></title>
   <pubdate>2019 (accesed June 3, 2019</pubdate>
   <url>http://budapest.imami.hu/szolgaltatok/szulinapi-party</url>
 </bibl>
 
-<bibl id="B201">
+<bibl id="B204">
   <title><p>Healthcare (hospitals, private and public clinics,
   specialists)</p></title>
   <pubdate>2019 (accesed June 3, 2019</pubdate>
   <url>https://www.budapestinfo.eu/gyogyitas</url>
 </bibl>
 
-<bibl id="B202">
+<bibl id="B205">
   <title><p>Fitness and training facilities</p></title>
   <pubdate>2019 (accesed June 3, 2019</pubdate>
   <url>https://www.budapestinfo.eu/sportolas/fitnesstermek</url>
 </bibl>
 
-<bibl id="B203">
+<bibl id="B206">
   <title><p>Outdoor fitness training facilities</p></title>
   <pubdate>2019 (accesed June 3, 2019</pubdate>
   <url>https://www.google.com/maps/d/u/0/viewer?msa=0\&hl=en&ie=UTF8\&t=h\&ll=47.481378772238784\%2C19.130302999999913&spn=1.329955\%2C3.757785&source=embed&mid=1qIGN-mnKuGrvNxo0ENmACm78RP8&z=11</url>
 </bibl>
 
-<bibl id="B204">
+<bibl id="B207">
   <title><p>Thermal and Spa</p></title>
   <pubdate>2019 (accesed June 3, 2019</pubdate>
   <url>https://www.budapestinfo.eu/furdozes</url>
 </bibl>
 
-<bibl id="B205">
+<bibl id="B208">
   <title><p>Playgrounds and parks</p></title>
   <pubdate>2019 (accesed June 3, 2019</pubdate>
   <url>https://zoldkalauz.hu</url>

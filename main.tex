@@ -232,11 +232,11 @@ Each chapter tackles different questions related to the multimodal mobility opti
 \PreContentTitleFormat
 \pagestyle{fancy}
 
-\listoftables
-\addcontentsline{toc}{chapter}{List of Tables}
+% \listoftables
+% \addcontentsline{toc}{chapter}{List of Tables}
 
-\listoffigures
-\addcontentsline{toc}{chapter}{List of Figures}
+% \listoffigures
+% \addcontentsline{toc}{chapter}{List of Figures}
 
 \PreContentTitleFormat
 \newpage
@@ -254,6 +254,14 @@ Each chapter tackles different questions related to the multimodal mobility opti
 \bibliography{bibliography}
 
 \input{chapters_tex/chapter7.tex}\pagestyle{fancy} %Appendices
+
+% Change list of tables/figures to end
+\listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+% until here
 \newpage
 \backmatter
 \afterpage{\blankpage}
