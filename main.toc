@@ -51,7 +51,7 @@
 \contentsline {section}{\numberline {5.4}Results}{61}{section.5.4}%
 \contentsline {subsection}{\numberline {5.4.1}Evaluation}{63}{subsection.5.4.1}%
 \contentsline {paragraph}{Summary}{63}{paragraph*.34}%
-\contentsline {section}{\numberline {5.5}Discussion}{63}{section.5.5}%
+\contentsline {section}{\numberline {5.5}Discussion}{65}{section.5.5}%
 \contentsline {chapter}{\numberline {6}Conclusion}{67}{chapter.6}%
 \contentsline {chapter}{\numberline {7}Appendices}{89}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Data-driven strategies for optimal bicycle network growth}{89}{section.7.1}%
