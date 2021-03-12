@@ -3,7 +3,7 @@
 Life quality in cities is deeply related to the mobility options, and how easily one can access different services and attractions. The pedestrian infrastructure network provides the backbone for social life in cities. While there are many approaches to quantify life quality, most do not take specifically into account the walkability of the city, and rather offer a city-wide measure. Here we develop a data-driven, network-based method to quantify the liveability of a city. We introduce a life quality index (LQI) based on pedestrian accessibility to amenities and services, safety and environmental variables. Our computational approach outlines novel ways to measure life quality in a more granular scale, that can become valuable for urban planners, city officials and stakeholders. We apply data-driven methods to Budapest, but as having an emphasis on the online and easily available quantitative data, the methods can be generalized and applied to any city.\footnote{A stand alone version of this chapter has been published in Complex Networks and Their Applications VIII \cite{natera2020walkability}}
 \pagebreak
 
-\section{Introduction}
+\section{Walking the city}
 \textcolor{blue}{In this chapter, we shift our attention from the bicycle layer, to the pedestrian one. We focus on measuring the livability of a city using its pedestrian infrastructure to compute how easily it is to access different types of amenities that serve multiple purposes, such as cultural, educational and access to day-to-day goods.}
 
 \textcolor{blue}{As we have mentioned before, the evolution that most cities followed during the 20th century promoted a car-centric vision~\cite{Jacobs1961Death,Gossling2016Space,Szell2018Crowdsourced}, neglecting the presence of other mobility options.} From a liveability perspective, this situation is suboptimal because the automobile infrastructure dominates and defines the walkable area, increasing car traffic, air pollution and deteriorating walkable conditions.
@@ -18,20 +18,22 @@ There are good examples of how sustainable city development initiatives tackle g
 
 Since the number of components which should be taken into consideration in creating a walkability index is high, the types of data are also mixed and thus difficult to integrate. While the information on connectedness, security, residential density, etc. is quantitative and in general easily available, gaining opinion about attractiveness, convenience, or even about the feeling of security is more complicated. Here we propose to use a data-driven approach as a proxy to quantify life quality, making it reproducible and easily expanded to include different data sources. We apply our methods to Budapest, but as having an emphasis on the online and easily available quantitative data, the methods can be generalized and applied to any city.
 
-\section{Data}
+\section{Data: pedestrian network, points of interest, and city attributes}
+\subsection{Pedestrian network}
 We work with three different data sources: networks, points of interest and city attributes. \textcolor{blue}{To acquire the pedestrian network and points of interest, we used OSMnx~\cite{boeing2017osmnx}, the same tool we used in the previous chapters (see Chapter~\ref{sec:datatools}). As we have shown, the data from open street maps is of high quality~\cite{haklay2010openstreetmap,girres2010quality,Ferster2019Bicycle,barbosa2018human}.}%The pedestrian network and points of interest were acquired using OSMnx~\cite{boeing2017osmnx}, a python library to download and construct networks from OpenStreetMap (OSM). The data contained in OSM is of high quality~\cite{haklay2010openstreetmap,girres2010quality} in terms of correspondence with municipal open data~\cite{Ferster2019Bicycle} and completeness: More than $80\%$ of the world is covered by OSM~\cite{barbosa2018human}.
+The obtained network contains all the sidewalks and pedestrian designated infrastructure, it is conceptualized as undirected, nonplanar and primal network~\cite{porta2006primal}. This network is described as a weighted graph, with its adjacency matrix $W=w_{ij}$ where the weight $w_{ij}$ contains the length between $i$ and $j$ if connected, and $0$ otherwise. We also encoded in the links the traversal time $Tt_{ij}$ between nodes $i$ and $j$ calculated as $Tt_{ij}=\frac{\ell_{ij}}{ps}$ where $ps$ is the pedestrian speed as a constant rate of $5km/h$.
 
+\subsection{Points of interest}
 The majority of points of interest were downloaded from OpenStreetMap, from different classification keys (amenity, tourism, shop, office, leisure) using OSMnx~\cite{boeing2017osmnx}. We filtered the points of interest using the districts' demarcation~\cite{HU2019Districts}, to get only the data within Budapest boundaries, having, as a result, more than $39,000$ data points. We complement the data sets with secondary data sources as specialized directories of doctors and childcare facilities (see Section~\ref{SI:walkabilityData}).
 
 We categorize the points of interest in six main categories: I) Family friendliness (Access to education and daycare, and family support services), II) Access to health care and sport facilities, III) Art and culture (e.g. museums, exhibitions), IV) Nightlife (e.g. bars, restaurants), V) Environment (air quality and access to green areas), and VI) Public Safety. The points of interest and secondary data sources are available at \url{https://github.com/nateraluis/Budapest_LQI}
 
+\subsection{City attributes}
 The district-level data (population and crimes) were obtained from the Hungarian Police's public database. The crime statistics are reported as the  number of crimes committed in public places in 2018~\cite{HU2019Police}. Population data is coming from the 2016 micro-census conducted by the Hungarian Statistical Bureau~\cite{HU2016Population}. We took into account the air pollution, this data set coming from National Air Pollution Measurement Network~\cite{HU2019Pollution}, containing the geolocation of the air quality stations and different measures (annual median concentration of carbon monoxide, nitrogen dioxide, and PM10 dust).
 
 Accuracy of the Life Quality Index (LQI) model highly depends on how comprehensive the distribution of listed services. We use OSM as our key data source, but to achieve a more comprehensive and country-specific database we collect publicly available data from various Hungarian websites for each category. %(See Appendix A for databases and sources)
 
-The network contains all the sidewalks and pedestrian designated infrastructure, it is conceptualized as undirected, nonplanar and primal network~\cite{porta2006primal}. The pedestrian network is described as a weighted graph, with its adjacency matrix $W=w_{ij}$ where the weight $w_{ij}$ contains the length between $i$ and $j$ if connected, and $0$ otherwise.
-
-We assigned properties to the nodes of the network, matching the nodes with their corresponding districts, then assign nodes as attributes based on the district level data (population and crimes, see section \ref{safety}). For the pollution data, we calculated the corresponding Voronoi cells for the air quality stations, and matched the nodes with them. Finally, we divided the pollution by the number of nodes in each corresponding cell and assigned the value to the nodes (See section \ref{environment}). For the edges, we encoded their length $\ell_{ij}$ along with the traversal time $Tt_{ij}$ between nodes $i$ and $j$ calculated as $Tt_{ij}=\frac{\ell_{ij}}{ps}$ where $ps$ is the pedestrian speed as a constant rate of $5km/h$.
+\textcolor{blue}{To project the city attributes to the network }we assigned properties to its nodes. Matching them with their corresponding districts, then assign attributes to the nodes based on the district level data (population and crimes, see section \ref{safety}). For the pollution data, we calculated the corresponding Voronoi cells for the air quality stations, and matched the nodes with them. Finally, we divided the pollution by the number of nodes in each corresponding cell and assigned the value to the nodes (See section \ref{environment}). 
 
 \begin{figure*}[ht!]
 	\centering
@@ -40,7 +42,7 @@ We assigned properties to the nodes of the network, matching the nodes with thei
 	\label{fig:BPnetwork}
 \end{figure*}
 
-\section{Quantifying Life Quality}
+\section{Quantifying life quality}
 The life quality of a person is largely subjective and hard to quantify. However, it is both intuitive and has been scientifically shown that the environment and personal well-being strongly correlate~\cite{Rosow1961Social}. Thus using environmental factors as proxies, life quality and livability becomes quantifiable~\cite{Kahneman2006Developments}.
 
 The main environmental factors we consider in our model are: the availability of services and amenities, the quality of the infrastructure, environmental factors and safety. The goal of our model is to quantitatively characterize the immediate environment of residents in the space of factors that affect life quality.
@@ -54,7 +56,7 @@ The final value of the index is a weighted sum, characterizing every node (inter
 In the equation $i$ represents an individual node in the network. The ``tilde'' above the $Q$ terms means that the values of the different category indices are normalized within the category. The weights $w$ assigned to every term are arbitrary and are highly context-dependent. All terms of the equation are discussed in the following sections.
 %We include the weights used for producing the results of this chapter in Appendix B.
 
-\textcolor{blue}{The weights of the different $Q$ indices in the final aggregation highly depends on the context and the nature of the problem. Here we present the values we used to generate the results of this study, that were agreed upon consulting with local experts, government officials and policy makers.}
+\textcolor{blue}{The weights of the different $Q$ indices in the final aggregation highly depends on the context and the nature of the problem. For this study we followed a participatory design process~\cite{kunze2011conceptual,gaziulusoy2017shifting,heitlinger2018avoiding}, actively involving stakeholders to define them. This process let us incorporate practical knowledge of the importance of the services, safety and the environment in a city.}
 
 \textcolor{blue}{The weights of the sub-indices from equation (\ref{final_Q}) are of the following values:}
 
@@ -72,7 +74,7 @@ The number quantifying each node in terms of how well it is connected with ameni
 
 where, $c$ denotes categories (family, culture, health, sport, and nightlife), and $w^c$ the importance of category $c$. %(weight, see Appendix B)
 
-\textcolor{blue}{The category weights used in equation (\ref{Q_services}), aggregating $Q^{services}$ are:}
+\textcolor{blue}{As when building the aggregated index, we also followed a participatory process to account for the importance of different category-services in the city. The weights used in equation (\ref{Q_services}) are as follows:}
 
 \begin{itemize}
   \item \textcolor{blue}{$w^{\text{family}}= 0.3$;}
@@ -98,6 +100,7 @@ To assess how well connected a node is to amenities we consider the following fa
 \end{itemize}
 
 From the three factors, the latter two are calculated using the city infrastructure network. The index for an amenity class, from the perspective of node $i$, is proportional with its importance (weight) and it is inversely proportional with the time to reach the closest POI from $i$ and with the degree of exclusivity.
+
 \begin{equation}\label{q_i}
 	q_i^a=\frac{w_{a}}{(P_a+1)(t_{ia}+1)}
 \end{equation}
@@ -105,18 +108,21 @@ From the three factors, the latter two are calculated using the city infrastruct
 There can be certain singular cases when a Voronoi cell is empty ($P_a=0$, i.e. no residents in the area) or the node i in question is right at the POI ($t_{ia}=0$). To avoid anomalies in the index we added 1 to both parameters.
 
 The index of one category is proportional to the sum of its amenity-indices (calculated in (\ref{q_i})). To treat this number on the right scale (in practice we can get very large and very small numbers) we take the natural logarithm of the sum across amenities.
+
 \begin{equation}
 	Q_i^c=log(\sum_a q_i^a):
 \end{equation}
 
 As we have mentioned earlier the final services index is the weighted sum of the indices of the sub-categories.
+
 $$Q_i^{services} =\sum_c w^cQ_i^c $$
+
 Finally we normalize the values of $Q^{services}$ so its values are comparable to the other values of the final $Q$ equation (\ref{final_Q}):
 \begin{equation}
 	\Tilde{Q}_i^{services} =\frac{Q_i^{services}+|min(Q^{services})|}{max(Q^{services})+|min(Q^{services})|}
 \end{equation}
 
-\textcolor{blue}{Even if there are potentially other ways to build a life quality index, this is a synthetic way of doing it that can be used as a tool for policymakers to evaluate the urban conditions and how they relate to the quality of life in a given city. In particular, this approach has been used in Budapest to evaluate the current urban conditions, plan future developments along the city, and evaluate the impact of new pedestrian and cyclist infrastructure during the beginning of the COVID-19 pandemic.}
+\textcolor{blue}{Even if there are potentially other ways to build a life quality index, this is a synthetic way of doing it that can be used as a tool for policymakers to evaluate the urban conditions and how they relate to the quality of life in a given city. In particular, this approach has been used in Budapest to evaluate the current urban conditions and plan future developments along the city. More recently, a variation of this approach was used to evaluate the impact of new pedestrian and cyclist infrastructure during the beginning of the COVID-19 pandemic.}
 
 \subsection{Safety index: \texorpdfstring{$Q^{\text{safety}}$}{Q\^safety}} \label{safety}
 
