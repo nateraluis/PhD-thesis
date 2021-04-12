@@ -18,7 +18,7 @@ There are good examples of how sustainable city development initiatives tackle g
 
 Since the number of components which should be taken into consideration in creating a walkability index is high, the types of data are also mixed and thus difficult to integrate. While the information on connectedness, security, residential density, etc. is quantitative and in general easily available, gaining opinion about attractiveness, convenience, or even about the feeling of security is more complicated. Here we propose to use a data-driven approach as a proxy to quantify life quality, making it reproducible and easily expanded to include different data sources. We apply our methods to Budapest, but as having an emphasis on the online and easily available quantitative data, the methods can be generalized and applied to any city.
 
-\section{Data: pedestrian network, points of interest, and city attributes}
+\section{Data: Pedestrian network, points of interest, and city attributes}
 \subsection{Pedestrian network}
 We work with three different data sources: networks, points of interest and city attributes. \textcolor{blue}{To acquire the pedestrian network and points of interest, we used OSMnx~\cite{boeing2017osmnx}, the same tool we used in the previous chapters (see Chapter~\ref{sec:datatools}). As we have shown, the data from open street maps is of high quality~\cite{haklay2010openstreetmap,girres2010quality,Ferster2019Bicycle,barbosa2018human}.}%The pedestrian network and points of interest were acquired using OSMnx~\cite{boeing2017osmnx}, a python library to download and construct networks from OpenStreetMap (OSM). The data contained in OSM is of high quality~\cite{haklay2010openstreetmap,girres2010quality} in terms of correspondence with municipal open data~\cite{Ferster2019Bicycle} and completeness: More than $80\%$ of the world is covered by OSM~\cite{barbosa2018human}.
 The obtained network contains all the sidewalks and pedestrian designated infrastructure, it is conceptualized as undirected, nonplanar and primal network~\cite{porta2006primal}. This network is described as a weighted graph, with its adjacency matrix $W=w_{ij}$ where the weight $w_{ij}$ contains the length between $i$ and $j$ if connected, and $0$ otherwise. We also encoded in the links the traversal time $Tt_{ij}$ between nodes $i$ and $j$ calculated as $Tt_{ij}=\frac{\ell_{ij}}{ps}$ where $ps$ is the pedestrian speed as a constant rate of $5km/h$.
@@ -66,7 +66,7 @@ In the equation $i$ represents an individual node in the network. The ``tilde'' 
   \item \textcolor{blue}{$w^{\text{environment}}=0.2$}
 \end{itemize}
 
-\subsection{The services index: \texorpdfstring{$Q^{\text{services}}$}{Q\^services}}
+\subsection{Services index}
 The number quantifying each node in terms of how well it is connected with amenities and services is a weighted sum of sub-categories as well.
 \begin{equation}\label{Q_services}
 	Q_i^{services} =\sum_c w^c Q_i^c
@@ -124,7 +124,7 @@ Finally we normalize the values of $Q^{services}$ so its values are comparable t
 
 \textcolor{blue}{Even if there are potentially other ways to build a life quality index, this is a synthetic way of doing it that can be used as a tool for policymakers to evaluate the urban conditions and how they relate to the quality of life in a given city. In particular, this approach has been used in Budapest to evaluate the current urban conditions and plan future developments along the city. More recently, a variation of this approach was used to evaluate the impact of new pedestrian and cyclist infrastructure during the beginning of the COVID-19 pandemic.}
 
-\subsection{Safety index: \texorpdfstring{$Q^{\text{safety}}$}{Q\^safety}} \label{safety}
+\subsection{Safety index} \label{safety}
 
 The safety index is calculated across districts based on the number of crimes committed per one hundred thousand residents. Since the highest resolution data available to us was on the district level, every node $i$ in the same district will have the same safety index value. The crime index:
 
@@ -134,7 +134,7 @@ Where $N^{district}_{crime}$ is the number of crimes committed in a district in 
 	\Tilde{Q}_i^{safety}=1-\frac{Q_i^{crime}}{max(Q^{crime})}
 \end{equation}
 
-\subsection{Environmental index  \texorpdfstring{$Q^{\text{environment}}$}{Q\^environment}} \label{environment}
+\subsection{Environmental index} \label{environment}
 
 The environmental index is made up of two components: air pollution ratio and ratio of natural areas.
 
