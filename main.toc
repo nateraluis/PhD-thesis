@@ -36,8 +36,8 @@
 \contentsline {subsection}{\numberline {4.3.1}Algorithmic approach}{39}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Evaluating the algorithms}{41}{subsection.4.3.2}%
 \contentsline {section}{\numberline {4.4}Growing bicycle networks shows stark improvements with small investments}{44}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Different cities have different optimal investment strategies}{46}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Discussion}{50}{section.4.6}%
+\contentsline {section}{\numberline {4.5}Different cities have different optimal investment strategies}{48}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Discussion}{51}{section.4.6}%
 \contentsline {chapter}{\numberline {5}Life quality as walkability}{53}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Walking the city}{54}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Data: Pedestrian network, points of interest, and city attributes}{55}{section.5.2}%
