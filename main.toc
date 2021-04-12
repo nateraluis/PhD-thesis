@@ -24,7 +24,7 @@
 \contentsline {section}{\numberline {2.5}Open data \& Tools }{24}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Data}{24}{subsection.2.5.1}%
 \contentsline {subsection}{\numberline {2.5.2}Tools}{25}{subsection.2.5.2}%
-\contentsline {chapter}{\numberline {3}Extracting the multimodal fingerprint for transportation networks}{27}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Extracting the multimodal fingerprint of transportation networks}{27}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Evolution of urban networks}{28}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Data: Building the multiplex urban network}{28}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Overlap census: A local measure of multimodal integration}{30}{section.3.3}%
@@ -55,13 +55,13 @@
 \contentsline {paragraph}{Summary}{63}{paragraph*.31}%
 \contentsline {section}{\numberline {5.5}Discussion}{65}{section.5.5}%
 \contentsline {chapter}{\numberline {6}Conclusion and open questions}{67}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Appendices}{89}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Data-driven strategies for optimal bicycle network growth}{89}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Data}{89}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}Bicycle network improvement}{89}{subsection.7.1.2}%
-\contentsline {subsection}{\numberline {7.1.3}Bicycle network and 30 km/h streets}{90}{subsection.7.1.3}%
-\contentsline {section}{\numberline {7.2}Life quality as walkability}{90}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Secondary data sources}{90}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Categorization}{91}{subsection.7.2.2}%
-\contentsline {chapter}{List of Tables}{99}{chapter*.42}%
-\contentsline {chapter}{List of Figures}{102}{chapter*.43}%
+\contentsline {chapter}{\numberline {7}Appendices}{87}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Data-driven strategies for optimal bicycle network growth}{87}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Data}{87}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Bicycle network improvement}{87}{subsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.1.3}Bicycle network and 30 km/h streets}{88}{subsection.7.1.3}%
+\contentsline {section}{\numberline {7.2}Life quality as walkability}{88}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Secondary data sources}{88}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Categorization}{89}{subsection.7.2.2}%
+\contentsline {chapter}{List of Tables}{97}{chapter*.42}%
+\contentsline {chapter}{List of Figures}{100}{chapter*.43}%

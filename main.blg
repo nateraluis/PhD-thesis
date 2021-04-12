@@ -1,108 +1,53 @@
 This is BibTeX, Version 0.99d (TeX Live 2020)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
-The style file: bmc-mathphys.bst
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=200001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11448 items from 5000.
+The style file: ieeetr.bst
 Database file #1: bibliography.bib
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--to sort, need author, organization, or key in HU2019Districts
-Warning--to sort, need author, organization, or key in HU2016Population
-Warning--to sort, need author, organization, or key in HU_sport
-Warning--to sort, need author, organization, or key in HU_Edu
-Warning--to sort, need author, organization, or key in HU_Art
-Warning--to sort, need author, organization, or key in HU_Child
-Warning--to sort, need author, organization, or key in HU_Social
-Warning--to sort, need author, organization, or key in HU_Cult
-Warning--to sort, need author, organization, or key in HU_Play
-Warning--to sort, need author, organization, or key in HU_Health
-Warning--to sort, need author, organization, or key in HU_Fitness
-Warning--to sort, need author, organization, or key in HU_outfitness
-Warning--to sort, need author, organization, or key in HU_Thermal
-Warning--to sort, need author, organization, or key in HU_Park
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--"{Building" isn't a brace-balanced string for entry sennett2018building
-while executing--line 2686 of file bmc-mathphys.bst
-Warning--"{Building" isn't a brace-balanced string for entry sennett2018building
-while executing--line 2686 of file bmc-mathphys.bst
-Warning--"{Building" isn't a brace-balanced string for entry sennett2018building
-while executing--line 2686 of file bmc-mathphys.bst
-Warning--"city}" isn't a brace-balanced string for entry sennett2018building
-while executing--line 2686 of file bmc-mathphys.bst
-Warning--"city}" isn't a brace-balanced string for entry sennett2018building
-while executing--line 2686 of file bmc-mathphys.bst
-Warning--"CITY}" isn't a brace-balanced string for entry sennett2018building
-while executing--line 2686 of file bmc-mathphys.bst
-Warning--"{Multilayer" isn't a brace-balanced string for entry bianconi2018multilayer
-while executing--line 2686 of file bmc-mathphys.bst
-Warning--"{Multilayer" isn't a brace-balanced string for entry bianconi2018multilayer
-while executing--line 2686 of file bmc-mathphys.bst
-Warning--"{Multilayer" isn't a brace-balanced string for entry bianconi2018multilayer
-while executing--line 2686 of file bmc-mathphys.bst
-Warning--"function}" isn't a brace-balanced string for entry bianconi2018multilayer
-while executing--line 2686 of file bmc-mathphys.bst
-Warning--"function}" isn't a brace-balanced string for entry bianconi2018multilayer
-while executing--line 2686 of file bmc-mathphys.bst
-Warning--"FUNCTION}" isn't a brace-balanced string for entry bianconi2018multilayer
-while executing--line 2686 of file bmc-mathphys.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty journal in lobo2020urban
+Warning--empty note in boeing2020world
+Warning--empty booktitle in Hochmair2012
+Warning--empty publisher in Hochmair2012
+Warning--empty journal in kunze2011conceptual
+Warning--empty journal in Lora2011New
 You've used 208 entries,
-            7128 wiz_defined-function locations,
-            2444 strings with 52144 characters,
-and the built_in function-call counts, 2800678 in all, are:
-= -- 485643
-> -- 6335
-< -- 3722
-+ -- 274057
-- -- 1983
-* -- 100407
-:= -- 500270
-add.period$ -- 332
+            1876 wiz_defined-function locations,
+            1631 strings with 40544 characters,
+and the built_in function-call counts, 55524 in all, are:
+= -- 5620
+> -- 2177
+< -- 1
++ -- 817
+- -- 609
+* -- 3910
+:= -- 7691
+add.period$ -- 224
 call.type$ -- 208
-change.case$ -- 2097
-chr.to.int$ -- 7790
-cite$ -- 222
-duplicate$ -- 19137
-empty$ -- 59962
-format.name$ -- 6236
-if$ -- 700346
-int.to.chr$ -- 12
-int.to.str$ -- 516
-missing$ -- 7056
-newline$ -- 5851
-num.names$ -- 976
-pop$ -- 8350
+change.case$ -- 175
+chr.to.int$ -- 0
+cite$ -- 214
+duplicate$ -- 2873
+empty$ -- 5084
+format.name$ -- 609
+if$ -- 13613
+int.to.chr$ -- 0
+int.to.str$ -- 208
+missing$ -- 182
+newline$ -- 643
+num.names$ -- 198
+pop$ -- 563
 preamble$ -- 1
-purify$ -- 917
-quote$ -- 416
-skip$ -- 284672
+purify$ -- 0
+quote$ -- 0
+skip$ -- 2190
 stack$ -- 0
-substring$ -- 290121
-swap$ -- 6213
-text.length$ -- 3382
+substring$ -- 3614
+swap$ -- 1318
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8523
-warning$ -- 14
-while$ -- 7042
-width$ -- 0
-write$ -- 7869
-(There were 26 warnings)
+type$ -- 0
+warning$ -- 6
+while$ -- 563
+width$ -- 211
+write$ -- 2001
+(There were 6 warnings)

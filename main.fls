@@ -454,7 +454,6 @@ INPUT /Users/natera/Dropbox/PhD/thesis/chapters_tex/conclusion.tex
 INPUT /Users/natera/Dropbox/PhD/thesis/chapters_tex/conclusion.tex
 INPUT /Users/natera/Dropbox/PhD/thesis/main.bbl
 INPUT /Users/natera/Dropbox/PhD/thesis/main.bbl
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
 INPUT /Users/natera/Dropbox/PhD/thesis/chapters_tex/chapter7.tex
 INPUT /Users/natera/Dropbox/PhD/thesis/chapters_tex/chapter7.tex
 INPUT /Users/natera/Dropbox/PhD/thesis/images/datadriven/Nodes_cc.png
@@ -496,7 +495,6 @@ INPUT /Users/natera/Dropbox/PhD/thesis/main.out
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb
