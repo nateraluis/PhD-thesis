@@ -43,9 +43,9 @@
 \csname PreBibitemsHook\endcsname
 
 %%% 1
-\bibitem{ghel1971life}
+\bibitem{gehl1971life}
 \begin{botherref}
-\oauthor{\bsnm{Ghel}, \binits{J.}}:
+\oauthor{\bsnm{Gehl}, \binits{J.}}:
 Life Between Buildings: Using Public Space, translated by Jo Koch.
 Van Nostrand Reinhold, New York
 (1971)
@@ -3015,7 +3015,7 @@ Playgrounds and Parks.
   <title><p>Life Between Buildings: Using Public Space, translated by Jo
   Koch</p></title>
   <aug>
-    <au><snm>Ghel</snm><fnm>J</fnm></au>
+    <au><snm>Gehl</snm><fnm>J</fnm></au>
   </aug>
   <publisher>Van Nostrand Reinhold, New York</publisher>
   <pubdate>1971</pubdate>
