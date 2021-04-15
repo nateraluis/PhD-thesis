@@ -90,7 +90,7 @@
 \begin{titlepage}
 	\begin{center}
 
-		\textbf{\LARGE{Multimodality and sustainability \\ in urban transport networks}}\\[3.3cm] %
+		\textbf{\LARGE{Multilayer network analysis of sustainable, multimodal urban transport networks}}\\[3.3cm] %
 
 		\includegraphics[width=3.45cm,height=2.3cm]{images/ceulogo.eps}\\[3.4cm]
 		{\Large{\textbf{Luis Guillermo Natera Orozco}}}\\[0.4cm]
@@ -193,9 +193,9 @@ Signature of Dr. Orsyola V\'as\'arhelyi , endorsing statement of joint work:
 
 
 \chapter*{Abstract}
-In this thesis, we apply network science methods to the study of cities and their mobility infrastructures. The general aim of this work is to provide new insights about urban mobility infrastructures, and the interplay between different urban mobility infrastructures, such as sidewalks, bicycle paths, subway systems and streets. These different modes of transportation are well described by multiplex networks. In this thesis we propose network science based methods, and computational tools, for the study of cities' multiplex transportation networks.
+In this thesis, we use network science to study cities and their mobility infrastructures. We treat these infrastructures as layers of a multiplex network, such as sidewalks, bicycle paths, subway systems and streets, and develop and apply network science based tools to study these layers both individually and jointly.\\
 
-Each chapter tackles different questions related to the multimodal mobility options. First, we cover the existing literature in the domain of cities as multiplex networks, spanning from the infrastructure and dynamics to the available measures, data and tools to analyze them. Second, we propose a new method to extract the multimodal profile from a city's multiplex transport network. We show how this method can be applied to identify similarities between cities. Third, we focus on the bicycle layer of the multimodal network, we investigate its structure, and find that they consist of hundreds of disconnected patches. To connect these patches, we develop and apply data-driven, algorithmic network growth strategies, showing that small but focused investments allow to significantly increase the connectedness and directness of urban bicycle networks. In the forth chapter, we present a data-driven, network-based method to quantify the liveability of a city, computing pedestrian accessibility to amenities and services, and taking into consideration safety and environmental variables. Finally, we discuss the main contributions of this thesis and outline possible applications and open questions for the future.
+First, we cover the existing literature of cities as multiplex networks, from infrastructure and dynamics to existing measures, data and analysis tools. Second, we propose a new method to extract the multimodal profile from a city's multiplex transport network. We show how this method can be applied to identify multimodal similarities between cities. Third, we focus on the bicycle layer of the multimodal network, investigate its structure, and find that it consists of hundreds of disconnected patches. To connect these patches, we develop and apply data-driven, algorithmic network growth strategies, showing that small but focused investments allow to significantly increase the connectedness and directness of urban bicycle networks. In the forth chapter, we present a data-driven, network-based method to quantify the liveability of a city, computing pedestrian accessibility to amenities and services, taking into consideration safety and environmental variables. Finally, we discuss the main contributions of this thesis and outline possible applications and open questions for the future.
 
 \thispagestyle{empty}
 
@@ -250,7 +250,8 @@ Each chapter tackles different questions related to the multimodal mobility opti
 \input{chapters_tex/lqi.tex}\pagestyle{fancy} %LQI walkability
 \input{chapters_tex/conclusion.tex}\pagestyle{fancy} %Conclusion
 
-\bibliographystyle{bmc-mathphys}
+% \bibliographystyle{bmc-mathphys}
+\bibliographystyle{ieeetr}
 \bibliography{bibliography}
 
 \input{chapters_tex/chapter7.tex}\pagestyle{fancy} %Appendices
