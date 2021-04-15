@@ -7,150 +7,79 @@ Figure \ref{fig:Nodes} shows the connected component size distribution $P(N_{cc}
 
 \begin{figure*}[h!]
   \centering
-  \includegraphics[width=0.8\textwidth]{images/datadriven/Nodes_cc.png}
+  \includegraphics[width=\textwidth]{images/datadriven/Nodes_cc.png}
   \caption[Connected component size distribution for analyzed cities]{The connected component size distribution [$P(N_{cc})$] for all cities and layers is well connected except in the bicycle layer. London has the most fragmented bicycle infrastructure layer, with more than 3000 components}
   \label{fig:Nodes}
 \end{figure*}
 
 
-% \subsection{Algorithms}
-% We develop two main algorithms to improve the bicycle layer. The first algorithm, \textit{Largest-to-Second}, identifies in each step the largest connected component and connects it to the second largest. The second algorithm, \textit{Largest-to-Closest}, also identifies the largest connected component, but in each step connects it to the closest of the remaining components.
-
-% To evaluate our algorithms we test them against a random baseline, \textit{Random-to-Closest}. In each step, \textit{Random-to-Closest} picks a component at random and connects it to the closest of the remaining components. We implement another baseline, the extreme case of \textit{Closest-Components}, which prioritizes connecting the closest two components.
-
-% \begin{algorithm}[h!]
-%   \caption{Largest-to-Second}\label{greedy_lcc}
-%   \begin{algorithmic}[1]
-%     \Procedure{\textit{L2S}}{}
-%     \State $\textit{G} \gets \text{ bicycle network graph}$
-%     \State $\textit{wcc} \gets \text{ components of network G}$
-%     \For {i in length(wcc)-1}
-%     \State  \text{sort \textit{wcc} by components size}
-%     \State $\textit{cc} \gets \text{ two biggest components from \textit{wcc}}$
-%     \State $\textit{i\_j} \gets \text{ closest nodes between } cc_0 \text{ and } cc_1$
-%     \State $\text{connect } cc_0 \text{ and } cc_1 \text{ in } i\_j$
-%     \EndFor
-%     \EndProcedure
-%   \end{algorithmic}
-% \end{algorithm}
-
-% \begin{algorithm}[h!]
-%   \caption{Largest-to-Closest}\label{greedy_min}
-%   \begin{algorithmic}[1]
-%     \Procedure{\textit{L2C}}{}
-%     \State $\textit{G} \gets \text{ bicycle network graph}$
-%     \State $\textit{wcc} \gets \text{ components of network G}$
-%     \For {i in length(wcc)-1}
-%     \State  \text{sort \textit{wcc} by components size}
-%     \State $cc_0 \gets \text{ biggest component from \textit{wcc}}$
-%     \State $cc_n \gets \text{ clossest component to } cc_0$
-%     \State $\textit{i\_j} \gets \text{ closest nodes between } cc_0 \text{ and } cc_n$
-%     \State $\text{connect } cc_0 \text{ and } cc_n \text{ in } i\_j$
-%     \EndFor
-%     \EndProcedure
-%   \end{algorithmic}
-% \end{algorithm}
-
-% \begin{algorithm}[h!]
-%   \caption{Random-to-Closest}\label{random}
-%   \begin{algorithmic}[1]
-%     \Procedure{\textit{R2C}}{}
-%     \State $\textit{G} \gets \text{ bicycle network graph}$
-%     \State $\textit{wcc} \gets \text{ components of network G}$
-%     \For {i in length(wcc)-1}
-%     \State $cc_{ran} \gets \text{ random component from \textit{wcc}}$
-%     \State $cc_n \gets \text{ clossest component to } cc_{ran}$
-%     \State $\textit{i\_j} \gets \text{ closest nodes between } cc_{ran} \text{ and } cc_n$
-%     \State $\text{connect } cc_{ran} \text{ and } cc_n \text{ in } i\_j$
-%     \EndFor
-%     \EndProcedure
-%   \end{algorithmic}
-% \end{algorithm}
-
-% \begin{algorithm}[h!]
-%   \caption{Closest-Components}\label{min_delta}
-%   \begin{algorithmic}[1]
-%     \Procedure{\textit{CC}}{}
-%     \State $\textit{G} \gets \text{ bicycle network graph}$
-%     \State $\textit{wcc} \gets \text{ components of network G}$
-%     \For {i in length(wcc)-1}
-%     \State $\Delta_{min} \gets \text{ clossest components in \textit{wcc}}$
-%     \State $cc_{0} \gets \text{ first component for }\Delta_{min}$
-%     \State $cc_{1} \gets \text{ second component for } \Delta_{min}$
-%     \State $\textit{i\_j} \gets \text{ closest nodes between } cc_{0} \text{ and } cc_{1}$
-%     \State $\text{connect } cc_{0} \text{ and } cc_{1} \text{ in } i\_j$
-%     \EndFor
-%     \EndProcedure
-%   \end{algorithmic}
-% \end{algorithm}
-
 \subsection{Bicycle network improvement}\label{SI:BikeImprovement}
 
-Here we show the improvement of the bicycle network after the implementation of the algorithms. We measure the improvement with four different metrics. Two of them implement the notion of connectedness: i) Fraction of nodes inside the largest connected component compared to the total number of nodes in the bicycle layer, and ii) the fraction of link kilometers inside the largest connected component. In Figure \ref{fig:NodesIncrease} and \ref{fig:Lengthsncrease} we show these two measures for fourteen different cities. We also quantify iii) bicycle-to-car directness to answer the question ``how direct are the average routes of bicycles compared to cars?''. Finally, in order to measure the cumulative efficiency of our algorithms, we define the metric: iv) $G_{LCC}$ as the relative gain of bicycle path kilometers in the largest connected component. In Figures \ref{fig:Directness} and \ref{fig:Gain} we report these two measures for all algorithms and cities considered.
+Here we show the improvement of the bicycle network after the implementation of the algorithms. We measure the improvement with four different metrics. Two of them implement the notion of connectedness: i) Fraction of nodes inside the largest connected component compared to the total number of nodes in the bicycle layer, and ii) the fraction of link kilometers inside the largest connected component. In Figure \ref{fig:NodesIncrease} and \ref{fig:LengthsIncrease} we show these two measures for fourteen different cities. We also quantify iii) bicycle-to-car directness to answer the question ``how direct are the average routes of bicycles compared to cars?''. Finally, in order to measure the cumulative efficiency of our algorithms, we define the metric: iv) $G_{LCC}$ as the relative gain of bicycle path kilometers in the largest connected component. In Figures \ref{fig:Directness} and \ref{fig:Gain} we report these two measures for all algorithms and cities considered.
 
 \begin{figure*}[h!]
   \centering
-  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Nodes.png}
+  \includegraphics[width=\textwidth]{images/datadriven/SI_Nodes.png}
   \caption{Normalized increase in nodes inside the largest connected component ($n_{LCC}$).}
   \label{fig:NodesIncrease}
 \end{figure*}
 
 \begin{figure*}[h!]
   \centering
-  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Lengths.png}
+  \includegraphics[width=\textwidth]{images/datadriven/SI_Lengths.png}
   \caption{Normalized increase in kilometers inside the largest connected component ($\ell_{LCC}$).}
   \label{fig:LengthsIncrease}
 \end{figure*}
 
 \begin{figure*}[h!]
   \centering
-  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf}
+  \includegraphics[width=\textwidth]{images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf}
   \caption{Normalized increase in kilometers inside the largest connected component ($\ell_{LCC}$) versus the fraction of extant kilometers to be added.}
   \label{fig:Lengthsncrease_norm}
 \end{figure*}
 
 \begin{figure*}[h!]
   \centering
-  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Directness.png}
+  \includegraphics[width=\textwidth]{images/datadriven/SI_Directness.png}
   \caption{Bike-car directness $\Delta$ per invested kilometers.}
   \label{fig:Directness}
 \end{figure*}
 
 \begin{figure*}[h!]
   \centering
-  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Gain.png}
+  \includegraphics[width=\textwidth]{images/datadriven/SI_Gain.png}
   \caption{Kilometers gain in the largest connected component.}
   \label{fig:Gain}
 \end{figure*}
+v
 
-
-\subsection{Bicycle network and 30 km/hr streets}\label{SI:BikeStreets}
-We applied the algorithms to the bicycle infrastructure and all the bike friendly streets, those with a speed limit of $30\ km/hr$ or less (see Figures~\ref{fig:NodesIncrease_BikeStreets}, \ref{fig:Lengthsncrease_BikeStreets}, \ref{fig:Directness_BikeStreets}, and \ref{fig:Gain_BikeStreets}).
+\subsection{Bicycle network and 30 km/h streets}\label{SI:BikeStreets}
+We applied the algorithms to the bicycle infrastructure and all the bike friendly streets, those with a speed limit of $30\ km/h$ or less (see Figures~\ref{fig:NodesIncrease_BikeStreets}, \ref{fig:Lengthsncrease_BikeStreets}, \ref{fig:Directness_BikeStreets}, and \ref{fig:Gain_BikeStreets}).
 
 \begin{figure*}[h!]
   \centering
-  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Nodes_Bike_Streets.png}
+  \includegraphics[width=\textwidth]{images/datadriven/SI_Nodes_Bike_Streets.png}
   \caption{Normalized increase in nodes inside the largest connected component ($n_{LCC}$).}
   \label{fig:NodesIncrease_BikeStreets}
 \end{figure*}
 
 % \begin{figure*}[h!]
 %   \centering
-%   \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Lengths_Bike_Streets.png}
+%   \includegraphics[width=\textwidth]{images/datadriven/SI_Lengths_Bike_Streets.png}
 %   \caption{Normalized increase in kilometers inside the largest connected component ($\ell_{LCC}$).}
 %   \label{fig:Lengthsncrease_BikeStreets}
 % \end{figure*}
 
 \begin{figure*}[h!]
   \centering
-  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Directness_Bike_Streets.png}
+  \includegraphics[width=\textwidth]{images/datadriven/SI_Directness_Bike_Streets.png}
   \caption{Bike-car directness $\Delta$ per invested kilometers.}
   \label{fig:Directness_BikeStreets}
 \end{figure*}
 
 \begin{figure*}[h!]
   \centering
-  \includegraphics[width=0.8\textwidth]{images/datadriven/SI_Gain_Bike_Streets.png}
+  \includegraphics[width=\textwidth]{images/datadriven/SI_Gain_Bike_Streets.png}
   \caption{Kilometers gain in the largest connected component.}
   \label{fig:Gain_BikeStreets}
 \end{figure*}

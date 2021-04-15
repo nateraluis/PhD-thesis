@@ -1,3 +1,5 @@
 .DS_Store
 main.fdb_latexmk
 .vscode/
+:
+__latexindent_temp.tex
