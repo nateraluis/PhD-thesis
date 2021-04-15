@@ -3,51 +3,49 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: ieeetr.bst
 Database file #1: bibliography.bib
-Warning--empty journal in lobo2020urban
 Warning--empty note in boeing2020world
-Warning--empty booktitle in Hochmair2012
 Warning--empty publisher in Hochmair2012
 Warning--empty journal in kunze2011conceptual
 Warning--empty journal in Lora2011New
 You've used 208 entries,
             1876 wiz_defined-function locations,
-            1631 strings with 40544 characters,
-and the built_in function-call counts, 55524 in all, are:
-= -- 5620
-> -- 2177
+            1656 strings with 41657 characters,
+and the built_in function-call counts, 56249 in all, are:
+= -- 5689
+> -- 2216
 < -- 1
-+ -- 817
-- -- 609
-* -- 3910
-:= -- 7691
++ -- 830
+- -- 622
+* -- 3955
+:= -- 7847
 add.period$ -- 224
 call.type$ -- 208
-change.case$ -- 175
+change.case$ -- 192
 chr.to.int$ -- 0
-cite$ -- 214
-duplicate$ -- 2873
-empty$ -- 5084
-format.name$ -- 609
-if$ -- 13613
+cite$ -- 212
+duplicate$ -- 2841
+empty$ -- 5160
+format.name$ -- 622
+if$ -- 13793
 int.to.chr$ -- 0
 int.to.str$ -- 208
 missing$ -- 182
 newline$ -- 643
-num.names$ -- 198
-pop$ -- 563
+num.names$ -- 211
+pop$ -- 604
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2190
+skip$ -- 2215
 stack$ -- 0
-substring$ -- 3614
-swap$ -- 1318
+substring$ -- 3636
+swap$ -- 1304
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 6
-while$ -- 563
+warning$ -- 4
+while$ -- 579
 width$ -- 211
-write$ -- 2001
-(There were 6 warnings)
+write$ -- 2038
+(There were 4 warnings)

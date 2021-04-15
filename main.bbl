@@ -5,7 +5,7 @@ J.~Gehl, ``Life between buildings: Using public space, translated by jo koch,''
   1971.
 
 \bibitem{sennett2018building}
-R.~Sennett, {\em {Building and dwelling : ethics for the city}}.
+R.~Sennett, {\em {Building and dwelling: ethics for the city}}.
 \newblock PENGUIN Books, 2018.
 
 \bibitem{batty2013new}
@@ -16,7 +16,8 @@ M.~Batty, {\em The New Science of Cities}.
 J.~Lobo, M.~Alberti, M.~Allen-Dumas, E.~Arcaute, M.~Barthelemy, L.~A.
   Bojorquez~Tapia, S.~Brail, L.~Bettencourt, A.~Beukes, W.-Q. Chen, {\em
   et~al.}, ``Urban science: Integrated theory from the first cities to
-  sustainable metropolises,'' 2020.
+  sustainable metropolises.'' Report submitted to the NSF on the Present State
+  and Future of Urban Science, 2020.
 
 \bibitem{lin2013complex}
 J.~Lin and Y.~Ban, ``{Complex Network Topology of Transportation Systems},''
@@ -162,9 +163,10 @@ Boccaletti, V.~Latora, Y.~Moreno, M.~Chavez, and D.-U. Hwang, ``Complex
   pp.~175 -- 308, 2006.
 
 \bibitem{boccaletti2014structure}
-S.~Boccaletti, G.~Bianconi, R.~Criado, C.~I. del Genio,
-  J.~G{\'{o}}mez-Garde{\~{n}}es, M.~Romance, I.~Sendi{\~{n}}a-Nadal, Z.~Wang,
-  and M.~Zanin, ``{The structure and dynamics of multilayer networks},'' 2014.
+S.~Boccaletti, G.~Bianconi, R.~Criado, C.~I. Del~Genio, J.~G{\'o}mez-Gardenes,
+  M.~Romance, I.~Sendina-Nadal, Z.~Wang, and M.~Zanin, ``The structure and
+  dynamics of multilayer networks,'' {\em Physics reports}, vol.~544, no.~1,
+  pp.~1--122, 2014.
 
 \bibitem{battiston2014structural}
 F.~Battiston, V.~Nicosia, and V.~Latora, ``Structural measures for multiplex
@@ -523,8 +525,8 @@ M.~Kivel{\"{a}}, ``{Pymnet}.'' GitHub repository.
   \url{https://github.com/bolozna/multilayer-networks-library}, 2018.
 
 \bibitem{magnani2020multiplex}
-M.~Magnani, L.~Rossi, and D.~Vega, ``Multiplex network analysis with r,'' {\em
-  Journal of Statistical Software}, 2020.
+M.~Magnani, L.~Rossi, and D.~Vega, ``{Multiplex network analysis with R},''
+  {\em Journal of Statistical Software}, 2020.
 \newblock Accepted for publication.
 
 \bibitem{rivero2020algebraic}
@@ -644,8 +646,9 @@ R.~Buehler and J.~Dill, ``Bikeway networks: A review of effects on cycling,''
 
 \bibitem{Hochmair2012}
 H.~H. Hochmair, D.~Zielstra, and P.~Neis, ``Assessing the completeness of
-  bicycle trail and designated lane features in openstreetmap for the united
-  states and europe revised,'' pp.~111--137, 2012.
+  bicycle trails and designated lane features in openstreetmap for the united
+  states and europe,'' in {\em Transportation Research Board Annual Meeting},
+  pp.~111--137, 2013.
 
 \bibitem{Krizek2005Discontinuities}
 K.~J. Krizek and R.~W. Roland, ``What is at the end of the road? understanding
@@ -673,8 +676,8 @@ G.~D.~C. Initiative and N.~A. of~City Transportation~Officials, {\em Global
 
 \bibitem{Dill2009infrastructure}
 J.~Dill, ``Bicycling for transportation and health: The role of
-  infrastructure,'' {\em Journal of Public Health Policy}, vol.~30, no.~SUPPL.
-  1, pp.~95--110, 2009.
+  infrastructure,'' {\em Journal of Public Health Policy}, vol.~30, no.~1,
+  pp.~95--110, 2009.
 
 \bibitem{Chataway2014Safety}
 E.~S. Chataway, S.~Kaplan, T.~A.~S. Nielsen, and C.~G. Prato, ``Safety
@@ -831,17 +834,22 @@ V.~Kaushik, {\em How Technology Empowers Data-Driven Urban Planning}, 2017
 M.~Fitzgerald, {\em Data-Driven City Management}, 2016 (accesed June 3, 2019.
 
 \bibitem{HU2019Districts}
-{\em Budapest districts}.
+{OpenStreetMap contributors}, ``Budapest districts.''
+  \url{https://data2.openstreetmap.hu/hatarok/index.php?admin=9}.
 
 \bibitem{HU2019Police}
-H.~Police, {\em Bunugyi statisztikak}.
+{Hungarian Police}, ``Bunugyi statisztikak,'' 2019 (accesed June 3, 2019).
 \newblock \textit{Data available at request}.
 
 \bibitem{HU2016Population}
-{\em Hungarian population data}, 2016.
+{Hungary central statistical office}, ``Hungarian population data.''
+  \url{https://www.ksh.hu/mikrocenzus2016/}, 2016.
 
 \bibitem{HU2019Pollution}
-A.~M. Network, {\em National Air Pollution Measurement Network,}.
+{Hungary Ministry of Agriculture, hungarian air quality network}, ``National
+  air pollution measurement network.''
+  \url{http://levegominoseg.hu/manualis-merohalozat}, 2019 (accesed June 3,
+  2019).
 \newblock \textit{Data available at request}.
 
 \bibitem{Rosow1961Social}
@@ -937,7 +945,7 @@ E.~A. Lora and A.~Powell, ``A new way of monitoring the quality of urban
   life,'' 2011.
 
 \bibitem{HU2019RealEstate}
-ingatlannet, {\em Budapest Real Estate Statistic}.
+ingatlannet, ``Budapest real estate statistic,'' 2019 (accesed June 3, 2019).
 
 \bibitem{Cassiers2012Socio}
 T.~Cassiers and C.~Kesteloot, ``Socio-spatial inequalities and social cohesion
@@ -954,41 +962,58 @@ L.~Gobillon, H.~Selod, and Y.~Zenou, ``The mechanisms of spatial mismatch,''
   {\em Urban studies}, vol.~44, no.~12, pp.~2401--2427, 2007.
 
 \bibitem{HU_sport}
-{\em Sport associations in Budapest}, 2019 (accesed June 3, 2019.
+Sportmegoldasok, ``Sport associations in budapest.''
+  \url{https://sportmegoldasok.hu/klub_budapest.ht}, 2019 (accesed June 3,
+  2019).
 
 \bibitem{HU_Edu}
-{\em Kindergartens \& daycare, primary education, secondary education}, 2019
-  (accesed June 3, 2019.
+{imami.hu}, ``Kindergartens \& daycare, primary education, secondary
+  education.'' \url{http://budapest.imami.hu/iskolak-ovodak-bolcsodek/}, 2019
+  (accesed June 3, 2019).
 
 \bibitem{HU_Art}
-{\em Art and music schools}, 2019 (accesed June 3, 2019.
+{imami.hu}, ``Budapest art and music schools.''
+  \url{http://budapest.imami.hu/iskolak-ovodak-bolcsodek/muveszeti-es-sportiskolak},
+  2019 (accesed June 3, 2019).
 
 \bibitem{HU_Child}
-{\em Pediatricians, Gynecologists}, 2019 (accesed June 3, 2019.
+{imami.hu}, ``Pediatricians, gynecologists.''
+  \url{http://budapest.imami.hu/egeszseg}, 2019 (accesed June 3, 2019).
 
 \bibitem{HU_Social}
-{\em Social Welfare}, 2019 (accesed June 3, 2019.
+{Hungary social sector portal}, ``Social welfare.''
+  \url{http://szocialisportal.hu/intezmenykereso}, 2019 (accesed June 3, 2019).
 
 \bibitem{HU_Cult}
-{\em Culture centers}, 2019 (accesed June 3, 2019.
+{valami.info}, ``Culture centers.''
+  \url{https://holmivan.valami.info/kultura-lista-220/kultura,Budapest}, 2019
+  (accesed June 3, 2019).
 
 \bibitem{HU_Play}
-{\em Indoor playgrounds}, 2019 (accesed June 3, 2019.
+{imami.hu}, ``Indoor playgrounds.''
+  \url{http://budapest.imami.hu/szolgaltatok/szulinapi-party}, 2019 (accesed
+  June 3, 2019).
 
 \bibitem{HU_Health}
-{\em Healthcare (hospitals, private and public clinics, specialists)}, 2019
-  (accesed June 3, 2019.
+{BudapestInfo.eu}, ``Healthcare (hospitals, private and public clinics,
+  specialists).'' \url{https://www.budapestinfo.eu/gyogyitas}, 2019 (accesed
+  June 3, 2019).
 
 \bibitem{HU_Fitness}
-{\em Fitness and training facilities}, 2019 (accesed June 3, 2019.
+{BudapestInfo.eu}, ``Fitness and training facilities.''
+  \url{https://www.budapestinfo.eu/sportolas/fitnesstermek}, 2019 (accesed June
+  3, 2019).
 
 \bibitem{HU_outfitness}
-{\em Outdoor fitness training facilities}, 2019 (accesed June 3, 2019.
+``Outdoor fitness training facilities.'' \url{https://cutt.ly/zvszhFk}, 2019
+  (accesed June 3, 2019).
 
 \bibitem{HU_Thermal}
-{\em Thermal and Spa}, 2019 (accesed June 3, 2019.
+{BudapestInfo.eu}, ``Thermal and spa.''
+  \url{https://www.budapestinfo.eu/furdozes}, 2019 (accesed June 3, 2019).
 
 \bibitem{HU_Park}
-{\em Playgrounds and parks}, 2019 (accesed June 3, 2019.
+Zoldkalauz, ``Playgrounds and parks.'' \url{https://zoldkalauz.hu}, 2019
+  (accesed June 3, 2019).
 
 \end{thebibliography}
