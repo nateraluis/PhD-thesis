@@ -8,6 +8,10 @@ J.~Gehl, ``Life between buildings: Using public space, translated by jo koch,''
 R.~Sennett, {\em {Building and dwelling: ethics for the city}}.
 \newblock PENGUIN Books, 2018.
 
+\bibitem{borges1961hacedor}
+J.~L. Borges, ``Del rigor de la ciencia,'' in {\em {El Hacedor}}, {Buenos
+  Aires, Argentina}: Emecé Editores, 1961.
+
 \bibitem{batty2013new}
 M.~Batty, {\em The New Science of Cities}.
 \newblock MIT Press, 2013.
@@ -455,7 +459,7 @@ C.~Ferster, J.~Fischer, K.~Manaugh, T.~Nelson, and M.~Winters, ``{Using
 
 \bibitem{boeing2020world}
 G.~Boeing, ``{Street Network Models and Indicators for Every Urban Area in the
-  World}.'' 2020.
+  World},'' {\em Geographical Analysis}, 2021.
 
 \bibitem{gil2015building}
 J.~Gil, ``Building a multimodal urban network model using openstreetmap data
