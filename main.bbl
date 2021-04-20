@@ -12,6 +12,14 @@ R.~Sennett, {\em {Building and dwelling: ethics for the city}}.
 J.~L. Borges, ``Del rigor de la ciencia,'' in {\em {El Hacedor}}, {Buenos
   Aires, Argentina}: Emecé Editores, 1961.
 
+\bibitem{batty1996preliminary}
+M.~Batty and Y.~Xie, ``Preliminary evidence for a theory of the fractal city,''
+  {\em Environment and Planning A}, vol.~28, no.~10, pp.~1745--1762, 1996.
+
+\bibitem{makse1995growth}
+H.~A. Makse, S.~Havlin, and H.~E. Stanley, ``{Modelling urban growth
+  patterns},'' {\em Nature}, vol.~377, no.~6550, pp.~608--612, 1995.
+
 \bibitem{batty2013new}
 M.~Batty, {\em The New Science of Cities}.
 \newblock MIT Press, 2013.
@@ -85,10 +93,6 @@ G.~Boeing, ``Planarity and street network representation in urban form
 A.~Kirkley, H.~Barbosa, M.~Barthelemy, and G.~Ghoshal, ``{From the betweenness
   centrality in street networks to structural invariants in random planar
   graphs},'' {\em Nature Communications}, vol.~9, p.~2501, dec 2018.
-
-\bibitem{makse1995growth}
-H.~A. Makse, S.~Havlin, and H.~E. Stanley, ``{Modelling urban growth
-  patterns},'' {\em Nature}, vol.~377, no.~6550, pp.~608--612, 1995.
 
 \bibitem{strano2012evolution}
 E.~Strano, V.~Nicosia, V.~Latora, S.~Porta, and M.~Barth{\'{e}}lemy,

@@ -6,45 +6,45 @@ Database file #1: bibliography.bib
 Warning--empty publisher in Hochmair2012
 Warning--empty journal in kunze2011conceptual
 Warning--empty journal in Lora2011New
-You've used 209 entries,
+You've used 210 entries,
             1876 wiz_defined-function locations,
-            1663 strings with 41771 characters,
-and the built_in function-call counts, 56450 in all, are:
-= -- 5704
-> -- 2220
+            1669 strings with 41912 characters,
+and the built_in function-call counts, 56820 in all, are:
+= -- 5747
+> -- 2228
 < -- 1
-+ -- 832
-- -- 623
-* -- 3966
-:= -- 7874
-add.period$ -- 225
-call.type$ -- 209
-change.case$ -- 193
++ -- 835
+- -- 625
+* -- 3991
+:= -- 7920
+add.period$ -- 226
+call.type$ -- 210
+change.case$ -- 194
 chr.to.int$ -- 0
-cite$ -- 212
-duplicate$ -- 2858
-empty$ -- 5195
-format.name$ -- 623
-if$ -- 13847
+cite$ -- 213
+duplicate$ -- 2877
+empty$ -- 5228
+format.name$ -- 625
+if$ -- 13940
 int.to.chr$ -- 0
-int.to.str$ -- 209
-missing$ -- 184
-newline$ -- 646
-num.names$ -- 212
-pop$ -- 613
+int.to.str$ -- 210
+missing$ -- 185
+newline$ -- 649
+num.names$ -- 213
+pop$ -- 614
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2217
+skip$ -- 2235
 stack$ -- 0
-substring$ -- 3636
-swap$ -- 1306
+substring$ -- 3676
+swap$ -- 1317
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 580
-width$ -- 212
-write$ -- 2048
+while$ -- 584
+width$ -- 213
+write$ -- 2059
 (There were 3 warnings)
