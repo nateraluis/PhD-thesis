@@ -12,43 +12,50 @@ As I studied cities, I became interested in getting to understand the relation b
 In this thesis I present the work of four years of research in the intersection of cities and complex networks. From this point onward I speak in plural, as even though I am the one presenting it, my research has been done in collaboration with co-authors. 
 
 %Lit review
-\section{Network science and its applications to cities}
+\section{Cities and network science}
 
 As a complex system, a city offers a fertile study ground from multiple perspectives. Urban studies have engaged in analyzing different aspects of urban life, from sociological perspectives to more technical ones such as engineering. Due to this diversity and overlapping approaches, the ``science of cities'' is inherently interdisciplinary.
 
-\textcolor{red}{In cities, interdisciplinarity goes beyond the application of tools and methods borrowed from one discipline to study a different object. Indeed, when we think and engage in the analysis of urban phenomena, we encounter a multitude of approaches without a single dominant one. When studying cities one can start taking apart its pieces and analyze them separately. Take for example buildings, roads, and functions: all of them can be studied without taking into consideration the rest of the pieces. However, following this approach misses the interactions between the pieces. Thus, to have a complete view of those interactions, and a better understanding of cities, we can study them as a system. To do so, we can use networks.}
+In cities, interdisciplinarity goes beyond the application of tools and methods borrowed from one discipline to study a different object. Indeed, when we think and engage in the analysis of urban phenomena, we encounter a multitude of approaches without a single dominant one. When studying cities one can start taking apart its pieces and analyze them separately. Take for example buildings, roads, and functions: all of them can be studied without taking into consideration the rest of the pieces. However, following this approach misses the interactions between the pieces. 
 
-\textcolor{red}{Cities are more than the sum of its parts. It is in the interactions between its different pieces and components where one can find the richness of cities. Thus, modelling them as complex systems allows us to capture its interplays. In a mostly urbanized world, capturing these relations is fundamental to not only understand the cities, but to plan better and more human ones.}
+Cities are more than the sum of its parts. It is in the interactions between its different pieces and components where one can find the richness of cities and the spark of urban life \cite{Jacobs1961Death}. In a mostly urbanized world, capturing these relations is fundamental to not only understand the cities, but to plan better and more human ones. Thus, to have a complete view of those interactions, and a better understanding of cities, we can study them as a system. To do so, we can use networks.
 
-%Studying cities as networks
-\textcolor{red}{The complex system framework has enabled a different research optic of cities. Such as modelling them as fractals to characterize it shape~\cite{batty1996preliminary}. Analyzing the continuous shape of the city has been a key element to understand its evolution, and how urbanized areas grow~\cite{makse1995growth}.}
+%Complexity and cities
+The complex system framework has enabled a different research optic of cities. Using this framework, it has been possible to study cities as fractals~\cite{batty1996preliminary} to understand the spatial organization of urban areas. Indeed, the use of these frameworks, allows to get a better understanding of how cities evolve and grow~\cite{makse1995growth}. %Develop more ideas of batty, fractals.
 
+%Street networks
+
+%Multimodal transportation and netowkrs
+
+%Mobility and networks
 \textcolor{red}{The complex system of urban transport infrastructure is shaping the dynamics of human mobility, a network embedded in space with special properties. The availability of data sets on urban infrastructure networks has enabled first insights into the topological constraints on human movements. Large-scale mobile phone data sets, on the other hand, have been used as proxies to understand mobility patterns in cities~\cite{gonzalez2008understanding}, finding predictable human mobility motifs related to socio-economic activities in cities. The use of such massive data sets has also provided insights into the possibilities of shareability, and into the efficient allocation of space for different types of transportation.}
 
-
-Topics to cover:
-\begin{itemize}
-    \item Networks
-    \item Space constrained networks. Cities as a network have different properties than other complex networks.
-    \item The always evolving city. We cannot predict the future, we can build it. Tools to understand the present and build a sustainable future.
-\end{itemize}
-% While predicting how the future city will be is an impossible task, understanding how it has evolve and what is its state of development is possible. This understanding 
-
-
-\luis{I still have to write about the thesis, from where does it start (complex systems and the study of cities) to the main contributions. I anticipate two paragraphs for the complex systems and cities, and two more paragraphs for the contributions/overview.}
+%State research problems
 
 \section{Aim and structure of the thesis}
 
 The primary aim of this thesis is to contribute to the better understanding of the structural properties of multimodal transportation networks in urban areas. For that, we build on the tools and methods of network science to analyze the underlying complexity of urban mobility infrastructure. 
 
-In the first part of this thesis we focus the attention on the multimodal infrastructure networks, first providing a review of previous works, and then giving an original contribution to the analysis of multilayer transportation networks. In the second part, we focus the attention to specific layers, first bicycle, then pedestrian infrastructure.
+We begin focusing on the multimodal infrastructure network, first by providing a review of previous works related to multimodal transportation networks, and then giving an original contribution to the analysis of this specific type of system. In the following chapters, we focus the attention to specific layers: first, by analyzing and giving an original contribution for the connectivity of bicycle infrastructure networks, second, we propose and use a methodology to measure the urban quality of life as urban walkability taking the pedestrian infrastructure layer as the base for our calculations.
 
 This thesis is structured as follows:
 
 \begin{itemize}
     \item Chapter~\ref{ch:litReview}: We provide a review of previous works on multimodal transportation and mobility research from a complex systems' perspective. First we focus on the infrastructure and measures to quantify it, then on the mobility dynamics on top of these infrastructures, and finally we offer a review of available datasets and tools to analyze this specific type of networks.
-    \item Chapter~\ref{ch:OverlapCensus}: We make an original contribution to the field by proposing a method to extract the multimodal profile from a city's multiplex transport network. We apply our methods to fifteen cities, finding clusters of cities with similar multimodal infrastructure.
+    \item Chapter~\ref{ch:OverlapCensus}: We make an original contribution to the field by proposing a method to extract the multimodal profile from a city's multiplex transport network. In this chapter, we apply our methods to fifteen cities, finding clusters of cities with similar multimodal infrastructure.
     \item Chapter~\ref{ch:BikeGrowth}: We focus our attention in the bicycle layer of the multimodal network and propose algorithmic approaches to improve its connectivity. We find that focalized investment has the potential to rapidly improve the connectedness and directness of the bicycle infrastructure.
     \item Chapter~\ref{ch:LQI}: We present a methodology to measure the quality of life in a city based on the pedestrian accessibility to amenities and services. We apply the methodology to Budapest and show how it can be used to capture inequalities in neighborhoods. 
     \item Chapter~\ref{ch:Conclusion}: We review the main contributions from this thesis, and outline future streams of work and open questions. 
 \end{itemize}
+
+% Introduction structure:  
+
+% - Introduction to topic and its context, narrowing it down to identifying a research problem  
+
+% - literature review on the research problem (what is known), and possible contribution (what is not known / how you can add to existing knowledge)  
+
+% - the purpose of your research (purpose statment / research question) 
+
+% - methodology of your research  
+
+% - dissertation structure map (what you do in each chapter)  
