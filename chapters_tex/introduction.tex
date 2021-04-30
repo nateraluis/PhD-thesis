@@ -14,21 +14,30 @@ In this thesis I present the work of four years of research in the intersection 
 %Lit review
 \section{Cities and network science}
 
+
 As a complex system, a city offers a fertile study ground from multiple perspectives. Urban studies have engaged in analyzing different aspects of urban life, from sociological perspectives to more technical ones such as engineering. Due to this diversity and overlapping approaches, the ``science of cities'' is inherently interdisciplinary.
 
 In cities, interdisciplinarity goes beyond the application of tools and methods borrowed from one discipline to study a different object. Indeed, when we think and engage in the analysis of urban phenomena, we encounter a multitude of approaches without a single dominant one. When studying cities one can start taking apart its pieces and analyze them separately. Take for example buildings, roads, and functions: all of them can be studied without taking into consideration the rest of the pieces. However, following this approach misses the interactions between the pieces. 
 
-Cities are more than the sum of its parts. It is in the interactions between its different pieces and components where one can find the richness of cities and the spark of urban life \cite{Jacobs1961Death}. In a mostly urbanized world, capturing these relations is fundamental to not only understand the cities, but to plan better and more human ones. Thus, to have a complete view of those interactions, and a better understanding of cities, we can study them as a system. To do so, we can use networks.
+Cities are more than the sum of its parts. It is in the interactions between its different pieces and components where one can find the richness of cities and the spark of urban life~\cite{Jacobs1961Death}. In a mostly urbanized world, capturing these relations is fundamental to not only understand the cities, but to plan better and more human ones. Thus, to have a complete view of those interactions, and a better understanding of cities, we can study them as a system. To do so, we can use networks.
 
 %Complexity and cities
 The complex system framework has enabled a different research optic of cities. Using this framework, it has been possible to study cities as fractals~\cite{batty1996preliminary} to understand the spatial organization of urban areas. Indeed, the use of these frameworks, allows to get a better understanding of how cities evolve and grow~\cite{makse1995growth}. %Develop more ideas of batty, fractals.
 
-%Street networks
+\begin{figure*}[th!]
+	\centering
+	\includegraphics[width=\textwidth]{images/introduction/networks.pdf}
+	\caption[Network representation of a city]{\textbf{(a)} Schematic street plan representation. \textbf{(b)} Primal representation of a street network, intersections are represented as nodes, and streets as edges. \textbf{(c)} Space syntax representation of a city. Continues streets mapped as nodes, and edges between intersecting streets.}
+	\label{fig:networks}
+\end{figure*}
 
-%Multimodal transportation and netowkrs
+%Street networks
+When thinking of a city as a network, there are two approaches: First, map the intersections as nodes, the streets (or any other mobility infrastructure) as edges~\cite{porta2006primal}. Following this approach it is possible to replicate the city's structure as a planar network~\cite{Boeing2020Planarity} (see Figure~\ref{fig:networks}~(a-b)). On the other hand, it is possible to model a city as a network following space syntax theory~\cite{hillier1976syntax} in which the streets are mapped as nodes depending on their continuity, and intersections are edges (see Figure~\ref{fig:networks}~(c)). Although, the space syntax theory is useful to map relations between spaces/streets, it came short to capture the morphological properties of cities~\cite{batty2004new}. Along this thesis we will work with the primal representation of urban networks, considering intersections as nodes, and streets, sidewalks, bike paths as edges connecting the nodes.
+
+%Multimodal transportation and networks
 
 %Mobility and networks
-\textcolor{red}{The complex system of urban transport infrastructure is shaping the dynamics of human mobility, a network embedded in space with special properties. The availability of data sets on urban infrastructure networks has enabled first insights into the topological constraints on human movements. Large-scale mobile phone data sets, on the other hand, have been used as proxies to understand mobility patterns in cities~\cite{gonzalez2008understanding}, finding predictable human mobility motifs related to socio-economic activities in cities. The use of such massive data sets has also provided insights into the possibilities of shareability, and into the efficient allocation of space for different types of transportation.}
+The complex system of urban transport infrastructure is shaping the dynamics of human mobility, a network embedded in space with special properties. The availability of data sets on urban infrastructure networks has enabled first insights into the topological constraints on human movements. Large-scale mobile phone data sets, on the other hand, have been used as proxies to understand mobility patterns in cities~\cite{gonzalez2008understanding}, finding predictable human mobility motifs related to socio-economic activities in cities. The use of such massive data sets has also provided insights into the possibilities of shareability, and into the efficient allocation of space for different types of transportation.
 
 %State research problems
 

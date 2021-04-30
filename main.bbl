@@ -24,6 +24,24 @@ M.~Batty and Y.~Xie, ``Preliminary evidence for a theory of the fractal city,''
 H.~A. Makse, S.~Havlin, and H.~E. Stanley, ``{Modelling urban growth
   patterns},'' {\em Nature}, vol.~377, no.~6550, pp.~608--612, 1995.
 
+\bibitem{porta2006primal}
+S.~Porta, P.~Crucitti, and V.~Latora, ``{The network analysis of urban streets:
+  a primal approach},'' {\em Environment and Planning B: Planning and Design},
+  vol.~33, pp.~705--726, oct 2006.
+
+\bibitem{Boeing2020Planarity}
+G.~Boeing, ``Planarity and street network representation in urban form
+  analysis,'' {\em Environment and Planning B: Urban Analytics and City
+  Science}, vol.~47, no.~5, pp.~855--869, 2020.
+
+\bibitem{hillier1976syntax}
+B.~Hillier, A.~Leaman, P.~Stansall, and M.~Bedford, ``{Space syntax},'' {\em
+  Environment and Planning B: Planning and Design}, vol.~3, pp.~147--185, nov
+  1976.
+
+\bibitem{batty2004new}
+M.~Batty, ``A new theory of space syntax,'' 2004.
+
 \bibitem{gonzalez2008understanding}
 M.~C. Gonzalez, C.~A. Hidalgo, and A.-L. Barabasi, ``Understanding individual
   human mobility patterns,'' {\em nature}, vol.~453, no.~7196, pp.~779--782,
@@ -93,11 +111,6 @@ P.~Crucitti, V.~Latora, and S.~Porta, ``{Centrality Measures in Spatial
   Networks of Urban Streets},'' {\em Physical Review E}, vol.~73, pp.~1--4, mar
   2008.
 
-\bibitem{Boeing2020Planarity}
-G.~Boeing, ``Planarity and street network representation in urban form
-  analysis,'' {\em Environment and Planning B: Urban Analytics and City
-  Science}, vol.~47, no.~5, pp.~855--869, 2020.
-
 \bibitem{kirkley2018structural}
 A.~Kirkley, H.~Barbosa, M.~Barthelemy, and G.~Ghoshal, ``{From the betweenness
   centrality in street networks to structural invariants in random planar
@@ -156,11 +169,6 @@ Organizers, W.~Kang, T.~Oshan, L.~J. Wolf, Discussants, G.~Boeing,
 \bibitem{resch2019hds}
 B.~Resch and M.~Szell, ``Human-centric data science for urban studies,'' {\em
   ISPRS International Journal of Geo-Information}, vol.~8, no.~584, 2019.
-
-\bibitem{porta2006primal}
-S.~Porta, P.~Crucitti, and V.~Latora, ``{The network analysis of urban streets
-  : a primal approach},'' {\em Environment and Planning B: Planning and
-  Design}, vol.~33, pp.~705--726, oct 2006.
 
 \bibitem{albert2002statistical}
 R.~Albert and A.-L. Barab{\'a}si, ``Statistical mechanics of complex
