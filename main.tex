@@ -35,12 +35,12 @@
 \usepackage{graphicx}
 \newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
 \newcommand\blankpage{%
-    \null
-    \thispagestyle{empty}%
-    \addtocounter{page}{-1}%
-    \newpage}
+\null
+\thispagestyle{empty}%
+\addtocounter{page}{-1}%
+\newpage}
 \newdateformat{monthyeardate}{%
-  \monthname[\THEMONTH], \THEYEAR}
+\monthname[\THEMONTH], \THEYEAR}
 
 
 \definecolor{szin}{rgb}{0.679,0.19,0.21}
@@ -198,9 +198,20 @@ In this thesis, we use network science to study cities and their mobility infras
 First, we cover the existing literature of cities as multiplex networks, from infrastructure and dynamics to existing measures, data and analysis tools. Second, we propose a new method to extract the multimodal profile from a city's multiplex transport network. We show how this method can be applied to identify multimodal similarities between cities. Third, we focus on the bicycle layer of the multimodal network, investigate its structure, and find that it consists of hundreds of disconnected patches. To connect these patches, we develop and apply data-driven, algorithmic network growth strategies, showing that small but focused investments allow to significantly increase the connectedness and directness of urban bicycle networks. In the forth chapter, we present a data-driven, network-based method to quantify the liveability of a city, computing pedestrian accessibility to amenities and services, taking into consideration safety and environmental variables. Finally, we discuss the main contributions of this thesis and outline possible applications and open questions for the future.
 
 \thispagestyle{empty}
+% this is new:
+% \newpage
+% \newpage
+% \chapter*{}
 
+\newpage
+\frontmatter
+\epigraph{hablo de la ciudad, pastora de siglos, madre que nos engendra y nos devora, nos inventa y nos olvida.}{Octavio Paz, \textit{Hablo de la ciudad} (1986)}
+\vfill
+\thispagestyle{empty}
+% this ends new
 \chapter*{Acknowledgements}
 \textcolor{red}{To be written}
+\newpage
 
 
 

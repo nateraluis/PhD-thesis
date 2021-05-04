@@ -8,24 +8,69 @@ J.~Gehl, ``Life between buildings: Using public space, translated by jo koch,''
 R.~Sennett, {\em {Building and dwelling: ethics for the city}}.
 \newblock PENGUIN Books, 2018.
 
-\bibitem{batty2013new}
-M.~Batty, {\em The New Science of Cities}.
-\newblock MIT Press, 2013.
+\bibitem{borges1961hacedor}
+J.~L. Borges, ``Del rigor de la ciencia,'' in {\em {El Hacedor}}, {Buenos
+  Aires, Argentina}: Emecé Editores, 1961.
 
-\bibitem{lobo2020urban}
-J.~Lobo, M.~Alberti, M.~Allen-Dumas, E.~Arcaute, M.~Barthelemy, L.~A.
-  Bojorquez~Tapia, S.~Brail, L.~Bettencourt, A.~Beukes, W.-Q. Chen, {\em
-  et~al.}, ``Urban science: Integrated theory from the first cities to
-  sustainable metropolises.'' Report submitted to the NSF on the Present State
-  and Future of Urban Science, 2020.
+\bibitem{Jacobs1961Death}
+J.~Jacobs, {\em The death and life of great American cities}.
+\newblock New York, New York, USA: Random House, 1961.
 
-\bibitem{lin2013complex}
-J.~Lin and Y.~Ban, ``{Complex Network Topology of Transportation Systems},''
-  {\em Transport Reviews}, vol.~33, pp.~658--685, nov 2013.
+\bibitem{castells1989informational}
+M.~Castells, {\em The informational city: Information technology, economic
+  restructuring, and the urban-regional process}.
+\newblock Blackwell Oxford, 1989.
+
+\bibitem{batty1996preliminary}
+M.~Batty and Y.~Xie, ``Preliminary evidence for a theory of the fractal city,''
+  {\em Environment and Planning A}, vol.~28, no.~10, pp.~1745--1762, 1996.
+
+\bibitem{makse1995growth}
+H.~A. Makse, S.~Havlin, and H.~E. Stanley, ``{Modelling urban growth
+  patterns},'' {\em Nature}, vol.~377, no.~6550, pp.~608--612, 1995.
+
+\bibitem{albert2002statistical}
+R.~Albert and A.-L. Barab{\'a}si, ``Statistical mechanics of complex
+  networks,'' {\em Rev. Mod. Phys.}, vol.~74, no.~1, p.~47, 2002.
+
+\bibitem{dorogovtsev2002evolution}
+S.~N. Dorogovtsev and J.~F.~F. Mendes, ``Evolution of networks,'' {\em Adv.
+  Phys.}, vol.~51, no.~4, pp.~1079--1187, 2002.
+
+\bibitem{newman2003structure}
+M.~E.~J. Newman, ``The structure and function of complex networks,'' {\em SIAM
+  Rev.}, vol.~45, pp.~167--256, 2003.
+
+\bibitem{boccaletti2006complex}
+Boccaletti, V.~Latora, Y.~Moreno, M.~Chavez, and D.-U. Hwang, ``Complex
+  networks: Structure and dynamics,'' {\em Physics Reports}, vol.~424, no.~4,
+  pp.~175 -- 308, 2006.
 
 \bibitem{barthelemy2011spatial}
 M.~Barthelemy, ``{Spatial networks},'' {\em Physics Reports}, vol.~499,
   pp.~1--101, feb 2011.
+
+\bibitem{porta2006primal}
+S.~Porta, P.~Crucitti, and V.~Latora, ``{The network analysis of urban streets:
+  a primal approach},'' {\em Environment and Planning B: Planning and Design},
+  vol.~33, pp.~705--726, oct 2006.
+
+\bibitem{Boeing2020Planarity}
+G.~Boeing, ``Planarity and street network representation in urban form
+  analysis,'' {\em Environment and Planning B: Urban Analytics and City
+  Science}, vol.~47, no.~5, pp.~855--869, 2020.
+
+\bibitem{hillier1976syntax}
+B.~Hillier, A.~Leaman, P.~Stansall, and M.~Bedford, ``{Space syntax},'' {\em
+  Environment and Planning B: Planning and Design}, vol.~3, pp.~147--185, nov
+  1976.
+
+\bibitem{batty2004new}
+M.~Batty, ``A new theory of space syntax,'' 2004.
+
+\bibitem{lin2013complex}
+J.~Lin and Y.~Ban, ``{Complex Network Topology of Transportation Systems},''
+  {\em Transport Reviews}, vol.~33, pp.~658--685, nov 2013.
 
 \bibitem{ding2019application}
 R.~Ding, N.~Ujang, H.~B. Hamid, M.~S.~A. Manan, R.~Li, S.~S.~M. Albadareen,
@@ -72,19 +117,10 @@ P.~Crucitti, V.~Latora, and S.~Porta, ``{Centrality Measures in Spatial
   Networks of Urban Streets},'' {\em Physical Review E}, vol.~73, pp.~1--4, mar
   2008.
 
-\bibitem{Boeing2020Planarity}
-G.~Boeing, ``Planarity and street network representation in urban form
-  analysis,'' {\em Environment and Planning B: Urban Analytics and City
-  Science}, vol.~47, no.~5, pp.~855--869, 2020.
-
 \bibitem{kirkley2018structural}
 A.~Kirkley, H.~Barbosa, M.~Barthelemy, and G.~Ghoshal, ``{From the betweenness
   centrality in street networks to structural invariants in random planar
   graphs},'' {\em Nature Communications}, vol.~9, p.~2501, dec 2018.
-
-\bibitem{makse1995growth}
-H.~A. Makse, S.~Havlin, and H.~E. Stanley, ``{Modelling urban growth
-  patterns},'' {\em Nature}, vol.~377, no.~6550, pp.~608--612, 1995.
 
 \bibitem{strano2012evolution}
 E.~Strano, V.~Nicosia, V.~Latora, S.~Porta, and M.~Barth{\'{e}}lemy,
@@ -107,13 +143,6 @@ I.~Biazzo, B.~Monechi, and V.~Loreto, ``{General scores for accessibility and
   inequality measures in urban areas},'' {\em Royal Society Open Science},
   vol.~6, aug 2019.
 
-\bibitem{natera2020walkability}
-L.~G. {Natera Orozco}, D.~Deritei, A.~Vancs\'{o}, and O.~V\'{a}s\'{a}rhelyi,
-  ``Quantifying life quality as walkability on urban networks: The case of
-  {Budapest},'' in {\em Complex Networks and Their Applications VIII}
-  (H.~Cherifi, S.~Gaito, J.~F. Mendes, E.~Moro, and L.~M. Rocha, eds.), (Cham),
-  pp.~905--918, Springer International Publishing, 2020.
-
 \bibitem{baggag2018resilience}
 A.~Baggag, S.~Abbar, T.~Zanouda, and J.~Srivastava, ``{Resilience analytics:
   coverage and robustness in multi-modal transportation networks},'' {\em EPJ
@@ -125,42 +154,23 @@ M.~Ferretti, G.~Barlacchi, L.~Pappalardo, L.~Lucchini, and B.~Lepri, ``{Weak
   Singapore},'' in {\em Proceedings - 2018 IEEE 5th International Conference on
   Data Science and Advanced Analytics, DSAA 2018}, pp.~472--480, sep 2019.
 
-\bibitem{natera2020growth}
-L.~G. {Natera Orozco}, F.~Battiston, G.~I{\~{n}}iguez, and M.~Szell,
-  ``{Data-driven strategies for optimal bicycle network growth},'' {\em Royal
-  Society Open Science}, vol.~7, no.~12, p.~201130, 2020.
-
-\bibitem{organizers2019roundtable}
-Organizers, W.~Kang, T.~Oshan, L.~J. Wolf, Discussants, G.~Boeing,
-  V.~Frias-Martinez, S.~Gao, A.~Poorthuis, and W.~Xu, ``A roundtable
-  discussion: Defining urban data science,'' {\em Environment and Planning B:
-  Urban Analytics and City Science}, vol.~46, no.~9, pp.~1756--1768, 2019.
+\bibitem{batty2013new}
+M.~Batty, {\em The New Science of Cities}.
+\newblock MIT Press, 2013.
 
 \bibitem{resch2019hds}
 B.~Resch and M.~Szell, ``Human-centric data science for urban studies,'' {\em
   ISPRS International Journal of Geo-Information}, vol.~8, no.~584, 2019.
 
-\bibitem{porta2006primal}
-S.~Porta, P.~Crucitti, and V.~Latora, ``{The network analysis of urban streets
-  : a primal approach},'' {\em Environment and Planning B: Planning and
-  Design}, vol.~33, pp.~705--726, oct 2006.
+\bibitem{dedomenico2013mathematical}
+M.~{De Domenico}, A.~Sol\'e-Ribalta, E.~Cozzo, M.~Kivel\"a, Y.~Moreno, M.~A.
+  Porter, S.~G\'omez, and A.~Arenas, ``Mathematical formulation of multilayer
+  networks,'' {\em Phys. Rev. X}, vol.~3, p.~041022, Dec 2013.
 
-\bibitem{albert2002statistical}
-R.~Albert and A.-L. Barab{\'a}si, ``Statistical mechanics of complex
-  networks,'' {\em Rev. Mod. Phys.}, vol.~74, no.~1, p.~47, 2002.
-
-\bibitem{dorogovtsev2002evolution}
-S.~N. Dorogovtsev and J.~F.~F. Mendes, ``Evolution of networks,'' {\em Adv.
-  Phys.}, vol.~51, no.~4, pp.~1079--1187, 2002.
-
-\bibitem{newman2003structure}
-M.~E.~J. Newman, ``The structure and function of complex networks,'' {\em SIAM
-  Rev.}, vol.~45, pp.~167--256, 2003.
-
-\bibitem{boccaletti2006complex}
-Boccaletti, V.~Latora, Y.~Moreno, M.~Chavez, and D.-U. Hwang, ``Complex
-  networks: Structure and dynamics,'' {\em Physics Reports}, vol.~424, no.~4,
-  pp.~175 -- 308, 2006.
+\bibitem{kivela2014multilayer}
+M.~Kivel{\"{a}}, A.~Arenas, M.~Barthelemy, J.~P. Gleeson, Y.~Moreno, and M.~A.
+  Porter, ``{Multilayer networks},'' {\em Journal of Complex Networks}, vol.~2,
+  pp.~203--271, sep 2014.
 
 \bibitem{boccaletti2014structure}
 S.~Boccaletti, G.~Bianconi, R.~Criado, C.~I. Del~Genio, J.~G{\'o}mez-Gardenes,
@@ -172,15 +182,65 @@ S.~Boccaletti, G.~Bianconi, R.~Criado, C.~I. Del~Genio, J.~G{\'o}mez-Gardenes,
 F.~Battiston, V.~Nicosia, and V.~Latora, ``Structural measures for multiplex
   networks,'' {\em Phys. Rev. E}, vol.~89, p.~032804, Mar 2014.
 
-\bibitem{dedomenico2013mathematical}
-M.~{De Domenico}, A.~Sol\'e-Ribalta, E.~Cozzo, M.~Kivel\"a, Y.~Moreno, M.~A.
-  Porter, S.~G\'omez, and A.~Arenas, ``Mathematical formulation of multilayer
-  networks,'' {\em Phys. Rev. X}, vol.~3, p.~041022, Dec 2013.
+\bibitem{geurs2016multi}
+K.~T. Geurs, L.~La~Paix, and S.~Van~Weperen, ``A multi-modal network approach
+  to model public transport accessibility impacts of bicycle-train integration
+  policies,'' {\em European transport research review}, vol.~8, no.~4,
+  pp.~1--15, 2016.
 
-\bibitem{kivela2014multilayer}
-M.~Kivel{\"{a}}, A.~Arenas, M.~Barthelemy, J.~P. Gleeson, Y.~Moreno, and M.~A.
-  Porter, ``{Multilayer networks},'' {\em Journal of Complex Networks}, vol.~2,
-  pp.~203--271, sep 2014.
+\bibitem{shaheen2016mobility}
+S.~Shaheen and N.~Chan, ``Mobility and the sharing economy: Potential to
+  facilitate the first-and last-mile public transit connections,'' {\em Built
+  Environment}, vol.~42, no.~4, pp.~573--588, 2016.
+
+\bibitem{vannes2002design}
+R.~{v}an Nes, {\em Design of multimodal transport networks}.
+\newblock PhD thesis, Civil Engineering. Delft Technical University, Delft,
+  2002.
+
+\bibitem{barbosa2018human}
+H.~Barbosa, M.~Barthelemy, G.~Ghoshal, C.~R. James, M.~Lenormand, T.~Louail,
+  R.~Menezes, J.~J. Ramasco, F.~Simini, and M.~Tomasini, ``Human mobility:
+  Models and applications,'' {\em Physics Reports}, vol.~734, pp.~1--74, 2018.
+
+\bibitem{gonzalez2008understanding}
+M.~C. Gonzalez, C.~A. Hidalgo, and A.-L. Barabasi, ``Understanding individual
+  human mobility patterns,'' {\em nature}, vol.~453, no.~7196, pp.~779--782,
+  2008.
+
+\bibitem{gallotti2016limits}
+R.~Gallotti, M.~A. Porter, and M.~Barthelemy, ``{Lost in transportation:
+  Information measures and cognitive limits in multilayer navigation},'' {\em
+  Science Advances}, vol.~2, pp.~e1500445--e1500445, feb 2016.
+
+\bibitem{barthelemy2016structure}
+M.~Barthelemy, {\em The structure and dynamics of cities}.
+\newblock Cambridge University Press, 2016.
+
+\bibitem{lobo2020urban}
+J.~Lobo, M.~Alberti, M.~Allen-Dumas, E.~Arcaute, M.~Barthelemy, L.~A.
+  Bojorquez~Tapia, S.~Brail, L.~Bettencourt, A.~Beukes, W.-Q. Chen, {\em
+  et~al.}, ``Urban science: Integrated theory from the first cities to
+  sustainable metropolises.'' Report submitted to the NSF on the Present State
+  and Future of Urban Science, 2020.
+
+\bibitem{natera2020walkability}
+L.~G. {Natera Orozco}, D.~Deritei, A.~Vancs\'{o}, and O.~V\'{a}s\'{a}rhelyi,
+  ``Quantifying life quality as walkability on urban networks: The case of
+  {Budapest},'' in {\em Complex Networks and Their Applications VIII}
+  (H.~Cherifi, S.~Gaito, J.~F. Mendes, E.~Moro, and L.~M. Rocha, eds.), (Cham),
+  pp.~905--918, Springer International Publishing, 2020.
+
+\bibitem{natera2020growth}
+L.~G. {Natera Orozco}, F.~Battiston, G.~I{\~{n}}iguez, and M.~Szell,
+  ``{Data-driven strategies for optimal bicycle network growth},'' {\em Royal
+  Society Open Science}, vol.~7, no.~12, p.~201130, 2020.
+
+\bibitem{organizers2019roundtable}
+Organizers, W.~Kang, T.~Oshan, L.~J. Wolf, Discussants, G.~Boeing,
+  V.~Frias-Martinez, S.~Gao, A.~Poorthuis, and W.~Xu, ``A roundtable
+  discussion: Defining urban data science,'' {\em Environment and Planning B:
+  Urban Analytics and City Science}, vol.~46, no.~9, pp.~1756--1768, 2019.
 
 \bibitem{nicosia2015measuring}
 V.~Nicosia and V.~Latora, ``Measuring and modeling correlations in multiplex
@@ -308,11 +368,6 @@ P.~Br{\'{o}}dka, A.~Chmiel, M.~Magnani, and G.~Ragozini, ``{Quantifying layer
 M.~Patriksson, {\em The traffic assignment problem: models and methods}.
 \newblock Courier Dover Publications, 2015.
 
-\bibitem{barbosa2018human}
-H.~Barbosa, M.~Barthelemy, G.~Ghoshal, C.~R. James, M.~Lenormand, T.~Louail,
-  R.~Menezes, J.~J. Ramasco, F.~Simini, and M.~Tomasini, ``Human mobility:
-  Models and applications,'' {\em Physics Reports}, vol.~734, pp.~1--74, 2018.
-
 \bibitem{mcnally2000four}
 M.~G. McNally, ``The four step model,'' {\em Handbook of transport modelling},
   vol.~1, pp.~35--41, 2000.
@@ -374,10 +429,6 @@ K.~E. Zannat and C.~F. Choudhury, ``Emerging big data sources for public
 R.~Gallotti and M.~Barthelemy, ``{Anatomy and efficiency of urban multimodal
   mobility},'' {\em Scientific Reports}, vol.~4, no.~1, p.~6911, 2014.
 
-\bibitem{barthelemy2016structure}
-M.~Barthelemy, {\em The structure and dynamics of cities}.
-\newblock Cambridge University Press, 2016.
-
 \bibitem{alessandretti2016user}
 L.~Alessandretti, M.~Karsai, and L.~Gauvin, ``{User-based representation of
   time-resolved multimodal public transportation networks},'' {\em Royal
@@ -398,11 +449,6 @@ T.~Holleczek, L.~Yu, J.~K. Lee, O.~Senn, C.~Ratti, and P.~Jaillet, ``Detecting
 P.~S. Chodrow, Z.~Al-Awwad, S.~Jiang, and M.~C. Gonz{\'{a}}lez, ``{Demand and
   congestion in multiplex transportation networks},'' {\em PLoS ONE}, vol.~11,
   sep 2016.
-
-\bibitem{gallotti2016limits}
-R.~Gallotti, M.~A. Porter, and M.~Barthelemy, ``{Lost in transportation:
-  Information measures and cognitive limits in multilayer navigation},'' {\em
-  Science Advances}, vol.~2, pp.~e1500445--e1500445, feb 2016.
 
 \bibitem{rosvall2005networks}
 M.~Rosvall, A.~Trusina, P.~Minnhagen, and K.~Sneppen, ``Networks and cities: An
@@ -455,7 +501,7 @@ C.~Ferster, J.~Fischer, K.~Manaugh, T.~Nelson, and M.~Winters, ``{Using
 
 \bibitem{boeing2020world}
 G.~Boeing, ``{Street Network Models and Indicators for Every Urban Area in the
-  World}.'' 2020.
+  World},'' {\em Geographical Analysis}, 2021.
 
 \bibitem{gil2015building}
 J.~Gil, ``Building a multimodal urban network model using openstreetmap data
@@ -543,10 +589,6 @@ M.~Barthelemy, P.~Bordin, H.~Berestycki, and M.~Gribaudi, ``{Self-organization
 M.~Lee, H.~Barbosa-Filho, H.~Youn, P.~Holme, and G.~Ghoshal, ``{Morphology of
   travel routes and the organization of cities},'' {\em Nature Communications},
   vol.~8, no.~1, p.~2229, 2017.
-
-\bibitem{Jacobs1961Death}
-J.~Jacobs, {\em The death and life of great American cities}.
-\newblock New York, New York, USA: Random House, 1961.
 
 \bibitem{Gossling2016Space}
 S.~G{\"{o}}ssling, M.~Schr{\"{o}}der, P.~Sp{\"{a}}th, and T.~Freytag, ``{Urban
