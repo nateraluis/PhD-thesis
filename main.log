@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  3 MAY 2021 14:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  4 MAY 2021 13:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -713,7 +713,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 ...s with small investments}{46}{section.4.4}
+l.38 ...s with small investments}{48}{section.4.4}
                                                   % [1
 
 ])
@@ -745,16 +745,26 @@ Package pdftex.def Info: images/introduction/networks.pdf  used on input line 31
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 
+l.39 
       [2]pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 
-      [3 </Users/natera/Dropbox/PhD/thesis/images/introduction/networks.pdf>]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/literature.texpdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
+l.46 
+      [3 </Users/natera/Dropbox/PhD/thesis/images/introduction/networks.pdf>]pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.68     \item C
+                hapter~\ref{ch:BikeGrowth}: We focus our attention in the bi... [4]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/literature.texpdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            {Related Work: Multimodal transportation and mobility in urban n... [4]
+            {Related Work: Multimodal transportation and mobility in urban n... [5]pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Related Work: Multimodal transportation and mobility in urban n... [6
+
+]
 Chapter 2.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 10.42007pt on input line 3.
@@ -764,89 +774,79 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 10.42007pt on input line 3.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.91925pt on input line 3.
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.7 
-     [5
-
-]pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
+     [7]pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.17 
-      [6]pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.28 
-      [7]pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.38 I
-      n particular, multimodal urban infrastructures can be represented as m... [8] [9]
+      [8] [9] [10] [11]
 Underfull \vbox (badness 2205) has occurred while \output is active []
 
- [10]
+ [12]
 
-LaTeX Warning: Reference `interdependence' on page 11 undefined on input line 74.
+LaTeX Warning: Reference `interdependence' on page 13 undefined on input line 74.
 
 
 Underfull \vbox (badness 2205) has occurred while \output is active []
 
- [11] [12] [13] [14] [15] [16] [17]
+ [13] [14] [15] [16] [17] [18] [19]
 LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 177.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
-) [18] [19] [20] [21] [22] [23] [24] [25]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/overlapcensus.tex
+) [20] [21] [22] [23] [24] [25] [26] [27]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/overlapcensus.tex
 Underfull \vbox (badness 1275) has occurred while \output is active []
 
- [26] [27] [28
+ [28] [29] [30
 
 ]
 Chapter 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
-<images/multiplex/Multilayer_NY_op2.png, id=838, 2199.21625pt x 741.77126pt>
+ [31]
+<images/multiplex/Multilayer_NY_op2.png, id=879, 2199.21625pt x 741.77126pt>
 File: images/multiplex/Multilayer_NY_op2.png Graphic file (type png)
 <use images/multiplex/Multilayer_NY_op2.png>
 Package pdftex.def Info: images/multiplex/Multilayer_NY_op2.png  used on input line 15.
 (pdftex.def)             Requested size: 418.25368pt x 141.07382pt.
- [30]
+ [32]
 Underfull \vbox (badness 1742) has occurred while \output is active []
 
- [31 </Users/natera/Dropbox/PhD/thesis/images/multiplex/Multilayer_NY_op2.png>]
-<images/multiplex/SchemaOverlapCensus.png, id=877, 11326.315pt x 5187.38pt>
+ [33 </Users/natera/Dropbox/PhD/thesis/images/multiplex/Multilayer_NY_op2.png>]
+<images/multiplex/SchemaOverlapCensus.png, id=919, 11326.315pt x 5187.38pt>
 File: images/multiplex/SchemaOverlapCensus.png Graphic file (type png)
 <use images/multiplex/SchemaOverlapCensus.png>
 Package pdftex.def Info: images/multiplex/SchemaOverlapCensus.png  used on input line 58.
 (pdftex.def)             Requested size: 418.25368pt x 191.55013pt.
- [32 </Users/natera/Dropbox/PhD/thesis/images/multiplex/SchemaOverlapCensus.png>]
-<images/multiplex/ResultsOverlapCensus-01.png, id=887, 1456.2405pt x 658.3797pt>
+ [34 </Users/natera/Dropbox/PhD/thesis/images/multiplex/SchemaOverlapCensus.png>]
+<images/multiplex/ResultsOverlapCensus-01.png, id=929, 1456.2405pt x 658.3797pt>
 File: images/multiplex/ResultsOverlapCensus-01.png Graphic file (type png)
 <use images/multiplex/ResultsOverlapCensus-01.png>
 Package pdftex.def Info: images/multiplex/ResultsOverlapCensus-01.png  used on input line 76.
 (pdftex.def)             Requested size: 418.25368pt x 189.09683pt.
- [33]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/bikegrowth.tex
+ [35]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/bikegrowth.tex
 Underfull \vbox (badness 7099) has occurred while \output is active []
 
- [34 </Users/natera/Dropbox/PhD/thesis/images/multiplex/ResultsOverlapCensus-01.png>] [35] [36
+ [36 </Users/natera/Dropbox/PhD/thesis/images/multiplex/ResultsOverlapCensus-01.png>] [37] [38
 
 ]
 Chapter 4.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]
+ [39]
 Underfull \vbox (badness 1158) has occurred while \output is active []
 
- [38]
-<images/datadriven/Fig01.png, id=965, 1723.94923pt x 589.10374pt>
+ [40]
+<images/datadriven/Fig01.png, id=1006, 1723.94923pt x 589.10374pt>
 File: images/datadriven/Fig01.png Graphic file (type png)
 <use images/datadriven/Fig01.png>
 Package pdftex.def Info: images/datadriven/Fig01.png  used on input line 17.
 (pdftex.def)             Requested size: 418.25368pt x 142.9249pt.
- [39 </Users/natera/Dropbox/PhD/thesis/images/datadriven/Fig01.png>] [40] [41]
+ [41 </Users/natera/Dropbox/PhD/thesis/images/datadriven/Fig01.png>] [42] [43]
 
 LaTeX Font Warning: Font shape `OT1/ppl/m/scit' undefined
 (Font)              using `OT1/ppl/m/it' instead on input line 70.
@@ -856,7 +856,7 @@ Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on inp
 LaTeX Font Warning: Font shape `OT1/ppl/m/scit' undefined
 (Font)              using `OT1/ppl/m/it' instead on input line 87.
 
-[42]
+[44]
 
 LaTeX Font Warning: Font shape `OT1/ppl/m/scit' undefined
 (Font)              using `OT1/ppl/m/it' instead on input line 109.
@@ -871,32 +871,32 @@ LaTeX Font Warning: Font shape `OT1/ppl/m/scit' undefined
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[43]
-<images/datadriven/algorithms.png, id=1054, 1146.4431pt x 486.1362pt>
+[45]
+<images/datadriven/algorithms.png, id=1095, 1146.4431pt x 486.1362pt>
 File: images/datadriven/algorithms.png Graphic file (type png)
 <use images/datadriven/algorithms.png>
 Package pdftex.def Info: images/datadriven/algorithms.png  used on input line 147.
 (pdftex.def)             Requested size: 418.25368pt x 177.35292pt.
- [44] [45 </Users/natera/Dropbox/PhD/thesis/images/datadriven/algorithms.png (PNG copy)>]
-<images/datadriven/BPincrease.png, id=1063, 1199.4411pt x 1031.052pt>
+ [46] [47 </Users/natera/Dropbox/PhD/thesis/images/datadriven/algorithms.png (PNG copy)>]
+<images/datadriven/BPincrease.png, id=1105, 1199.4411pt x 1031.052pt>
 File: images/datadriven/BPincrease.png Graphic file (type png)
 <use images/datadriven/BPincrease.png>
 Package pdftex.def Info: images/datadriven/BPincrease.png  used on input line 160.
 (pdftex.def)             Requested size: 418.25368pt x 359.52061pt.
-<images/datadriven/SI_Lengths_Bike_Streets.png, id=1071, 1057.82631pt x 933.7284pt>
+<images/datadriven/SI_Lengths_Bike_Streets.png, id=1113, 1057.82631pt x 933.7284pt>
 File: images/datadriven/SI_Lengths_Bike_Streets.png Graphic file (type png)
 <use images/datadriven/SI_Lengths_Bike_Streets.png>
 Package pdftex.def Info: images/datadriven/SI_Lengths_Bike_Streets.png  used on input line 171.
 (pdftex.def)             Requested size: 334.60422pt x 295.35129pt.
- [46]
+ [48]
 
 Package Fancyhdr Warning: \headheight is too small (27.5pt): 
 Make it at least 27.59193pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[47 </Users/natera/Dropbox/PhD/thesis/images/datadriven/BPincrease.png (PNG copy)>]
-<images/datadriven/5km.png, id=1086, 1020.2115pt x 1126.6893pt>
+[49 </Users/natera/Dropbox/PhD/thesis/images/datadriven/BPincrease.png (PNG copy)>]
+<images/datadriven/5km.png, id=1127, 1020.2115pt x 1126.6893pt>
 File: images/datadriven/5km.png Graphic file (type png)
 <use images/datadriven/5km.png>
 Package pdftex.def Info: images/datadriven/5km.png  used on input line 182.
@@ -904,60 +904,60 @@ Package pdftex.def Info: images/datadriven/5km.png  used on input line 182.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Lengths_Bike_Streets.png>] [49 </Users/natera/Dropbox/PhD/thesis/images/datadriven/5km.png (PNG copy)>]
-<images/datadriven/35km.png, id=1101, 1020.2115pt x 1126.6893pt>
+ [50 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Lengths_Bike_Streets.png>] [51 </Users/natera/Dropbox/PhD/thesis/images/datadriven/5km.png (PNG copy)>]
+<images/datadriven/35km.png, id=1142, 1020.2115pt x 1126.6893pt>
 File: images/datadriven/35km.png Graphic file (type png)
 <use images/datadriven/35km.png>
 Package pdftex.def Info: images/datadriven/35km.png  used on input line 191.
 (pdftex.def)             Requested size: 418.25368pt x 461.91122pt.
-<images/datadriven/Reviewer_Coverage.png, id=1103, 937.44514pt x 1259.97583pt>
+<images/datadriven/Reviewer_Coverage.png, id=1144, 937.44514pt x 1259.97583pt>
 File: images/datadriven/Reviewer_Coverage.png Graphic file (type png)
 <use images/datadriven/Reviewer_Coverage.png>
 Package pdftex.def Info: images/datadriven/Reviewer_Coverage.png  used on input line 200.
 (pdftex.def)             Requested size: 334.60422pt x 449.7266pt.
- [50] [51 </Users/natera/Dropbox/PhD/thesis/images/datadriven/35km.png (PNG copy)>]
+ [52] [53 </Users/natera/Dropbox/PhD/thesis/images/datadriven/35km.png (PNG copy)>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52 </Users/natera/Dropbox/PhD/thesis/images/datadriven/Reviewer_Coverage.png>]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/lqi.tex
+ [54 </Users/natera/Dropbox/PhD/thesis/images/datadriven/Reviewer_Coverage.png>]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/lqi.tex
 Underfull \vbox (badness 1158) has occurred while \output is active []
 
- [53] [54]
+ [55] [56]
 Chapter 5.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55
+ [57
 
-] [56] [57]
-<images/lqi/Budapest_Network_voronoi_op2.png, id=1216, 1264.725pt x 565.6332pt>
+] [58] [59]
+<images/lqi/Budapest_Network_voronoi_op2.png, id=1258, 1264.725pt x 565.6332pt>
 File: images/lqi/Budapest_Network_voronoi_op2.png Graphic file (type png)
 <use images/lqi/Budapest_Network_voronoi_op2.png>
 Package pdftex.def Info: images/lqi/Budapest_Network_voronoi_op2.png  used on input line 39.
 (pdftex.def)             Requested size: 418.25368pt x 187.05655pt.
- [58] [59 </Users/natera/Dropbox/PhD/thesis/images/lqi/Budapest_Network_voronoi_op2.png>] [60] [61] [62] [63]
-<images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf, id=1275, 1772.44177pt x 716.6775pt>
+ [60] [61 </Users/natera/Dropbox/PhD/thesis/images/lqi/Budapest_Network_voronoi_op2.png>] [62] [63] [64] [65]
+<images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf, id=1318, 1772.44177pt x 716.6775pt>
 File: images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf Graphic file (type pdf)
 <use images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf>
 Package pdftex.def Info: images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf  used on input line 164.
 (pdftex.def)             Requested size: 418.25368pt x 169.11911pt.
- [64 </Users/natera/Dropbox/PhD/thesis/images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf>]
-<images/lqi/LQI_categories_regplots.pdf, id=1339, 867.24pt x 578.16pt>
+ [66 </Users/natera/Dropbox/PhD/thesis/images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf>]
+<images/lqi/LQI_categories_regplots.pdf, id=1382, 867.24pt x 578.16pt>
 File: images/lqi/LQI_categories_regplots.pdf Graphic file (type pdf)
 <use images/lqi/LQI_categories_regplots.pdf>
 Package pdftex.def Info: images/lqi/LQI_categories_regplots.pdf  used on input line 187.
 (pdftex.def)             Requested size: 418.25368pt x 278.83694pt.
- [65] [66 </Users/natera/Dropbox/PhD/thesis/images/lqi/LQI_categories_regplots.pdf>]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/conclusion.tex [67] [68
+ [67] [68 </Users/natera/Dropbox/PhD/thesis/images/lqi/LQI_categories_regplots.pdf>]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/conclusion.tex [69] [70
 
 ]
 Chapter 6.
-) (/Users/natera/Dropbox/PhD/thesis/main.bbl [69] [70
+) (/Users/natera/Dropbox/PhD/thesis/main.bbl [71] [72
 
-] [71] [72] [73]
+] [73] [74] [75] [76]
 Underfull \hbox (badness 1122) in paragraph at lines 224--227
 []\OT1/ppl/m/n/12 A. Cardillo, J. G[]omez-Gardenes, M. Zanin, M. Ro-mance, D. Papo,
  []
 
-[74] [75] [76] [77] [78] [79]
+[77] [78] [79] [80] [81]
 Underfull \hbox (badness 10000) in paragraph at lines 536--538
 []\OT1/ppl/m/n/12 Google, ``tran-sit-feed.'' V.1.2.16 []$\OT1/cmtt/m/n/12 https : / / github . com / google /
  []
@@ -972,7 +972,7 @@ Underfull \hbox (badness 1946) in paragraph at lines 568--571
 []\OT1/ppl/m/n/12 M. Barthelemy, P. Bor-din, H. Beresty-cki, and M. Grib-audi, ``Self-
  []
 
-[80] [81] [82] [83]
+[82] [83] [84] [85]
 Underfull \hbox (badness 1226) in paragraph at lines 763--768
 []\OT1/ppl/m/n/12 N. Mueller, D. Rojas-Rueda, M. Salmon, D. Mar-tinez, A. Am-bros,
  []
@@ -987,17 +987,17 @@ Underfull \hbox (badness 1337) in paragraph at lines 770--774
 \OT1/ppl/m/n/12 friendly in-fras-truc-ture plan-ning in bei-jing and copenhagen-between
  []
 
-[84] [85]
+[86] [87]
 Underfull \hbox (badness 5133) in paragraph at lines 863--865
 []\OT1/ppl/m/n/12 OpenStreetMap con-trib-u-tors, ``Bu-dapest dis-tricts.'' []$\OT1/cmtt/m/n/12 https : / / data2 .
  []
 
-[86]
+[88]
 Underfull \hbox (badness 2012) in paragraph at lines 926--929
 []\OT1/ppl/m/n/12 G. K[]ov[]er and G. Gy[]ani, ``Mag-yarorsz[]ag t[]arsadalomt[]ort[]enete a re-
  []
 
-[87]
+[89]
 Underfull \hbox (badness 10000) in paragraph at lines 991--994
 []\OT1/ppl/m/n/12 Sportmegoldasok, ``Sport as-so-ci-a-tions in bu-dapest.'' []$\OT1/cmtt/m/n/12 https :
  []
@@ -1017,7 +1017,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1019--1022
 []\OT1/ppl/m/n/12 imami.hu, ``In-door play-grounds.'' []$\OT1/cmtt/m/n/12 http : / / budapest . imami . hu /
  []
 
-[88]
+[90]
 Underfull \hbox (badness 10000) in paragraph at lines 1029--1032
 []\OT1/ppl/m/n/12 BudapestInfo.eu, ``Fit-ness and train-ing fa-cil-i-ties.'' []$\OT1/cmtt/m/n/12 https : / / www .
  []
@@ -1027,11 +1027,11 @@ Underfull \hbox (badness 5460) in paragraph at lines 1029--1032
 \OT1/cmtt/m/n/12 budapestinfo . eu / sportolas / fitnesstermek$[]\OT1/ppl/m/n/12 , 2019 (ac-cesed June 3,
  []
 
-) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/chapter7.tex [89] [90
+) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/chapter7.tex [91] [92
 
 ]
 Chapter 7.
-<images/datadriven/Nodes_cc.png, id=1585, 1156.32pt x 939.51pt>
+<images/datadriven/Nodes_cc.png, id=1626, 1156.32pt x 939.51pt>
 File: images/datadriven/Nodes_cc.png Graphic file (type png)
 <use images/datadriven/Nodes_cc.png>
 Package pdftex.def Info: images/datadriven/Nodes_cc.png  used on input line 10.
@@ -1039,7 +1039,7 @@ Package pdftex.def Info: images/datadriven/Nodes_cc.png  used on input line 10.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Nodes.png, id=1590, 1057.41335pt x 933.7284pt>
+<images/datadriven/SI_Nodes.png, id=1631, 1057.41335pt x 933.7284pt>
 File: images/datadriven/SI_Nodes.png Graphic file (type png)
 <use images/datadriven/SI_Nodes.png>
 Package pdftex.def Info: images/datadriven/SI_Nodes.png  used on input line 22.
@@ -1047,7 +1047,7 @@ Package pdftex.def Info: images/datadriven/SI_Nodes.png  used on input line 22.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Lengths.png, id=1591, 1057.82631pt x 933.7284pt>
+<images/datadriven/SI_Lengths.png, id=1632, 1057.82631pt x 933.7284pt>
 File: images/datadriven/SI_Lengths.png Graphic file (type png)
 <use images/datadriven/SI_Lengths.png>
 Package pdftex.def Info: images/datadriven/SI_Lengths.png  used on input line 29.
@@ -1055,7 +1055,7 @@ Package pdftex.def Info: images/datadriven/SI_Lengths.png  used on input line 29
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf, id=1592, 1065.34328pt x 933.85765pt>
+<images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf, id=1633, 1065.34328pt x 933.85765pt>
 File: images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf Graphic file (type pdf)
 <use images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf>
 Package pdftex.def Info: images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf  used on input line 36.
@@ -1063,7 +1063,7 @@ Package pdftex.def Info: images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pd
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Directness.png, id=1593, 1057.41335pt x 933.7284pt>
+<images/datadriven/SI_Directness.png, id=1634, 1057.41335pt x 933.7284pt>
 File: images/datadriven/SI_Directness.png Graphic file (type png)
 <use images/datadriven/SI_Directness.png>
 Package pdftex.def Info: images/datadriven/SI_Directness.png  used on input line 43.
@@ -1071,7 +1071,7 @@ Package pdftex.def Info: images/datadriven/SI_Directness.png  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Gain.png, id=1594, 1057.82631pt x 933.7284pt>
+<images/datadriven/SI_Gain.png, id=1635, 1057.82631pt x 933.7284pt>
 File: images/datadriven/SI_Gain.png Graphic file (type png)
 <use images/datadriven/SI_Gain.png>
 Package pdftex.def Info: images/datadriven/SI_Gain.png  used on input line 50.
@@ -1082,8 +1082,8 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 2277) has occurred while \output is active []
 
- [91]
-<images/datadriven/SI_Nodes_Bike_Streets.png, id=1607, 1057.41335pt x 933.7284pt>
+ [93]
+<images/datadriven/SI_Nodes_Bike_Streets.png, id=1649, 1057.41335pt x 933.7284pt>
 File: images/datadriven/SI_Nodes_Bike_Streets.png Graphic file (type png)
 <use images/datadriven/SI_Nodes_Bike_Streets.png>
 Package pdftex.def Info: images/datadriven/SI_Nodes_Bike_Streets.png  used on input line 61.
@@ -1092,7 +1092,7 @@ Package pdftex.def Info: images/datadriven/SI_Nodes_Bike_Streets.png  used on in
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Directness_Bike_Streets.png, id=1608, 1057.41335pt x 933.7284pt>
+<images/datadriven/SI_Directness_Bike_Streets.png, id=1650, 1057.41335pt x 933.7284pt>
 File: images/datadriven/SI_Directness_Bike_Streets.png Graphic file (type png)
 <use images/datadriven/SI_Directness_Bike_Streets.png>
 Package pdftex.def Info: images/datadriven/SI_Directness_Bike_Streets.png  used on input line 75.
@@ -1100,7 +1100,7 @@ Package pdftex.def Info: images/datadriven/SI_Directness_Bike_Streets.png  used 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Gain_Bike_Streets.png, id=1609, 1057.82631pt x 933.7284pt>
+<images/datadriven/SI_Gain_Bike_Streets.png, id=1651, 1057.82631pt x 933.7284pt>
 File: images/datadriven/SI_Gain_Bike_Streets.png Graphic file (type png)
 <use images/datadriven/SI_Gain_Bike_Streets.png>
 Package pdftex.def Info: images/datadriven/SI_Gain_Bike_Streets.png  used on input line 82.
@@ -1108,23 +1108,23 @@ Package pdftex.def Info: images/datadriven/SI_Gain_Bike_Streets.png  used on inp
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[92 </Users/natera/Dropbox/PhD/thesis/images/datadriven/Nodes_cc.png>] [93 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Nodes.png>]) [94 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Lengths.png>] [95 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf>] [96 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Directness.png>] [97 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Gain.png>] [98 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Nodes_Bike_Streets.png>] [99 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Directness_Bike_Streets.png>] [100 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Gain_Bike_Streets.png>] (/Users/natera/Dropbox/PhD/thesis/main.lot)
+[94 </Users/natera/Dropbox/PhD/thesis/images/datadriven/Nodes_cc.png>] [95 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Nodes.png>]) [96 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Lengths.png>] [97 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf>] [98 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Directness.png>] [99 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Gain.png>] [100 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Nodes_Bike_Streets.png>] [101 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Directness_Bike_Streets.png>] [102 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Gain_Bike_Streets.png>] (/Users/natera/Dropbox/PhD/thesis/main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
- [101
+ [103
 
-] [102
+] [104
 
-] (/Users/natera/Dropbox/PhD/thesis/main.lof [103])
+] (/Users/natera/Dropbox/PhD/thesis/main.lof [105])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [104]pdfTeX warning (ext4): destination with the same identifier (name{page.104}) has been already used, duplicate ignored
+ [106]pdfTeX warning (ext4): destination with the same identifier (name{page.106}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.280 \end{document}
-                     [104
+                     [106
 
 
 ]
@@ -1141,18 +1141,18 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 17741 strings out of 480608
- 265721 string characters out of 5903631
- 573169 words of memory out of 5000000
+ 17743 strings out of 480608
+ 265737 string characters out of 5903631
+ 573173 words of memory out of 5000000
  32771 multiletter control sequences out of 15000+600000
  581813 words of font info for 159 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,96p,1895b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/natera/Dropbox/PhD/thesis/main.pdf (119 pages, 19607208 bytes).
+Output written on /Users/natera/Dropbox/PhD/thesis/main.pdf (121 pages, 19610626 bytes).
 PDF statistics:
- 1914 PDF objects out of 2073 (max. 8388607)
- 1585 compressed objects within 16 object streams
- 444 named destinations out of 1000 (max. 500000)
+ 1958 PDF objects out of 2073 (max. 8388607)
+ 1626 compressed objects within 17 object streams
+ 446 named destinations out of 1000 (max. 500000)
  553 words of extra memory for PDF output out of 10000 (max. 10000000)
 

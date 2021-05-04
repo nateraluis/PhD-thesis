@@ -2,66 +2,66 @@
 \contentsline {chapter}{Contents}{i}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}Introduction: Cities and networks}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Cities and network science}{2}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Aim and structure of the thesis}{3}{section.1.2}%
-\contentsline {chapter}{\numberline {2}Related Work: Multimodal transportation and mobility in urban networks}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Cities as complex systems}{5}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Multilayer networks: A framework for multimodality}{6}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Multimodal infrastructures}{8}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Modeling urban infrastructure}{9}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Characterizing multimodal infrastructure}{12}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}Multimodal mobility}{16}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Modeling urban mobility }{17}{subsection.2.4.1}%
-\contentsline {paragraph}{Random walks.}{18}{paragraph*.6}%
-\contentsline {paragraph}{Agent-based models accounting for congestion.}{19}{paragraph*.7}%
-\contentsline {subsection}{\numberline {2.4.2}Characterizing multi-modal mobility. }{19}{subsection.2.4.2}%
-\contentsline {subsubsection}{Public transport systems dynamics.}{20}{subsubsection*.8}%
-\contentsline {paragraph}{Efficiency}{20}{paragraph*.9}%
-\contentsline {paragraph}{Congestion.}{21}{paragraph*.10}%
-\contentsline {paragraph}{Navigability}{22}{paragraph*.11}%
-\contentsline {subsubsection}{Individual multi-modal behaviour.}{23}{subsubsection*.12}%
-\contentsline {paragraph}{Route choices.}{23}{paragraph*.13}%
-\contentsline {paragraph}{Power-law distribution of displacements}{24}{paragraph*.14}%
-\contentsline {section}{\numberline {2.5}Open data \& Tools }{24}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Data}{24}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Tools}{25}{subsection.2.5.2}%
-\contentsline {chapter}{\numberline {3}Extracting the multimodal fingerprint of transportation networks}{29}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Evolution of urban networks}{30}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Data: Building the multiplex urban network}{30}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Overlap census: A local measure of multimodal integration}{32}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Identifying clusters of cities with the Overlap Census}{33}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Data-driven strategies for optimal bicycle network growth}{37}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Bicycles in urban networks}{38}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Data: Bicycle infrastructure networks}{39}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Defining bicycle network growth strategies and quality metrics}{40}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Algorithmic approach}{41}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Evaluating the algorithms}{43}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Growing bicycle networks shows stark improvements with small investments}{46}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Different cities have different optimal investment strategies}{50}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Discussion}{53}{section.4.6}%
-\contentsline {chapter}{\numberline {5}Life quality as walkability}{55}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Walking the city}{56}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Data: Pedestrian network, points of interest, and city attributes}{57}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Pedestrian network}{57}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Points of interest}{57}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}City attributes}{58}{subsection.5.2.3}%
-\contentsline {section}{\numberline {5.3}Quantifying life quality}{58}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Services index}{60}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Safety index}{62}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Environmental index}{63}{subsection.5.3.3}%
-\contentsline {subsubsection}{Air pollution ratio}{63}{subsubsection*.28}%
-\contentsline {subsubsection}{Ratio of natural areas}{63}{subsubsection*.29}%
-\contentsline {section}{\numberline {5.4}Results}{64}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Evaluation}{65}{subsection.5.4.1}%
-\contentsline {paragraph}{Summary}{67}{paragraph*.32}%
-\contentsline {section}{\numberline {5.5}Discussion}{67}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Conclusion and open questions}{69}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Appendices}{91}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Data-driven strategies for optimal bicycle network growth}{91}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Data}{91}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}Bicycle network improvement}{91}{subsection.7.1.2}%
-\contentsline {subsection}{\numberline {7.1.3}Bicycle network and 30 km/h streets}{92}{subsection.7.1.3}%
-\contentsline {section}{\numberline {7.2}Life quality as walkability}{92}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Secondary data sources}{92}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Categorization}{94}{subsection.7.2.2}%
-\contentsline {chapter}{List of Tables}{101}{chapter*.43}%
-\contentsline {chapter}{List of Figures}{104}{chapter*.44}%
+\contentsline {section}{\numberline {1.2}Aim and structure of the thesis}{4}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Related Work: Multimodal transportation and mobility in urban networks}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Cities as complex systems}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Multilayer networks: A framework for multimodality}{8}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Multimodal infrastructures}{10}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Modeling urban infrastructure}{11}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Characterizing multimodal infrastructure}{14}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Multimodal mobility}{18}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Modeling urban mobility }{19}{subsection.2.4.1}%
+\contentsline {paragraph}{Random walks.}{20}{paragraph*.6}%
+\contentsline {paragraph}{Agent-based models accounting for congestion.}{21}{paragraph*.7}%
+\contentsline {subsection}{\numberline {2.4.2}Characterizing multi-modal mobility. }{21}{subsection.2.4.2}%
+\contentsline {subsubsection}{Public transport systems dynamics.}{22}{subsubsection*.8}%
+\contentsline {paragraph}{Efficiency}{22}{paragraph*.9}%
+\contentsline {paragraph}{Congestion.}{23}{paragraph*.10}%
+\contentsline {paragraph}{Navigability}{24}{paragraph*.11}%
+\contentsline {subsubsection}{Individual multi-modal behaviour.}{25}{subsubsection*.12}%
+\contentsline {paragraph}{Route choices.}{25}{paragraph*.13}%
+\contentsline {paragraph}{Power-law distribution of displacements}{26}{paragraph*.14}%
+\contentsline {section}{\numberline {2.5}Open data \& Tools }{26}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Data}{26}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Tools}{27}{subsection.2.5.2}%
+\contentsline {chapter}{\numberline {3}Extracting the multimodal fingerprint of transportation networks}{31}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Evolution of urban networks}{32}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Data: Building the multiplex urban network}{32}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Overlap census: A local measure of multimodal integration}{34}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Identifying clusters of cities with the Overlap Census}{35}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Data-driven strategies for optimal bicycle network growth}{39}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Bicycles in urban networks}{40}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Data: Bicycle infrastructure networks}{41}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Defining bicycle network growth strategies and quality metrics}{42}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Algorithmic approach}{43}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Evaluating the algorithms}{45}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Growing bicycle networks shows stark improvements with small investments}{48}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Different cities have different optimal investment strategies}{52}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Discussion}{55}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Life quality as walkability}{57}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Walking the city}{58}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Data: Pedestrian network, points of interest, and city attributes}{59}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Pedestrian network}{59}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Points of interest}{59}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}City attributes}{60}{subsection.5.2.3}%
+\contentsline {section}{\numberline {5.3}Quantifying life quality}{60}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Services index}{62}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Safety index}{64}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Environmental index}{65}{subsection.5.3.3}%
+\contentsline {subsubsection}{Air pollution ratio}{65}{subsubsection*.28}%
+\contentsline {subsubsection}{Ratio of natural areas}{65}{subsubsection*.29}%
+\contentsline {section}{\numberline {5.4}Results}{66}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Evaluation}{67}{subsection.5.4.1}%
+\contentsline {paragraph}{Summary}{69}{paragraph*.32}%
+\contentsline {section}{\numberline {5.5}Discussion}{69}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Conclusion and open questions}{71}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Appendices}{93}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Data-driven strategies for optimal bicycle network growth}{93}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Data}{93}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Bicycle network improvement}{93}{subsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.1.3}Bicycle network and 30 km/h streets}{94}{subsection.7.1.3}%
+\contentsline {section}{\numberline {7.2}Life quality as walkability}{94}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Secondary data sources}{94}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Categorization}{96}{subsection.7.2.2}%
+\contentsline {chapter}{List of Tables}{103}{chapter*.43}%
+\contentsline {chapter}{List of Figures}{106}{chapter*.44}%
