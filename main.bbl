@@ -182,10 +182,40 @@ S.~Boccaletti, G.~Bianconi, R.~Criado, C.~I. Del~Genio, J.~G{\'o}mez-Gardenes,
 F.~Battiston, V.~Nicosia, and V.~Latora, ``Structural measures for multiplex
   networks,'' {\em Phys. Rev. E}, vol.~89, p.~032804, Mar 2014.
 
+\bibitem{geurs2016multi}
+K.~T. Geurs, L.~La~Paix, and S.~Van~Weperen, ``A multi-modal network approach
+  to model public transport accessibility impacts of bicycle-train integration
+  policies,'' {\em European transport research review}, vol.~8, no.~4,
+  pp.~1--15, 2016.
+
+\bibitem{shaheen2016mobility}
+S.~Shaheen and N.~Chan, ``Mobility and the sharing economy: Potential to
+  facilitate the first-and last-mile public transit connections,'' {\em Built
+  Environment}, vol.~42, no.~4, pp.~573--588, 2016.
+
+\bibitem{vannes2002design}
+R.~{v}an Nes, {\em Design of multimodal transport networks}.
+\newblock PhD thesis, Civil Engineering. Delft Technical University, Delft,
+  2002.
+
+\bibitem{barbosa2018human}
+H.~Barbosa, M.~Barthelemy, G.~Ghoshal, C.~R. James, M.~Lenormand, T.~Louail,
+  R.~Menezes, J.~J. Ramasco, F.~Simini, and M.~Tomasini, ``Human mobility:
+  Models and applications,'' {\em Physics Reports}, vol.~734, pp.~1--74, 2018.
+
 \bibitem{gonzalez2008understanding}
 M.~C. Gonzalez, C.~A. Hidalgo, and A.-L. Barabasi, ``Understanding individual
   human mobility patterns,'' {\em nature}, vol.~453, no.~7196, pp.~779--782,
   2008.
+
+\bibitem{gallotti2016limits}
+R.~Gallotti, M.~A. Porter, and M.~Barthelemy, ``{Lost in transportation:
+  Information measures and cognitive limits in multilayer navigation},'' {\em
+  Science Advances}, vol.~2, pp.~e1500445--e1500445, feb 2016.
+
+\bibitem{barthelemy2016structure}
+M.~Barthelemy, {\em The structure and dynamics of cities}.
+\newblock Cambridge University Press, 2016.
 
 \bibitem{lobo2020urban}
 J.~Lobo, M.~Alberti, M.~Allen-Dumas, E.~Arcaute, M.~Barthelemy, L.~A.
@@ -338,11 +368,6 @@ P.~Br{\'{o}}dka, A.~Chmiel, M.~Magnani, and G.~Ragozini, ``{Quantifying layer
 M.~Patriksson, {\em The traffic assignment problem: models and methods}.
 \newblock Courier Dover Publications, 2015.
 
-\bibitem{barbosa2018human}
-H.~Barbosa, M.~Barthelemy, G.~Ghoshal, C.~R. James, M.~Lenormand, T.~Louail,
-  R.~Menezes, J.~J. Ramasco, F.~Simini, and M.~Tomasini, ``Human mobility:
-  Models and applications,'' {\em Physics Reports}, vol.~734, pp.~1--74, 2018.
-
 \bibitem{mcnally2000four}
 M.~G. McNally, ``The four step model,'' {\em Handbook of transport modelling},
   vol.~1, pp.~35--41, 2000.
@@ -404,10 +429,6 @@ K.~E. Zannat and C.~F. Choudhury, ``Emerging big data sources for public
 R.~Gallotti and M.~Barthelemy, ``{Anatomy and efficiency of urban multimodal
   mobility},'' {\em Scientific Reports}, vol.~4, no.~1, p.~6911, 2014.
 
-\bibitem{barthelemy2016structure}
-M.~Barthelemy, {\em The structure and dynamics of cities}.
-\newblock Cambridge University Press, 2016.
-
 \bibitem{alessandretti2016user}
 L.~Alessandretti, M.~Karsai, and L.~Gauvin, ``{User-based representation of
   time-resolved multimodal public transportation networks},'' {\em Royal
@@ -428,11 +449,6 @@ T.~Holleczek, L.~Yu, J.~K. Lee, O.~Senn, C.~Ratti, and P.~Jaillet, ``Detecting
 P.~S. Chodrow, Z.~Al-Awwad, S.~Jiang, and M.~C. Gonz{\'{a}}lez, ``{Demand and
   congestion in multiplex transportation networks},'' {\em PLoS ONE}, vol.~11,
   sep 2016.
-
-\bibitem{gallotti2016limits}
-R.~Gallotti, M.~A. Porter, and M.~Barthelemy, ``{Lost in transportation:
-  Information measures and cognitive limits in multilayer navigation},'' {\em
-  Science Advances}, vol.~2, pp.~e1500445--e1500445, feb 2016.
 
 \bibitem{rosvall2005networks}
 M.~Rosvall, A.~Trusina, P.~Minnhagen, and K.~Sneppen, ``Networks and cities: An
