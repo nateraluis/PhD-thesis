@@ -331,6 +331,32 @@ D.~Rhoads, A.~Sol{\'e}-Ribalta, M.~C. Gonz{\'a}lez, and J.~Borge-Holthoefer,
   ``Planning for sustainable open streets in pandemic cities,'' {\em arXiv
   preprint arXiv:2009.12548}, 2020.
 
+\bibitem{nicosia2013growing}
+V.~Nicosia, G.~Bianconi, V.~Latora, and M.~Barthelemy, ``{Growing multiplex
+  networks},'' {\em Physical Review Letters}, vol.~111, p.~058701, jul 2013.
+
+\bibitem{kim2013coevolution}
+J.~Y. Kim and K.-I. Goh, ``Coevolution and correlated multiplexity in multiplex
+  networks,'' {\em Physical review letters}, vol.~111, no.~5, p.~058702, 2013.
+
+\bibitem{nicosia2014nonlinear}
+V.~Nicosia, G.~Bianconi, V.~Latora, and M.~Barthelemy, ``Nonlinear growth and
+  condensation in multiplex networks,'' {\em Physical Review E}, vol.~90,
+  no.~4, p.~042807, 2014.
+
+\bibitem{barabasi1999emergence}
+A.-L. Barab{\'a}si and R.~Albert, ``Emergence of scaling in random networks,''
+  {\em science}, vol.~286, no.~5439, pp.~509--512, 1999.
+
+\bibitem{santoro2018pareto}
+A.~Santoro, V.~Latora, G.~Nicosia, and V.~Nicosia, ``Pareto optimality in
+  multilayer network growth,'' {\em Physical review letters}, vol.~121, no.~12,
+  p.~128302, 2018.
+
+\bibitem{Gallotti2014Efficiency}
+R.~Gallotti and M.~Barthelemy, ``{Anatomy and efficiency of urban multimodal
+  mobility},'' {\em Scientific Reports}, vol.~4, no.~1, p.~6911, 2014.
+
 \bibitem{battista1996path}
 M.~G. Battista, M.~Lucertini, and B.~Simeone, ``Path composition and multiple
   choice in a bimodal transportation network. volume 2: Modelling transport
@@ -351,10 +377,6 @@ E.~Strano, S.~Shai, S.~Dobson, and M.~Barthelemy, ``{Multiplex networks in
 \bibitem{Freeman1977Centrality}
 L.~C. Freeman, ``A set of measures of centrality based on betweenness,'' {\em
   Sociometry}, vol.~40, no.~1, pp.~35--41, 1977.
-
-\bibitem{nicosia2013growing}
-V.~Nicosia, G.~Bianconi, V.~Latora, and M.~Barthelemy, ``{Growing multiplex
-  networks},'' {\em Physical Review Letters}, vol.~111, p.~058701, jul 2013.
 
 \bibitem{ding2018traffic}
 R.~Ding, N.~Ujang, H.~bin Hamid, M.~S.~A. Manan, Y.~He, R.~Li, and J.~Wu,
@@ -437,10 +459,6 @@ K.~E. Zannat and C.~F. Choudhury, ``Emerging big data sources for public
   transport planning: A systematic review on current state of art and future
   research directions,'' {\em Journal of the Indian Institute of Science},
   pp.~1--19, 2019.
-
-\bibitem{Gallotti2014Efficiency}
-R.~Gallotti and M.~Barthelemy, ``{Anatomy and efficiency of urban multimodal
-  mobility},'' {\em Scientific Reports}, vol.~4, no.~1, p.~6911, 2014.
 
 \bibitem{alessandretti2016user}
 L.~Alessandretti, M.~Karsai, and L.~Gauvin, ``{User-based representation of
