@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  12 MAY 2021 19:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  12 MAY 2021 19:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -819,7 +819,7 @@ Chapter 3.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31]
-<images/multiplex/Multilayer_NY_op2.png, id=930, 2199.21625pt x 741.77126pt>
+<images/multiplex/Multilayer_NY_op2.png, id=932, 2199.21625pt x 741.77126pt>
 File: images/multiplex/Multilayer_NY_op2.png Graphic file (type png)
 <use images/multiplex/Multilayer_NY_op2.png>
 Package pdftex.def Info: images/multiplex/Multilayer_NY_op2.png  used on input line 15.
@@ -828,13 +828,13 @@ Package pdftex.def Info: images/multiplex/Multilayer_NY_op2.png  used on input l
 Underfull \vbox (badness 1742) has occurred while \output is active []
 
  [33 </Users/natera/Dropbox/PhD/thesis/images/multiplex/Multilayer_NY_op2.png>]
-<images/multiplex/SchemaOverlapCensus.png, id=969, 11326.315pt x 5187.38pt>
+<images/multiplex/SchemaOverlapCensus.png, id=971, 11326.315pt x 5187.38pt>
 File: images/multiplex/SchemaOverlapCensus.png Graphic file (type png)
 <use images/multiplex/SchemaOverlapCensus.png>
 Package pdftex.def Info: images/multiplex/SchemaOverlapCensus.png  used on input line 58.
 (pdftex.def)             Requested size: 418.25368pt x 191.55013pt.
  [34 </Users/natera/Dropbox/PhD/thesis/images/multiplex/SchemaOverlapCensus.png>]
-<images/multiplex/ResultsOverlapCensus-01.png, id=979, 1456.2405pt x 658.3797pt>
+<images/multiplex/ResultsOverlapCensus-01.png, id=981, 1456.2405pt x 658.3797pt>
 File: images/multiplex/ResultsOverlapCensus-01.png Graphic file (type png)
 <use images/multiplex/ResultsOverlapCensus-01.png>
 Package pdftex.def Info: images/multiplex/ResultsOverlapCensus-01.png  used on input line 76.
@@ -853,7 +853,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1158) has occurred while \output is active []
 
  [40]
-<images/datadriven/Fig01.png, id=1058, 1723.94923pt x 589.10374pt>
+<images/datadriven/Fig01.png, id=1060, 1723.94923pt x 589.10374pt>
 File: images/datadriven/Fig01.png Graphic file (type png)
 <use images/datadriven/Fig01.png>
 Package pdftex.def Info: images/datadriven/Fig01.png  used on input line 17.
@@ -884,18 +884,18 @@ LaTeX Font Warning: Font shape `OT1/ppl/m/scit' undefined
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [45]
-<images/datadriven/algorithms.png, id=1146, 1146.4431pt x 486.1362pt>
+<images/datadriven/algorithms.png, id=1148, 1146.4431pt x 486.1362pt>
 File: images/datadriven/algorithms.png Graphic file (type png)
 <use images/datadriven/algorithms.png>
 Package pdftex.def Info: images/datadriven/algorithms.png  used on input line 147.
 (pdftex.def)             Requested size: 418.25368pt x 177.35292pt.
  [46] [47 </Users/natera/Dropbox/PhD/thesis/images/datadriven/algorithms.png (PNG copy)>]
-<images/datadriven/BPincrease.png, id=1156, 1199.4411pt x 1031.052pt>
+<images/datadriven/BPincrease.png, id=1158, 1199.4411pt x 1031.052pt>
 File: images/datadriven/BPincrease.png Graphic file (type png)
 <use images/datadriven/BPincrease.png>
 Package pdftex.def Info: images/datadriven/BPincrease.png  used on input line 160.
 (pdftex.def)             Requested size: 418.25368pt x 359.52061pt.
-<images/datadriven/SI_Lengths_Bike_Streets.png, id=1164, 1057.82631pt x 933.7284pt>
+<images/datadriven/SI_Lengths_Bike_Streets.png, id=1166, 1057.82631pt x 933.7284pt>
 File: images/datadriven/SI_Lengths_Bike_Streets.png Graphic file (type png)
 <use images/datadriven/SI_Lengths_Bike_Streets.png>
 Package pdftex.def Info: images/datadriven/SI_Lengths_Bike_Streets.png  used on input line 171.
@@ -908,7 +908,7 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [49 </Users/natera/Dropbox/PhD/thesis/images/datadriven/BPincrease.png (PNG copy)>]
-<images/datadriven/5km.png, id=1179, 1020.2115pt x 1126.6893pt>
+<images/datadriven/5km.png, id=1181, 1020.2115pt x 1126.6893pt>
 File: images/datadriven/5km.png Graphic file (type png)
 <use images/datadriven/5km.png>
 Package pdftex.def Info: images/datadriven/5km.png  used on input line 182.
@@ -917,12 +917,12 @@ Package pdftex.def Info: images/datadriven/5km.png  used on input line 182.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [50 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Lengths_Bike_Streets.png>] [51 </Users/natera/Dropbox/PhD/thesis/images/datadriven/5km.png (PNG copy)>]
-<images/datadriven/35km.png, id=1194, 1020.2115pt x 1126.6893pt>
+<images/datadriven/35km.png, id=1196, 1020.2115pt x 1126.6893pt>
 File: images/datadriven/35km.png Graphic file (type png)
 <use images/datadriven/35km.png>
 Package pdftex.def Info: images/datadriven/35km.png  used on input line 191.
 (pdftex.def)             Requested size: 418.25368pt x 461.91122pt.
-<images/datadriven/Reviewer_Coverage.png, id=1196, 937.44514pt x 1259.97583pt>
+<images/datadriven/Reviewer_Coverage.png, id=1198, 937.44514pt x 1259.97583pt>
 File: images/datadriven/Reviewer_Coverage.png Graphic file (type png)
 <use images/datadriven/Reviewer_Coverage.png>
 Package pdftex.def Info: images/datadriven/Reviewer_Coverage.png  used on input line 200.
@@ -941,19 +941,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [57
 
 ] [58] [59]
-<images/lqi/Budapest_Network_voronoi_op2.png, id=1310, 1264.725pt x 565.6332pt>
+<images/lqi/Budapest_Network_voronoi_op2.png, id=1312, 1264.725pt x 565.6332pt>
 File: images/lqi/Budapest_Network_voronoi_op2.png Graphic file (type png)
 <use images/lqi/Budapest_Network_voronoi_op2.png>
 Package pdftex.def Info: images/lqi/Budapest_Network_voronoi_op2.png  used on input line 39.
 (pdftex.def)             Requested size: 418.25368pt x 187.05655pt.
  [60] [61 </Users/natera/Dropbox/PhD/thesis/images/lqi/Budapest_Network_voronoi_op2.png>] [62] [63] [64] [65]
-<images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf, id=1370, 1772.44177pt x 716.6775pt>
+<images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf, id=1372, 1772.44177pt x 716.6775pt>
 File: images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf Graphic file (type pdf)
 <use images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf>
 Package pdftex.def Info: images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf  used on input line 164.
 (pdftex.def)             Requested size: 418.25368pt x 169.11911pt.
  [66 </Users/natera/Dropbox/PhD/thesis/images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf>]
-<images/lqi/LQI_categories_regplots.pdf, id=1434, 867.24pt x 578.16pt>
+<images/lqi/LQI_categories_regplots.pdf, id=1436, 867.24pt x 578.16pt>
 File: images/lqi/LQI_categories_regplots.pdf Graphic file (type pdf)
 <use images/lqi/LQI_categories_regplots.pdf>
 Package pdftex.def Info: images/lqi/LQI_categories_regplots.pdf  used on input line 187.
@@ -970,72 +970,72 @@ Underfull \hbox (badness 1122) in paragraph at lines 233--236
  []
 
 [77] [78] [79] [80] [81] [82] [83]
-Underfull \hbox (badness 10000) in paragraph at lines 633--635
+Underfull \hbox (badness 10000) in paragraph at lines 638--640
 []\OT1/ppl/m/n/12 Google, ``tran-sit-feed.'' V.1.2.16 []$\OT1/cmtt/m/n/12 https : / / github . com / google /
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 642--645
+Underfull \hbox (badness 1005) in paragraph at lines 647--650
 \OT1/ppl/m/n/12 Ti-layer net-works.'' GitHub repos-i-tory. []$\OT1/cmtt/m/n/12 https : / / github . com / KatolaZ /
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 665--668
+Underfull \hbox (badness 1946) in paragraph at lines 670--673
 []\OT1/ppl/m/n/12 M. Barthelemy, P. Bor-din, H. Beresty-cki, and M. Grib-audi, ``Self-
  []
 
 [84] [85] [86] [87]
-Underfull \hbox (badness 1226) in paragraph at lines 865--870
+Underfull \hbox (badness 1226) in paragraph at lines 870--875
 []\OT1/ppl/m/n/12 N. Mueller, D. Rojas-Rueda, M. Salmon, D. Mar-tinez, A. Am-bros,
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 865--870
+Underfull \hbox (badness 1616) in paragraph at lines 870--875
 \OT1/ppl/m/n/12 T. G[]otschi, F. Ia-corossi, L. Int Pa-nis, S. Kahlmeier, E. Raser, and
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 872--876
+Underfull \hbox (badness 1337) in paragraph at lines 877--881
 \OT1/ppl/m/n/12 friendly in-fras-truc-ture plan-ning in bei-jing and copenhagen-between
  []
 
 [88] [89]
-Underfull \hbox (badness 5133) in paragraph at lines 972--974
+Underfull \hbox (badness 5133) in paragraph at lines 977--979
 []\OT1/ppl/m/n/12 OpenStreetMap con-trib-u-tors, ``Bu-dapest dis-tricts.'' []$\OT1/cmtt/m/n/12 https : / / data2 .
  []
 
 [90]
-Underfull \hbox (badness 2012) in paragraph at lines 1035--1038
+Underfull \hbox (badness 2012) in paragraph at lines 1040--1043
 []\OT1/ppl/m/n/12 G. K[]ov[]er and G. Gy[]ani, ``Mag-yarorsz[]ag t[]arsadalomt[]ort[]enete a re-
  []
 
 [91]
-Underfull \hbox (badness 10000) in paragraph at lines 1100--1103
+Underfull \hbox (badness 10000) in paragraph at lines 1105--1108
 []\OT1/ppl/m/n/12 Sportmegoldasok, ``Sport as-so-ci-a-tions in bu-dapest.'' []$\OT1/cmtt/m/n/12 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1100--1103
+Underfull \hbox (badness 10000) in paragraph at lines 1105--1108
 \OT1/cmtt/m/n/12 / / sportmegoldasok . hu / klub _ budapest . ht$[]\OT1/ppl/m/n/12 , 2019 (ac-cesed June 3,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1123--1126
+Underfull \hbox (badness 10000) in paragraph at lines 1128--1131
 []\OT1/ppl/m/n/12 valami.info, ``Cul-ture cen-ters.'' []$\OT1/cmtt/m/n/12 https : / / holmivan . valami . info /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1128--1131
+Underfull \hbox (badness 10000) in paragraph at lines 1133--1136
 []\OT1/ppl/m/n/12 imami.hu, ``In-door play-grounds.'' []$\OT1/cmtt/m/n/12 http : / / budapest . imami . hu /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1138--1141
+Underfull \hbox (badness 10000) in paragraph at lines 1143--1146
 []\OT1/ppl/m/n/12 BudapestInfo.eu, ``Fit-ness and train-ing fa-cil-i-ties.'' []$\OT1/cmtt/m/n/12 https : / / www .
  []
 
 
-Underfull \hbox (badness 5460) in paragraph at lines 1138--1141
+Underfull \hbox (badness 5460) in paragraph at lines 1143--1146
 \OT1/cmtt/m/n/12 budapestinfo . eu / sportolas / fitnesstermek$[]\OT1/ppl/m/n/12 , 2019 (ac-cesed June 3,
  []
 
@@ -1043,7 +1043,7 @@ Underfull \hbox (badness 5460) in paragraph at lines 1138--1141
 
 ]
 Chapter 7.
-<images/datadriven/Nodes_cc.png, id=1687, 1156.32pt x 939.51pt>
+<images/datadriven/Nodes_cc.png, id=1689, 1156.32pt x 939.51pt>
 File: images/datadriven/Nodes_cc.png Graphic file (type png)
 <use images/datadriven/Nodes_cc.png>
 Package pdftex.def Info: images/datadriven/Nodes_cc.png  used on input line 10.
@@ -1051,7 +1051,7 @@ Package pdftex.def Info: images/datadriven/Nodes_cc.png  used on input line 10.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Nodes.png, id=1692, 1057.41335pt x 933.7284pt>
+<images/datadriven/SI_Nodes.png, id=1694, 1057.41335pt x 933.7284pt>
 File: images/datadriven/SI_Nodes.png Graphic file (type png)
 <use images/datadriven/SI_Nodes.png>
 Package pdftex.def Info: images/datadriven/SI_Nodes.png  used on input line 22.
@@ -1059,7 +1059,7 @@ Package pdftex.def Info: images/datadriven/SI_Nodes.png  used on input line 22.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Lengths.png, id=1693, 1057.82631pt x 933.7284pt>
+<images/datadriven/SI_Lengths.png, id=1695, 1057.82631pt x 933.7284pt>
 File: images/datadriven/SI_Lengths.png Graphic file (type png)
 <use images/datadriven/SI_Lengths.png>
 Package pdftex.def Info: images/datadriven/SI_Lengths.png  used on input line 29.

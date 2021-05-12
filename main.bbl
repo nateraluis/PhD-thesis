@@ -551,15 +551,20 @@ Z.~Zheng, Z.~Huang, F.~Zhang, and P.~Wang, ``{Understanding coupling dynamics
   of public transportation networks},'' {\em EPJ Data Science}, vol.~7, p.~23,
   dec 2018.
 
-\bibitem{gallotti2016stochastic}
-R.~Gallotti, A.~Bazzani, S.~Rambaldi, and M.~Barthelemy, ``A stochastic model
-  of randomly accelerated walkers for human mobility,'' {\em Nature
-  communications}, vol.~7, no.~1, pp.~1--7, 2016.
+\bibitem{alessandretti2017multi}
+L.~Alessandretti, P.~Sapiezynski, S.~Lehmann, and A.~Baronchelli, ``Multi-scale
+  spatio-temporal analysis of human mobility,'' {\em PloS one}, vol.~12, no.~2,
+  p.~e0171686, 2017.
 
 \bibitem{zhao2015explaining}
 K.~Zhao, M.~Musolesi, P.~Hui, W.~Rao, and S.~Tarkoma, ``Explaining the
   power-law distribution of human mobility through transportationmodality
   decomposition,'' {\em Scientific reports}, vol.~5, no.~1, pp.~1--7, 2015.
+
+\bibitem{gallotti2016stochastic}
+R.~Gallotti, A.~Bazzani, S.~Rambaldi, and M.~Barthelemy, ``A stochastic model
+  of randomly accelerated walkers for human mobility,'' {\em Nature
+  communications}, vol.~7, no.~1, pp.~1--7, 2016.
 
 \bibitem{varga2016further}
 L.~Varga, A.~Kov{\'a}cs, G.~Toth, I.~Papp, and Z.~N{\'e}da, ``Further we travel
