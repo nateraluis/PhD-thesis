@@ -2,54 +2,56 @@ This is BibTeX, Version 0.99d (TeX Live 2020)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 10566 items from 5000.
+Reallocated field_info (elt_size=4) to 10865 items from 5000.
 Database file #1: bibliography.bib
 Warning--string name "january" is undefined
---line 2617 of file bibliography.bib
+--line 2176 of file bibliography.bib
+Warning--string name "january" is undefined
+--line 2719 of file bibliography.bib
 Warning--I didn't find a database entry for "decea2007"
 Warning--empty journal in batty2004new
 Warning--empty publisher in Hochmair2012
 Warning--empty journal in kunze2011conceptual
 Warning--empty journal in Lora2011New
-You've used 241 entries,
+You've used 254 entries,
             1876 wiz_defined-function locations,
-            1816 strings with 46472 characters,
-and the built_in function-call counts, 64931 in all, are:
-= -- 6582
-> -- 2538
+            1868 strings with 48056 characters,
+and the built_in function-call counts, 67448 in all, are:
+= -- 6815
+> -- 2649
 < -- 1
-+ -- 951
-- -- 710
-* -- 4546
-:= -- 9057
-add.period$ -- 262
-call.type$ -- 241
-change.case$ -- 221
++ -- 995
+- -- 741
+* -- 4709
+:= -- 9428
+add.period$ -- 275
+call.type$ -- 254
+change.case$ -- 234
 chr.to.int$ -- 0
-cite$ -- 245
-duplicate$ -- 3316
-empty$ -- 5965
-format.name$ -- 710
-if$ -- 15939
+cite$ -- 258
+duplicate$ -- 3423
+empty$ -- 6234
+format.name$ -- 741
+if$ -- 16551
 int.to.chr$ -- 0
-int.to.str$ -- 241
-missing$ -- 216
-newline$ -- 747
-num.names$ -- 246
-pop$ -- 693
+int.to.str$ -- 254
+missing$ -- 222
+newline$ -- 786
+num.names$ -- 259
+pop$ -- 750
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2546
+skip$ -- 2625
 stack$ -- 0
-substring$ -- 4158
-swap$ -- 1517
+substring$ -- 4262
+swap$ -- 1549
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 664
-width$ -- 244
-write$ -- 2369
-(There were 6 warnings)
+while$ -- 689
+width$ -- 257
+write$ -- 2481
+(There were 7 warnings)

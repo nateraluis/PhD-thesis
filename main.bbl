@@ -626,18 +626,21 @@ Y.~Zheng, H.~Fu, X.~Xie, W.-Y. Ma, and Q.~Li, {\em Geolife GPS trajectory
   dataset - User Guide}, geolife gps trajectories 1.1~ed., July 2011.
 \newblock Geolife GPS trajectories 1.1.
 
+\bibitem{lovelace2021open}
+R.~Lovelace, ``Open source tools for geographic analysis in transport
+  planning,'' {\em Journal of Geographical Systems}, January 2021.
+
 \bibitem{hagberg2008networkx}
 A.~Hagberg, D.~Schult, and P.~Swart, ``Exploring network structure, dynamics,
   and function using networkx,'' in {\em Proceedings of the 7th Python in
   Science Conference (SciPy2008)}, pp.~11--15, 2008.
 
-\bibitem{peixoto2020graphtool}
-T.~d.~P. Peixoto, ``graph-tool.'' graph-tool, V2.35,
-  \url{https://graph-tool.skewed.de/}, 2020.
-
 \bibitem{csardi2006igraph}
 G.~Cs\'{a}di and T.~Nepusz, ``{Igraph}.'' V0.8.3 \url{https://igraph.org/},
   2006.
+
+\bibitem{peixoto2014graph-tool}
+T.~P. Peixoto, ``The graph-tool python library,'' {\em figshare}, 2014.
 
 \bibitem{boeing2017osmnx}
 G.~Boeing, ``{OSMnx: New methods for acquiring, constructing, analyzing, and
@@ -648,9 +651,26 @@ G.~Boeing, ``{OSMnx: New methods for acquiring, constructing, analyzing, and
 H.~Tenkanen, ``pyrosm.'' V.0.5.0 \url{https://github.com/HTenkanen/pyrosm}, may
   2020.
 
+\bibitem{overpass}
+{OpenStreetMap contributors}, ``{Overpass API}.''
+  \url{https://overpass-api.de/}, 2017.
+
 \bibitem{google2020gtfs}
 Google, ``transitfeed.'' V.1.2.16 \url{https://github.com/google/transitfeed},
   2018.
+
+\bibitem{butts2021peartree}
+K.~Butts, ``Peartree.'' Peartree, V0.6.4,
+  \url{https://github.com/kuanb/peartree/releases/tag/0.6.4}, 2021.
+
+\bibitem{graser2019movingpandas}
+A.~Graser, ``Movingpandas: efficient structures for movement data in python,''
+  {\em GIForum}, vol.~1, pp.~54--68, 2019.
+
+\bibitem{pappalardo2021scikitmobility}
+L.~Pappalardo, F.~Simini, G.~Barlacchi, and R.~Pellungrini, ``scikit-mobility:
+  a python library for the analysis, generation and risk assessment of mobility
+  data,'' 2021.
 
 \bibitem{dedomenico2015muxviz}
 M.~{De Domenico}, M.~A. Porter, and A.~Arenas, ``{MuxViz: A tool for multilayer
@@ -675,10 +695,43 @@ M.~Magnani, L.~Rossi, and D.~Vega, ``{Multiplex network analysis with R},''
   {\em Journal of Statistical Software}, 2020.
 \newblock Accepted for publication.
 
+\bibitem{rossi2015towards}
+L.~Rossi and M.~Magnani, ``Towards effective visual analytics on multiplex and
+  multilayer networks,'' {\em Chaos, Solitons \& Fractals}, vol.~72,
+  pp.~68--76, 2015.
+
 \bibitem{rivero2020algebraic}
 J.~A. {Rivero Ostoic}, ``Algebraic analysis of multiple social networks with
   multiplex,'' {\em Journal of Statistical Software}, vol.~92, no.~11,
   pp.~1--41, 2020.
+
+\bibitem{mapbox}
+{Mapbox}, ``{mapbox}.'' \url{https://www.mapbox.com/about/maps/}, 2021.
+
+\bibitem{carto}
+{Carto}, ``{CARTO}.'' \url{https://carto.com/}, 2021.
+
+\bibitem{kepler2021kepler}
+{kepler.gl contributors}, ``Kepler.gl.'' Kepler, V2.5.1,
+  \url{https://github.com/keplergl/kepler.gl/releases/tag/v2.5.1}, 2021.
+
+\bibitem{unfolded}
+{Unfolded}, ``{Unfolded Studio}.'' \url{https://studio.unfolded.ai/home}, 2021.
+
+\bibitem{de2013unique}
+Y.-A. De~Montjoye, C.~A. Hidalgo, M.~Verleysen, and V.~D. Blondel, ``Unique in
+  the crowd: The privacy bounds of human mobility,'' {\em Scientific reports},
+  vol.~3, no.~1, pp.~1--5, 2013.
+
+\bibitem{stodden2016enhancing}
+V.~Stodden, M.~McNutt, D.~H. Bailey, E.~Deelman, Y.~Gil, B.~Hanson, M.~A.
+  Heroux, J.~P. Ioannidis, and M.~Taufer, ``Enhancing reproducibility for
+  computational methods,'' {\em Science}, vol.~354, no.~6317, pp.~1240--1241,
+  2016.
+
+\bibitem{luca2020deep}
+M.~Luca, G.~Barlacchi, B.~Lepri, and L.~Pappalardo, ``Deep learning for human
+  mobility: a survey on data and models,'' 2020.
 
 \bibitem{Barthelemy2013Evolution}
 M.~Barthelemy, P.~Bordin, H.~Berestycki, and M.~Gribaudi, ``{Self-organization
