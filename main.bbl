@@ -217,30 +217,9 @@ R.~Gallotti, M.~A. Porter, and M.~Barthelemy, ``{Lost in transportation:
 M.~Barthelemy, {\em The structure and dynamics of cities}.
 \newblock Cambridge University Press, 2016.
 
-\bibitem{lobo2020urban}
-J.~Lobo, M.~Alberti, M.~Allen-Dumas, E.~Arcaute, M.~Barthelemy, L.~A.
-  Bojorquez~Tapia, S.~Brail, L.~Bettencourt, A.~Beukes, W.-Q. Chen, {\em
-  et~al.}, ``Urban science: Integrated theory from the first cities to
-  sustainable metropolises.'' Report submitted to the NSF on the Present State
-  and Future of Urban Science, 2020.
-
-\bibitem{natera2020walkability}
-L.~G. {Natera Orozco}, D.~Deritei, A.~Vancs\'{o}, and O.~V\'{a}s\'{a}rhelyi,
-  ``Quantifying life quality as walkability on urban networks: The case of
-  {Budapest},'' in {\em Complex Networks and Their Applications VIII}
-  (H.~Cherifi, S.~Gaito, J.~F. Mendes, E.~Moro, and L.~M. Rocha, eds.), (Cham),
-  pp.~905--918, Springer International Publishing, 2020.
-
-\bibitem{natera2020growth}
-L.~G. {Natera Orozco}, F.~Battiston, G.~I{\~{n}}iguez, and M.~Szell,
-  ``{Data-driven strategies for optimal bicycle network growth},'' {\em Royal
-  Society Open Science}, vol.~7, no.~12, p.~201130, 2020.
-
-\bibitem{organizers2019roundtable}
-Organizers, W.~Kang, T.~Oshan, L.~J. Wolf, Discussants, G.~Boeing,
-  V.~Frias-Martinez, S.~Gao, A.~Poorthuis, and W.~Xu, ``A roundtable
-  discussion: Defining urban data science,'' {\em Environment and Planning B:
-  Urban Analytics and City Science}, vol.~46, no.~9, pp.~1756--1768, 2019.
+\bibitem{barthelemy2018morphogenesis}
+M.~Barthelemy, {\em Morphogenesis of spatial networks}.
+\newblock Springer, 2018.
 
 \bibitem{nicosia2015measuring}
 V.~Nicosia and V.~Latora, ``Measuring and modeling correlations in multiplex
@@ -610,6 +589,11 @@ J.-P. Rodrigue, C.~Comtois, and B.~Slack, {\em The Geography of Transport
   Systems (Third Edition)}.
 \newblock Routledge, 2013.
 
+\bibitem{natera2020growth}
+L.~G. {Natera Orozco}, F.~Battiston, G.~I{\~{n}}iguez, and M.~Szell,
+  ``{Data-driven strategies for optimal bicycle network growth},'' {\em Royal
+  Society Open Science}, vol.~7, no.~12, p.~201130, 2020.
+
 \bibitem{Eliasson2008Lessons}
 J.~Eliasson, ``{Lessons from the Stockholm congestion charging trial},'' {\em
   Transport Policy}, vol.~15, no.~6, pp.~395--404, 2008.
@@ -793,6 +777,13 @@ T.~A. Carstensen, A.~S. Olafsson, N.~M. Bech, T.~S. Poulsen, and C.~Zhao, ``The
   spatio-temporal development of copenhagen's bicycle infrastructure
   1912--2013,'' {\em Geografisk Tidsskrift-Danish Journal of Geography},
   vol.~115, no.~2, pp.~142--156, 2015.
+
+\bibitem{natera2020walkability}
+L.~G. {Natera Orozco}, D.~Deritei, A.~Vancs\'{o}, and O.~V\'{a}s\'{a}rhelyi,
+  ``Quantifying life quality as walkability on urban networks: The case of
+  {Budapest},'' in {\em Complex Networks and Their Applications VIII}
+  (H.~Cherifi, S.~Gaito, J.~F. Mendes, E.~Moro, and L.~M. Rocha, eds.), (Cham),
+  pp.~905--918, Springer International Publishing, 2020.
 
 \bibitem{Heylen2006Liveability}
 K.~Heylen, ``Liveability in social housing: three case studies in flanders,''

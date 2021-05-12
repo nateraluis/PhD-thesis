@@ -7,45 +7,45 @@ Warning--empty journal in batty2004new
 Warning--empty publisher in Hochmair2012
 Warning--empty journal in kunze2011conceptual
 Warning--empty journal in Lora2011New
-You've used 217 entries,
+You've used 216 entries,
             1876 wiz_defined-function locations,
-            1705 strings with 42981 characters,
-and the built_in function-call counts, 58525 in all, are:
-= -- 5928
-> -- 2284
+            1699 strings with 42401 characters,
+and the built_in function-call counts, 57938 in all, are:
+= -- 5887
+> -- 2221
 < -- 1
-+ -- 857
-- -- 640
-* -- 4108
-:= -- 8163
++ -- 836
+- -- 620
+* -- 4046
+:= -- 8066
 add.period$ -- 235
-call.type$ -- 217
-change.case$ -- 199
+call.type$ -- 216
+change.case$ -- 197
 chr.to.int$ -- 0
-cite$ -- 221
-duplicate$ -- 2965
-empty$ -- 5389
-format.name$ -- 640
-if$ -- 14355
+cite$ -- 220
+duplicate$ -- 2951
+empty$ -- 5358
+format.name$ -- 620
+if$ -- 14230
 int.to.chr$ -- 0
-int.to.str$ -- 217
-missing$ -- 192
-newline$ -- 672
-num.names$ -- 220
-pop$ -- 632
+int.to.str$ -- 216
+missing$ -- 193
+newline$ -- 670
+num.names$ -- 219
+pop$ -- 631
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2291
+skip$ -- 2271
 stack$ -- 0
-substring$ -- 3791
-swap$ -- 1351
+substring$ -- 3751
+swap$ -- 1341
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 603
-width$ -- 220
-write$ -- 2128
+while$ -- 599
+width$ -- 219
+write$ -- 2118
 (There were 4 warnings)
