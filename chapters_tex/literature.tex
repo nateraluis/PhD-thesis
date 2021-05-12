@@ -231,19 +231,20 @@ Chodrow et al.~\cite{chodrow2016congestion} quantified how the creation of a pla
 Using this approach, Chodrow et al. showed that, as the subway speed increases the global congestion is reduced, but increases locally close to key metro station.
 
 \paragraph{Navigability} 
-As cities and their transportation systems become increasingly complex and multimodal, it is important to quantify our difficulty navigating in them. It has been shown that multilayer transport system are characterized by limited navigability, implying that finding one's way is cognitively challenging \cite{gallotti2016limits}. To quantify the difficulty of navigating between two nodes $s$ and $t$ in a network, one can compute the total information value of knowing any of the shortest paths to reach $t$ from $s$:
+As cities and their transportation systems become increasingly complex and multimodal, it is important to quantify our difficulty navigating in them. It has been shown that multilayer transport system are characterized by limited navigability, implying that finding one's way is cognitively challenging~\cite{gallotti2016limits}. To quantify the difficulty of navigating between two nodes $s$ and $t$ in a network, one can compute the total information value of knowing any of the shortest paths to reach $t$ from $s$:
+
 
 \begin{equation}
-S(s \rightarrow t) = - log_2 \sum_{\{p(s,t)\}} P[p(s,t)]
+S(s \rightarrow t) = - \log_2 \sum_{\{p(s,t)\}} P[p(s,t)]
 \end{equation}
 
 where  ${p(s, t)}$ is the set of shortest paths between $s$ and $t$ (note that there can be more than one with the same length) and $P[p(s,t)]$ is the probability to follow path $p(s,t)$, making the right choice at each intersection along the path~\cite{rosvall2005networks}:
 
 \begin{equation}
-     P[p(s,t)]=\frac{1}{k_s}\prod_{j\in p(s,t)}\frac{1}{k_j-1}, 
+    P[p(s,t)]=\frac{1}{k_s}\prod_{j\in p(s,t)}\frac{1}{k_j-1}, 
 \end{equation}
 
-In Gallotti et al.~\cite{gallotti2016limits} the authors quantified the amount of information an individual needs in order to travel along the shortest path between any given pair of metro stations, in the single-layer metro networks for 15 large cities. They found that this information has an upper bound of the order of 8 bits, corresponding to approximately 250 connections between different routes. Further, studying several among the largest multi-layer transport networks (metro/buses/light rail), they showed that the amount of information one needs to know to travel between any two points exceeds the identified cognitive limit of 8 bits in 80\% the cases, suggesting multi-layer are too complex for individuals to navigate easily.
+Gallotti et al.~\cite{gallotti2016limits} quantified the amount of information an individual needs to travel along the shortest path between any given pair of metro stations, in the single-layer metro networks for 15 large cities. They found that this information has an upper bound of the order of 8 bits, corresponding to approximately 250 connections between different routes. Further, studying several among the largest multilayer transport networks (metro/buses/light rail), Gallotti et al.~\cite{gallotti2016limits} showed that the amount of information necessary to know to travel between any two points exceeds the identified cognitive limit of 8 bits in 80\% the cases, suggesting multilayer networks are too complex for individuals to navigate easily.
 
 \subsubsection{Individual multi-modal behaviour.}
 In recent years, data collected via smart travel cards has dramatically improved our ability to characterize multimodal behaviour in urban transport systems, overcoming some of the limitations related to collecting and analyzing survey data~\cite{chen2016promises,zannat2019emerging}. Smart-card automated fare collection systems allow passengers to make journeys involving different transport modes using magnetic cards and automatic gate machines. As these systems identify and store the location and time where individuals board and, in some cases, alight public transport, they collect accurate descriptions of individual travel~\cite{pelletier2011smart}. Concurrently, advancements were made possible by the development of methodologies allowing to identify typical travel patterns~\cite{ma2013mining}.
