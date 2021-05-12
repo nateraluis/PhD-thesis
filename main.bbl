@@ -403,14 +403,49 @@ P.~Br{\'{o}}dka, A.~Chmiel, M.~Magnani, and G.~Ragozini, ``{Quantifying layer
 M.~Patriksson, {\em The traffic assignment problem: models and methods}.
 \newblock Courier Dover Publications, 2015.
 
+\bibitem{kurant2006extraction}
+M.~Kurant and P.~Thiran, ``Extraction and analysis of traffic and topologies of
+  transportation networks,'' {\em Physical Review E}, vol.~74, no.~3,
+  p.~036114, 2006.
+
 \bibitem{mcnally2000four}
 M.~G. McNally, ``The four step model,'' {\em Handbook of transport modelling},
   vol.~1, pp.~35--41, 2000.
+
+\bibitem{song2010modelling}
+C.~Song, T.~Koren, P.~Wang, and A.-L. Barab{\'a}si, ``Modelling the scaling
+  properties of human mobility,'' {\em Nature physics}, vol.~6, no.~10,
+  pp.~818--823, 2010.
+
+\bibitem{jiang2016timegeo}
+S.~Jiang, Y.~Yang, S.~Gupta, D.~Veneziano, S.~Athavale, and M.~C. Gonz{\'a}lez,
+  ``The timegeo modeling framework for urban mobility without travel surveys,''
+  {\em Proceedings of the National Academy of Sciences}, vol.~113, no.~37,
+  pp.~E5370--E5378, 2016.
+
+\bibitem{alessandretti2020scales}
+L.~Alessandretti, U.~Aslak, and S.~Lehmann, ``The scales of human mobility,''
+  {\em Nature}, vol.~587, no.~7834, pp.~402--407, 2020.
+
+\bibitem{simini2012universal}
+F.~Simini, M.~C. Gonz{\'a}lez, A.~Maritan, and A.-L. Barab{\'a}si, ``A
+  universal model for mobility and migration patterns,'' {\em Nature},
+  vol.~484, no.~7392, pp.~96--100, 2012.
+
+\bibitem{schlapfer2020hidden}
+M.~Schl{\"a}pfer, M.~Szell, H.~Salat, C.~Ratti, and G.~B. West, ``The hidden
+  universality of movement in cities,'' {\em arXiv preprint arXiv:2002.06070},
+  2020.
 
 \bibitem{sole2016random}
 A.~Sol{\'e}-Ribalta, M.~De~Domenico, S.~G{\'o}mez, and A.~Arenas, ``Random walk
   centrality in interconnected multilayer networks,'' {\em Physica D: Nonlinear
   Phenomena}, vol.~323, pp.~73--79, 2016.
+
+\bibitem{wardrop1952road}
+J.~G. Wardrop, ``Road paper. some theoretical aspects of road traffic
+  research.,'' {\em Proceedings of the institution of civil engineers}, vol.~1,
+  no.~3, pp.~325--362, 1952.
 
 \bibitem{tan2014congestion}
 F.~Tan, J.~Wu, Y.~Xia, and C.~K. Tse, ``{Traffic congestion in interconnected
@@ -426,6 +461,21 @@ A.~Bassolas, R.~Gallotti, F.~Lamanna, M.~Lenormand, and J.~J. Ramasco,
 S.~Manfredi, E.~{Di Tucci}, and V.~Latora, ``{Mobility and Congestion in
   Dynamical Multilayer Networks with Finite Storage Capacity},'' {\em Physical
   Review Letters}, vol.~120, p.~068301, feb 2018.
+
+\bibitem{du2014traffic}
+W.-B. Du, X.-L. Zhou, Z.~Chen, K.-Q. Cai, and X.-B. Cao, ``Traffic dynamics on
+  coupled spatial networks,'' {\em Chaos, Solitons \& Fractals}, vol.~68,
+  pp.~72--77, 2014.
+
+\bibitem{bongiorno2021vector}
+C.~Bongiorno, Y.~Zhou, M.~Kryven, D.~Theurel, A.~Rizzo, P.~Santi, J.~Tenenbaum,
+  and C.~Ratti, ``Vector-based pedestrian navigation in cities,'' {\em arXiv
+  preprint arXiv:2103.07104}, 2021.
+
+\bibitem{manley2018exploring}
+E.~Manley and T.~Cheng, ``Exploring the role of spatial cognition in predicting
+  urban traffic flow through agent-based modelling,'' {\em Transportation
+  Research Part A: Policy and Practice}, vol.~109, pp.~14--23, 2018.
 
 \bibitem{arentze2013travelers}
 T.~A. Arentze and E.~J. Molin, ``Travelers’ preferences in multimodal
