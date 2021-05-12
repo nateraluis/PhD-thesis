@@ -278,11 +278,44 @@ J.~de~Cea, J.~E. Fern{\'{a}}ndez, V.~Dekock, and A.~Soto, ``{Solving network
   multiple user classes},'' {\em Transport Reviews}, vol.~25, no.~3,
   pp.~293--317, 2005.
 
+\bibitem{boyce1994introducing}
+D.~E. Boyce, Y.-F. Zhang, and M.~R. Lupa, ``Introducing" feedback" into
+  four-step travel forecasting procedure versus equilibrium solution of
+  combined model,'' {\em Transportation Research Record}, vol.~1443, p.~65,
+  1994.
+
+\bibitem{boyce2002sequential}
+D.~Boyce, ``Is the sequential travel forecasting paradigm counterproductive?,''
+  {\em Journal of Urban Planning and Development}, vol.~128, no.~4,
+  pp.~169--183, 2002.
+
 \bibitem{li2007parkride}
 Z.~C. Li, W.~H. Lam, S.~C. Wong, D.~L. Zhu, and H.~J. Huang, ``{Modeling
   park-and-ride services in a multimodal transport network with elastic
   demand},'' {\em Transportation Research Record}, vol.~1994, pp.~101--109, jan
   2007.
+
+\bibitem{shoup2017high}
+D.~Shoup, {\em The high cost of free parking: Updated edition}.
+\newblock Routledge, 2017.
+
+\bibitem{morris2012transport}
+R.~G. Morris and M.~Barthelemy, ``{Transport on coupled spatial networks},''
+  {\em Physical Review Letters}, vol.~109, p.~128703, sep 2012.
+
+\bibitem{gao2017comprehensive}
+L.~Gao, P.~Shu, M.~Tang, W.~Wang, and H.~Gao, ``Comprehensive routing strategy
+  on multilayer networks,'' {\em arXiv preprint arXiv:1701.05307}, 2017.
+
+\bibitem{zhuo2011traffic}
+Y.~Zhuo, Y.~Peng, C.~Liu, Y.~Liu, and K.~Long, ``Traffic dynamics on layered
+  complex networks,'' {\em Physica A: Statistical Mechanics and its
+  Applications}, vol.~390, no.~12, pp.~2401--2407, 2011.
+
+\bibitem{du2016physics}
+W.-B. Du, X.-L. Zhou, M.~Jusup, and Z.~Wang, ``Physics of transportation:
+  Towards optimal capacity using the multilayer network framework,'' {\em
+  Scientific reports}, vol.~6, no.~1, pp.~1--8, 2016.
 
 \bibitem{gil2014configuration}
 J.~Gil, ``Analyzing the configuration of multimodal urban networks,'' {\em
@@ -292,6 +325,11 @@ J.~Gil, ``Analyzing the configuration of multimodal urban networks,'' {\em
 A.~Aleta, S.~Meloni, and Y.~Moreno, ``{A Multilayer perspective for the
   analysis of urban transportation systems},'' {\em Scientific Reports},
   vol.~7, 2017.
+
+\bibitem{rhoads2020planning}
+D.~Rhoads, A.~Sol{\'e}-Ribalta, M.~C. Gonz{\'a}lez, and J.~Borge-Holthoefer,
+  ``Planning for sustainable open streets in pandemic cities,'' {\em arXiv
+  preprint arXiv:2009.12548}, 2020.
 
 \bibitem{battista1996path}
 M.~G. Battista, M.~Lucertini, and B.~Simeone, ``Path composition and multiple
@@ -313,10 +351,6 @@ E.~Strano, S.~Shai, S.~Dobson, and M.~Barthelemy, ``{Multiplex networks in
 \bibitem{Freeman1977Centrality}
 L.~C. Freeman, ``A set of measures of centrality based on betweenness,'' {\em
   Sociometry}, vol.~40, no.~1, pp.~35--41, 1977.
-
-\bibitem{morris2012transport}
-R.~G. Morris and M.~Barthelemy, ``{Transport on coupled spatial networks},''
-  {\em Physical Review Letters}, vol.~109, p.~128703, sep 2012.
 
 \bibitem{nicosia2013growing}
 V.~Nicosia, G.~Bianconi, V.~Latora, and M.~Barthelemy, ``{Growing multiplex

@@ -2,50 +2,52 @@ This is BibTeX, Version 0.99d (TeX Live 2020)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: ieeetr.bst
+Reallocated field_info (elt_size=4) to 10152 items from 5000.
 Database file #1: bibliography.bib
+Warning--I didn't find a database entry for "decea2007"
 Warning--empty journal in batty2004new
 Warning--empty publisher in Hochmair2012
 Warning--empty journal in kunze2011conceptual
 Warning--empty journal in Lora2011New
-You've used 216 entries,
+You've used 223 entries,
             1876 wiz_defined-function locations,
-            1699 strings with 42401 characters,
-and the built_in function-call counts, 57938 in all, are:
-= -- 5887
-> -- 2221
+            1730 strings with 43529 characters,
+and the built_in function-call counts, 59673 in all, are:
+= -- 6053
+> -- 2302
 < -- 1
-+ -- 836
-- -- 620
-* -- 4046
-:= -- 8066
-add.period$ -- 235
-call.type$ -- 216
-change.case$ -- 197
++ -- 866
+- -- 643
+* -- 4174
+:= -- 8324
+add.period$ -- 243
+call.type$ -- 223
+change.case$ -- 203
 chr.to.int$ -- 0
-cite$ -- 220
-duplicate$ -- 2951
-empty$ -- 5358
-format.name$ -- 620
-if$ -- 14230
+cite$ -- 227
+duplicate$ -- 3040
+empty$ -- 5519
+format.name$ -- 643
+if$ -- 14648
 int.to.chr$ -- 0
-int.to.str$ -- 216
-missing$ -- 193
-newline$ -- 670
-num.names$ -- 219
-pop$ -- 631
+int.to.str$ -- 223
+missing$ -- 201
+newline$ -- 692
+num.names$ -- 226
+pop$ -- 651
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2271
+skip$ -- 2320
 stack$ -- 0
-substring$ -- 3751
-swap$ -- 1341
+substring$ -- 3843
+swap$ -- 1374
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 599
-width$ -- 219
-write$ -- 2118
-(There were 4 warnings)
+while$ -- 616
+width$ -- 226
+write$ -- 2186
+(There were 5 warnings)

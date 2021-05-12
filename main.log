@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  12 MAY 2021 16:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  12 MAY 2021 17:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -713,7 +713,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 ...al investment strategies}{50}{section.4.5}
+l.38 ...al investment strategies}{52}{section.4.5}
                                                   % [1
 
 ])
@@ -788,71 +788,87 @@ l.23
       [8]
 Underfull \vbox (badness 1221) has occurred while \output is active []
 
- [9] [10]
-Underfull \vbox (badness 2205) has occurred while \output is active []
+ [9]
+
+LaTeX Warning: Citation `decea2007' on page 10 undefined on input line 43.
+
+[10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
-Underfull \vbox (badness 2205) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `interdependence' on page 13 undefined on input line 70.
+ [13]
 
-[13]
-Underfull \vbox (badness 4303) has occurred while \output is active []
+LaTeX Warning: Citation `kim2013coevolution' on page 14 undefined on input line 61.
 
- [14] [15] [16] [17] [18]
-LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 173.
+
+LaTeX Warning: Citation `nicosia2014nonlinear' on page 14 undefined on input line 61.
+
+
+LaTeX Warning: Citation `barabasi1999emergence' on page 14 undefined on input line 61.
+
+
+LaTeX Warning: Citation `santoro2018pareto' on page 14 undefined on input line 61.
+
+[14] [15] [16] [17] [18] [19]
+LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 164.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
-) [19] [20] [21] [22] [23] [24] [25] [26] [27]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/overlapcensus.tex [28]
+) [20] [21]
+Underfull \vbox (badness 2409) has occurred while \output is active []
+
+ [22] [23] [24] [25] [26] [27] [28]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/overlapcensus.tex [29] [30
+
+]
 Chapter 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29
-
-]
-<images/multiplex/Multilayer_NY_op2.png, id=849, 2199.21625pt x 741.77126pt>
+ [31]
+<images/multiplex/Multilayer_NY_op2.png, id=884, 2199.21625pt x 741.77126pt>
 File: images/multiplex/Multilayer_NY_op2.png Graphic file (type png)
 <use images/multiplex/Multilayer_NY_op2.png>
 Package pdftex.def Info: images/multiplex/Multilayer_NY_op2.png  used on input line 15.
 (pdftex.def)             Requested size: 418.25368pt x 141.07382pt.
- [30]
+ [32]
 Underfull \vbox (badness 1742) has occurred while \output is active []
 
- [31 </Users/natera/Dropbox/PhD/thesis/images/multiplex/Multilayer_NY_op2.png>]
-<images/multiplex/SchemaOverlapCensus.png, id=888, 11326.315pt x 5187.38pt>
+ [33 </Users/natera/Dropbox/PhD/thesis/images/multiplex/Multilayer_NY_op2.png>]
+<images/multiplex/SchemaOverlapCensus.png, id=924, 11326.315pt x 5187.38pt>
 File: images/multiplex/SchemaOverlapCensus.png Graphic file (type png)
 <use images/multiplex/SchemaOverlapCensus.png>
 Package pdftex.def Info: images/multiplex/SchemaOverlapCensus.png  used on input line 58.
 (pdftex.def)             Requested size: 418.25368pt x 191.55013pt.
- [32 </Users/natera/Dropbox/PhD/thesis/images/multiplex/SchemaOverlapCensus.png>]
-<images/multiplex/ResultsOverlapCensus-01.png, id=899, 1456.2405pt x 658.3797pt>
+ [34 </Users/natera/Dropbox/PhD/thesis/images/multiplex/SchemaOverlapCensus.png>]
+<images/multiplex/ResultsOverlapCensus-01.png, id=934, 1456.2405pt x 658.3797pt>
 File: images/multiplex/ResultsOverlapCensus-01.png Graphic file (type png)
 <use images/multiplex/ResultsOverlapCensus-01.png>
 Package pdftex.def Info: images/multiplex/ResultsOverlapCensus-01.png  used on input line 76.
 (pdftex.def)             Requested size: 418.25368pt x 189.09683pt.
- [33]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/bikegrowth.tex
+ [35]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/bikegrowth.tex
 Underfull \vbox (badness 7099) has occurred while \output is active []
 
- [34 </Users/natera/Dropbox/PhD/thesis/images/multiplex/ResultsOverlapCensus-01.png>] [35] [36
+ [36 </Users/natera/Dropbox/PhD/thesis/images/multiplex/ResultsOverlapCensus-01.png>] [37] [38
 
 ]
 Chapter 4.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]
+ [39]
 Underfull \vbox (badness 1158) has occurred while \output is active []
 
- [38]
-<images/datadriven/Fig01.png, id=977, 1723.94923pt x 589.10374pt>
+ [40]
+<images/datadriven/Fig01.png, id=1012, 1723.94923pt x 589.10374pt>
 File: images/datadriven/Fig01.png Graphic file (type png)
 <use images/datadriven/Fig01.png>
 Package pdftex.def Info: images/datadriven/Fig01.png  used on input line 17.
 (pdftex.def)             Requested size: 418.25368pt x 142.9249pt.
- [39 </Users/natera/Dropbox/PhD/thesis/images/datadriven/Fig01.png>] [40] [41]
+ [41 </Users/natera/Dropbox/PhD/thesis/images/datadriven/Fig01.png>] [42] [43]
 
 LaTeX Font Warning: Font shape `OT1/ppl/m/scit' undefined
 (Font)              using `OT1/ppl/m/it' instead on input line 70.
@@ -862,7 +878,7 @@ Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on inp
 LaTeX Font Warning: Font shape `OT1/ppl/m/scit' undefined
 (Font)              using `OT1/ppl/m/it' instead on input line 87.
 
-[42]
+[44]
 
 LaTeX Font Warning: Font shape `OT1/ppl/m/scit' undefined
 (Font)              using `OT1/ppl/m/it' instead on input line 109.
@@ -872,15 +888,4 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Font Warning: Font shape `OT1/ppl/m/scit' undefined
-(Font)              using `OT1/ppl/m/it' instead on input line 125.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[43]
-<images/datadriven/algorithms.png, id=1066, 1146.4431pt x 486.1362pt>
-File: images/datadriven/algorithms.png Graphic file (type png)
-<use images/datadriven/algorithms.png>
-Package pdftex.def Info: images/datadriven/algorithms.png  used on input line 147.
-(pdftex.def)             Requested size: 418.25368pt x 177.35292pt.
- [44] [45 </Users/natera/
+(Font)              using `OT1/ppl/m/it' instead o
