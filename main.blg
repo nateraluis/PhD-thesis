@@ -2,52 +2,54 @@ This is BibTeX, Version 0.99d (TeX Live 2020)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 10497 items from 5000.
+Reallocated field_info (elt_size=4) to 10566 items from 5000.
 Database file #1: bibliography.bib
+Warning--string name "january" is undefined
+--line 2617 of file bibliography.bib
 Warning--I didn't find a database entry for "decea2007"
 Warning--empty journal in batty2004new
 Warning--empty publisher in Hochmair2012
 Warning--empty journal in kunze2011conceptual
 Warning--empty journal in Lora2011New
-You've used 238 entries,
+You've used 241 entries,
             1876 wiz_defined-function locations,
-            1803 strings with 46008 characters,
-and the built_in function-call counts, 64426 in all, are:
-= -- 6545
-> -- 2499
+            1816 strings with 46472 characters,
+and the built_in function-call counts, 64931 in all, are:
+= -- 6582
+> -- 2538
 < -- 1
-+ -- 937
-- -- 699
-* -- 4508
-:= -- 8974
-add.period$ -- 258
-call.type$ -- 238
-change.case$ -- 218
++ -- 951
+- -- 710
+* -- 4546
+:= -- 9057
+add.period$ -- 262
+call.type$ -- 241
+change.case$ -- 221
 chr.to.int$ -- 0
-cite$ -- 242
-duplicate$ -- 3301
-empty$ -- 5913
-format.name$ -- 699
-if$ -- 15824
+cite$ -- 245
+duplicate$ -- 3316
+empty$ -- 5965
+format.name$ -- 710
+if$ -- 15939
 int.to.chr$ -- 0
-int.to.str$ -- 238
+int.to.str$ -- 241
 missing$ -- 216
-newline$ -- 737
-num.names$ -- 241
-pop$ -- 679
+newline$ -- 747
+num.names$ -- 246
+pop$ -- 693
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2536
+skip$ -- 2546
 stack$ -- 0
 substring$ -- 4158
-swap$ -- 1515
+swap$ -- 1517
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 660
-width$ -- 241
-write$ -- 2343
-(There were 5 warnings)
+while$ -- 664
+width$ -- 244
+write$ -- 2369
+(There were 6 warnings)

@@ -570,6 +570,10 @@ R.~Gallotti, A.~Bazzani, S.~Rambaldi, and M.~Barthelemy, ``A stochastic model
 L.~Varga, A.~Kov{\'a}cs, G.~Toth, I.~Papp, and Z.~N{\'e}da, ``Further we travel
   the faster we go,'' {\em PloS one}, vol.~11, no.~2, p.~e0148913, 2016.
 
+\bibitem{OpenStreetMap}
+{OpenStreetMap contributors}, ``{Planet dump retrieved from
+  https://planet.osm.org }.'' \url{ https://www.openstreetmap.org }, 2017.
+
 \bibitem{haklay2010openstreetmap}
 M.~Haklay, ``{How good is volunteered geographical information? A comparative
   study of OpenStreetMap and ordnance survey datasets},'' {\em Environment and
@@ -589,10 +593,12 @@ C.~Ferster, J.~Fischer, K.~Manaugh, T.~Nelson, and M.~Winters, ``{Using
 G.~Boeing, ``{Street Network Models and Indicators for Every Urban Area in the
   World},'' {\em Geographical Analysis}, 2021.
 
-\bibitem{gil2015building}
+\bibitem{gil2015multimodal}
 J.~Gil, ``Building a multimodal urban network model using openstreetmap data
   for the analysis of sustainable accessibility,'' in {\em OpenStreetMap in
-  GIScience}, pp.~229--251, Cham: Springer, 2015.
+  GIScience: Experiences, Research, and Applications} (J.~Jokar~Arsanjani,
+  A.~Zipf, P.~Mooney, and M.~Helbich, eds.), pp.~229--251, Cham: Springer
+  International Publishing, 2015.
 
 \bibitem{natera2019data}
 L.~G. {Natera Orozco}, ``Multiplex urban networks.'' Harvard Dataverse, V1,
@@ -601,6 +607,9 @@ L.~G. {Natera Orozco}, ``Multiplex urban networks.'' Harvard Dataverse, V1,
 \bibitem{gallotti2015temporal}
 R.~Gallotti and M.~Barthelemy, ``{The multilayer temporal network of public
   transport in Great Britain},'' {\em Scientific Data}, vol.~2, 2015.
+
+\bibitem{transitfeeds}
+OpenMobilityData, ``Transit feedes.'' \url{https://transitfeeds.com}, 2015.
 
 \bibitem{kujala2018collection}
 R.~Kujala, C.~Weckstrom, R.~K. Darst, M.~N. Mladenovic, and J.~Saramaki, ``{A
@@ -611,6 +620,11 @@ R.~Kujala, C.~Weckstrom, R.~K. Darst, M.~N. Mladenovic, and J.~Saramaki, ``{A
 H.~Tenkanen and T.~Toivonen, ``{Longitudinal spatial dataset on travel times
   and distances by different travel modes in Helsinki Region},'' {\em
   Scientific Data}, vol.~7, pp.~1--15, dec 2020.
+
+\bibitem{zheng2011geolife}
+Y.~Zheng, H.~Fu, X.~Xie, W.-Y. Ma, and Q.~Li, {\em Geolife GPS trajectory
+  dataset - User Guide}, geolife gps trajectories 1.1~ed., July 2011.
+\newblock Geolife GPS trajectories 1.1.
 
 \bibitem{hagberg2008networkx}
 A.~Hagberg, D.~Schult, and P.~Swart, ``Exploring network structure, dynamics,
