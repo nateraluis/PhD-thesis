@@ -5,9 +5,9 @@ The style file: ieeetr.bst
 Reallocated field_info (elt_size=4) to 10865 items from 5000.
 Database file #1: bibliography.bib
 Warning--string name "january" is undefined
---line 2176 of file bibliography.bib
+--line 2188 of file bibliography.bib
 Warning--string name "january" is undefined
---line 2719 of file bibliography.bib
+--line 2731 of file bibliography.bib
 Warning--I didn't find a database entry for "decea2007"
 Warning--empty journal in batty2004new
 Warning--empty publisher in Hochmair2012
