@@ -32,7 +32,7 @@ The district-level data (population and crimes) were obtained from the Hungarian
 
 Accuracy of the Life Quality Index (LQI) model highly depends on how comprehensive the distribution of listed services. We use OSM as our key data source, but to achieve a more comprehensive and country-specific database we collect publicly available data from various Hungarian websites for each category. %(See Appendix A for databases and sources)
 
-\textcolor{blue}{To project the city attributes to the network }we assigned properties to its nodes. Matching them with their corresponding districts, then assign attributes to the nodes based on the district level data (population and crimes, see section \ref{safety}). For the pollution data, we calculated the corresponding Voronoi cells for the air quality stations, and matched the nodes with them. Finally, we divided the pollution by the number of nodes in each corresponding cell and assigned the value to the nodes (See section \ref{environment}). 
+To project the city attributes to the network we assigned properties to its nodes. Matching them with their corresponding districts, then assign attributes to the nodes based on the district level data (population and crimes, see section \ref{safety}). For the pollution data, we calculated the corresponding Voronoi cells for the air quality stations, and matched the nodes with them. Finally, we divided the pollution by the number of nodes in each corresponding cell and assigned the value to the nodes (See section \ref{environment}). 
 
 \begin{figure*}[ht!]
 	\centering
@@ -55,14 +55,14 @@ The final value of the index is a weighted sum, characterizing every node (inter
 In the equation $i$ represents an individual node in the network. The ``tilde'' above the $Q$ terms means that the values of the different category indices are normalized within the category. The weights $w$ assigned to every term are arbitrary and are highly context-dependent. All terms of the equation are discussed in the following sections.
 %We include the weights used for producing the results of this chapter in Appendix B.
 
-\textcolor{blue}{The weights of the different $Q$ indices in the final aggregation highly depend on the context and the nature of the problem. For this study we followed a participatory design process~\cite{kunze2011conceptual,gaziulusoy2017shifting,heitlinger2018avoiding}, actively involving stakeholders to define them. This process let us incorporate practical knowledge of the importance of the services, safety and the environment in a city.}
+The weights of the different $Q$ indices in the final aggregation highly depend on the context and the nature of the problem. For this study we followed a participatory design process~\cite{kunze2011conceptual,gaziulusoy2017shifting,heitlinger2018avoiding}, actively involving stakeholders to define them. This process let us incorporate practical knowledge of the importance of the services, safety and the environment in a city.
 
-\textcolor{blue}{The weights of the sub-indices from equation (\ref{final_Q}) are of the following values:}
+The weights of the sub-indices from equation (\ref{final_Q}) are of the following values:
 
 \begin{itemize}
-  \item \textcolor{blue}{$w^{\text{services}}=0.7$;}
-  \item \textcolor{blue}{$w^{\text{safety}}=0.1$;}
-  \item \textcolor{blue}{$w^{\text{environment}}=0.2$}
+  \item $w^{\text{services}}=0.7$;
+  \item $w^{\text{safety}}=0.1$;
+  \item $w^{\text{environment}}=0.2$
 \end{itemize}
 
 \subsection{Services index}
@@ -71,27 +71,27 @@ The number quantifying each node in terms of how well it is connected with ameni
 	Q_i^{services} =\sum_c w^c Q_i^c
 \end{equation}
 
-where, $c$ denotes categories (family, culture, health, sport, and nightlife), and $w^c$ the importance of category $c$. %(weight, see Appendix B)
+where, $c$ denotes categories (family, culture, health, sport, and nightlife), and $w^c$ the importance of category $c$. 
 
-\textcolor{blue}{As when building the aggregated index, we also followed a participatory process to account for the importance of different category-services in the city. The weights used in equation (\ref{Q_services}) are as follows:}
+As when building the aggregated index, we also followed a participatory process to account for the importance of different category-services in the city. The weights used in equation (\ref{Q_services}) are as follows:
 
 \begin{itemize}
-  \item \textcolor{blue}{$w^{\text{family}}= 0.3$;}
-  \item \textcolor{blue}{$w^{\text{health}}= 0.3$;}
-  \item \textcolor{blue}{$w^{\text{culture}} = 0.15$;}
-  \item \textcolor{blue}{$w^{\text{sport}} = 0.15$;}
-  \item \textcolor{blue}{$w^{\text{night life}}=0.1$}
+  \item $w^{\text{family}}= 0.3$;
+  \item $w^{\text{health}}= 0.3$;
+  \item $w^{\text{culture}} = 0.15$;
+  \item $w^{\text{sport}} = 0.15$;
+  \item $w^{\text{night life}}=0.1$
 \end{itemize}
 
 Some categories, like family, have further subcategories. Even though we have also had data and made a separate analysis on tourism, its effects on life quality of the residents are ambiguous, so we decided to omit it from the index.
 
 What sets categories apart is that they incorporate different sets of amenities, with a few overlaps. The details of the categorization of amenities are included in the Appendix.
 
-For every service/amenity class we have a given set of points of interest (POI) along with where the amenities of that class are available, with exact geo-location. We assign every POI of a given amenity class (e.g supermarket, pharmacy, school, etc.) to the nearest node on the infrastructure network. Each set of POIs organically generates a spatial partitioning of the city with one partition per POI. The partition of a POI is the set of all the nodes from which that particular POI can be reached faster than any other POI of the same class.
+For every service/amenity class we have a given set of points of interest (POI) along with where the amenities of that class are available, with exact geo-location. We assign every POI of a given amenity class (e.g. supermarket, pharmacy, school, etc.) to the nearest node on the infrastructure network. Each set of POIs organically generates a spatial partitioning of the city with one partition per POI. The partition of a POI is the set of all the nodes from which that particular POI can be reached faster than any other POI of the same class.
 
 Mathematically these partitions are called graph-Voronoi cells~\cite{Erwig2000Graph,Deritei2014Community}, where every node of a cell is assigned to its closest seed (POI). Distance, in this case, is not euclidean or geometric distance, but the distance on the network, where we use the weighted shortest path between two nodes as the distance measure. The weight of links is a temporal parameter encoding the average time required to cross the represented street from one end to the other, thus the weight is a simple product of average speed and length of the street. This is in principle very similar to the way navigation systems find routes between points. For an example of a graph-Voronoi partitioning see Figure~\ref{fig:BPnetwork} (b).
 
-To assess how well connected a node is to amenities we consider the following factors:
+To assess how well-connected a node is to amenities we consider the following factors:
 \begin{itemize}
 	\item How important is an amenity - weight ($w_a$)
 	\item How long does it take to reach the amenity - time to reach ($t_ia$)
@@ -121,7 +121,7 @@ Finally, we normalize the values of $Q^{services}$, so its values are comparable
 	\Tilde{Q}_i^{services} =\frac{Q_i^{services}+|min(Q^{services})|}{max(Q^{services})+|min(Q^{services})|}
 \end{equation}
 
-Even if there are potentially other ways to build a life quality index, this is a synthetic way of doing it that can be used as a tool for policymakers to evaluate the urban conditions and how they relate to the quality of life in a given city. In particular, this approach has been used in Budapest to evaluate the current urban conditions and to plan future developments. More recently, a variation of this approach was used to evaluate the impact of new cyclist infrastructure during the beginning of the COVID-19 pandemic in Budapest. \textcolor{red}{ The variation took into consideration the existing pedestrian and bicycle infrastructure. We built a network combining both infrastructures and measure the accesibility with the proposed method to stablish baseline. Then, we incorporated the pop-up temporary bicycle infrastructure into the previously built network and evaluate  how the accesibility changed. A set of preliminary results were presented to the Budapest municipal government for their consideration.}
+Even if there are potentially other ways to build a life quality index, this is a synthetic way of doing it that can be used as a tool for policymakers to evaluate the urban conditions and how they relate to the quality of life in a given city. In particular, this approach has been used in Budapest to evaluate the current urban conditions and to plan future developments. More recently, a variation of this approach was used to evaluate the impact of new cyclist infrastructure during the beginning of the COVID-19 pandemic in Budapest. \textcolor{red}{ The variation took into consideration the existing pedestrian and bicycle infrastructure. We built a network combining both infrastructures and measure the accessibility with the proposed method to stablish baseline. Then, we incorporated the pop-up temporary bicycle infrastructure into the previously built network and evaluate  how the accessibility changed. A set of preliminary results were presented to the Budapest municipal government. The use of this kind of metrics provides local governments with an opportunity to plan and evaluate the feasibility of public policies and mobility investments.}
 
 \subsection{Safety index} \label{safety}
 
