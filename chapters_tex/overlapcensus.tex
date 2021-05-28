@@ -44,8 +44,7 @@ We acquired urban transportation networks from multiple cities around the world,
 			Singapore  & 82,808                          & 110,612                      & 2.67                      & 12,981                      & 12,947     & 1.99                & 683   & 740   & 2.17                & 50,403  & 66,779  & 2.65                  & 5,638,700
 		\end{tabular}
 	\end{adjustbox}
-	\caption[Layers measures for analyzed cities]{Measures for the administrative area of analyzed cities. The number of nodes, links and average degree ($\langle k \rangle$) for each layer in all cities of our dataset are highly diverse due to the varying developmental levels and focus of transport. The range of population in the analyzed cities goes from half million people to ten million people living in Jakarta, this allows to
-		have a range of different sizes and cover different developmental stages.
+	\caption[Layers measures for analyzed cities]{Measures for the administrative area of analyzed cities. The number of nodes, links and average degree ($\langle k \rangle$) for each layer in all cities of our dataset are highly diverse due to the varying developmental levels and focus of transport. The range of population in the analyzed cities goes from half million people to ten million people living in Jakarta, this allows to	have a range of different sizes and cover different developmental stages.
 		\label{tab:MultiplexCities}}
 \end{table*}
 
@@ -53,7 +52,7 @@ Code to replicate our results is available as Jupyter Notebooks (\url{https://gi
 
 To characterize the city as a multiplex network~\cite{boccaletti2014structure,kivela2014multilayer,battiston2017new} we follow the approach presented in section~\ref{ch:litReview}, in which the system has $M$ layers and $N$ nodes that can be active in one or more layers in the system. Layers follow a primal approach~\cite{porta2006primal} where nodes represent intersections (that may be present in one or more layers), and links represent streets (denoted by \textit{s}), bicycle paths and designated bicycle infrastructure (\textit{b}), subways, trams and rail infrastructure (\textit{r}), or pedestrian infrastructure (\textit{p}). Construction of these intersection nodes follows the topological simplification rules of OSMnx~\cite{boeing2017osmnx}. This recent approach has been useful to demonstrate how cities grow \cite{strano2012evolution,Barthelemy2013Evolution}, how efficient \cite{Gallotti2014Efficiency} and dense they are, and to capture the tendency of travel routes to gravitate towards city centers \cite{Lee2017Morphology}. Each layer $\alpha = 1,\dots, M$ is described by adjacency matrix $A^{[\alpha]} = {a^{[\alpha]}_{ij}}$ where $a^{[\alpha]}_{ij} = 1$ if there is a link between nodes $i$ and $j$ in layer $\alpha$ and 0 otherwise. The multiplex urban system is then specified as a vector of adjacency matrices $A = (A^{[1]},\dots,A^{[M]})$.
 
-\begin{figure*}[th!]
+\begin{figure*}[ht!]
 	\centering
 	\includegraphics[width=\textwidth]{images/multiplex/SchemaOverlapCensus.png}
 	\caption[Schematic overlap census]{

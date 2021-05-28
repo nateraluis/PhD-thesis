@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  26 MAY 2021 10:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  28 MAY 2021 11:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -840,13 +840,13 @@ Underfull \vbox (badness 1742) has occurred while \output is active []
 <images/multiplex/SchemaOverlapCensus.png, id=1022, 11326.315pt x 5187.38pt>
 File: images/multiplex/SchemaOverlapCensus.png Graphic file (type png)
 <use images/multiplex/SchemaOverlapCensus.png>
-Package pdftex.def Info: images/multiplex/SchemaOverlapCensus.png  used on input line 58.
+Package pdftex.def Info: images/multiplex/SchemaOverlapCensus.png  used on input line 57.
 (pdftex.def)             Requested size: 418.25368pt x 191.55013pt.
  [36 </Users/natera/Dropbox/PhD/thesis/images/multiplex/SchemaOverlapCensus.png>]
 <images/multiplex/ResultsOverlapCensus-01.png, id=1032, 1456.2405pt x 658.3797pt>
 File: images/multiplex/ResultsOverlapCensus-01.png Graphic file (type png)
 <use images/multiplex/ResultsOverlapCensus-01.png>
-Package pdftex.def Info: images/multiplex/ResultsOverlapCensus-01.png  used on input line 76.
+Package pdftex.def Info: images/multiplex/ResultsOverlapCensus-01.png  used on input line 75.
 (pdftex.def)             Requested size: 418.25368pt x 189.09683pt.
  [37]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/bikegrowth.tex
 Underfull \vbox (badness 7099) has occurred while \output is active []
