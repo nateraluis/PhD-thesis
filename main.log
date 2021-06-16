@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  28 MAY 2021 11:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  16 JUN 2021 11:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -625,10 +625,10 @@ LaTeX Info: Redefining \nameref on input line 88.
 \openout4 = `main.out'.
 
 Package epstopdf Info: Source file: <images/ceulogo.eps>
-(epstopdf)                    date: 2020-09-01 05:21:14
+(epstopdf)                    date: 2020-09-01 12:21:14
 (epstopdf)                    size: 13401 bytes
 (epstopdf)             Output file: <images/ceulogo-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-09-01 05:21:14
+(epstopdf)                    date: 2020-09-01 12:21:14
 (epstopdf)                    size: 4999 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/ceulogo-eps-converted-to.pdf images/ceulogo.eps>
 (epstopdf)             \includegraphics on input line 95.
@@ -654,43 +654,38 @@ Underfull \vbox (badness 4543) has occurred while \output is active []
 
  [4] [5] [6
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
-
- []
-
-[7] [8
+] [7] [8
 
 ]
-LaTeX Font Info:    Trying to load font information for OML+zplm on input line 208.
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 206.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 208.
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 206.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 208.
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 206.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 208.
+(Font)              scaled to size 11.40997pt on input line 206.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 208.
+(Font)              scaled to size 8.33606pt on input line 206.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 208.
+(Font)              scaled to size 6.25204pt on input line 206.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 208.
+(Font)              scaled to size 11.40997pt on input line 206.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 208.
+(Font)              scaled to size 8.33606pt on input line 206.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 208.
-LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 208.
+(Font)              scaled to size 6.25204pt on input line 206.
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 206.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 208.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 206.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1] [2
@@ -723,7 +718,7 @@ l.38 ...s with small investments}{50}{section.4.4}
 pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.236 \newpage
+l.234 \newpage
                [2] (/Users/natera/Dropbox/PhD/thesis/chapters_tex/introduction.tex
 Chapter 1.
 
@@ -1154,16 +1149,16 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
  [110]pdfTeX warning (ext4): destination with the same identifier (name{page.110}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.280 \end{document}
+l.278 \end{document}
                      [110
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 280.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 280.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
  (/Users/natera/Dropbox/PhD/thesis/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 280.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 280.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 278.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B08C3C4812D5F475918CD0B9FC3AE6E6;11230.
 
@@ -1178,9 +1173,9 @@ Here is how much of TeX's memory you used:
  32811 multiletter control sequences out of 15000+600000
  581813 words of font info for 159 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,96p,2091b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,12n,96p,2127b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/natera/Dropbox/PhD/thesis/main.pdf (125 pages, 19633732 bytes).
+Output written on /Users/natera/Dropbox/PhD/thesis/main.pdf (125 pages, 19634231 bytes).
 PDF statistics:
  2088 PDF objects out of 2487 (max. 8388607)
  1751 compressed objects within 18 object streams
