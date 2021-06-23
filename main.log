@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  16 JUN 2021 16:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  23 JUN 2021 11:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -772,50 +772,44 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 10.42007pt on input line 3.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.91925pt on input line 3.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.13 
-      [7]pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
+l.5 
+     [7]pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.23 
-      [8]
-Underfull \vbox (badness 1221) has occurred while \output is active []
+l.16 I
+      ndeed, most urban transportation systems systemically rely on the inte... [8] [9] [10]
 
- [9]
+LaTeX Warning: Citation `decea2007' on page 11 undefined on input line 39.
 
-LaTeX Warning: Citation `decea2007' on page 10 undefined on input line 43.
-
-[10]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11]
+[11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13] [14] [15]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [13] [14]
+Underfull \vbox (badness 5637) has occurred while \output is active []
 
- [16] [17]
-Underfull \vbox (badness 3312) has occurred while \output is active []
+ [15] [16] [17] [18]
+Underfull \vbox (badness 2564) has occurred while \output is active []
 
- [18] [19] [20]
-LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 156.
+ [19] [20]
+LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 152.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
-) [21] [22] [23] [24] [25] [26] [27] [28]
-Underfull \vbox (badness 1275) has occurred while \output is active []
+) [21] [22] [23] [24] [25] [26] [27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
+ [28] [29]
 Underfull \vbox (badness 4303) has occurred while \output is active []
 
- [30]
-Underfull \vbox (badness 2253) has occurred while \output is active []
-
- [31]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/overlapcensus.tex [32]
+ [30] [31]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/overlapcensus.tex [32]
 Chapter 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -823,7 +817,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [33
 
 ]
-<images/multiplex/Multilayer_NY_op2.png, id=981, 2199.21625pt x 741.77126pt>
+<images/multiplex/Multilayer_NY_op2.png, id=991, 2199.21625pt x 741.77126pt>
 File: images/multiplex/Multilayer_NY_op2.png Graphic file (type png)
 <use images/multiplex/Multilayer_NY_op2.png>
 Package pdftex.def Info: images/multiplex/Multilayer_NY_op2.png  used on input line 15.
@@ -832,13 +826,13 @@ Package pdftex.def Info: images/multiplex/Multilayer_NY_op2.png  used on input l
 Underfull \vbox (badness 1742) has occurred while \output is active []
 
  [35 </Users/natera/Dropbox/PhD/thesis/images/multiplex/Multilayer_NY_op2.png>]
-<images/multiplex/SchemaOverlapCensus.png, id=1022, 11326.315pt x 5187.38pt>
+<images/multiplex/SchemaOverlapCensus.png, id=1032, 11326.315pt x 5187.38pt>
 File: images/multiplex/SchemaOverlapCensus.png Graphic file (type png)
 <use images/multiplex/SchemaOverlapCensus.png>
 Package pdftex.def Info: images/multiplex/SchemaOverlapCensus.png  used on input line 57.
 (pdftex.def)             Requested size: 418.25368pt x 191.55013pt.
  [36 </Users/natera/Dropbox/PhD/thesis/images/multiplex/SchemaOverlapCensus.png>]
-<images/multiplex/ResultsOverlapCensus-01.png, id=1032, 1456.2405pt x 658.3797pt>
+<images/multiplex/ResultsOverlapCensus-01.png, id=1042, 1456.2405pt x 658.3797pt>
 File: images/multiplex/ResultsOverlapCensus-01.png Graphic file (type png)
 <use images/multiplex/ResultsOverlapCensus-01.png>
 Package pdftex.def Info: images/multiplex/ResultsOverlapCensus-01.png  used on input line 75.
@@ -857,7 +851,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1158) has occurred while \output is active []
 
  [42]
-<images/datadriven/Fig01.png, id=1111, 1723.94923pt x 589.10374pt>
+<images/datadriven/Fig01.png, id=1121, 1723.94923pt x 589.10374pt>
 File: images/datadriven/Fig01.png Graphic file (type png)
 <use images/datadriven/Fig01.png>
 Package pdftex.def Info: images/datadriven/Fig01.png  used on input line 17.
@@ -888,18 +882,18 @@ LaTeX Font Warning: Font shape `OT1/ppl/m/scit' undefined
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [47]
-<images/datadriven/algorithms.png, id=1200, 1146.4431pt x 486.1362pt>
+<images/datadriven/algorithms.png, id=1210, 1146.4431pt x 486.1362pt>
 File: images/datadriven/algorithms.png Graphic file (type png)
 <use images/datadriven/algorithms.png>
 Package pdftex.def Info: images/datadriven/algorithms.png  used on input line 147.
 (pdftex.def)             Requested size: 418.25368pt x 177.35292pt.
  [48] [49 </Users/natera/Dropbox/PhD/thesis/images/datadriven/algorithms.png (PNG copy)>]
-<images/datadriven/BPincrease.png, id=1209, 1199.4411pt x 1031.052pt>
+<images/datadriven/BPincrease.png, id=1219, 1199.4411pt x 1031.052pt>
 File: images/datadriven/BPincrease.png Graphic file (type png)
 <use images/datadriven/BPincrease.png>
 Package pdftex.def Info: images/datadriven/BPincrease.png  used on input line 160.
 (pdftex.def)             Requested size: 418.25368pt x 359.52061pt.
-<images/datadriven/SI_Lengths_Bike_Streets.png, id=1217, 1057.82631pt x 933.7284pt>
+<images/datadriven/SI_Lengths_Bike_Streets.png, id=1227, 1057.82631pt x 933.7284pt>
 File: images/datadriven/SI_Lengths_Bike_Streets.png Graphic file (type png)
 <use images/datadriven/SI_Lengths_Bike_Streets.png>
 Package pdftex.def Info: images/datadriven/SI_Lengths_Bike_Streets.png  used on input line 171.
@@ -912,7 +906,7 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [51 </Users/natera/Dropbox/PhD/thesis/images/datadriven/BPincrease.png (PNG copy)>]
-<images/datadriven/5km.png, id=1231, 1020.2115pt x 1126.6893pt>
+<images/datadriven/5km.png, id=1241, 1020.2115pt x 1126.6893pt>
 File: images/datadriven/5km.png Graphic file (type png)
 <use images/datadriven/5km.png>
 Package pdftex.def Info: images/datadriven/5km.png  used on input line 182.
@@ -921,12 +915,12 @@ Package pdftex.def Info: images/datadriven/5km.png  used on input line 182.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [52 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Lengths_Bike_Streets.png>] [53 </Users/natera/Dropbox/PhD/thesis/images/datadriven/5km.png (PNG copy)>]
-<images/datadriven/35km.png, id=1247, 1020.2115pt x 1126.6893pt>
+<images/datadriven/35km.png, id=1257, 1020.2115pt x 1126.6893pt>
 File: images/datadriven/35km.png Graphic file (type png)
 <use images/datadriven/35km.png>
 Package pdftex.def Info: images/datadriven/35km.png  used on input line 191.
 (pdftex.def)             Requested size: 418.25368pt x 461.91122pt.
-<images/datadriven/Reviewer_Coverage.png, id=1249, 937.44514pt x 1259.97583pt>
+<images/datadriven/Reviewer_Coverage.png, id=1259, 937.44514pt x 1259.97583pt>
 File: images/datadriven/Reviewer_Coverage.png Graphic file (type png)
 <use images/datadriven/Reviewer_Coverage.png>
 Package pdftex.def Info: images/datadriven/Reviewer_Coverage.png  used on input line 200.
@@ -945,19 +939,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [59
 
 ] [60] [61]
-<images/lqi/Budapest_Network_voronoi_op2.png, id=1363, 1264.725pt x 565.6332pt>
+<images/lqi/Budapest_Network_voronoi_op2.png, id=1373, 1264.725pt x 565.6332pt>
 File: images/lqi/Budapest_Network_voronoi_op2.png Graphic file (type png)
 <use images/lqi/Budapest_Network_voronoi_op2.png>
 Package pdftex.def Info: images/lqi/Budapest_Network_voronoi_op2.png  used on input line 39.
 (pdftex.def)             Requested size: 418.25368pt x 187.05655pt.
  [62] [63 </Users/natera/Dropbox/PhD/thesis/images/lqi/Budapest_Network_voronoi_op2.png>] [64] [65] [66] [67]
-<images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf, id=1422, 1772.44177pt x 716.6775pt>
+<images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf, id=1432, 1772.44177pt x 716.6775pt>
 File: images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf Graphic file (type pdf)
 <use images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf>
 Package pdftex.def Info: images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf  used on input line 164.
 (pdftex.def)             Requested size: 418.25368pt x 169.11911pt.
  [68 </Users/natera/Dropbox/PhD/thesis/images/lqi/Budapest_LQI_Neighborhoods-eps-converted-to.pdf>]
-<images/lqi/LQI_categories_regplots.pdf, id=1486, 867.24pt x 578.16pt>
+<images/lqi/LQI_categories_regplots.pdf, id=1497, 867.24pt x 578.16pt>
 File: images/lqi/LQI_categories_regplots.pdf Graphic file (type pdf)
 <use images/lqi/LQI_categories_regplots.pdf>
 Package pdftex.def Info: images/lqi/LQI_categories_regplots.pdf  used on input line 187.
@@ -1055,7 +1049,7 @@ Underfull \hbox (badness 5460) in paragraph at lines 1210--1213
 
 ) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/chapter7.tex [96]
 Chapter 7.
-<images/datadriven/Nodes_cc.png, id=1750, 1156.32pt x 939.51pt>
+<images/datadriven/Nodes_cc.png, id=1760, 1156.32pt x 939.51pt>
 File: images/datadriven/Nodes_cc.png Graphic file (type png)
 <use images/datadriven/Nodes_cc.png>
 Package pdftex.def Info: images/datadriven/Nodes_cc.png  used on input line 10.
@@ -1063,7 +1057,7 @@ Package pdftex.def Info: images/datadriven/Nodes_cc.png  used on input line 10.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Nodes.png, id=1755, 1057.41335pt x 933.7284pt>
+<images/datadriven/SI_Nodes.png, id=1765, 1057.41335pt x 933.7284pt>
 File: images/datadriven/SI_Nodes.png Graphic file (type png)
 <use images/datadriven/SI_Nodes.png>
 Package pdftex.def Info: images/datadriven/SI_Nodes.png  used on input line 22.
@@ -1071,7 +1065,7 @@ Package pdftex.def Info: images/datadriven/SI_Nodes.png  used on input line 22.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Lengths.png, id=1756, 1057.82631pt x 933.7284pt>
+<images/datadriven/SI_Lengths.png, id=1766, 1057.82631pt x 933.7284pt>
 File: images/datadriven/SI_Lengths.png Graphic file (type png)
 <use images/datadriven/SI_Lengths.png>
 Package pdftex.def Info: images/datadriven/SI_Lengths.png  used on input line 29.
@@ -1079,7 +1073,7 @@ Package pdftex.def Info: images/datadriven/SI_Lengths.png  used on input line 29
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf, id=1757, 1065.34328pt x 933.85765pt>
+<images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf, id=1767, 1065.34328pt x 933.85765pt>
 File: images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf Graphic file (type pdf)
 <use images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf>
 Package pdftex.def Info: images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf  used on input line 36.
@@ -1087,7 +1081,7 @@ Package pdftex.def Info: images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pd
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Directness.png, id=1758, 1057.41335pt x 933.7284pt>
+<images/datadriven/SI_Directness.png, id=1768, 1057.41335pt x 933.7284pt>
 File: images/datadriven/SI_Directness.png Graphic file (type png)
 <use images/datadriven/SI_Directness.png>
 Package pdftex.def Info: images/datadriven/SI_Directness.png  used on input line 43.
@@ -1095,7 +1089,7 @@ Package pdftex.def Info: images/datadriven/SI_Directness.png  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Gain.png, id=1759, 1057.82631pt x 933.7284pt>
+<images/datadriven/SI_Gain.png, id=1769, 1057.82631pt x 933.7284pt>
 File: images/datadriven/SI_Gain.png Graphic file (type png)
 <use images/datadriven/SI_Gain.png>
 Package pdftex.def Info: images/datadriven/SI_Gain.png  used on input line 50.
@@ -1109,7 +1103,7 @@ Underfull \vbox (badness 2277) has occurred while \output is active []
  [97
 
 ]
-<images/datadriven/SI_Nodes_Bike_Streets.png, id=1772, 1057.41335pt x 933.7284pt>
+<images/datadriven/SI_Nodes_Bike_Streets.png, id=1782, 1057.41335pt x 933.7284pt>
 File: images/datadriven/SI_Nodes_Bike_Streets.png Graphic file (type png)
 <use images/datadriven/SI_Nodes_Bike_Streets.png>
 Package pdftex.def Info: images/datadriven/SI_Nodes_Bike_Streets.png  used on input line 61.
@@ -1118,7 +1112,7 @@ Package pdftex.def Info: images/datadriven/SI_Nodes_Bike_Streets.png  used on in
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Directness_Bike_Streets.png, id=1773, 1057.41335pt x 933.7284pt>
+<images/datadriven/SI_Directness_Bike_Streets.png, id=1783, 1057.41335pt x 933.7284pt>
 File: images/datadriven/SI_Directness_Bike_Streets.png Graphic file (type png)
 <use images/datadriven/SI_Directness_Bike_Streets.png>
 Package pdftex.def Info: images/datadriven/SI_Directness_Bike_Streets.png  used on input line 75.
@@ -1126,7 +1120,7 @@ Package pdftex.def Info: images/datadriven/SI_Directness_Bike_Streets.png  used 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Gain_Bike_Streets.png, id=1774, 1057.82631pt x 933.7284pt>
+<images/datadriven/SI_Gain_Bike_Streets.png, id=1784, 1057.82631pt x 933.7284pt>
 File: images/datadriven/SI_Gain_Bike_Streets.png Graphic file (type png)
 <use images/datadriven/SI_Gain_Bike_Streets.png>
 Package pdftex.def Info: images/datadriven/SI_Gain_Bike_Streets.png  used on input line 82.
@@ -1167,18 +1161,18 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 17827 strings out of 480608
- 267379 string characters out of 5903631
+ 17832 strings out of 480608
+ 267434 string characters out of 5903631
  574861 words of memory out of 5000000
  32811 multiletter control sequences out of 15000+600000
  581813 words of font info for 159 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,96p,2137b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/natera/Dropbox/PhD/thesis/main.pdf (125 pages, 19633979 bytes).
+Output written on /Users/natera/Dropbox/PhD/thesis/main.pdf (125 pages, 19634587 bytes).
 PDF statistics:
- 2088 PDF objects out of 2487 (max. 8388607)
- 1751 compressed objects within 18 object streams
- 490 named destinations out of 1000 (max. 500000)
+ 2099 PDF objects out of 2487 (max. 8388607)
+ 1762 compressed objects within 18 object streams
+ 495 named destinations out of 1000 (max. 500000)
  553 words of extra memory for PDF output out of 10000 (max. 10000000)
 

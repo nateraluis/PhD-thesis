@@ -6,10 +6,10 @@
 \contentsline {chapter}{\numberline {2}Related Work: Multimodal transportation and mobility in urban networks}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Multilayer networks: A framework for multimodality}{8}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Multimodal infrastructures}{10}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Modeling urban infrastructure}{10}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}Modeling urban infrastructure}{11}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Characterizing multimodal infrastructure}{14}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}Multimodal mobility}{19}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Modeling urban mobility }{19}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}Modeling urban mobility }{20}{subsection.2.3.1}%
 \contentsline {paragraph}{Random walks.}{20}{paragraph*.6}%
 \contentsline {paragraph}{Travel time minimization approaches.}{21}{paragraph*.7}%
 \contentsline {subsection}{\numberline {2.3.2}Characterizing multi-modal mobility. }{22}{subsection.2.3.2}%
@@ -17,12 +17,12 @@
 \contentsline {paragraph}{Efficiency}{23}{paragraph*.9}%
 \contentsline {paragraph}{Congestion.}{24}{paragraph*.10}%
 \contentsline {paragraph}{Navigability}{25}{paragraph*.11}%
-\contentsline {subsubsection}{Individual multi-modal behaviour.}{25}{subsubsection*.12}%
+\contentsline {subsubsection}{Individual multi-modal behaviour.}{26}{subsubsection*.12}%
 \contentsline {paragraph}{Route choices.}{26}{paragraph*.13}%
 \contentsline {paragraph}{Power-law distribution of displacements}{26}{paragraph*.14}%
 \contentsline {section}{\numberline {2.4}Open data \& Tools }{27}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Data}{27}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Tools}{28}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.2}Tools}{29}{subsection.2.4.2}%
 \contentsline {section}{\numberline {2.5}Conclusions }{31}{section.2.5}%
 \contentsline {chapter}{\numberline {3}Extracting the multimodal fingerprint of transportation networks}{33}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Evolution of urban networks}{34}{section.3.1}%
