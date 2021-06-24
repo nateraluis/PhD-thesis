@@ -34,9 +34,9 @@
 \contentsline {section}{\numberline {4.2}Data: Bicycle infrastructure networks}{43}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Defining bicycle network growth strategies and quality metrics}{44}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Algorithmic approach}{45}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Evaluating the algorithms}{47}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.2}Evaluating the algorithms}{48}{subsection.4.3.2}%
 \contentsline {section}{\numberline {4.4}Growing bicycle networks shows stark improvements with small investments}{50}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Different cities have different optimal investment strategies}{54}{section.4.5}%
+\contentsline {section}{\numberline {4.5}Different cities have different optimal investment strategies}{53}{section.4.5}%
 \contentsline {section}{\numberline {4.6}Conclusion}{57}{section.4.6}%
 \contentsline {chapter}{\numberline {5}Life quality as walkability}{59}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Walking the city}{60}{section.5.1}%

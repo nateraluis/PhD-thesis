@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  23 JUN 2021 15:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  24 JUN 2021 13:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -851,7 +851,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1158) has occurred while \output is active []
 
  [42]
-<images/datadriven/Fig01.png, id=1121, 1723.94923pt x 589.10374pt>
+<images/datadriven/Fig01.png, id=1120, 1723.94923pt x 589.10374pt>
 File: images/datadriven/Fig01.png Graphic file (type png)
 <use images/datadriven/Fig01.png>
 Package pdftex.def Info: images/datadriven/Fig01.png  used on input line 17.
@@ -881,24 +881,31 @@ LaTeX Font Warning: Font shape `OT1/ppl/m/scit' undefined
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[47]
-<images/datadriven/algorithms.png, id=1210, 1146.4431pt x 486.1362pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47] [48]
+<images/datadriven/algorithms.png, id=1214, 1146.4431pt x 486.1362pt>
 File: images/datadriven/algorithms.png Graphic file (type png)
 <use images/datadriven/algorithms.png>
 Package pdftex.def Info: images/datadriven/algorithms.png  used on input line 147.
 (pdftex.def)             Requested size: 418.25368pt x 177.35292pt.
- [48] [49 </Users/natera/Dropbox/PhD/thesis/images/datadriven/algorithms.png (PNG copy)>]
+
+Underfull \vbox (badness 1442) has occurred while \output is active []
+
+ [49 </Users/natera/Dropbox/PhD/thesis/images/datadriven/algorithms.png (PNG copy)>]
 <images/datadriven/BPincrease.png, id=1219, 1199.4411pt x 1031.052pt>
 File: images/datadriven/BPincrease.png Graphic file (type png)
 <use images/datadriven/BPincrease.png>
 Package pdftex.def Info: images/datadriven/BPincrease.png  used on input line 160.
 (pdftex.def)             Requested size: 418.25368pt x 359.52061pt.
-<images/datadriven/SI_Lengths_Bike_Streets.png, id=1227, 1057.82631pt x 933.7284pt>
+ [50]
+<images/datadriven/SI_Lengths_Bike_Streets.png, id=1232, 1057.82631pt x 933.7284pt>
 File: images/datadriven/SI_Lengths_Bike_Streets.png Graphic file (type png)
 <use images/datadriven/SI_Lengths_Bike_Streets.png>
 Package pdftex.def Info: images/datadriven/SI_Lengths_Bike_Streets.png  used on input line 171.
 (pdftex.def)             Requested size: 334.60422pt x 295.35129pt.
- [50]
+
 
 Package Fancyhdr Warning: \headheight is too small (27.5pt): 
 Make it at least 27.59193pt.
@@ -914,18 +921,18 @@ Package pdftex.def Info: images/datadriven/5km.png  used on input line 182.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Lengths_Bike_Streets.png>] [53 </Users/natera/Dropbox/PhD/thesis/images/datadriven/5km.png (PNG copy)>]
-<images/datadriven/35km.png, id=1257, 1020.2115pt x 1126.6893pt>
+ [52 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Lengths_Bike_Streets.png>]
+<images/datadriven/35km.png, id=1251, 1020.2115pt x 1126.6893pt>
 File: images/datadriven/35km.png Graphic file (type png)
 <use images/datadriven/35km.png>
 Package pdftex.def Info: images/datadriven/35km.png  used on input line 191.
 (pdftex.def)             Requested size: 418.25368pt x 461.91122pt.
-<images/datadriven/Reviewer_Coverage.png, id=1259, 937.44514pt x 1259.97583pt>
+<images/datadriven/Reviewer_Coverage.png, id=1253, 937.44514pt x 1259.97583pt>
 File: images/datadriven/Reviewer_Coverage.png Graphic file (type png)
 <use images/datadriven/Reviewer_Coverage.png>
 Package pdftex.def Info: images/datadriven/Reviewer_Coverage.png  used on input line 200.
 (pdftex.def)             Requested size: 334.60422pt x 449.7266pt.
- [54] [55 </Users/natera/Dropbox/PhD/thesis/images/datadriven/35km.png (PNG copy)>]
+ [53] [54 </Users/natera/Dropbox/PhD/thesis/images/datadriven/5km.png (PNG copy)>] [55 </Users/natera/Dropbox/PhD/thesis/images/datadriven/35km.png (PNG copy)>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [56 </Users/natera/Dropbox/PhD/thesis/images/datadriven/Reviewer_Coverage.png>]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/lqi.tex
@@ -1169,7 +1176,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  55i,12n,96p,2137b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/natera/Dropbox/PhD/thesis/main.pdf (125 pages, 19634601 bytes).
+Output written on /Users/natera/Dropbox/PhD/thesis/main.pdf (125 pages, 19634561 bytes).
 PDF statistics:
  2099 PDF objects out of 2487 (max. 8388607)
  1762 compressed objects within 18 object streams
