@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  28 JUN 2021 15:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  28 JUN 2021 15:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -973,7 +973,7 @@ Underfull \vbox (badness 1132) has occurred while \output is active []
  [73]
 Underfull \vbox (badness 4303) has occurred while \output is active []
 
- [74] [75]) (/Users/natera/Dropbox/PhD/thesis/main.bbl [76] [77
+ [74]) [75] (/Users/natera/Dropbox/PhD/thesis/main.bbl [76] [77
 
 ] [78] [79] [80]
 Underfull \hbox (badness 1122) in paragraph at lines 233--236
