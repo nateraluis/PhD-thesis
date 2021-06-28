@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  28 JUN 2021 12:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  28 JUN 2021 15:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -973,9 +973,9 @@ Underfull \vbox (badness 1132) has occurred while \output is active []
  [73]
 Underfull \vbox (badness 4303) has occurred while \output is active []
 
- [74]) (/Users/natera/Dropbox/PhD/thesis/main.bbl [75] [76
+ [74] [75]) (/Users/natera/Dropbox/PhD/thesis/main.bbl [76] [77
 
-] [77] [78] [79] [80]
+] [78] [79] [80]
 Underfull \hbox (badness 1122) in paragraph at lines 233--236
 []\OT1/ppl/m/n/12 A. Cardillo, J. G[]omez-Gardenes, M. Zanin, M. Ro-mance, D. Papo,
  []
@@ -1182,7 +1182,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  55i,12n,96p,2137b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/natera/Dropbox/PhD/thesis/main.pdf (127 pages, 19639083 bytes).
+Output written on /Users/natera/Dropbox/PhD/thesis/main.pdf (127 pages, 19640451 bytes).
 PDF statistics:
  2119 PDF objects out of 2487 (max. 8388607)
  1780 compressed objects within 18 object streams
