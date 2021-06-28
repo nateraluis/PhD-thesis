@@ -55,13 +55,13 @@
 \contentsline {paragraph}{Summary}{71}{paragraph*.32}%
 \contentsline {section}{\numberline {5.5}Conclusions}{71}{section.5.5}%
 \contentsline {chapter}{\numberline {6}Conclusion and open questions}{73}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Appendices}{97}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Data-driven strategies for optimal bicycle network growth}{97}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Data}{97}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}Bicycle network improvement}{97}{subsection.7.1.2}%
-\contentsline {subsection}{\numberline {7.1.3}Bicycle network and 30 km/h streets}{98}{subsection.7.1.3}%
-\contentsline {section}{\numberline {7.2}Life quality as walkability}{98}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Secondary data sources}{98}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Categorization}{100}{subsection.7.2.2}%
-\contentsline {chapter}{List of Tables}{107}{chapter*.43}%
-\contentsline {chapter}{List of Figures}{110}{chapter*.44}%
+\contentsline {chapter}{\numberline {7}Appendices}{99}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Data-driven strategies for optimal bicycle network growth}{99}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Data}{99}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Bicycle network improvement}{99}{subsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.1.3}Bicycle network and 30 km/h streets}{100}{subsection.7.1.3}%
+\contentsline {section}{\numberline {7.2}Life quality as walkability}{100}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Secondary data sources}{100}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Categorization}{102}{subsection.7.2.2}%
+\contentsline {chapter}{List of Tables}{109}{chapter*.43}%
+\contentsline {chapter}{List of Figures}{112}{chapter*.44}%
