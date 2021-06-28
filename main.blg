@@ -8,41 +8,40 @@ Warning--string name "january" is undefined
 --line 2188 of file bibliography.bib
 Warning--string name "january" is undefined
 --line 2731 of file bibliography.bib
-Warning--I didn't find a database entry for "decea2007"
 Warning--empty journal in batty2004new
 Warning--empty publisher in Hochmair2012
 Warning--empty journal in kunze2011conceptual
 Warning--empty journal in Lora2011New
-You've used 254 entries,
+You've used 255 entries,
             1876 wiz_defined-function locations,
-            1868 strings with 48056 characters,
-and the built_in function-call counts, 67448 in all, are:
-= -- 6815
-> -- 2649
+            1872 strings with 48156 characters,
+and the built_in function-call counts, 67587 in all, are:
+= -- 6826
+> -- 2657
 < -- 1
-+ -- 995
-- -- 741
-* -- 4709
-:= -- 9428
-add.period$ -- 275
-call.type$ -- 254
-change.case$ -- 234
++ -- 998
+- -- 743
+* -- 4715
+:= -- 9448
+add.period$ -- 276
+call.type$ -- 255
+change.case$ -- 235
 chr.to.int$ -- 0
-cite$ -- 258
-duplicate$ -- 3423
-empty$ -- 6234
-format.name$ -- 741
-if$ -- 16551
+cite$ -- 259
+duplicate$ -- 3427
+empty$ -- 6252
+format.name$ -- 743
+if$ -- 16586
 int.to.chr$ -- 0
-int.to.str$ -- 254
+int.to.str$ -- 255
 missing$ -- 222
-newline$ -- 786
-num.names$ -- 259
-pop$ -- 750
+newline$ -- 789
+num.names$ -- 260
+pop$ -- 757
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2625
+skip$ -- 2630
 stack$ -- 0
 substring$ -- 4262
 swap$ -- 1549
@@ -51,7 +50,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 689
-width$ -- 257
-write$ -- 2481
-(There were 7 warnings)
+while$ -- 690
+width$ -- 258
+write$ -- 2488
+(There were 6 warnings)

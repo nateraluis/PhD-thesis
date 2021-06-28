@@ -5,3 +5,4 @@ main.fdb_latexmk
 __latexindent_temp.tex
 :
 */:
+__latexindent_temp.*
