@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  24 JUN 2021 13:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  28 JUN 2021 15:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -967,19 +967,25 @@ Package pdftex.def Info: images/lqi/LQI_categories_regplots.pdf  used on input l
 
 ]
 Chapter 6.
-) (/Users/natera/Dropbox/PhD/thesis/main.bbl [73] [74
 
-] [75] [76] [77] [78]
+Underfull \vbox (badness 1132) has occurred while \output is active []
+
+ [73]
+Underfull \vbox (badness 4303) has occurred while \output is active []
+
+ [74]) [75] (/Users/natera/Dropbox/PhD/thesis/main.bbl [76] [77
+
+] [78] [79] [80]
 Underfull \hbox (badness 1122) in paragraph at lines 233--236
 []\OT1/ppl/m/n/12 A. Cardillo, J. G[]omez-Gardenes, M. Zanin, M. Ro-mance, D. Papo,
  []
 
-[79] [80] [81] [82] [83] [84]
+[81] [82] [83] [84] [85] [86]
 Underfull \hbox (badness 10000) in paragraph at lines 574--576
 []\OT1/ppl/m/n/12 OpenStreetMap con-trib-u-tors, ``Planet dump re-trieved from
  []
 
-[85]
+[87]
 Underfull \hbox (badness 10000) in paragraph at lines 659--661
 []\OT1/ppl/m/n/12 Google, ``tran-sit-feed.'' V.1.2.16 []$\OT1/cmtt/m/n/12 https : / / github . com / google /
  []
@@ -994,12 +1000,12 @@ Underfull \hbox (badness 1005) in paragraph at lines 681--684
 \OT1/ppl/m/n/12 Ti-layer net-works.'' GitHub repos-i-tory. []$\OT1/cmtt/m/n/12 https : / / github . com / KatolaZ /
  []
 
-[86]
+[88]
 Underfull \hbox (badness 1946) in paragraph at lines 737--740
 []\OT1/ppl/m/n/12 M. Barthelemy, P. Bor-din, H. Beresty-cki, and M. Grib-audi, ``Self-
  []
 
-[87] [88] [89] [90]
+[89] [90] [91] [92]
 Underfull \hbox (badness 1226) in paragraph at lines 937--942
 []\OT1/ppl/m/n/12 N. Mueller, D. Rojas-Rueda, M. Salmon, D. Mar-tinez, A. Am-bros,
  []
@@ -1014,17 +1020,17 @@ Underfull \hbox (badness 1337) in paragraph at lines 944--948
 \OT1/ppl/m/n/12 friendly in-fras-truc-ture plan-ning in bei-jing and copenhagen-between
  []
 
-[91] [92]
+[93] [94]
 Underfull \hbox (badness 5133) in paragraph at lines 1044--1046
 []\OT1/ppl/m/n/12 OpenStreetMap con-trib-u-tors, ``Bu-dapest dis-tricts.'' []$\OT1/cmtt/m/n/12 https : / / data2 .
  []
 
-[93]
+[95]
 Underfull \hbox (badness 2012) in paragraph at lines 1107--1110
 []\OT1/ppl/m/n/12 G. K[]ov[]er and G. Gy[]ani, ``Mag-yarorsz[]ag t[]arsadalomt[]ort[]enete a re-
  []
 
-[94]
+[96]
 Underfull \hbox (badness 10000) in paragraph at lines 1172--1175
 []\OT1/ppl/m/n/12 Sportmegoldasok, ``Sport as-so-ci-a-tions in bu-dapest.'' []$\OT1/cmtt/m/n/12 https :
  []
@@ -1044,7 +1050,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1200--1203
 []\OT1/ppl/m/n/12 imami.hu, ``In-door play-grounds.'' []$\OT1/cmtt/m/n/12 http : / / budapest . imami . hu /
  []
 
-[95]
+[97]
 Underfull \hbox (badness 10000) in paragraph at lines 1210--1213
 []\OT1/ppl/m/n/12 BudapestInfo.eu, ``Fit-ness and train-ing fa-cil-i-ties.'' []$\OT1/cmtt/m/n/12 https : / / www .
  []
@@ -1054,9 +1060,9 @@ Underfull \hbox (badness 5460) in paragraph at lines 1210--1213
 \OT1/cmtt/m/n/12 budapestinfo . eu / sportolas / fitnesstermek$[]\OT1/ppl/m/n/12 , 2019 (ac-cesed June 3,
  []
 
-) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/chapter7.tex [96]
+) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/chapter7.tex [98]
 Chapter 7.
-<images/datadriven/Nodes_cc.png, id=1760, 1156.32pt x 939.51pt>
+<images/datadriven/Nodes_cc.png, id=1779, 1156.32pt x 939.51pt>
 File: images/datadriven/Nodes_cc.png Graphic file (type png)
 <use images/datadriven/Nodes_cc.png>
 Package pdftex.def Info: images/datadriven/Nodes_cc.png  used on input line 10.
@@ -1064,7 +1070,7 @@ Package pdftex.def Info: images/datadriven/Nodes_cc.png  used on input line 10.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Nodes.png, id=1765, 1057.41335pt x 933.7284pt>
+<images/datadriven/SI_Nodes.png, id=1784, 1057.41335pt x 933.7284pt>
 File: images/datadriven/SI_Nodes.png Graphic file (type png)
 <use images/datadriven/SI_Nodes.png>
 Package pdftex.def Info: images/datadriven/SI_Nodes.png  used on input line 22.
@@ -1072,7 +1078,7 @@ Package pdftex.def Info: images/datadriven/SI_Nodes.png  used on input line 22.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Lengths.png, id=1766, 1057.82631pt x 933.7284pt>
+<images/datadriven/SI_Lengths.png, id=1785, 1057.82631pt x 933.7284pt>
 File: images/datadriven/SI_Lengths.png Graphic file (type png)
 <use images/datadriven/SI_Lengths.png>
 Package pdftex.def Info: images/datadriven/SI_Lengths.png  used on input line 29.
@@ -1080,7 +1086,7 @@ Package pdftex.def Info: images/datadriven/SI_Lengths.png  used on input line 29
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf, id=1767, 1065.34328pt x 933.85765pt>
+<images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf, id=1786, 1065.34328pt x 933.85765pt>
 File: images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf Graphic file (type pdf)
 <use images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf>
 Package pdftex.def Info: images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf  used on input line 36.
@@ -1088,7 +1094,7 @@ Package pdftex.def Info: images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pd
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Directness.png, id=1768, 1057.41335pt x 933.7284pt>
+<images/datadriven/SI_Directness.png, id=1787, 1057.41335pt x 933.7284pt>
 File: images/datadriven/SI_Directness.png Graphic file (type png)
 <use images/datadriven/SI_Directness.png>
 Package pdftex.def Info: images/datadriven/SI_Directness.png  used on input line 43.
@@ -1096,7 +1102,7 @@ Package pdftex.def Info: images/datadriven/SI_Directness.png  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Gain.png, id=1769, 1057.82631pt x 933.7284pt>
+<images/datadriven/SI_Gain.png, id=1788, 1057.82631pt x 933.7284pt>
 File: images/datadriven/SI_Gain.png Graphic file (type png)
 <use images/datadriven/SI_Gain.png>
 Package pdftex.def Info: images/datadriven/SI_Gain.png  used on input line 50.
@@ -1107,10 +1113,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 2277) has occurred while \output is active []
 
- [97
+ [99
 
 ]
-<images/datadriven/SI_Nodes_Bike_Streets.png, id=1782, 1057.41335pt x 933.7284pt>
+<images/datadriven/SI_Nodes_Bike_Streets.png, id=1801, 1057.41335pt x 933.7284pt>
 File: images/datadriven/SI_Nodes_Bike_Streets.png Graphic file (type png)
 <use images/datadriven/SI_Nodes_Bike_Streets.png>
 Package pdftex.def Info: images/datadriven/SI_Nodes_Bike_Streets.png  used on input line 61.
@@ -1119,7 +1125,7 @@ Package pdftex.def Info: images/datadriven/SI_Nodes_Bike_Streets.png  used on in
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Directness_Bike_Streets.png, id=1783, 1057.41335pt x 933.7284pt>
+<images/datadriven/SI_Directness_Bike_Streets.png, id=1802, 1057.41335pt x 933.7284pt>
 File: images/datadriven/SI_Directness_Bike_Streets.png Graphic file (type png)
 <use images/datadriven/SI_Directness_Bike_Streets.png>
 Package pdftex.def Info: images/datadriven/SI_Directness_Bike_Streets.png  used on input line 75.
@@ -1127,7 +1133,7 @@ Package pdftex.def Info: images/datadriven/SI_Directness_Bike_Streets.png  used 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Gain_Bike_Streets.png, id=1784, 1057.82631pt x 933.7284pt>
+<images/datadriven/SI_Gain_Bike_Streets.png, id=1803, 1057.82631pt x 933.7284pt>
 File: images/datadriven/SI_Gain_Bike_Streets.png Graphic file (type png)
 <use images/datadriven/SI_Gain_Bike_Streets.png>
 Package pdftex.def Info: images/datadriven/SI_Gain_Bike_Streets.png  used on input line 82.
@@ -1135,23 +1141,23 @@ Package pdftex.def Info: images/datadriven/SI_Gain_Bike_Streets.png  used on inp
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[98 </Users/natera/Dropbox/PhD/thesis/images/datadriven/Nodes_cc.png>] [99 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Nodes.png>]) [100 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Lengths.png>] [101 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf>] [102 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Directness.png>] [103 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Gain.png>] [104 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Nodes_Bike_Streets.png>] [105 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Directness_Bike_Streets.png>] [106 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Gain_Bike_Streets.png>] (/Users/natera/Dropbox/PhD/thesis/main.lot)
+[100 </Users/natera/Dropbox/PhD/thesis/images/datadriven/Nodes_cc.png>] [101 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Nodes.png>]) [102 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Lengths.png>] [103 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf>] [104 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Directness.png>] [105 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Gain.png>] [106 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Nodes_Bike_Streets.png>] [107 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Directness_Bike_Streets.png>] [108 </Users/natera/Dropbox/PhD/thesis/images/datadriven/SI_Gain_Bike_Streets.png>] (/Users/natera/Dropbox/PhD/thesis/main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
- [107
+ [109
 
-] [108
+] [110
 
-] (/Users/natera/Dropbox/PhD/thesis/main.lof [109])
+] (/Users/natera/Dropbox/PhD/thesis/main.lof [111])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [110]pdfTeX warning (ext4): destination with the same identifier (name{page.110}) has been already used, duplicate ignored
+ [112]pdfTeX warning (ext4): destination with the same identifier (name{page.112}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.281 \end{document}
-                     [110
+                     [112
 
 
 ]
@@ -1169,17 +1175,17 @@ LaTeX Warning: There were undefined references.
  ) 
 Here is how much of TeX's memory you used:
  17832 strings out of 480608
- 267434 string characters out of 5903631
- 574860 words of memory out of 5000000
- 32811 multiletter control sequences out of 15000+600000
- 581813 words of font info for 159 fonts, out of 8000000 for 9000
+ 267427 string characters out of 5903631
+ 574864 words of memory out of 5000000
+ 32810 multiletter control sequences out of 15000+600000
+ 580824 words of font info for 157 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,96p,2137b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/natera/Dropbox/PhD/thesis/main.pdf (125 pages, 19634561 bytes).
+Output written on /Users/natera/Dropbox/PhD/thesis/main.pdf (127 pages, 19640451 bytes).
 PDF statistics:
- 2099 PDF objects out of 2487 (max. 8388607)
- 1762 compressed objects within 18 object streams
- 495 named destinations out of 1000 (max. 500000)
+ 2119 PDF objects out of 2487 (max. 8388607)
+ 1780 compressed objects within 18 object streams
+ 497 named destinations out of 1000 (max. 500000)
  553 words of extra memory for PDF output out of 10000 (max. 10000000)
 
