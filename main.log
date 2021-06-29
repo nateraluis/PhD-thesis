@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  28 JUN 2021 18:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  29 JUN 2021 11:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -842,10 +842,10 @@ File: images/multiplex/ResultsOverlapCensus-01.png Graphic file (type png)
 <use images/multiplex/ResultsOverlapCensus-01.png>
 Package pdftex.def Info: images/multiplex/ResultsOverlapCensus-01.png  used on input line 77.
 (pdftex.def)             Requested size: 418.25368pt x 189.09683pt.
- [37]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/bikegrowth.tex
+ [37]
 Underfull \vbox (badness 7099) has occurred while \output is active []
 
- [38 </Users/natera/Dropbox/PhD/thesis/images/multiplex/ResultsOverlapCensus-01.png>] [39] [40
+ [38 </Users/natera/Dropbox/PhD/thesis/images/multiplex/ResultsOverlapCensus-01.png>]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/bikegrowth.tex [39] [40
 
 ]
 Chapter 4.
@@ -1175,15 +1175,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 7DD57ECEFD6B6D57EA1463DD2F041B6C;11230.
  ) 
 Here is how much of TeX's memory you used:
- 17834 strings out of 480608
- 267466 string characters out of 5903631
+ 17836 strings out of 480608
+ 267482 string characters out of 5903631
  574904 words of memory out of 5000000
- 32811 multiletter control sequences out of 15000+600000
+ 32813 multiletter control sequences out of 15000+600000
  580824 words of font info for 157 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,96p,2137b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/natera/Dropbox/PhD/thesis/main.pdf (129 pages, 19642718 bytes).
+Output written on /Users/natera/Dropbox/PhD/thesis/main.pdf (129 pages, 19643530 bytes).
 PDF statistics:
  2127 PDF objects out of 2487 (max. 8388607)
  1786 compressed objects within 18 object streams
