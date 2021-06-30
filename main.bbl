@@ -225,6 +225,22 @@ M.~Barthelemy, {\em Morphogenesis of spatial networks}.
 V.~Nicosia and V.~Latora, ``Measuring and modeling correlations in multiplex
   networks,'' {\em Physical Review E}, vol.~92, no.~3, p.~032805, 2015.
 
+\bibitem{dafermos1972traffic}
+S.~C. Dafermos, ``The traffic assignment problem for multiclass-user
+  transportation networks,'' {\em Transportation science}, vol.~6, no.~1,
+  pp.~73--87, 1972.
+
+\bibitem{sheffi1978transportation}
+Y.~Sheffi, {\em Transportation Network Equilibrium with Discrete Choice
+  Models}.
+\newblock PhD thesis, Cambridge, Massachusetts: Civil Engineering Department,
+  Massachusetts Institute of Technology, 1978.
+
+\bibitem{sheffi1985urban}
+Y.~Sheffi, {\em Urban Transportation Networks —- Equilibrium Analysis with
+  Mathematical Programming Methods}.
+\newblock Englewood Cliffs, NJ: Prentice-Hall, 1985.
+
 \bibitem{kurant2006layered}
 M.~Kurant and P.~Thiran, ``Layered complex networks,'' {\em Physical review
   letters}, vol.~96, no.~13, p.~138701, 2006.
@@ -271,6 +287,21 @@ F.~Battiston, V.~Nicosia, and V.~Latora, ``{The new challenges of multiplex
 M.~De~Domenico, C.~Granell, M.~A. Porter, and A.~Arenas, ``The physics of
   spreading processes in multilayer networks,'' {\em Nature Physics}, vol.~12,
   no.~10, pp.~901--906, 2016.
+
+\bibitem{farahani2013review}
+R.~Z. Farahani, E.~Miandoabchi, W.~Y. Szeto, and H.~Rashidi, ``A review of
+  urban transportation network design problems,'' {\em European Journal of
+  Operational Research}, vol.~229, no.~2, pp.~281--302, 2013.
+
+\bibitem{zhang2014design}
+L.~Zhang, H.~Yang, D.~Wu, and D.~Wang, ``{Solving a discrete multimodal
+  transportation network design problem},'' {\em Transportation Research Part
+  C: Emerging Technologies}, vol.~49, pp.~73--86, dec 2014.
+
+\bibitem{huang2018multimodal}
+D.~Huang, Z.~Liu, X.~Fu, and P.~T. Blythe, ``Multimodal transit network design
+  in a hub-and-spoke network framework,'' {\em Transportmetrica A: Transport
+  Science}, vol.~14, no.~8, pp.~706--735, 2018.
 
 \bibitem{decea2005equilibrium}
 J.~de~Cea, J.~E. Fern{\'{a}}ndez, V.~Dekock, and A.~Soto, ``{Solving network
@@ -357,9 +388,29 @@ A.~Santoro, V.~Latora, G.~Nicosia, and V.~Nicosia, ``Pareto optimality in
   multilayer network growth,'' {\em Physical review letters}, vol.~121, no.~12,
   p.~128302, 2018.
 
+\bibitem{zografos2008algorithms}
+K.~G. Zografos and K.~N. Androutsopoulos, ``Algorithms for itinerary planning
+  in multimodal transportation networks,'' {\em IEEE Transactions on
+  Intelligent Transportation Systems}, vol.~9, no.~1, pp.~175--184, 2008.
+
+\bibitem{botea2013multi}
+A.~Botea, E.~Nikolova, and M.~Berlingerio, ``Multi-modal journey planning in
+  the presence of uncertainty,'' in {\em Proceedings of the International
+  Conference on Automated Planning and Scheduling}, vol.~23, 2013.
+
+\bibitem{bast2016route}
+H.~Bast, D.~Delling, A.~Goldberg, M.~M{\"u}ller-Hannemann, T.~Pajor,
+  P.~Sanders, D.~Wagner, and R.~F. Werneck, ``Route planning in transportation
+  networks,'' in {\em Algorithm engineering}, pp.~19--80, Springer, 2016.
+
 \bibitem{Gallotti2014Efficiency}
 R.~Gallotti and M.~Barthelemy, ``{Anatomy and efficiency of urban multimodal
   mobility},'' {\em Scientific Reports}, vol.~4, no.~1, p.~6911, 2014.
+
+\bibitem{huang2019route}
+H.~Huang, D.~Bucher, J.~Kissling, R.~Weibel, and M.~Raubal, ``Multimodal route
+  planning with public transport and carpooling,'' {\em IEEE Transactions on
+  Intelligent Transportation Systems}, vol.~20, no.~9, pp.~3513--3525, 2019.
 
 \bibitem{battista1996path}
 M.~G. Battista, M.~Lucertini, and B.~Simeone, ``Path composition and multiple
@@ -450,6 +501,23 @@ A.~Sol{\'e}-Ribalta, M.~De~Domenico, S.~G{\'o}mez, and A.~Arenas, ``Random walk
 J.~G. Wardrop, ``Road paper. some theoretical aspects of road traffic
   research.,'' {\em Proceedings of the institution of civil engineers}, vol.~1,
   no.~3, pp.~325--362, 1952.
+
+\bibitem{uchida2005study}
+K.~Uchida, A.~Sumalee, D.~Watling, and R.~Connors, ``Study on optimal frequency
+  design problem for multimodal network using probit-based user equilibrium
+  assignment,'' {\em Transportation research record}, vol.~1923, no.~1,
+  pp.~236--245, 2005.
+
+\bibitem{zhou2008dynamic}
+X.~Zhou, H.~S. Mahmassani, and K.~Zhang, ``Dynamic micro-assignment modeling
+  approach for integrated multimodal urban corridor management,'' {\em
+  Transportation Research Part C: Emerging Technologies}, vol.~16, no.~2,
+  pp.~167--186, 2008.
+
+\bibitem{verbas2015dynamic}
+{\.I}.~{\"O}. Verbas, H.~S. Mahmassani, and M.~F. Hyland, ``Dynamic
+  assignment-simulation methodology for multimodal urban transit networks,''
+  {\em Transportation Research Record}, vol.~2498, no.~1, pp.~64--74, 2015.
 
 \bibitem{tan2014congestion}
 F.~Tan, J.~Wu, Y.~Xia, and C.~K. Tse, ``{Traffic congestion in interconnected

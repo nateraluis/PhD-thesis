@@ -3,29 +3,29 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Network representation of a city}}{3}{figure.caption.5}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Manhattan multiplex network}}{35}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematic overlap census}}{36}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Overlap Census clusters}}{38}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Manhattan multiplex network}}{37}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematic overlap census}}{38}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Overlap Census clusters}}{40}{figure.caption.18}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Multimodal configuration}}{43}{figure.caption.19}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Algorithms schematic representation}}{49}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Algorithmic improvement in Budapest}}{51}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Normalized increase in kilometers inside the largest connected component ($\ell _{LCC}$).\relax }}{52}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Cities bicycle connectivity improvement 5 new kilometers}}{54}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Cities bicycle connectivity improvement 35 new kilometers}}{55}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Bicycle infrastructure service area}}{56}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Multimodal configuration}}{45}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Algorithms schematic representation}}{51}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Algorithmic improvement in Budapest}}{53}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Normalized increase in kilometers inside the largest connected component ($\ell _{LCC}$).\relax }}{54}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Cities bicycle connectivity improvement 5 new kilometers}}{56}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Cities bicycle connectivity improvement 35 new kilometers}}{57}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Bicycle infrastructure service area}}{58}{figure.caption.26}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Budapest pedestrian network}}{63}{figure.caption.27}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Budapest neighborhoods life quality index}}{68}{figure.caption.30}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Budapest life quality index correlation with real estate prices}}{70}{figure.caption.31}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Budapest pedestrian network}}{65}{figure.caption.27}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Budapest neighborhoods life quality index}}{70}{figure.caption.30}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Budapest life quality index correlation with real estate prices}}{72}{figure.caption.31}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Connected component size distribution for analyzed cities}}{100}{figure.caption.34}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Normalized increase in nodes inside the largest connected component ($n_{LCC}$).\relax }}{101}{figure.caption.35}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Normalized increase in kilometers inside the largest connected component ($\ell _{LCC}$).\relax }}{102}{figure.caption.36}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Normalized increase in kilometers inside the largest connected component ($\ell _{LCC}$) versus the fraction of extant kilometers to be added.\relax }}{103}{figure.caption.37}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Bike-car directness $\Delta $ per invested kilometers.\relax }}{104}{figure.caption.38}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Kilometers gain in the largest connected component.\relax }}{105}{figure.caption.39}%
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Normalized increase in nodes inside the largest connected component ($n_{LCC}$).\relax }}{106}{figure.caption.40}%
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Bike-car directness $\Delta $ per invested kilometers.\relax }}{107}{figure.caption.41}%
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Kilometers gain in the largest connected component.\relax }}{108}{figure.caption.42}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Connected component size distribution for analyzed cities}}{104}{figure.caption.34}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Normalized increase in nodes inside the largest connected component ($n_{LCC}$).\relax }}{105}{figure.caption.35}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Normalized increase in kilometers inside the largest connected component ($\ell _{LCC}$).\relax }}{106}{figure.caption.36}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Normalized increase in kilometers inside the largest connected component ($\ell _{LCC}$) versus the fraction of extant kilometers to be added.\relax }}{107}{figure.caption.37}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Bike-car directness $\Delta $ per invested kilometers.\relax }}{108}{figure.caption.38}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Kilometers gain in the largest connected component.\relax }}{109}{figure.caption.39}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Normalized increase in nodes inside the largest connected component ($n_{LCC}$).\relax }}{110}{figure.caption.40}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Bike-car directness $\Delta $ per invested kilometers.\relax }}{111}{figure.caption.41}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Kilometers gain in the largest connected component.\relax }}{112}{figure.caption.42}%
