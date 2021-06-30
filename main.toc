@@ -52,7 +52,7 @@
 \contentsline {subsubsection}{Ratio of natural areas}{69}{subsubsection*.29}%
 \contentsline {section}{\numberline {5.4}Results}{70}{section.5.4}%
 \contentsline {subsection}{\numberline {5.4.1}Evaluation}{71}{subsection.5.4.1}%
-\contentsline {paragraph}{Summary}{73}{paragraph*.32}%
+\contentsline {paragraph}{Summary}{72}{paragraph*.32}%
 \contentsline {section}{\numberline {5.5}Conclusions}{73}{section.5.5}%
 \contentsline {chapter}{\numberline {6}Conclusion and open questions}{75}{chapter.6}%
 \contentsline {chapter}{\numberline {7}Appendices}{103}{chapter.7}%
