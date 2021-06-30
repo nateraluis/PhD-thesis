@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  30 JUN 2021 15:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  30 JUN 2021 15:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1172,15 +1172,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 7DD57ECEFD6B6D57EA1463DD2F041B6C;11230.
  ) 
 Here is how much of TeX's memory you used:
- 17865 strings out of 480608
- 268034 string characters out of 5903631
+ 17863 strings out of 480608
+ 268018 string characters out of 5903631
  575437 words of memory out of 5000000
- 32826 multiletter control sequences out of 15000+600000
+ 32824 multiletter control sequences out of 15000+600000
  580824 words of font info for 157 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,96p,2137b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/natera/Dropbox/PhD/thesis/main.pdf (133 pages, 19650214 bytes).
+Output written on /Users/natera/Dropbox/PhD/thesis/main.pdf (133 pages, 19650176 bytes).
 PDF statistics:
  2171 PDF objects out of 2487 (max. 8388607)
  1825 compressed objects within 19 object streams
