@@ -12,6 +12,10 @@ R.~Sennett, {\em {Building and dwelling: ethics for the city}}.
 J.~L. Borges, ``Del rigor de la ciencia,'' in {\em {El Hacedor}}, {Buenos
   Aires, Argentina}: Emecé Editores, 1961.
 
+\bibitem{batty2013new}
+M.~Batty, {\em The New Science of Cities}.
+\newblock MIT Press, 2013.
+
 \bibitem{Jacobs1961Death}
 J.~Jacobs, {\em The death and life of great American cities}.
 \newblock New York, New York, USA: Random House, 1961.
@@ -153,10 +157,6 @@ M.~Ferretti, G.~Barlacchi, L.~Pappalardo, L.~Lucchini, and B.~Lepri, ``{Weak
   nodes detection in urban transport systems: Planning for resilience in
   Singapore},'' in {\em Proceedings - 2018 IEEE 5th International Conference on
   Data Science and Advanced Analytics, DSAA 2018}, pp.~472--480, sep 2019.
-
-\bibitem{batty2013new}
-M.~Batty, {\em The New Science of Cities}.
-\newblock MIT Press, 2013.
 
 \bibitem{resch2019hds}
 B.~Resch and M.~Szell, ``Human-centric data science for urban studies,'' {\em
