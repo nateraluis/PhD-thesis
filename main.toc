@@ -2,7 +2,7 @@
 \contentsline {chapter}{Contents}{i}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}Introduction: Cities and networks}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Aim and structure of the thesis}{5}{section.1.1}%
-\contentsline {chapter}{\numberline {2}Related Work: Multimodal transportation and mobility in urban networks}{7}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Literature review}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Multilayer networks: A framework for multimodality}{8}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Multimodal infrastructures}{10}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Modeling urban infrastructure}{11}{subsection.2.2.1}%
