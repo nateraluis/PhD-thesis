@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  12 JUL 2021 18:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  13 JUL 2021 18:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1157,96 +1157,86 @@ Underfull \vbox (badness 1132) has occurred while \output is active []
 
  [75] [76]) (/Users/natera/Dropbox/PhD/thesis/main.bbl [77] [78
 
-] [79] [80] [81] [82]
-Underfull \hbox (badness 1122) in paragraph at lines 249--252
-[]\OT1/ppl/m/n/12 A. Cardillo, J. G[]omez-Gardenes, M. Zanin, M. Ro-mance, D. Papo,
+] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88]
+Underfull \hbox (badness 10000) in paragraph at lines 1940--1946
+[]\OT1/ppl/m/n/12 OpenStreetMap con-trib-u-tors: Planet dump re-trieved from
  []
 
-[83] [84] [85] [86] [87] [88] [89]
-Underfull \hbox (badness 10000) in paragraph at lines 646--648
-[]\OT1/ppl/m/n/12 OpenStreetMap con-trib-u-tors, ``Planet dump re-trieved from
- []
-
-[90]
-Underfull \hbox (badness 10000) in paragraph at lines 731--733
-[]\OT1/ppl/m/n/12 Google, ``tran-sit-feed.'' V.1.2.16 []$\OT1/cmtt/m/n/12 https : / / github . com / google /
+[89] [90]
+Underfull \hbox (badness 4156) in paragraph at lines 2183--2189
+[]\OT1/ppl/m/n/12 Butts, K.: Peartree. Peartree, V0.6.4, []$\OT1/cmtt/m/n/12 https : / / github . com / kuanb /
  []
 
 
-Underfull \hbox (badness 3482) in paragraph at lines 735--737
-[]\OT1/ppl/m/n/12 K. Butts, ``Peartree.'' Peartree, V0.6.4, []$\OT1/cmtt/m/n/12 https : / / github . com / kuanb /
+Underfull \hbox (badness 2671) in paragraph at lines 2235--2242
+\OT1/ppl/m/n/12 Ti-layer net-works. GitHub repos-i-tory. []$\OT1/cmtt/m/n/12 https : / / github . com / KatolaZ /
  []
 
-
-Underfull \hbox (badness 1005) in paragraph at lines 753--756
-\OT1/ppl/m/n/12 Ti-layer net-works.'' GitHub repos-i-tory. []$\OT1/cmtt/m/n/12 https : / / github . com / KatolaZ /
- []
-
-[91]
-Underfull \hbox (badness 1946) in paragraph at lines 809--812
-[]\OT1/ppl/m/n/12 M. Barthelemy, P. Bor-din, H. Beresty-cki, and M. Grib-audi, ``Self-
- []
-
-[92] [93] [94] [95]
-Underfull \hbox (badness 1226) in paragraph at lines 1009--1014
-[]\OT1/ppl/m/n/12 N. Mueller, D. Rojas-Rueda, M. Salmon, D. Mar-tinez, A. Am-bros,
- []
-
-
-Underfull \hbox (badness 1616) in paragraph at lines 1009--1014
-\OT1/ppl/m/n/12 T. G[]otschi, F. Ia-corossi, L. Int Pa-nis, S. Kahlmeier, E. Raser, and
- []
-
-
-Underfull \hbox (badness 1337) in paragraph at lines 1016--1020
+[91] [92] [93] [94] [95]
+Underfull \hbox (badness 1337) in paragraph at lines 2995--3008
 \OT1/ppl/m/n/12 friendly in-fras-truc-ture plan-ning in bei-jing and copenhagen-between
  []
 
-[96] [97]
-Underfull \hbox (badness 5133) in paragraph at lines 1116--1118
-[]\OT1/ppl/m/n/12 OpenStreetMap con-trib-u-tors, ``Bu-dapest dis-tricts.'' []$\OT1/cmtt/m/n/12 https : / / data2 .
+[96]
+Underfull \hbox (badness 10000) in paragraph at lines 3266--3272
+[]\OT1/ppl/m/n/12 OpenStreetMap con-trib-u-tors: Bu-dapest dis-tricts. []$\OT1/cmtt/m/n/12 https : / / data2 .
  []
 
-[98]
-Underfull \hbox (badness 2012) in paragraph at lines 1179--1182
-[]\OT1/ppl/m/n/12 G. K[]ov[]er and G. Gy[]ani, ``Mag-yarorsz[]ag t[]arsadalomt[]ort[]enete a re-
+[97]
+Underfull \hbox (badness 10000) in paragraph at lines 3276--3284
+[]\OT1/ppl/m/n/12 Hungarian Po-lice: Bunugyi statisztikak. []$\OT1/cmtt/m/n/12 http : / / www . police . hu /
  []
 
-[99]
-Underfull \hbox (badness 10000) in paragraph at lines 1244--1247
-[]\OT1/ppl/m/n/12 Sportmegoldasok, ``Sport as-so-ci-a-tions in bu-dapest.'' []$\OT1/cmtt/m/n/12 https :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1244--1247
-\OT1/cmtt/m/n/12 / / sportmegoldasok . hu / klub _ budapest . ht$[]\OT1/ppl/m/n/12 , 2019 (ac-cesed June 3,
+[98] [99]
+Underfull \hbox (badness 10000) in paragraph at lines 3617--3623
+[]\OT1/ppl/m/n/12 Sportmegoldasok: Sport as-so-ci-a-tions in Bu-dapest. []$\OT1/cmtt/m/n/12 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1267--1270
-[]\OT1/ppl/m/n/12 valami.info, ``Cul-ture cen-ters.'' []$\OT1/cmtt/m/n/12 https : / / holmivan . valami . info /
+Underfull \hbox (badness 5622) in paragraph at lines 3617--3623
+\OT1/cmtt/m/n/12 / / sportmegoldasok . hu / klub _ budapest . ht$[] \OT1/ppl/m/n/12 Ac-cessed: June 3, 2019
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1272--1275
-[]\OT1/ppl/m/n/12 imami.hu, ``In-door play-grounds.'' []$\OT1/cmtt/m/n/12 http : / / budapest . imami . hu /
- []
-
-[100]
-Underfull \hbox (badness 10000) in paragraph at lines 1282--1285
-[]\OT1/ppl/m/n/12 BudapestInfo.eu, ``Fit-ness and train-ing fa-cil-i-ties.'' []$\OT1/cmtt/m/n/12 https : / / www .
+Underfull \hbox (badness 1817) in paragraph at lines 3627--3633
+\OT1/ppl/m/n/12 u-ca-tion. []$\OT1/cmtt/m/n/12 http : / / budapest . imami . hu / iskolak-[]ovodak-[]bolcsodek/$[] \OT1/ppl/m/n/12 Ac-
  []
 
 
-Underfull \hbox (badness 5460) in paragraph at lines 1282--1285
-\OT1/cmtt/m/n/12 budapestinfo . eu / sportolas / fitnesstermek$[]\OT1/ppl/m/n/12 , 2019 (ac-cesed June 3,
+Underfull \hbox (badness 1365) in paragraph at lines 3648--3654
+[]\OT1/ppl/m/n/12 imami.hu: Pe-di-a-tri-cians, Gy-ne-col-o-gists. []$\OT1/cmtt/m/n/12 http : / / budapest . imami . hu /
  []
 
-) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/chapter7.tex [101] [102
+
+Underfull \hbox (badness 10000) in paragraph at lines 3668--3675
+[]\OT1/ppl/m/n/12 valami.info: Cul-ture cen-ters. []$\OT1/cmtt/m/n/12 https : / / holmivan . valami . info /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3679--3686
+[]\OT1/ppl/m/n/12 imami.hu: In-door play-grounds. []$\OT1/cmtt/m/n/12 http : / / budapest . imami . hu /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3700--3707
+[]\OT1/ppl/m/n/12 BudapestInfo.eu: Fit-ness and train-ing fa-cil-i-ties. []$\OT1/cmtt/m/n/12 https : / / www .
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 3700--3707
+\OT1/cmtt/m/n/12 budapestinfo . eu / sportolas / fitnesstermek$[] \OT1/ppl/m/n/12 Ac-cessed: June 3, 2019
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 3720--3726
+[]\OT1/ppl/m/n/12 BudapestInfo.eu: Ther-mal and Spa. []$\OT1/cmtt/m/n/12 https : / / www . budapestinfo . eu /
+ []
+
+[100]) (/Users/natera/Dropbox/PhD/thesis/chapters_tex/chapter7.tex [101] [102
 
 ]
 Chapter 7.
-<images/datadriven/Nodes_cc.png, id=1825, 1156.32pt x 939.51pt>
+<images/datadriven/Nodes_cc.png, id=1828, 1156.32pt x 939.51pt>
 File: images/datadriven/Nodes_cc.png Graphic file (type png)
 <use images/datadriven/Nodes_cc.png>
 Package pdftex.def Info: images/datadriven/Nodes_cc.png  used on input line 10.
@@ -1254,7 +1244,7 @@ Package pdftex.def Info: images/datadriven/Nodes_cc.png  used on input line 10.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Nodes.png, id=1830, 1057.41335pt x 933.7284pt>
+<images/datadriven/SI_Nodes.png, id=1833, 1057.41335pt x 933.7284pt>
 File: images/datadriven/SI_Nodes.png Graphic file (type png)
 <use images/datadriven/SI_Nodes.png>
 Package pdftex.def Info: images/datadriven/SI_Nodes.png  used on input line 22.
@@ -1262,7 +1252,7 @@ Package pdftex.def Info: images/datadriven/SI_Nodes.png  used on input line 22.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Lengths.png, id=1831, 1057.82631pt x 933.7284pt>
+<images/datadriven/SI_Lengths.png, id=1834, 1057.82631pt x 933.7284pt>
 File: images/datadriven/SI_Lengths.png Graphic file (type png)
 <use images/datadriven/SI_Lengths.png>
 Package pdftex.def Info: images/datadriven/SI_Lengths.png  used on input line 29.
@@ -1270,7 +1260,7 @@ Package pdftex.def Info: images/datadriven/SI_Lengths.png  used on input line 29
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf, id=1832, 1065.34328pt x 933.85765pt>
+<images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf, id=1835, 1065.34328pt x 933.85765pt>
 File: images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf Graphic file (type pdf)
 <use images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf>
 Package pdftex.def Info: images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pdf  used on input line 36.
@@ -1278,7 +1268,7 @@ Package pdftex.def Info: images/datadriven/SI_Lengths_Bike-Streets_FractionKM.pd
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Directness.png, id=1833, 1057.41335pt x 933.7284pt>
+<images/datadriven/SI_Directness.png, id=1836, 1057.41335pt x 933.7284pt>
 File: images/datadriven/SI_Directness.png Graphic file (type png)
 <use images/datadriven/SI_Directness.png>
 Package pdftex.def Info: images/datadriven/SI_Directness.png  used on input line 43.
@@ -1286,7 +1276,7 @@ Package pdftex.def Info: images/datadriven/SI_Directness.png  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Gain.png, id=1834, 1057.82631pt x 933.7284pt>
+<images/datadriven/SI_Gain.png, id=1837, 1057.82631pt x 933.7284pt>
 File: images/datadriven/SI_Gain.png Graphic file (type png)
 <use images/datadriven/SI_Gain.png>
 Package pdftex.def Info: images/datadriven/SI_Gain.png  used on input line 50.
@@ -1298,7 +1288,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 2277) has occurred while \output is active []
 
  [103]
-<images/datadriven/SI_Nodes_Bike_Streets.png, id=1847, 1057.41335pt x 933.7284pt>
+<images/datadriven/SI_Nodes_Bike_Streets.png, id=1850, 1057.41335pt x 933.7284pt>
 File: images/datadriven/SI_Nodes_Bike_Streets.png Graphic file (type png)
 <use images/datadriven/SI_Nodes_Bike_Streets.png>
 Package pdftex.def Info: images/datadriven/SI_Nodes_Bike_Streets.png  used on input line 61.
@@ -1307,7 +1297,7 @@ Package pdftex.def Info: images/datadriven/SI_Nodes_Bike_Streets.png  used on in
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Directness_Bike_Streets.png, id=1848, 1057.41335pt x 933.7284pt>
+<images/datadriven/SI_Directness_Bike_Streets.png, id=1851, 1057.41335pt x 933.7284pt>
 File: images/datadriven/SI_Directness_Bike_Streets.png Graphic file (type png)
 <use images/datadriven/SI_Directness_Bike_Streets.png>
 Package pdftex.def Info: images/datadriven/SI_Directness_Bike_Streets.png  used on input line 75.
@@ -1315,7 +1305,7 @@ Package pdftex.def Info: images/datadriven/SI_Directness_Bike_Streets.png  used 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/datadriven/SI_Gain_Bike_Streets.png, id=1849, 1057.82631pt x 933.7284pt>
+<images/datadriven/SI_Gain_Bike_Streets.png, id=1852, 1057.82631pt x 933.7284pt>
 File: images/datadriven/SI_Gain_Bike_Streets.png Graphic file (type png)
 <use images/datadriven/SI_Gain_Bike_Streets.png>
 Package pdftex.def Info: images/datadriven/SI_Gain_Bike_Streets.png  used on input line 82.
@@ -1338,32 +1328,32 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
  [116]pdfTeX warning (ext4): destination with the same identifier (name{page.116}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.309 \end{document}
+l.308 \end{document}
                      [116
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 309.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 309.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 308.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 308.
  (/Users/natera/Dropbox/PhD/thesis/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 309.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 309.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 308.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 308.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: C928DA8604223FBD81E9AAF6E6DF59DC;10626.
  ) 
 Here is how much of TeX's memory you used:
- 27304 strings out of 480608
- 472842 string characters out of 5903631
- 758128 words of memory out of 5000000
- 42072 multiletter control sequences out of 15000+600000
- 580824 words of font info for 157 fonts, out of 8000000 for 9000
+ 27348 strings out of 480608
+ 473207 string characters out of 5903631
+ 839715 words of memory out of 5000000
+ 42115 multiletter control sequences out of 15000+600000
+ 581131 words of font info for 158 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,12n,96p,2137b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/natera/Dropbox/PhD/thesis/main.pdf (133 pages, 19649785 bytes).
+ 59i,12n,96p,2137b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on /Users/natera/Dropbox/PhD/thesis/main.pdf (133 pages, 19654064 bytes).
 PDF statistics:
- 2170 PDF objects out of 2487 (max. 8388607)
- 1824 compressed objects within 19 object streams
+ 2176 PDF objects out of 2487 (max. 8388607)
+ 1829 compressed objects within 19 object streams
  513 named destinations out of 1000 (max. 500000)
  557 words of extra memory for PDF output out of 10000 (max. 10000000)
 

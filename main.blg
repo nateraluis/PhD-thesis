@@ -1,57 +1,105 @@
 This is BibTeX, Version 0.99d (TeX Live 2020)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
-The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 11164 items from 5000.
+The style file: bmc-mathphys.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 13308 items from 5000.
 Database file #1: bibliography.bib
-Warning--string name "january" is undefined
---line 2244 of file bibliography.bib
-Warning--string name "january" is undefined
---line 2801 of file bibliography.bib
-Warning--empty journal in batty2004new
-Warning--can't use both volume and number fields in botea2013multi
-Warning--empty publisher in Hochmair2012
-Warning--empty journal in kunze2011conceptual
-Warning--empty journal in Lora2011New
+Warning--I'm ignoring bianconi2018multilayer's extra "address" field
+--line 315 of file bibliography.bib
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--to sort, need author or key in HU_outfitness
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--"{Building" isn't a brace-balanced string for entry sennett2018building
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"{Building" isn't a brace-balanced string for entry sennett2018building
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"{Building" isn't a brace-balanced string for entry sennett2018building
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"city}" isn't a brace-balanced string for entry sennett2018building
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"city}" isn't a brace-balanced string for entry sennett2018building
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"CITY}" isn't a brace-balanced string for entry sennett2018building
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"{El" isn't a brace-balanced string for entry borges1961hacedor
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"{El" isn't a brace-balanced string for entry borges1961hacedor
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"{El" isn't a brace-balanced string for entry borges1961hacedor
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"Hacedor}" isn't a brace-balanced string for entry borges1961hacedor
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"{Multilayer" isn't a brace-balanced string for entry bianconi2018multilayer
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"{Multilayer" isn't a brace-balanced string for entry bianconi2018multilayer
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"{Multilayer" isn't a brace-balanced string for entry bianconi2018multilayer
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"function}" isn't a brace-balanced string for entry bianconi2018multilayer
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"function}" isn't a brace-balanced string for entry bianconi2018multilayer
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"FUNCTION}" isn't a brace-balanced string for entry bianconi2018multilayer
+while executing--line 2686 of file bmc-mathphys.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 268 entries,
-            1876 wiz_defined-function locations,
-            1939 strings with 50650 characters,
-and the built_in function-call counts, 71493 in all, are:
-= -- 7227
-> -- 2809
-< -- 1
-+ -- 1054
-- -- 786
-* -- 5010
-:= -- 9994
-add.period$ -- 291
+            7128 wiz_defined-function locations,
+            2601 strings with 57441 characters,
+and the built_in function-call counts, 3103339 in all, are:
+= -- 526116
+> -- 8088
+< -- 4664
++ -- 287267
+- -- 2144
+* -- 120407
+:= -- 561312
+add.period$ -- 278
 call.type$ -- 268
-change.case$ -- 246
-chr.to.int$ -- 0
-cite$ -- 273
-duplicate$ -- 3621
-empty$ -- 6605
-format.name$ -- 786
-if$ -- 17536
-int.to.chr$ -- 0
-int.to.str$ -- 268
-missing$ -- 235
-newline$ -- 830
-num.names$ -- 273
-pop$ -- 785
+change.case$ -- 2579
+chr.to.int$ -- 9476
+cite$ -- 270
+duplicate$ -- 24403
+empty$ -- 74545
+format.name$ -- 8078
+if$ -- 769066
+int.to.chr$ -- 4
+int.to.str$ -- 659
+missing$ -- 8970
+newline$ -- 7367
+num.names$ -- 1344
+pop$ -- 11048
 preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 2770
+purify$ -- 1193
+quote$ -- 536
+skip$ -- 306239
 stack$ -- 0
-substring$ -- 4554
-swap$ -- 1637
-text.length$ -- 1
+substring$ -- 325733
+swap$ -- 7721
+text.length$ -- 4050
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 5
-while$ -- 732
-width$ -- 271
-write$ -- 2624
-(There were 7 warnings)
+type$ -- 10760
+warning$ -- 1
+while$ -- 8786
+width$ -- 0
+write$ -- 9966
+(There were 18 warnings)
