@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2020)
+This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: bmc-mathphys.bst
@@ -19,10 +19,10 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 13308 items from 5000.
+Reallocated field_info (elt_size=4) to 13463 items from 5000.
 Database file #1: bibliography.bib
 Warning--I'm ignoring bianconi2018multilayer's extra "address" field
---line 315 of file bibliography.bib
+--line 332 of file bibliography.bib
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--to sort, need author or key in HU_outfitness
@@ -61,45 +61,45 @@ Warning--"FUNCTION}" isn't a brace-balanced string for entry bianconi2018multila
 while executing--line 2686 of file bmc-mathphys.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 268 entries,
+You've used 273 entries,
             7128 wiz_defined-function locations,
-            2601 strings with 57441 characters,
-and the built_in function-call counts, 3103339 in all, are:
-= -- 526116
-> -- 8088
-< -- 4664
-+ -- 287267
-- -- 2144
-* -- 120407
-:= -- 561312
-add.period$ -- 278
-call.type$ -- 268
-change.case$ -- 2579
-chr.to.int$ -- 9476
-cite$ -- 270
-duplicate$ -- 24403
-empty$ -- 74545
-format.name$ -- 8078
-if$ -- 769066
+            2627 strings with 58283 characters,
+and the built_in function-call counts, 3188159 in all, are:
+= -- 541541
+> -- 8236
+< -- 4747
++ -- 296517
+- -- 2197
+* -- 122856
+:= -- 576242
+add.period$ -- 285
+call.type$ -- 273
+change.case$ -- 2644
+chr.to.int$ -- 9631
+cite$ -- 275
+duplicate$ -- 24844
+empty$ -- 75823
+format.name$ -- 8222
+if$ -- 790645
 int.to.chr$ -- 4
-int.to.str$ -- 659
-missing$ -- 8970
-newline$ -- 7367
-num.names$ -- 1344
-pop$ -- 11048
+int.to.str$ -- 677
+missing$ -- 9136
+newline$ -- 7500
+num.names$ -- 1369
+pop$ -- 11248
 preamble$ -- 1
-purify$ -- 1193
-quote$ -- 536
-skip$ -- 306239
+purify$ -- 1221
+quote$ -- 546
+skip$ -- 315498
 stack$ -- 0
-substring$ -- 325733
-swap$ -- 7721
-text.length$ -- 4050
+substring$ -- 333896
+swap$ -- 7857
+text.length$ -- 4143
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 10760
+type$ -- 10983
 warning$ -- 1
-while$ -- 8786
+while$ -- 8958
 width$ -- 0
-write$ -- 9966
+write$ -- 10143
 (There were 18 warnings)
