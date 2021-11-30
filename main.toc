@@ -4,23 +4,23 @@
 \contentsline {section}{\numberline {1.1}Aim and structure of the thesis}{5}{section.1.1}%
 \contentsline {chapter}{\numberline {2}Literature review}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Multilayer networks: A framework for multimodality}{8}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Multimodal infrastructures}{10}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Multimodal infrastructures}{11}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Modeling urban infrastructure}{11}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Characterizing multimodal infrastructure}{15}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Multimodal mobility}{19}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Modeling urban mobility }{20}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.3}Multimodal mobility}{20}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Modeling urban mobility }{21}{subsection.2.3.1}%
 \contentsline {paragraph}{Random walks.}{21}{paragraph*.6}%
 \contentsline {paragraph}{Travel time minimization approaches.}{22}{paragraph*.7}%
-\contentsline {subsection}{\numberline {2.3.2}Characterizing multi-modal mobility. }{23}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}Characterizing multi-modal mobility. }{24}{subsection.2.3.2}%
 \contentsline {subsubsection}{Public transport systems dynamics.}{24}{subsubsection*.8}%
-\contentsline {paragraph}{Efficiency}{24}{paragraph*.9}%
-\contentsline {paragraph}{Congestion.}{25}{paragraph*.10}%
+\contentsline {paragraph}{Efficiency}{25}{paragraph*.9}%
+\contentsline {paragraph}{Congestion.}{26}{paragraph*.10}%
 \contentsline {paragraph}{Navigability}{26}{paragraph*.11}%
-\contentsline {subsubsection}{Individual multi-modal behaviour.}{26}{subsubsection*.12}%
+\contentsline {subsubsection}{Individual multi-modal behaviour.}{27}{subsubsection*.12}%
 \contentsline {paragraph}{Route choices.}{27}{paragraph*.13}%
-\contentsline {paragraph}{Power-law distribution of displacements}{27}{paragraph*.14}%
+\contentsline {paragraph}{Power-law distribution of displacements}{28}{paragraph*.14}%
 \contentsline {section}{\numberline {2.4}Open data \& Tools }{28}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Data}{28}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.1}Data}{29}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Tools}{30}{subsection.2.4.2}%
 \contentsline {section}{\numberline {2.5}Conclusion }{32}{section.2.5}%
 \contentsline {chapter}{\numberline {3}Extracting the multimodal fingerprint of transportation networks}{35}{chapter.3}%
